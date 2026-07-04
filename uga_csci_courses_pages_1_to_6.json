@@ -1,0 +1,882 @@
+{
+  "source": "https://bulletin.uga.edu/Course/_ViewAllCourses",
+  "course_prefix": "CSCI",
+  "start_page": 1,
+  "end_page": 6,
+  "count": 97,
+  "courses": [
+    {
+      "course_name": "Topics in Computing",
+      "course_number": "CSCI 1100-1100L",
+      "credit_hours": "3 hours. 2 hours lecture and 2 hours lab per week.",
+      "prerequisite": "",
+      "course_objective": "Students should be able to conceptualize problems in terms of information science and identify the appropriate computer software for solving those problems. Given appropriate domain knowledge, students should be able to construct the appropriate mathematical model or data model for the problem, perform analyses, and critically evaluate results. Students should be able to construct presentation software documents to report problem solutions using narrative, numerical, and graphical presentation formats. They should also be able to create Web pages, conforming to accepted standards, and develop Web page scripts using standard software design methodology.",
+      "topic_outline": "How application programs convert documents from meaningless bytes to meaningful information. How operating systems, application programs, and computer hardware work together. Flat vs. hierarchical addressing systems; translation among different addressing systems. Network protocols and data exchange. How to connect your home computer to the Internet. Web page authoring using HTML, CSS, and Javascript. Algorithmic thinking for problem solving. Finding and fixing bugs in Web pages and scripts. Data representation and file compression. Multimedia data representation. How the CPU carries out machine instructions to run your software. Intellectual property law; digital rights management; legal and ethical issues in downloading. Mathematical modeling using spreadsheets. Database management: data modeling, forms, queries, and reports. Viruses and other security threats. Virus prevention and repair techniques. Encryption and privacy. Electronic commerce. Artificial intelligence and the limits to computation.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4929"
+    },
+    {
+      "course_name": "Computer Modeling and Science",
+      "course_number": "CSCI 1210",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students completing this course will be able to recognize models in use by government and academic bodies, and be aware of the modeling issues in these applications. They will know technology of modeling (implementation, error, fidelity, sensitivity, elaboration) as it applies to model use and interpretation. They will have had introduction and overview of modeling as used in sciences such as physics, chemistry, geology, astronomy, ecology. They will have considered world-level models and issues.",
+      "topic_outline": "An introduction to science, computer models and simulation, and computational science. Modeling concepts include abstraction and elaboration, identification of variables and parameters, implementation and error, data reduction and visualization, fidelity, verification, sensitivity. Examples are taken from scientific fields including physics (ballistics), epidemiology, chemistry, geology (earthquake and volcano models) and esp. from ecology/environment where we develop some of the most interesting topics in computational science -- resource allocation (esp. fossil fuels), pollution (incl. carbon dioxide), economic growth, population growth, and the interaction among these factors. We include a discussion of climate models and global warming.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4920"
+    },
+    {
+      "course_name": "Introduction to Programming with Python",
+      "course_number": "CSCI 1300-1300L",
+      "credit_hours": "4 hours. 3 hours lecture and 2 hours lab per week.",
+      "prerequisite": "",
+      "course_objective": "This course presents basic programming topics in the Python programming language. The term “develop” should be interpreted as following the software development life cycle (SDLC), including reading, testing, executing, and basic debugging. At the end of the semester, all students will be able to: 1. Develop and implement algorithms that use basic programming concepts like expressions, variables, operators, input, and output. 2. Develop and implement algorithms that use Boolean expressions, control flow statements, and functions from the standard library to intelligently respond to different conditions. 3. Organize code into more manageable chunks by developing programs that define and use functions; and develop programs that handle potential errors. 4. Develop and implement maintainable programs that organize and manipulate data using Python data types like lists and dictionaries. 5. Develop and implement algorithms that manipulate strings to produce desired program output. 6. Develop and implement algorithms that combine a majority of the other learning outcomes to produce a solution to a set of problems.",
+      "topic_outline": "1. Python Basics (Knowledge level: Usage) a) Construct expressions involving variables and operators. b) Assign user input to variables. c) Display evaluated expressions on the screen. d) Use the Python interactive shell and development environments such as IDLE and Jupyter to write code. 2.Control Flow and Algorithms (Knowledge level: Usage) a) Construct Boolean expressions involving variables, Boolean operators, and comparison operators. b) Use if, elif, and else statements to control the flow of program execution. c) Use while, break, and continue statements to control the flow of program execution. d) Use for statements to control the flow of program execution. e) Import and use functions from the Python standard library. 3. Functions and Algorithms (Knowledge level: Usage) a) Construct basic functions using def statements and value-returning functions using def and return statements. b) Establish the scope of a variable as either local or global. c) Use try and except statements to handle lines of code that could potentially have an error. d) Use the open() function and methods like read() and close() to interact with files. 4. Lists (Knowledge level: Usage) a) Construct expressions involving list expressions. b) Use index values and slices to get or change values in a list. c) Use del statements to remove values from a list. d) Use for statements to traverse a list. e) Construct Boolean expressions involving lists using the in and not in operators. f) Call methods on lists, including index(), append(), insert(), remove(), and sort(). g) Modify a single list using multiple variables containing the same list reference value; pass list references into functions. h) Use the copy module’s copy() and deepcopy() functions to make shallow and deep copies of a list. 5. Dictionaries (Knowledge level: Usage) a) Construct expressions involving dictionary expressions. b) Use keys to get or change values in a dictionary. c) Call methods on dictionaries, including keys(), values(), items(), get(), and setdefault(). d) Construct Boolean expressions involving dictionaries. e) Use the pprint module’s pprint function to pretty print a dictionary. f) Use a dictionary to model real-world objects. 6. String Manipulation (Knowledge level: Usage) a) Construct simple string literals. b) Construct string literals involving escape characters. c) Construct Boolean expressions involving strings. d) Call methods on strings.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/42020"
+    },
+    {
+      "course_name": "Introduction to Computing and Programming",
+      "course_number": "CSCI 1301-1301L",
+      "credit_hours": "4 hours. 3 hours lecture and 2 hours lab per week.",
+      "prerequisite": "MATH 1113 or MATH 1113E or MATH 2250 or MATH 2250E or MATH 2200",
+      "course_objective": "At the end of the semester, all students will be able to explain and describe basic computing concepts required for programming.\nAt the end of the semester, all students will be able to utilize software development tools, including tools for editing, compiling, testing, running, and debugging software solutions.\nAt the end of the semester, all students will be able to describe and utilize basic language constructs, including data types, input, output, variables, constants, assignment statements, arithmetic, and Boolean expressions.\nAt the end of the semester, all students will be able to trace, design, and implement software solutions to non-trivial problems using control flow structures.\nAt the end of the semester, all students will be able to trace, design, and implement software solutions to non-trivial problems using basic data structures.\nAt the end of the semester, all students will be able to trace, design, and implement software solutions to non-trivial problems using object-oriented programming techniques.\nAt the end of the semester, all students will be able to combine control flow statements, basic data structures, and object-oriented programming techniques to create an interactive software solution to a problem.",
+      "topic_outline": "1. Computing Basics a) Explain the difference between computer software and hardware. b) Describe various types of memory (primary, secondary), give examples of each, and understand the importance of the various levels of the memory hierarchy. c) Explain encoding schemes for various types of data such as: whole numbers, characters, images, and videos.\n2. Development Tools and Accepted Practices a) Explain the relationships between: JRE, JDK, JVM, IDE, and the Java compiler. b) Utilize the debugger to trace and identify logical errors in a software solution. c) Use an integrated development environment (IDE), such as Eclipse, to create, compile, and execute a non-trivial software solution.\n3. Language Basics - Specific topics that need to be covered include, but are not limited to, data types, input, output, variables, constants, assignment statements, arithmetic, and Boolean expressions. a) Declare and initialize variables of different types. b) Explain the need for multiple whole number and floating-point data types. c) Given non-trivial arithmetic and Boolean expressions containing various operations and data types, calculate the resulting value and data type. d) Perform basic input and output operations. e) Explain the differences between primitive and reference types.\n4. Control Flow - Specific topics that need to be covered include, but are not limited to, if-else statements, switch statements, for-loop statements, while-loop statements, do-while-loop statements, and variable scope. a) Draw a complete execution trace (memory map) for non-trivial code examples containing combinations of the major control flow statements involving at least three levels of nesting. b) Design and implement non-trivial software solutions that require the use of combinations of the major control flow statements involving at least three levels of nesting.\n5. Basic Data Structures - Specific topics that need to be covered include, but are not limited to, Arrays and Strings. a) Draw a complete execution trace (memory map) for non-trivial code examples containing combinations of the basic data structures. For example, 2-D arrays, ragged arrays, and arrays containing references to objects. b) Design and implement non-trivial software solutions that require the use of combinations of the basic data structures. c) Linear search, binary search, and quadratic comparison-based sorting algorithms.\n6. Object-Oriented Programming - Specific topics that need to be covered include, but are not limited to, classes, objects, methods, constructors, static variables and methods, method overloading, access modifiers, mutability, information hiding and encapsulation, access modifiers, and pass-by-value. a) Draw a complete execution trace (memory map) for non-trivial code examples incorporating object-oriented concepts. Specifically, object composition and aggregation must be covered. b) Design and implement non-trivial software solutions that incorporate object-oriented concepts. Specifically, object composition and aggregation must be covered.\n7. Aggregate a) Combine control flow statements, basic data structures, and object-oriented programming techniques to create an interactive software solution to a problem.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4695"
+    },
+    {
+      "course_name": "Software Development",
+      "course_number": "CSCI 1302",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 1301-1301L or CSCI 1301E",
+      "course_objective": "Plan, design, implement, compile, and execute a complete object-oriented software solution on a target Unix environment.\nDescribe and apply fundamental programming techniques, including exception handling, generics, recursion, and code reuse.\nApply accepted programming practices, including documentation and proper code style.\nDescribe and apply object-oriented programming techniques, including interfaces, inheritance, and polymorphism, and apply combinations of each in a software solution.\nUtilize software development tools, including tools for version control, build management, debugging, and unit testing.\nDesign, analyze, and implement algorithms for searching, sorting, and other real-world problems.\nReinforce course concepts using integrative examples, including graphical user interfaces, stream-like operations, and abstract data types.",
+      "topic_outline": "Unix Fundamentals (Knowledge level: Usage) a) Navigate and modify files, directories, and permissions in a multiuser Unix-like environment. b) Execute, redirect, pipe, and manage programs/processes in a multiuser Unix-like environment. c) Create and modify text files and source code using a powerful terminal-based text editor such as Emacs or Vi. Extremely simple programs like nano and pico are not sufficient. d) Use shell commands to compile new and existing software solutions that are organized into multi-level packages and have external dependencies.\nProgramming Fundamentals (Knowledge level: Usage) a) Identify redundancy in a set of classes and interfaces, then refactor using inheritance and polymorphism to emphasize code reuse. b) Define, throw, and propagate exceptions appropriately in a software solution. c) Use recursion to solve a non-trivial problem in a software solution. d) Implement new generic methods, interfaces, and classes in a software solution. e) Utilize existing generic methods, interfaces, and classes in a software solution.\nAccepted Programming Practices (Knowledge level: Usage) a) Create and update source code that adheres to established style guidelines. b) Create class, interface, method, and inline documentation that satisfies a set of requirements. c) Generate user-facing API documentation for a software solution. d) Apply pair-programming principles in a software-based project.\nObject-Oriented Programming (Knowledge level: Usage) a) Design, create, and use interfaces in a software solution. b) Utilize interface-based polymorphism in a software solution. c) Design, create, and use inheritance relationships in a software solution. d) Utilize inheritance-based polymorphism in a software solution. e) Use visibility modifiers to provide inheritance-based and package-based access protection in a software solution.\nSoftware Development Tools (Knowledge level: Usage) a) Utilize a version control tool such as Git or Subversion to store and update source code in a multi-programmer software solution. b) Utilize a build tool such as Maven or Ant to create and manage a complex software solution involving external dependencies. c) Utilize a debugger to trace and identify logical errors in a software solution. d) Create unit tests for classes, interfaces, and methods using a unit testing framework like JUnit.\nAnalysis (Knowledge level: varies by topic) a) Given an algorithm, perform an analysis that classifies the algorithm according to its best Big-O class for a given unit of measurement (e.g., comparisons vs. swaps). (Usage) b) Design an algorithm that solves a given problem with a particular Big-O class given as a constraint. (Assessment) c) Implement, analyze, and assess combinations of searching/sorting algorithms such as linear search, binary search, quadratic sorts, and linearithmic sorts. (Assessment)\nIntegrated Examples a) Design and implement a graphical user interface in a software project. (Usage) b) Use stream-like operations (e.g., map, reduce, and filter in the Java Stream API) as an alternative to iteration in solving problems. Observe the difference between resulting implementations. (Usage) c) Use common abstract data types and structures, including lists, queues, arrays, and stacks in solving typical problems. (Usage)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4726"
+    },
+    {
+      "course_name": "Software Development Honors",
+      "course_number": "CSCI 1302H",
+      "credit_hours": "4 hours",
+      "prerequisite": "(CSCI 1301-1301L or CSCI 1301E) and permission of Honors",
+      "course_objective": "Plan, design, implement, compile, and execute a complete object-oriented software solution on a target Unix environment.\nDescribe and apply fundamental programming techniques, including exception handling, generics, recursion, and code reuse.\nApply accepted programming practices, including documentation and proper code style.\nDescribe and apply object-oriented programming techniques, including interfaces, inheritance, and polymorphism, and apply combinations of each in a software solution.\nUtilize software development tools, including tools for version control, build management, debugging, and unit testing.\nDesign, analyze, and implement algorithms for searching, sorting, and other real-world problems.\nReinforce course concepts using integrative examples, including graphical user interfaces, stream-like operations, and abstract data types.",
+      "topic_outline": "1. Unix Fundamentals (Knowledge level: Usage) a) Navigate and modify files, directories, and permissions in a multiuser Unix-like environment. b) Execute, redirect, pipe, and manage programs/processes in a multiuser Unix-like environment. c) Create and modify text files and source code using a powerful terminal-based text editor such as Emacs or Vi. Extremely simple programs like nano and pico are not sufficient. d) Use shell commands to compile new and existing software solutions that are organized into multi-level packages and have external dependencies.\n2. Programming Fundamentals (Knowledge level: Usage) a) Identify redundancy in a set of classes and interfaces, then refactor using inheritance and polymorphism to emphasize code reuse. b) Define, throw, and propagate exceptions appropriately in a software solution. c) Use recursion to solve a non-trivial problem in a software solution. d) Implement new generic methods, interfaces, and classes in a software solution. e) Utilize existing generic methods, interfaces, and classes in a software solution.\n3. Accepted Programming Practices (Knowledge level: Usage) a) Create and update source code that adheres to established style guidelines. b) Create class, interface, method, and inline documentation that satisfies a set of requirements. c) Generate user-facing API documentation for a software solution. d) Apply pair-programming principles in a software-based project.\n4. Object-Oriented Programming (Knowledge level: Usage) a) Design, create, and use interfaces in a software solution. b) Utilize interface-based polymorphism in a software solution. c) Design, create, and use inheritance relationships in a software solution. d) Utilize inheritance-based polymorphism in a software solution. e) Use visibility modifiers to provide inheritance-based and package-based access protection in a software solution.\n5. Software Development Tools (Knowledge level: Usage) a) Utilize a version control tool such as Git or Subversion to store and update source code in a multi-programmer software solution. b) Utilize a build tool such as Maven or Ant to create and manage a complex software solution involving external dependencies. c) Utilize a debugger to trace and identify logical errors in a software solution. d) Create unit tests for classes, interfaces, and methods using a unit testing framework like JUnit.\n6. Analysis (Knowledge level: varies by topic) a) Given an algorithm, perform an analysis that classifies the algorithm according to its best Big-O class for a given unit of measurement (e.g., comparisons vs. swaps). (Usage) b) Design an algorithm that solves a given problem with a particular Big-O class given as a constraint. (Assessment) c) Implement, analyze, and assess combinations of searching/sorting algorithms such as linear search, binary search, quadratic sorts, and linearithmic sorts. (Assessment)\n7. Integrated Examples a) Design and implement a graphical user interface in a software project. (Usage) b) Use stream-like operations (e.g., map, reduce, and filter in the Java Stream API) as an alternative to iteration in solving problems. Observe the difference between resulting implementations. (Usage) c) Use common abstract data types and structures, including lists, queues, arrays, and stacks in solving typical problems. (Usage)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/48197"
+    },
+    {
+      "course_name": "Foundations for Informatics and Data Analytics",
+      "course_number": "CSCI 1360",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 1113 or MATH 1113E",
+      "course_objective": "Provides an introduction to concepts in scientific programming and data science using the Python language. Upon the conclusion of this course, students should be able to formulate solutions to problems in a broad range of fields in terms of their inputs and outputs (functional programming), repeated operations (loops), branching operations (conditionals), different methods of organizing data (data structures), how to implement an optimal problem-solving strategy (algorithm design),and how to visualize and interpret results.",
+      "topic_outline": "Introduction to data science Functional programming Loops, conditionals, variables, functions, control flow Data structure (lists, arrays, dictionaries, matrices) Vectorized programming Linear algebra and statistics Data preparation and preprocessing Importing and creating external packages Data plotting and visualization",
+      "source_url": "https://bulletin.uga.edu/Course/Details/32624"
+    },
+    {
+      "course_name": "Systems Programming",
+      "course_number": "CSCI 1730",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 1302",
+      "course_objective": "1. Navigate a Unix-based system and use tools and commands for system programming. 2. Trace, design, and implement software solutions to non-trivial problems using the C programming language. 3. Trace, design, and implement software solutions to non-trivial problems using the C++ programming language. 4. Trace, design, and implement programs that spawn multiple processes or multiple threads and utilize inter-process communication. 5. Understand the binary representation of integers in memory and use bitwise operators to solve problems. 6. Compare and contrast various programming paradigms.",
+      "topic_outline": "1. Systems Programming Tools a) Use emacs or vi to write programs in a Unix environment. b) Use basic Unix commands including (but not limited to): cd, pwd, mkdir, ls, grep, man, apropos, ps, kill, top, less, more, chmod, cp, mv, rm, diff, sort, wc, and find. c) Use the command line in a Unix environment to run processes and to pipe or redirect input or output. d) Demonstrate an understanding of the Unix file system by changing file permissions to allow programs to open, close, read, and write files. e) Use a Makefile to compile and run a program with more than one header file and more than one source code file. f) Use GDB to debug programs with various errors. g) Use Valgrind to find memory leaks in programs. Implement programs that use dynamic memory allocation and deallocation and have no memory leaks. 2. C Programming a) Compile, link, and run programs via the command line. b) Design and implement header files that use preprocessor directives. c) Design and implement programs that use basic programming and flow of control structures such as (but not limited to) variables, operators, expressions, decision statements, loops, pointers, and functions (prototyping, calling, and passing arguments to functions). d) Demonstrate knowledge of simple data structures (arrays, strings, structs, enums, unions) by writing out their memory maps and tracing through the output of source code. e) Demonstrate knowledge of pointers and arrays by tracing through the output of source code containing pointers to 1D arrays, 2D arrays, and 3D arrays. f) Design and implement programs that use command-line arguments. g) Design and implement programs in a Unix environment that open, close, read, and write files. h) Design and implement a program that uses pointers and dynamic memory allocation and deallocation. 3. C++ Programming a) Design and implement basic object-oriented and structured programming concepts in C++. b) Use simple data structures and classes in C++ such as string, vector, and list. c) Design and implement a program that consists of more than one class, a constructor, a destructor, a pointer, and more than one object. 4. Process and Inter-process Communication a) Design and implement programs that use system calls and signal handling (fork, exec, wait, etc.) and run concurrently. b) Design and implement programs that use pipe and dup2 for input/output redirection and inter-process communication. c) Design and implement a multithreaded program. d) Design and implement client and server programs that communicate via a socket in a Unix environment. 5. Binary Representation a) Understand how unsigned integers are represented and stored in memory by converting unsigned integers to and from base-10 to binary. b) Understand how signed integers are represented and stored in memory using two’s complement representation by converting signed integers to and from base-10 to binary. c) Design and implement a program that uses bitwise operators on unsigned integers. 6. Programming Paradigms a) Explain some key differences between Java, C++, and C such as (but not limited to): object-oriented vs. procedural programming languages, lower-level vs. higher-level programming languages, dynamic memory allocation and deallocation, and pointers. b) Compare and contrast generic models in C, C++, and Java (e.g. void pointers vs templates/generics, templates/generics vs macros).",
+      "source_url": "https://bulletin.uga.edu/Course/Details/12406"
+    },
+    {
+      "course_name": "Computer Science Special Topic",
+      "course_number": "CSCI 1900",
+      "credit_hours": "1-4 hours. Repeatable for maximum 4 hours credit.",
+      "prerequisite": "CSCI 1301-1301L",
+      "course_objective": "The specific learning outcomes must be specified for each offering of this course. Successful completion will be measured by computer projects and/or tests on the material.",
+      "topic_outline": "The specific topics must be specified for each offering of this course.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/11848"
+    },
+    {
+      "course_name": "Introduction to Computational Science",
+      "course_number": "CSCI 2150-2150L",
+      "credit_hours": "4 hours. 3 hours lecture and 2 hours lab per week.",
+      "prerequisite": "",
+      "course_objective": "This course is designed for students in Science and Engineering. It will offer students a basic but solid background on numerical simulations for solving scientific problems. Quantitative reasoning concepts will be emphasized in comparing and verification of the correctness of the solution. Students will learn to use available mathematical software throughout the course to understand numerical simulations and to display and verify the correctness of their results.",
+      "topic_outline": "This course is computationally oriented. Topics include: 1. Introduction to Scientific computing. 2. Introduction to Matlab and other available software packages for numerical simulations. 3. Number systems and computer arithmetic. 4. Solution of linear systems of equations. 5. Differentiation and integration. 6. Root finding. 7. Interpolation and curve fitting.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/22617"
+    },
+    {
+      "course_name": "Discrete Mathematics for Computer Science",
+      "course_number": "CSCI 2610",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 1113",
+      "course_objective": "This course presents a survey of topics in discrete mathematics most relevant to students studying computer science. At the end of the semester, all students will be able to do the following: 1. Construct basic mathematical arguments using propositional logic, including structures such as quantified statements, normal form constructions, and Boolean algebra constructions. 2. Carry out set theoretic operations to describe and compare unordered collections. 3. Relate sets to functions; use functions to describe complexity as well as basic and recursive sequences and progressions. 4. Be able to select and use an appropriate proof strategy for a potential or known theorem. 5. Carry out operations on different integer representations, and construct valid arguments for statements related to modular arithmetic. 6. Construct valid arguments for statements related to counting and discrete probability",
+      "topic_outline": "Major Topics Covered: 1. Logic and Predicates a) Propositional Logic: construct compound propositions for various logic statements and natural language propositions b) Propositional Equivalencies (Identities): use the identity laws to show propositional equivalencies and verify their truth values c) Truth Tables: construct truth tables for compound propositions and use them as a tool for proving equivalencies d) Normal Forms: transform compound propositions into conjunctive normal form and disjunctive normal forms, including the canonical normal forms e) Minimization: reduce the number propositional variables and operators of a compound proposition to an equivalent proposition f) Predicates and Quantifiers: construct compound propositions for various logic statements involving predicates and quantified statements g) Rules of Inferences: use the laws of inference to derive a given conclusion from a set of propositions h) Boolean Algebra and Circuits: use Boolean algebra notation and circuit diagrams to construct/visualize compound propositions 2. Set Theory a) Sets and Operations: define set structures using different notations and define and use operations on sets b) Subsets and Powersets: define subsets of a set and construct the powerset c) Set Identities and Equality: use the identity laws of sets to show two sets are equal d) Finite Cardinality: determine the cardinality of a finite set e) Common Sets: recognize and apply common sets in the context of set theory f) Cartesian Products, Tuples, and Relations: construct relations on sets of tuples 3. Functions a) Function Types: define one-to-one, onto, and one-to-one correspondence functions using propositional logic; given a function prove that it is any of the three and whether it has an inverse or not b) Sequences: determine that a given sequence is an arithmetic or geometric progression and identify the associated constants c) Recursive definitions and Recurrences: construct recursive definitions for relations and sets; define the recurrence relation of sequences with its initial condition(s) d) Summations: understand the recursive and iterative properties of summations e) Cardinality of Sets, Countability and Diagonalization given a finite set determine the cardinality; given an infinite set determine whether it is countable or uncountable f) Given a growth function, determine its best Big-O complexity class. 4. Proof Strategies a) Be able to form a valid argument from a set of assumptions using each of the following proof strategies: direct, contraposition and contradiction. b) Be able to form a valid argument using each of the following proof strategies: construction and counter example c) Induction: prove a property holds for a discrete infinite set with a smallest value d) Given an incorrect proof, identify the error e) Be able to select an appropriate proof strategy for any given theorem 5. Number Theory a) Divisibility and Modular Arithmetic: given two numbers find their divisor and remainder; use properties of divisibility and modular arithmetic in a proof b) Congruence Relations: prove the identity laws for congruence relations c) Integer Representations (Base Conversions): given an integer in one base convert it to another base with special focus on base 2, 8, 10 and 16 d) Bitwise Operations: apply logic operators on bit strings e) Primes and composites: identify whether a number is prime or composite; identify the prime factors of a composite number f) Euclidean Algorithm: trace though the Euclidean algorithm to find the GCD 6. Counting a) Rules of Counting: use the product and sum rules to determine the cardinality of a set b) The Pigeonhole Principle: apply the Pigeonhole principle to show that there are more than one items that share a given property c) Permutations and Combinations: determine the number of tuples or subsets of a set d) Binomial Coefficients and Pascal’s triangle: find the coefficients for a binomial expansion 7. Probability a) Probability Theory (Laplace): define the sample space and the event space and apply the basic rules of probability b) Basic Rules of Probability: apply the sum, product, conditional and independence rules c) Distributions: compute the probability of events in a uniform distribution d) Random Variables: explain potential events using the concept of random variable e) Expected Value: compute the expected value in a given trial f) Variance (time permitting): compute the variance g) Bayes’ Theorem (time permitting): apply the Bayes’ formula",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4732"
+    },
+    {
+      "course_name": "Discrete Mathematics for Engineers",
+      "course_number": "CSCI 2611",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 1113",
+      "course_objective": "This course presents a survey of those topics in discrete mathematics most relevant to students studying computer engineering. At the end of the semester, all students should be able to do the following: 1. Build truth tables for propositional expressions. 2. Prove properties using a variety of proof strategies, including direct proofs, proofs by contradiction, proofs by cases and inductive proofs. 3. Convert a number from one base to another (e.g., from decimal to binary). 4. Perform arithmetic operations on binary numbers. 5. Use permutations and combinations to count the number of elements in large sets. 6. Apply the pigeonhole principle. 7. Determine conditional probabilities. 8. Determine if a function is an injection, a surjection, a bijection or none of these. 9. Use bijections to prove if a given set is countable. 10. Use diagonalization to prove a given set is uncountable. 11. Given an equivalence relation R over a domain D, partition D into subsets (equivalence classes) according to R.",
+      "topic_outline": "Propositional logic Predicate logic Proofs: types of proofs Sets, set logic and set operations Functions Sequences and summations Integer algorithms Modular arithmetic Mathematical induction Counting The pigeonhole principle Permutations and combinations Finite probabilities Relations Using graphs to represent relations",
+      "source_url": "https://bulletin.uga.edu/Course/Details/26546"
+    },
+    {
+      "course_name": "Introduction to Theory of Computing",
+      "course_number": "CSCI 2670",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2610 or CSCI 2611",
+      "course_objective": "1. Define regular languages using various methods and be able to prove if a language is or is not regular. 2. Define context-free languages using various methods and be able to prove if a language is or is not context-free. 3. Define Turing recognizable languages using various types of Turing machines and be able to prove the different types of machines are equivalent with regard to the languages they accept. 4. Define decidability and be able to prove if a language is decidable or not. 5. Distinguish between P and NP and prove a language is in P or in NP.",
+      "topic_outline": "Major Topics Covered 1. Regular Languages a. Given an NFA M, create a DFA or regular expression that accepts L(M). b. Given a regular language L, create an NFA that accepts L. c. Use the pumping lemma for regular languages to prove a language is not regular. 2. Context-free Languages a. Given a description of a context free language L, develop a context free grammar G such that L(G) = L. b. Convert a context free grammar to an equivalent push-down automata and vice-versa. c. Convert a CFG into Chomsky normal form (CNF). d. Given a context-free grammar G in CNF and a string w, use the CYK algorithm to determine if G generates w. e. Use the pumping lemma for context-free languages to prove a language is not context-free. f. Identify if a given language is regular, context-free, or neither. 3. Turing-recognizable Languages a. Given a language L, create a Turing machine that accepts L. b. Convert between the different variations of Turing machines (e.g., multi-tape to single-tape). c. Create a Turing machine that computes a function. 4. Decidability a. Define decidability and determine if a language is decidable. b. Prove that the Halting problem is undecidable. c. Reduce one problem to another. d. Use reductions to prove a problem is undecidable. 5. Computational Complexity a. Define P, NP, and NP-complete b. Show a problem is in P. c. Write pseudo-code describing a non-deterministic Turing machine’s steps to solve a problem. d. Describe the Cook-Levin theorem. e. Describe a verifier for an NP-complete language.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4924"
+    },
+    {
+      "course_name": "Data Structures",
+      "course_number": "CSCI 2720",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 1302 and (CSCI 2610 or CSCI 2610E or CSCI 2611)",
+      "course_objective": "Analyze algorithms using the asymptotic analysis notations.\nDesign, analyze, and implement recursive solutions.\nDesign, analyze, and implement generic reusable abstract data types.\nArticulate algorithm design methods and be able to use them in problem solving.\nImplement, and analyze the principal algorithms for sorting, searching, hashing, and graph algorithms and be able to select the appropriate algorithm and apply it to solve real-world problems.\nChoose the appropriate data structure and algorithm to solve real-world problems and to defend the selection.",
+      "topic_outline": "Algorithm Analysis: a) Explain and compare the growth of functions: logarithmic functions, polynomials, linearithmic, and exponential functions. b) Given a function, prove that it falls into a particular complexity class. c) Formally Define the Asymptotic Complexity notations (Big O, Big theta, and Big Omega). Distinguish between case analysis methods (best case, average case, and worst-case analysis). d) Calculate the running-time T(n) for a given function by calculating the number of processing steps. e) Find the asymptotic complexity of an algorithms as a function of problem size.\nRecursion: a) Identify the base case and the general case of a recursively defined problem. b) Write recursive functions to solve computational problems. c) Convert a recursive function to an iterative function and vice versa. d) Analyze the running-time for recursive functions by finding the depth of recursion, the tree method, and the master method of decreasing functions. e) Compare iterative and recursive solutions for a problem and select the best solution and be able to defend the selected solution based on non-functional attributes such as efficiency, simplicity, maintainability, code reuse, and others.\nAbstract Data Types and Their Implementations: Lists, Queue, and Stack: a) Explain the different representations (array and linked implementations) of the ADT and its manipulating operations. b) Analyze and assess the impact of the ADT representation on the running-time complexity of the ADT operations and space requirements. c) Implement (with templates) at least two representations (array, singly linked list, doubly linked list, circularly linked list) of at least one of the ADTs and use the implementation to solve a real-world problem.\nAbstract Data Types and Their Implementations: Binary Search Trees BST, AVL Trees, Red-Black Trees, and B-Trees: a) Explain the different tree implementations and associated operations. b) Analyze and assess the impact of the ADT implementation on the running-time complexity of the ADT operations and space requirements. c) Implement at least one search tree. d) Select a tree type that is best suited to solve a problem and be able to defend the selection.\nAbstract Data Types and Their Implementations: Heaps and Priority Queues: a) Implement the Heap ADT and its basic operations. b) Analyze the basic heap operations. c) Use the heap structure as an internal traversal method to develop efficient solutions to real world problems.\nAbstract Data Types and Their Implementations: Design and implement the Priority Queue ADT using various data structures (Array List, Linked List, and Heap) and evaluate the different implementations with respect to space and running-time efficiency.\nAbstract Data Types and Their Implementations: Graphs and Graph Algorithms: a) Depict various representation (adjacency list and adjacency matrix) given a picture or a description of the graph. b) Compare the adjacency list and the adjacency matrix implementations of the Graph ADT according to the running-time complexity of the graph operations and space requirements. c) Trace basic graph algorithms, including depth first traversal, breadth first traversal, minimum spanning trees (Prim’s and Kruskal’s), topological sort, and single-source and all-pairs shortest path (Dijkstra’s and Bellman Ford’s) for a given graph. d) Choose the appropriate graph algorithms to solve a problem given a description of the problem.\nAbstract Data Types and Their Implementations: Hash Tables: a) Design and implement two different versions of the hash table interface: open addressing (linear probing, quadratic probing, double hashing, rehashing) and chaining. b) Analyze and assess the running-time complexity of basic hash table operations (insert, delete, and search).\nAlgorithm Design Strategies: a) Differentiate between the strategies (greedy, divide-and-conquer, and dynamic programming) through teaching well-known algorithms, and identify a practical example to which the design strategy would apply. b) Use divide-and-conquer to solve an appropriate problem.\nSorting Algorithms: a) Implement and analyze sorting algorithms including quadratic sorts, linearithmic sorts, and non-comparison linear sorts. b) Select a sorting algorithm to solve a given problem based on running-time and space efficiency and be able to defend the selection.\nImplement and test projects that use data structures to solve real-world problems and satisfying a set of predefined functional requirements (pre/post conditions) and nonfunctional requirements (efficiency, robustness, code-reuse, maintainability, and others).",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4304"
+    },
+    {
+      "course_name": "Data Structures for Data Science",
+      "course_number": "CSCI 2725",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 1302",
+      "course_objective": "This course surveys data structures and explores their different implementations with a focus on their manipulating algorithms. The objective is to effectively use data structures and their manipulating algorithms to design and implement efficient solutions and to develop problem-solving skills required in the data science paradigm. The course introduces approaches to algorithm design, including divide and conquer, greedy algorithms, and dynamic programming and will draw on applications from data science. Learning Outcomes: 1. Use asymptotic analysis notations to give upper bounds on time and space complexity of algorithms. 2. Design, analyze, and implement recursive functions. 3. Describe, design, and implement generic, reusable abstract data types (ADTs), including sorted list, unsorted list, tensors, stack, queue, priority queue, tree, graph, and dictionary. 4. Analyze and assess the impact of data structures and algorithm design on the performance of algorithms. 5. Understand algorithm design methods such as the greedy method, divide and conquer, and dynamic programming. 6. Choose the appropriate data structures and algorithm to solve a real world problem and to defend the selection. 7. Design, apply, and compare the complexity of principal algorithms for sorting, searching, and hashing. 8. Understand and apply graph algorithms, such as graph traversal algorithms, minimum spanning tree, topological sort, and single-source shortest path. 9. Write programs to satisfy the requirements of a real-word problem, integrating course concepts (data structures and algorithms efficiency) and object-oriented design principles.",
+      "topic_outline": "1. Algorithm Analysis [Knowledge Level: Usage] a) Explain and compare the growth of functions: Logarithmic functions, Polynomials, Linearithmic, and Exponential functions. b) Formally define the Asymptotic Complexity notations (Big O, Big theta, and Big Omega). Distinguish between case analysis methods (best case, average case, and worst case analysis). c) Measure operations as a function of problem size and compute the asymptotic complexity of simple algorithms/functions. 2. Fundamental Data Structures [Knowledge level: Assessment] a) Design, implement, analyze, and assess the different representations of the ADT List (singly-linked list, doubly- linked list, circularly-linked list) and their impact on the run-time and space complexity of the ADT operations. b) Design, implement, analyze, and assess the different representations of the Queue ADT and the Stack ADTs and their impact on the run-time and space complexity of the ADT operations. 3. Recursion: Understand, design, and implement recursive functions. [Knowledge Level: Usage] 4. Binary Search Trees (BST), and Balanced Trees. [Knowledge Level: Assessment] a) Understand, analyze, and compare BST implementation strategies (array vs. linked representations, iterative vs. recursive algorithms). b) Implement BSTs using linked structures. c) Design and analyze balanced search trees (AVL trees, red black trees or 2-3 trees, B trees). Evaluate which search tree techniques are best suited to various application scenarios. 5. Heaps and Priority Queues a) Understand the implementation of the Heap data structure and basic heap operations. [Knowledge Level: Familiarity] b) Use the heap structure as an internal traversal method to develop efficient solutions to real-world problems. [Knowledge Level: Usage] 6. Understand, Design, and implement the Priority Queue ADT using various data structures (Array List, Linked List, and Heap); evaluate the different implementations with respect to space and run-time efficiency. [Knowledge Level: Assessment] 7. Graphs and Graph Algorithms a) Understand and compare the adjacency list and the adjacency matrix implementations of the ADT Graph. [Knowledge Level: Familiarity] b) Understand graph algorithms, including depth first traversal, breadth first traversal, minimum spanning trees, topological sort, and single-source and all-pairs shortest path. Be able to use graph algorithms to solve problems. [Knowledge Level: Usage] 8. Algorithm design strategies a) For each of the strategies (greedy, divide and conquer, and dynamic programming), identify a practical example to which it would apply. [Knowledge Level: Familiarity] b) Use a divide and conquer algorithm to solve an appropriate problem. [Knowledge Level: Usage] 9. Hash Tables [Knowledge level: Usage] a) Design and implement two different versions of the hash table interface: Open addressing and chaining. b) Analyze and assess the complexity of basic hash table operations (insert, delete, and search) 10. Implement and assess sorting algorithms, including quadratic sorts, linearithmic sorts, and non-comparison linear sorts.[Knowledge Level: Assessment] 11. Discuss factors other than computational efficiency that influence the choice of algorithms, such as programming time, maintainability, and the use of application-specific patterns in the input data. [Knowledge Level: Familiarity] 12. Understand string-matching algorithms. [Knowledge Level: Usage] 13. Understand and use advanced data structures for data science, including tensors, disjoint sets, data frames, and decision trees. Be able to evaluate and use existing data science libraries that implement these data structures. [Knowledge Level: Usage]",
+      "source_url": "https://bulletin.uga.edu/Course/Details/41425"
+    },
+    {
+      "course_name": "Computing, Ethics, and Society",
+      "course_number": "CSCI 3030",
+      "credit_hours": "3 hours",
+      "prerequisite": "ENGL 1050H or ENGL 1102 or ENGL 1102E",
+      "course_objective": "Students will evaluate moral dilemmas in computing using a well-defined theory of ethical decision making.\nStudents will explain and discuss issues in computing related to intellectual property.\nStudents will explain and discuss issues in computing related to privacy, security, and the government.\nStudents will explain and discuss issues in computing related to reliability.\nStudents will explain and discuss issues in computing related to education, employment, and globalization.\nStudents will explain and discuss issues in computing related to professional development.",
+      "topic_outline": "In the following learning outcomes, the phrase \"in computing\" is to be interpreted as scenarios that intersect with the legality, societal impact, creation, deployment, interaction, or withdrawal of software and computing/information technology in contemporary society. 1. Evaluate moral dilemmas in computing using a well-defined theory of ethical decision making. More than one theory is to be covered, and although the list of theories is ultimately left to the discretion of the course instructor, the following are usually covered: Kantianism, utilitarianism, social contract theory, and virtue ethics. For each ethical theory covered in the course, students are expected to: a. Describe the general steps needed to construct an ethical argument. b. Research, organize, and synthesize information to support an ethical argument. c. Critique the organization, language, delivery, audience adaptation, reasoning, arguments, and supporting materials of ethical arguments presented by others. d. Author and present an ethical argument that considers language, delivery, and audience awareness. 2. Explain and discuss issues in computing-related to intellectual property. a. Identify the characteristics of copyright and fair use. b. Identify the characteristics of software licenses, including free licenses and open source licenses. c. Identify the characteristics of a patent in computing. d. Apply an ethical theory to defend an ethical stance in computing related to intellectual property. 3. Explain and discuss issues in computing related to privacy, security, and the government. a. Identify the characteristics of hacking, hacktivism, and cyberterrorism. b. Identify and classify privacy infringements in computing. c. Describe privacy-related government policies and protections. d. Apply an ethical theory to defend an ethical stance in computing related to privacy, security, and/or the government. 4. Explain and discuss issues in computing-related reliability. a. Identify the characteristics of safety-critical systems. b. Identify the stakeholders and characteristics of a well-known case study involving computer and machine reliability (e.g., Therac-25, Tesla Version 7.0). c. Identify characteristics and potential biases related to software engineering. d. Apply an ethical theory to defend an ethical stance in computing related to the government. 5. Explain and discuss issues in computing related to education, employment, and globalization. a. Identify characteristics of a digital divide. b. Identify social justice issues in computing. c. Identify impacts of automation, remote learning, and remote work. d. Apply an ethical theory to defend an ethical stance in computing related to education, employment, and/or globalization. 6. Explain and discuss issues in computing related to professional development. a. Identify characteristics and responsibilities related to professions that intersect with computing. b. Identify the characteristics of professional codes of ethics. c. Identify characteristics that make whistleblowing morally permissible and morally required. d. Apply an ethical theory to defend an ethical stance in computing related to professional development.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/20694"
+    },
+    {
+      "course_name": "Computing, Ethics, and Society (Honors)",
+      "course_number": "CSCI 3030H",
+      "credit_hours": "3 hours",
+      "prerequisite": "(ENGL 1050H or ENGL 1102 or ENGL 1102E) and permission of Honors",
+      "course_objective": "Students will evaluate moral dilemmas in computing using a well-defined theory of ethical decision making.\nStudents will explain and discuss issues in computing related to intellectual property.\nStudents will explain and discuss issues in computing related to privacy, security, and the government.\nStudents will explain and discuss issues in computing related to reliability.\nStudents will explain and discuss issues in computing related to education, employment, and globalization.\nStudents will explain and discuss issues in computing related to professional development.",
+      "topic_outline": "1. Evaluate moral dilemmas in computing using a well-defined theory of ethical decision making. More than one theory is to be covered, and although the list of theories is ultimately left to the discretion of the course instructor, the following are usually covered: Kantianism, utilitarianism, social contract theory, and virtue ethics. For each ethical theory covered in the course, students are expected to: a. Describe the general steps needed to construct an ethical argument. b. Research, organize, and synthesize information to support an ethical argument. c. Critique the organization, language, delivery, audience adaptation, reasoning, arguments, and supporting materials of ethical arguments presented by others. d. Author and present an ethical argument that considers language, delivery, and audience awareness. 2. Explain and discuss issues in computing related to intellectual property. a. Identify the characteristics of copyright and fair use. b. Identify the characteristics of software licenses, including free licenses and open source licenses. c. Identify the characteristics of a patent in computing. d. Apply an ethical theory to defend an ethical stance in computing related to intellectual property. 3. Explain and discuss issues in computing related to privacy, security, and the government. a. Identify the characteristics of hacking, hacktivism, and cyberterrorism. b. Identify and classify privacy infringements in computing. c. Describe privacy-related government policies and protections. d. Apply an ethical theory to defend an ethical stance in computing related to privacy, security, and/or the government. 4. Explain and discuss issues in computing-related reliability. a. Identify the characteristics of safety-critical systems. b. Identify the stakeholders and characteristics of a well-known case study involving computer and machine reliability (e.g., Therac-25, Tesla Version 7.0). c. Identify characteristics and potential biases related to software engineering. d. Apply an ethical theory to defend an ethical stance in computing related to the government. 5. Explain and discuss issues in computing related to education, employment, and globalization. a. Identify characteristics of a digital divide. b. Identify social justice issues in computing. c. Identify impacts of automation, remote learning, and remote work. d. Apply an ethical theory to defend an ethical stance in computing related to education, employment, and/or globalization. 6. Explain and discuss issues in computing related to professional development. a. Identify characteristics and responsibilities related to professions that intersect with computing. b. Identify the characteristics of professional codes of ethics. c. Identify characteristics that make whistleblowing morally permissible and morally required. d. Apply an ethical theory to defend an ethical stance in computing related to professional development.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/30791"
+    },
+    {
+      "course_name": "Data Science and Applied Machine Learning I",
+      "course_number": "CSCI 3360",
+      "credit_hours": "4 hours",
+      "prerequisite": "(CSCI 1301-1301L or CSCI 1301E or CSCI 1360 or CSCI 1360E or CSCI 1300-1300L or ENGR 1140 or ENGR 1140E or ENGR 1140H or ELEE 2045 or INFO 2000 or INFO 2000E) and (MATH 2250 or MATH 2250E or CSCI 2150-2150L)",
+      "course_objective": "Students will use existing Python tools to read and preprocess raw data of various formats (text, images, binary).\nStudents will choose a proper statistical model for extracting knowledge from a particular dataset, given the advantages and disadvantages of the model.\nStudents will implement at least one algorithm from the categories of regression, classification, clustering, and convex optimization.\nStudents will design and document analytical pipelines to be reproducible by others.\nStudents will use and interpret the results of dimensionality reduction on high-dimensional datasets.\nStudents will choose the most effective visualization to convey the knowledge learned from the data.",
+      "topic_outline": "1. Scientific programming with Python a) Understand basic Python programming language features such as indentation, modules, functions, Boolean expressions, strings, control flow, zip, and basic object-oriented programming. b) Be able to use various built-in Python data structures to store and access data in order to solve problems. Data structures include a list, tuple, dictionary, counter, and set. c) Make use of various commonly used toolkits and modules, such as Jupyter notebook, pandas, numpy, sklearn, scipy, matplotlib, keras, and tensorflow, to solve appropriate data science problems.\n2. Data visualization a) Given a dataset, create an appropriate plot to visualize the trend, relationships, and outliers within the data. b) Compare and contrast various plots, including bar chart, pie chart, histogram, line plot, and scatter plot, and choose the most effective plot(s) to communicate the data.\n3. Convex optimization a) Compute the gradient using partial derivatives when feasible and estimate the gradient using difference quotients. b) Perform multiple steps of gradient descent towards finding the minimum when given a univariate differentiable objective function.\n4. Dimensionality Reduction a) Using greedy forward selection and backward elimination algorithms to find a subset of features suitable for regression and classification models. b) Introduces feature projection algorithms such as Principal Component Analysis.\n5. Supervised Classification a) Demonstrate understanding of the k-nearest neighbor model by computing distances between data points to identify k-nearest neighbors and conclude the appropriate class label that should be given to a data point. b) Demonstrate understanding of the naïve Bayes model by computing the appropriate conditional probabilities based on Bayes’ theorem in order to classify a data point. c) Demonstrate understanding of the decision tree model by building a decision tree classifier using the ID3 algorithm when given an appropriate dataset and using the tree to classify data points.\n6. Regression a) Fit simple and multiple linear regression models to data. Be able to interpret the coefficients and compute the R-squared metric. b) Apply regularization techniques such as ridge and lasso regression. c) Build polynomial regression models with interactive features on a given dataset.\n7. Unsupervised clustering a) Demonstrate understanding of the K-means algorithm by repeatedly computing new cluster means and reassigning data points to clusters until the assignment of data points stabilizes. b) Introduces the hierarchical clustering algorithm and applies it to a dataset.\n8. Introduction to \"big data\" and \"deep learning\" a) Understand the topology of feedforward neural networks and be able to complete the feedforward process when given the dataset, weights, biases, and activation functions. b) Introduces the backpropagation algorithm using a simple neural network structure. c) Introduces \"big data,\" \"deep learning,\" convolutional neural networks, and their applications in image recognition.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/32623"
+    },
+    {
+      "course_name": "Software Engineering",
+      "course_number": "CSCI 4050/6050",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or CSCI 2725",
+      "course_objective": "This course presents a survey of topics in software engineering most relevant to students studying computer science. At the end of the semester, all students will be able to do the following: 1. Identify and differentiate phases of a typical software process and how it relates to the software life cycle and the different software process models. 2. Create functional requirement specifications in the form of use cases and user stories, and differentiate between functional and non-functional requirements. 3. Develop static and dynamic UML diagrams to model both the structural and behavioral aspects of the software system throughout the different phases of the development life cycle. 4. Create a software architecture specification, including subsystem decomposition and subsystem interface descriptions. 5. Communicate and effectively function as a member of a software development team to develop a software system based on its specification and previously created models. 6. As a team, deliver a coherent and professional presentation and demonstration of a functioning software system and the results of its testing.",
+      "topic_outline": "1. Software engineering and software process (3-hours) 2. Team and project management (2-hours) 3. Requirements elicitation and specification (4-hours) 4. Use case modeling (3-hours) 5. Requirements analysis (4-hours) 6. UML diagrams (4-hours) 7. Static and dynamic modeling (3-hours) 8. System design and architectural styles (4-hours) 9. Design patterns (3-hours) 10. Detailed (object) design (4-hours) 11. Object constraint language (1-hour) 12. Implementation techniques (5-hours) 13. Source code management (2-hours) 14. Persistence and storage systems (2-hours) 15. Verification and testing (3-hours) 16. Software demonstration (3-hours)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4181"
+    },
+    {
+      "course_name": "Mobile Software Development",
+      "course_number": "CSCI 4060/6060",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720",
+      "course_objective": "1. Plan, design, implement, test, and deploy a complete mobile application. 2. Utilize a suitable development environment, such as Android Studio, in app development. 3. Understand and use elements of a mobile application, including activities, views, layouts, fragments, styles, and themes. 4. Understand, select, and utilize appropriate screen designs and a proper navigational pattern. 5. Be able to manage an application’s resources and files and be able to utilize a relational database and an external Web Service. 6. Be able to apply a software process, such as agile development, in app development. 7. Effectively describe and demonstrate a functioning app.",
+      "topic_outline": "1. Mobile Development Basics a) Android History and Versions b) Android Architecture and Linux c) Java and Event-driven Programming 2. Android Development Environment a) Android Development Environment Setup b) Simple Android Application c) Android Project Structure d) Introduction to XML 3. Android Fundamentals a) Android Application Components b) Activity and Activity Lifecycle c) Common Views d) Android Layouts e) Fragments, Fragment Lifecycle, and Fragment Transactions f) Managing Resources g) Navigational Patterns h) Styles and Themes 4. Interacting with Data Sources a) Relational Databases b) SQLite c) RESTful Web Services 5. Application Development Process a) Software Process b) Development Workflow c) Screen Design, Screen Maps, and Wireframes",
+      "source_url": "https://bulletin.uga.edu/Course/Details/36517"
+    },
+    {
+      "course_name": "Introduction to Game Programming",
+      "course_number": "CSCI 4070/6070",
+      "credit_hours": "4 hours. 3 hours lecture and 2 hours lab per week.",
+      "prerequisite": "CSCI 1730",
+      "course_objective": "Students will have knowledge of the techniques for the production of computer games in two-dimensions, and the capability and practice of actually making a game as the class project.",
+      "topic_outline": "Game Structure Input devices - keyboard, mouse, game controller Output devices - display, speakers Graphics Methods Game Project",
+      "source_url": "https://bulletin.uga.edu/Course/Details/18134"
+    },
+    {
+      "course_name": "Intermediate Game Programming",
+      "course_number": "CSCI 4080/6080",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4070/6070",
+      "course_objective": "Students will have knowledge of the techniques for the production of computer games in 3-dimensions, and the capability and practice of actually making a game as the class project.",
+      "topic_outline": "Game Structure 3D Game Topics Modeling and video insertion OpenGL and GLUT Lighting, shading, cameras, and transformations Sound Physics and collision detection AI, algorithms, scripting and game story User interaction devices, menus, HUDS",
+      "source_url": "https://bulletin.uga.edu/Course/Details/20027"
+    },
+    {
+      "course_name": "CUDA C Programming on GPUs for High Performance Computing",
+      "course_number": "CSCI 4130/6130",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "This course will focus on developing algorithms and programming state-of-the-art multicore hardware systems for large scale computation. Students will be exposed to different problems in science and engineering. At the end of the semester, students should: 1. Learn parallel computing concepts such as speedup, efficiency, load balancing. 2. Differentiate between SIMD architecture and MIMD architecture. 3. Learn GPUs architecture as parallel computers and compare it with the SIMD and MIMD architecture. 4. Be able to show how threads play a vital role in parallel computing. 5. Be able to develop parallel algorithms for GPUs using CUDA programming. 6. Know Amdahl’s law, MIPS and MFLOPS as measures of performance for parallel algorithms. 7. Be able to differentiate between the representations of integers and floating point numbers in memory. 8. Be able to estimate the errors that result from performing arithmetic operations on floating point numbers.",
+      "topic_outline": "Introduction to Parallel Computing; GPUs architecture as parallel computers; CUDA C programming with examples; CUDA threads and memories; Performance issues; Floating point representations and errors; Applications in science and engineering that require massively computational needs.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/26532"
+    },
+    {
+      "course_name": "Numerical Methods and Computing",
+      "course_number": "CSCI 4140/6140",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 1730 and MATH 2250 and CSCI 2150-2150L",
+      "course_objective": "Students will learn numerical methods for solving scientific problems and will learn different techniques to check the accuracy of their numerical computations.",
+      "topic_outline": "Computer arithmetic and errors numerical solutions of nonlinear equations polynomial interpolation numerical differentiation and integration numerical solutions of: systems of linear equations, initial and boundary value problems, systems of ordinary differential equations, spline functions the method of least squares.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4736"
+    },
+    {
+      "course_name": "Numerical Simulations in Science and Engineering",
+      "course_number": "CSCI 4150/6150",
+      "credit_hours": "4 hours",
+      "prerequisite": "(MATH 2250 and CSCI 1301-1301L) or permission of department",
+      "course_objective": "This course is designed for students in science and engineering. It will offer students several different numerical methods for solving scientific problems. In addition, students will learn to use free and available software in their computations. Students in this course will be exposed to high performance computing for solving complex problems.",
+      "topic_outline": "This course is computationally oriented. Topics include: 1. Introduction to scientific computing and numerical simulations; 2. Finite difference methods; 3. Introduction to finite element methods; 4. Finite Fourier methods; 5. Symbolic computation; 6. Introduction to higher performance computing; 7. Visualization tools. A number of mathematical models for problems in science and engineering will be discussed and numerical solutions for them implemented. Available symbolic and numerical computational packages (such as Matlab, Maple and MPI) and visualization tools will be used in the simulations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/16733"
+    },
+    {
+      "course_name": "Introduction to Computational Investing",
+      "course_number": "CSCI 4170/6170",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "As part of this course, students: 1. Will learn about financial time series data and how to manipulate and visualize it. 2. Gain exposure to the principles of computational finance and financial markets. 3. Implement two different significant machine-learning algorithms from scratch. 4. Apply machine-learning algorithms to financial time series data in order to develop trading strategies. Educational Outcomes Upon successful completion of this course, students should be able to: 1. Understand modern stock market mechanics and how they affect trading strategies. 2. Understand the computational infrastructure of hedge funds and institutional trading firms. 3. Manipulate and visualize financial time series data. 4. Create programs that leverage time series data to generate trading strategies. 5. Create machine-learning algorithms implementing stock trading strategies.",
+      "topic_outline": "Reading, slicing, and plotting stock data Working with many stocks at once Statistical analysis of time series Incomplete data Histograms and scatter plots Sharpe ratio and other portfolio statistics Optimizers: How to optimize a portfolio How Machine-Learning is used at a Hedge Fund Regression From a regression tree to random forest Assessing a Machine-Learning algorithm Ensemble learners, bagging, and boosting Assess a portfolio Market mechanics What is a company worth? The Capital Assets Pricing Model (CAPM) Technical analysis Build and assess a Random Forest learner Generate data sets that confound regression learners Dealing with data The Efficient Markets Hypothesis The Fundamental Law Portfolio optimization and the efficient frontier Building a market simulator Reinforcement Learning Q-Learning Dyna-Q ML methodologies for time series data Building an ML-based forex strategy Black Scholes Options Model",
+      "source_url": "https://bulletin.uga.edu/Course/Details/38217"
+    },
+    {
+      "course_name": "Simulation and Modeling",
+      "course_number": "CSCI 4210/6210",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or CSCI 2725",
+      "course_objective": "Students will learn to develop simulation models of complex systems.",
+      "topic_outline": "Introduction to Modeling and Simulation Simulation Examples Discrete Event Simulation Simulation Software Concurrent Programming Animation Techniques Statistical Models Markov Chains Queuing Models Verification and Validation Random Number Generation Random Variate Generation Input Modeling Output Analysis Virtual Reality",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4303"
+    },
+    {
+      "course_name": "Cyber Security",
+      "course_number": "CSCI 4250/6250",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4730/6730 or CSCI 4760/6760",
+      "course_objective": "This course is designed to help students face the increasing number of security threats in today's computer and network systems. It will cover the strengths and weaknesses of security mechanisms that are built into existing systems. The course will make students aware of the common programming mistakes that could lead to security compromises and help them avoid these situations. It will also introduce methods for defensive system design and detection techniques that enhance system security.",
+      "topic_outline": "I. Introduction to Computer Security Security policy and models Authentication, authorization, and privacy control II. Host Security Unix security mechanisms Windows security mechanisms III. Common Vulnerabilities and Known Attacks Buffer overflow, Format string exploitation IV. Security Defense Techniques Intrusion detection systems Logging and computer forensics",
+      "source_url": "https://bulletin.uga.edu/Course/Details/17670"
+    },
+    {
+      "course_name": "Data Security and Privacy",
+      "course_number": "CSCI 4260/6260",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 1302",
+      "course_objective": "The course will provide students with - a general background on the concepts of data security/privacy, - an understanding of what common threats modern information systems are faced with, what vulnerabilities are exploited by attackers, and what principles and techniques can be used when designing a secure/private system, - a hands-on experience in implementation of security/privacy mechanisms.",
+      "topic_outline": "Topics include: 1. foundations of security: confidentiality, integrity, and availability 2. operating system security: memory protection, access control, authentication, logging/auditing 3. network security: network protocol security, firewalls, DoS attacks 4. software security: secure software engineering, malwares, virtualization 5. security in cloud computing 6. privacy-preserving data analysis: definitions and anonymization 7. differential privacy",
+      "source_url": "https://bulletin.uga.edu/Course/Details/36781"
+    },
+    {
+      "course_name": "Introduction to Computer Forensics",
+      "course_number": "CSCI 4270/6270",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "Students will learn a systematic approach to perform a comprehensive investigation to solve computer crimes. This course provides hands-on experience in different computer forensics situations. Students will be able to effectively collect and analyze software, OS, and network activities in desktop, server, and mobile computers environments.",
+      "topic_outline": "1. Introduction to Computer Forensics: computer crimes, evidence, extraction, preservation, etc. 2. Overview of hardware and operating systems: structure of file systems, Memory management, Network, Linux/Windows/MacOS. 3. Software Reverse Engineering; Understanding software vulnerabilities, identifying hostile codes. 4. OS and Software Forensics: Collecting, analyzing, and reconstructing software behaviors 5. Network Forensic: Collecting, analyzing, and reconstructing network-based evidence 6. Mobile Forensic: Issues in Android and IOS forensics 7. Computer crime and Legal issues: Criminal Justice system for forensic; Investigative procedure/standards for cybercrimes; preservation and deposition of legal evidence in a court of law; privacy issues.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/36904"
+    },
+    {
+      "course_name": "Introduction to Cryptography",
+      "course_number": "CSCI 4280/6280",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "Knowledge Enhancement: The students will learn the primitives (including their security notions and constructions) used to build secure cryptography protocols and systems. The students will also see modern cryptography protocols such as the Signal protocol and TLS.\nSecurity Engineering: The course will cover common implementation pitfalls of cryptography protocols and systems. The students will learn to implement cryptography protocols and systems securely.",
+      "topic_outline": "Shannon ciphers and perfect security\nComputational ciphers\nPseudorandom generators and stream ciphers\nBlock ciphers and pseudorandom functions\nChosen plaintext attack\nMessage integrity\nMessage integrity from universal hashing\nMessage integrity from collision resistant hashing\nAuthenticated encryption\nPublic key tools\nPublic key encryption\nChosen cipher text secure public key encryption\nDigital signatures",
+      "source_url": "https://bulletin.uga.edu/Course/Details/52259"
+    },
+    {
+      "course_name": "Web Programming",
+      "course_number": "CSCI 4300",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 1302",
+      "course_objective": "Upon completion, students will be technically proficient in several of the most commonly used programming methodologies for web page creation. This course does not cover aesthetic aspects of web site design or use of automated code-generating programs.",
+      "topic_outline": "Topical Outline: (Subject to change as new technologies are incorporated) Overview of Internet and Web technologies JavaScript programming Browser object models Dynamic HTML Perl Java Server Programs PHP Database programming with SQL XML programming Authentication and security issues",
+      "source_url": "https://bulletin.uga.edu/Course/Details/13776"
+    },
+    {
+      "course_name": "Artificial Intelligence and the Web",
+      "course_number": "CSCI 4330/6330",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "The students will learn innovative ways of designing efficient and intelligent Web search engines, personalized Web browsers, and how the Web can be used as the technology infrastructure for enterprises. They will also become aware of AI problem-solving techniques that could be applied elsewhere. This will benefit students interested in pursuing research or a job in Web-related or AI-related areas by providing them with the necessary background.",
+      "topic_outline": "• Intelligent information retrieval – Web data mining and clustering, text summarization, and natural language understanding • Intelligent Web interfaces – User modeling and Web personalization • Web knowledge representation – knowledge representation using logic, theorem proving, and trust • Social Networking on the Web • Ontologies – reconciliation and automatic population using machine learning • Web services modeling and automatic composition – modeling using logics, intelligent discovery and negotiation, and automatic composition using planning • Multi-agent frameworks for the web.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/19227"
+    },
+    {
+      "course_name": "Global Information Systems",
+      "course_number": "CSCI 4350/6350",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "Computer Science students will have an intermediate to advanced understanding of Internet, WWW, and Network Computing for information-intensive applications. Non-Computer Science students will have a good appreciation of the global information infrastructure on their area of major as well as on businesses in general.",
+      "topic_outline": "1. Techniques, tools and fundamental issues related to Internet and WWW. 2. Internet, WWW and Java programming (introduction only), Building Web-based applications. 3. Applications and services of Global Information Infrastructure. Future research issues. Primary vehicle for evaluation will be reports/research papers which the student will present in the class and post on the Web, and a team project. Students from all areas impacted by the Internet and World Wide Web technologies are welcome and will be accommodated to suit their interests.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4406"
+    },
+    {
+      "course_name": "Data Science and Applied Machine Learning II",
+      "course_number": "CSCI 4360/6360",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 3360 or CSCI 3360E or INFO 3000 or INFO 3000E",
+      "course_objective": "Students will have a deep knowledge of sophisticated data science techniques for making sense of data across domains.\nStudents will process data that is incomplete or missing, how to use hybrid techniques to analyze such as semi-supervised learning, and are introduced to distributed programming using Hadoop and Spark.\nStudents will explore just-in-time compilation, both in Python and in the new scientific computing language, Julia.",
+      "topic_outline": "Scientific programming with Python\nReview of core statistics and probability\nInformation theory and uncertainty\nCollection and integration of structured versus unstructured data\nDecision trees and random forests\nRandomized algorithms\nSemi-supervised learning and label propagation\nSpectral analytics\nOut-of-core data processing\nJust-in-time compilation and Julia\nData visualization\nIntroduction to distributed programming",
+      "source_url": "https://bulletin.uga.edu/Course/Details/32634"
+    },
+    {
+      "course_name": "Database Management",
+      "course_number": "CSCI 4370/6370",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or CSCI 2725",
+      "course_objective": "This course presents a survey of topics in database management most relevant to students studying computer science or related fields. At the end of the semester, all students will be able to do the following: 1. Design a database by utilizing Entity Relationship (ER) or Unified Modeling Language (UML) diagrams. 2. Use database normalization. 3. Develop a relational database. 4. Describe and use a formal query language (Relational Algebra). 5. Produce database queries in a practical query language (SQL). 6. Implement and use indexing techniques. 7. Describe inner workings of a database system. 8. Develop database applications. 9. As a team, deliver a presentation of a functioning software system (that utilizes a database) that is designed, implemented, and tested by the team.",
+      "topic_outline": "Overview of Databases and Transactions (3-hours) The Big Picture (2-hours) Relational Model (3-hours) Relational Algebra (4-hours) Physical Data Organization (3-hours) Indexing (4-hours) The Basics of Query Processing (3-hours) An Overview of Query Optimization (2-hours) SQL: Data Definition Language (DDL) (2-hours) SQL: Query Language (QL) (4-hours) JDBC (1-hour) Conceptual Modeling (ER and UML) (1.5-hours) Relational Normalization Theory (3-hours) Transaction Processing (2-hours)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4302"
+    },
+    {
+      "course_name": "Data Mining",
+      "course_number": "CSCI 4380/6380",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "The course aims to provide students with a broad introduction to the field of data mining and related areas and to teach students how to apply these methods to solve problems in complex domains. The course is appropriate both for students preparing for research in data mining and machine learning, as well as bioinformatics, science and engineering students who want to apply data mining techniques to solve problems in their fields of study.",
+      "topic_outline": "Part I: Data Mining techniques: Selected from: Association and Classification Rule Mining, Linear Models, Decision Trees and Random Forests, Neural Network approaches, Support Vector Machines, Bayesian Learning, Instance-based Learning, Pre- processing and Feature Selection, Performance evaluation, Ensemble Learning and clustering. Part II: Data Mining applications: Selected from: Bioinformatics, Biomedical/Physical/Chemical modeling, medical diagnosis, text/web mining, pattern recognition and/or other contemporary applications.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/31068"
+    },
+    {
+      "course_name": "Algorithms",
+      "course_number": "CSCI 4470/6470",
+      "credit_hours": "4 hours",
+      "prerequisite": "(CSCI 2720 or CSCI 2725) and (CSCI 2670 or CSCI 2670E)",
+      "course_objective": "By the end of this course, students will be able to analyze time complexity for algorithms using asymptotic notation.\nBy the end of this course, students will be able to apply various sorting and selection algorithms and determine which algorithm to apply for different types of data.\nBy the end of this course, students will be able to apply advanced design and analysis techniques, including greedy and dynamic programming techniques.\nBy the end of this course, students will be able to analyze and prove properties for various graph algorithms.\nBy the end of this course, students will be able to choose (and/or apply) the appropriate algorithm to solve real-world problems and defend the selection (integrated into the above outcomes).\nBy the end of this course, students will be able to describe decision problems and prove problems are in P.\nBy the end of this course, students will be able to prove a problem is in NP, co-NP, or NP-complete.",
+      "topic_outline": "Analyze complexity of algorithms. a. Analysis of recursive algorithms using recursion trees. b. Analysis of recursive algorithms using substitution method. c. Analysis of recursive algorithms using Master theorem.\nApply various sorting and selection algorithms and determine which algorithm to apply for different types of data. a. Provide runtime analysis of various sorting algorithm including heapsort, quicksort, counting sort, and radix sort. b. For a given type of input data, determine the best choice of sorting algorithm. c. Prove the O (n lg n) lower bound for comparison-based sorting algorithms.\nAdvanced design and analysis techniques, including greedy algorithms and dynamic programming. a. Design and prove the optimality of greedy algorithms. b. Design dynamic programming algorithms, including solution recurrence formulation, iterative, bottom-up design, and development of trace-back subroutines.\nAnalyze and prove properties for various graph algorithms. a. Depth-first search and breadth-first search. b. Minimum spanning tree. c. Single-source shortest path and all-pairs shortest path. d. Network flow – max flow / min cut.\nChoose (and/or apply) the appropriate algorithm to solve real-world problems and defend the selection. a. Select between various sorting algorithm for different data scenarios and justify selection. b. Select between using a greedy strategy or dynamic programming for optimization problems. c. Select appropriate graph algorithm for a given graph-related question. d. Derive a graphical representation for a real-world problem and solve the problem using graph properties.\nDescribe decision problems and prove problems are in P. a. Describe decision problems. b. Prove a problem is in P by providing a deterministic decider.\nProve a problem is in NP, co-NP, or NP-complete. a. Prove a problem is in NP by providing a verifier or a nondeterministic decider. b. Prove a problem is NP-Complete by providing a polynomial time reduction from a known NP-Complete problem. c. Describe the Cook-Levin Theorem proving SAT is NP-Complete.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4360"
+    },
+    {
+      "course_name": "Algorithms for Computational Biology",
+      "course_number": "CSCI 4490/6490",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4470/6470 or permission of department",
+      "course_objective": "The objective of this course is to expose students to current research on discrete algorithms in computational biology. The focus is on the application of string and graph algorithms and combinatorial optimization to problems in sequence comparison, multiple alignment, physical mapping, sequence assembly, and genome rearrangement. The emphasis throughout is on problem formulation, algorithm design, and implementation.",
+      "topic_outline": "1. Introduction Brief overview of molecular biology Survey of problem areas in computational molecular biology 2. Sequence comparison Basic sequence alignment. Edit distance, reduction to sequence alignment, and dynamic programming. Equivalence of distance minimization and similarity maximization. Local similarity. Linear gap costs. Algorithms for the 0-1 metric, and longest common subsequences. Advanced sequence alignment. Linear-space alignment. Convex gap costs. Suboptimal alignments. Four-Russians technique. Incremental sequence alignment. Parallel sequence alignment. Sparse dynamic programming. Subquadratic database searching. Approximate pattern matching. Matching of strings, repeats, regular-expressions, and context-free grammars in the presence of error. 3. Multiple sequence alignment The general multiple alignment problem. Exact and approximation algorithms for the sum of pairs, fixed-tree, and maximum-trace objective functions. Finding an ordered series of motifs. 4. DNA sequencing Shortest common superstring. Approximation with respect to compression and length. Relation to learning theory and Occam algorithms. Shotgun sequence assembly. Approximation with respect to compression and length. 5. DNA mapping Physical mapping with non-unique and unique probes. Clone-probe, clone-clone, and restriction-fragment data. 6. Genome rearrangements Inversions. Signed and unsigned variations, exact algorithms and approximation. Transpositions. Approximation. Translocations. Survey of models. Exact solution and approximation. Mixed inversion, translocation, fission, and fusion.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4527"
+    },
+    {
+      "course_name": "Programming Languages",
+      "course_number": "CSCI 4500/6500",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 1302",
+      "course_objective": "Students will understand the basic concepts, notations, and uses of various programming paradigms: procedural, object-oriented, functional, concurrent, and logic programming. They will have some understanding of how programming languages are defined -- in terms of syntax and semantics. They will have some ability to choose which paradigm to use for a given problem, and they will have some facility in writing and testing programs in at least three languages that use different paradigms.",
+      "topic_outline": "Language description: syntactic structure (lexical syntax, context-free grammars, abstract syntax trees, etc.) Language description: semantics: operational, denotational semantics, and axiomatic semantics; attribute grammars. Issues of type and scope: the role of types and scope; weak typing versus strong (syntatic) typing; basic types; arrays; records; abstract types; Procedures/functions: Parameter-passing methods; implementation of procedure/ function calls; frames; understanding procedure/function calls, including recursive procedures/functions. Functional programming Procedural programming in a structured fashion: variable declaration, assignment statement, conditional statement, loops (in terms of invariants and bound functions) Object-oriented programming: objects, classes, subclasses, inheritance, etc. Concurrent programming: parallelism in hardware; concurrency as interleaving; shared memory model; message-passing model; synchronization. Logic programming",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4375"
+    },
+    {
+      "course_name": "Functional Programming",
+      "course_number": "CSCI 4520/6520",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 and CSCI(MATH) 2610",
+      "course_objective": "Students will have a skill in writing, reasoning about, and testing functional programs in at least one functional language (examples of such languages are Lisp, Scheme, ML, and Haskell), including concepts such as mathematical induction, type inference, polymorphism, recursion, higher order functions, evaluation strategies, abstract data types, list, trees, lazy data structures.",
+      "topic_outline": "Functions: order of evaluation, referential transparency, function definitions, hisotry of functional programming languages, tail recursion and iteration Applicative-programming methodology: atomic datatypes, sequences The type",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4761"
+    },
+    {
+      "course_name": "Introduction to Robotics",
+      "course_number": "CSCI(ARTI) 4530/6530",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "Students completing \"Introduction to Robotics\" will gain a deep understanding of the hardware and software involved in robotics, with a focus on programming algorithms. They will understand the past, present, and future of robotics and the main challenges that make robotics difficult. Students will learn various mathematical and statistical models, associated algorithms, and their implementations which are making modern-day robotics possible. The course will consist of lectures and breakout sessions. Students will be graded on the standard A to F grading scale and will provide course evaluations on the instruction and course content following established Computer Science evaluation procedures.",
+      "topic_outline": "I. Overview of Robotics 1. Introduction History, State-of-the-art, and Future 2. Robot Hardware Sensors and Effectors 3. Robotic Software Architectures 4. Probability Theory II. Robotic Perception Under Uncertainty 1. Maps 2. Range Finders Beam models, Likelihood fields 3. Cameras Feature-based Measurement Models III. Robotic Motion Under Uncertainty 1. Kinematics 2. Velocity Motion Model 3. Odometry Motion Model 4. Motion and Maps IV. Localization 1. State Estimation Under Uncertainty 2. Filters Bayes, Kalman, Extended Kalman, and Monte Carlo 3. Taxonomy of Localization Problems 4. Markov Localization 5. Extended Kalman Filter Localization 6. Grid Localization 7. Monte Carlo Localization V. Mapping 1. Occupancy Grid Mapping 2. Learning Inverse Measurement Model 3. SLAM with Extended Kalman Filter",
+      "source_url": "https://bulletin.uga.edu/Course/Details/14113"
+    },
+    {
+      "course_name": "Symbolic Programming",
+      "course_number": "CSCI(ARTI) 4540/6540",
+      "credit_hours": "3 hours",
+      "prerequisite": "CSCI 1302 or permission of department",
+      "course_objective": "Students will gain a working knowledge of the two primary artificial intelligence programming languages, LISP and PROLOG. This will be achieved via extensive programming exercises using LISP and PROLOG. Students will be introduced to other artificial intelligence programming paradigms as well as the development of artificial intelligence applications.",
+      "topic_outline": "- Introduction to Symbolic Computation - LISP, Syntax and Semantics - Object-Oriented Programming in LISP - Representing and Manipulating Frames in LISP - PROLOG, Syntax and Semantics - Procedural Programming in PROLOG - Declarative Programming in PROLOG - Other Artificial Intelligence Programming Languages - Developing AI Applications",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4690"
+    },
+    {
+      "course_name": "Artificial Intelligence",
+      "course_number": "CSCI(PHIL) 4550/6550",
+      "credit_hours": "3 hours",
+      "prerequisite": "CSCI(MATH) 2610 or PHIL 2500",
+      "course_objective": "1. Student will be able to explain a variety of heuristic search strategies and the advantages/disadvantages of each. 2. Student will understand and use central concepts of knowledge representation including production rules, frames and scripts, and semantic networks. 3. Student will understand and use central concepts of problem solving, planning and control including constraints, forward and backward chaining, and solution generation and evaluation. 4. Student will understand basic techniques of automated theorem proving and be able to explain their use in classic AI programs and languages. 5. Student will be able to explain expert systems and natural language processing in terms of the fundamental concepts of AI research they involve. 6. Student will write simple programs in LISP, demonstrating a knowledge of LISP syntax and data structures. 7. Student will read classic LISP programs and explain their operation. 8. Student will demonstrate familiarity with classic criticisms of artificial intelligence research.",
+      "topic_outline": "- Heuristic Search - Knowledge Representation - Problem Solving - Planning - Control - Automated Theorem Proving - Expert Systems - Natural Language Processing - Cognition as Computation - Computer Vision",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4947"
+    },
+    {
+      "course_name": "Evolutionary Computation and Its Applications",
+      "course_number": "CSCI 4560/6560",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or CSCI 2725",
+      "course_objective": "Evolutionary computation methods are problem solving techniques that mimic the process of natural selection. The field of evolutionary computation has attracted considerable interest in recent years. The number of publications in the field is increasing exponentially. There is a rapid growth of interest in the application of evolutionary computation methods in many fields, including computer science, engineering and bioinformatics. The main objectives of this course are: -An in-depth introduction to evolutionary computation methods. -Exploration of research problems in evolutionary computation and its applications which may lead to work on a project or a dissertation. The course is intended primarily for computer science and artificial intelligence students as well as graduate students from engineering and biological sciences departments. Graduate students from other departments may also find the course interesting.",
+      "topic_outline": "* Part I: Elements of evolutionary computation - Evolutionary computation concepts - Genetic algorithms Representation GA operators GAs in optimization GA based classifier systems - Other evolutionary computation paradigms Genetic Programming Evolution strategies Evolutionary programming Hybrid methods * Part II: Evolutionary computation applications - Computer science and electrical engineering applications: VLSI design Computer architecture and circuit design recognition - Engineering applications: Design: mechanical and aerospace, architectural ... etc. Manufacturing and scheduling, Control - Biological/bioinformatics applications * Part III: Advanced and related topics - Parallel evolutionary computation - Artificial life and/or Co-evolution - Simulated Annealing and other global optimization methods",
+      "source_url": "https://bulletin.uga.edu/Course/Details/13144"
+    },
+    {
+      "course_name": "Compilers",
+      "course_number": "CSCI 4570/6570",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "1. Define the phases of a typical compiler, including the front- and back-end. 2. Identify tokens of a typical high-level programming language; define regular expressions for tokens; design and implement a lexical analyzer using a scanner generator. 3. Explain the role of a parser in a compiler; apply an algorithm for a top-down and a bottom-up parser construction. 4. Design and implement a parser for a small programming language using a parser generator; create a syntax tree. 5. Explain the role of a semantic analyzer and type checking; create a syntax-directed definition and an annotated parse tree. 6. Explain the role of different types of runtime environments and memory organization for the implementation of typical programming languages. 7. Describe the purpose of translating to intermediate code in the compilation process; design and implement an intermediate code generator.",
+      "topic_outline": "1. Compiler fundamentals a. Identify the role of compilers in computing. b. Contrast the source code and the target code (low-level code). c. Identify and explain the purpose of the phases of a typical compiler. 2. Lexical analysis a. Identify and create regular expressions for classes of tokens in typical programming languages. b. Apply scanner generator construction algorithm for a set of tokens. c. Design and implement a lexical analyzer for a small programming language. 3. Parsing a. Parse input string using context-free grammar; create a parse tree for input string derivations. b. Define and apply a top-down parsing algorithm. c. Define and apply a bottom-up parsing algorithm. d. Design and implement a parser for a small programming language. e. Define syntax errors and design and implement syntax error detection and recovery. f. Design and implement the creation of a syntax tree for a small programming language. 4. Semantic analysis a. Define the role of a semantic error analyzer. b. Define semantic errors for a small programming language. c. Define the role of a symbol table; design and implement. d. Design and implement a semantic analyzer for a small programming language. 5. Runtime environments a. Explain the role of a runtime environment for executing programs. b. Differentiate stack and heap allocation. 6. Intermediate code generation a. Describe the role of intermediate languages and syntax-directed translation. b. Define the types of intermediate languages. c. Design a strategy for memory allocation. d. Describe the role and types of code optimization. e. Design and implement an intermediate code generator for a small programming language.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4202"
+    },
+    {
+      "course_name": "Foundations of Deep Learning and Generative AI",
+      "course_number": "CSCI 4580/6580",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or CSCI 2720E or CSCI 2725",
+      "course_objective": "Students will understand the architecture and training algorithms of feedforward neural networks.\nStudents will understand the structure and applications of deep convolutional neural networks (e.g., VGG, ResNet, MobileNet, Yolo).\nStudents will understand the principles and applications of transformer-based neural networks (e.g., BERT, ViT, GPT).\nStudents will understand autoencoders, representation learning, and transfer learning techniques.\nStudents will understand the structure and applications of generative adversarial networks (GANs).\nStudents will understand the basic concepts of recurrent neural networks and reinforcement learning.\nStudents will understand and apply deep learning models to computer vision and natural language processing tasks.\nStudents will implement deep learning systems using GPU-based frameworks.\nStudents will understand the bottlenecks and limitations of modern deep learning techniques (e.g., memory and computation costs, security and ethical limitations).\nStudents will work effectively in a team to design and implement a project that applies deep learning techniques to solve a real-world problem.",
+      "topic_outline": "Introductions\nClassification problem, basic machine learning models\nNeural networks, deep convolutional neural networks (DCNN)\nTraining and inference techniques\nUsing GPU to accelerate learning and inference\nAutoencoder, representation and transfer learning\nSelf-attention and transformer-based neural networks\nNeural networks for computer vision and natural language processing\nFoundation models (LLMs, VLMs)\nGenerative adversarial networks (GAN)\nHardware acceleration of deep learning systems",
+      "source_url": "https://bulletin.uga.edu/Course/Details/53173"
+    },
+    {
+      "course_name": "Reinforcement Learning",
+      "course_number": "CSCI(ARTI) 4600/6600",
+      "credit_hours": "3 hours",
+      "prerequisite": "CSCI(PHIL) 4550/6550",
+      "course_objective": "1. Situate and understand a key area of artificial intelligence and specifically in the field of machine learning. Understand the corresponding class of problems. 2. Study the challenges and algorithms for reinforcement learning by agents situated in uncertain single-agent and multi-agent environments. 3. Gain proficiency in the use of computing tools related to reinforcement learning, designing and giving effective research presentations, and working in a team.",
+      "topic_outline": "I. Introduction a. Requirements for reinforcement learning (RL) and its limitations, exploration vs. exploitation b. Probability theory background c. History of RL II. Model-based RL a. Markov decision processes (MDP) b. Planning using dynamic programming c. Model learning (CE, Dyna, prioritized sweeping, RTDP*) III. Model-free RL a. Value-based learning - On-policy methods (Sarsa, TD, eligibility traces) - Off-policy methods (Q-learning, Deep Q networks) b. Policy-based learning - Policy gradient methods (Monte Carlo, Trust-region, Proximal policy) - Actor-Critic Schema (A2C, A3C) IV. Advanced Concepts in RL a. Inverse RL b. Multi-agent RL (multi-agent AC, MADDPG, LOLA) c. Human RL (time permitting)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/44048"
+    },
+    {
+      "course_name": "Introduction to Quantum Computation",
+      "course_number": "CSCI(MATH)(PHYS) 4612/6612",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "To familiarize students with the pioneering research in quantum computation.",
+      "topic_outline": "Qbits, quantum circuits, Bell states, Deutsch's algorithm, linear operators, state space, measurement, models for computation, universal gates, quantum Fourier transform, quantum search algorithms.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/17683"
+    },
+    {
+      "course_name": "Combinatorics",
+      "course_number": "MATH(CSCI) 4670/6670",
+      "credit_hours": "3 hours",
+      "prerequisite": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3500 or MATH 3500H) and (CSCI 2610 or CSCI 2610E or MATH 3200 or MATH 3200W)",
+      "course_objective": "Students will be able to state and apply basic counting principles such as the pigeonhole principle and the inclusion/exclusion principle.\nStudents will be able to solve counting problems involving combinations and permutations, and relate these to Pascal's triangle and multinomial coefficients.\nStudents will be able to analyze recurrence relations using generating functions.\nStudents will be able to connect certain sequences of natural numbers, such as the Catalan numbers and Stirling numbers, to appropriate combinatorial problems.",
+      "topic_outline": "Typical problems posed in combinatorial fashion: \"how many ways can you ... ?\"\nPigeonhole principle\nPermutations, combinations, Pascal's triangle, multinomial coefficients\nInclusion/exclusion principle, derangements, permutations with forbidden positions\nRecurrence relations and generating functions\nSpecial counting numbers: Stirling numbers, Catalan numbers\nApplications to block designs, graph theory",
+      "source_url": "https://bulletin.uga.edu/Course/Details/1124"
+    },
+    {
+      "course_name": "Graph Theory",
+      "course_number": "MATH(CSCI) 4690/6690",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will become familiar with the basic concepts, facts, and methods of graph theory as listed in the topical outline. It is expected that most, though not necessarily all, of those topics will be covered. Students will also learn fundamental applications of graph theory to geometry, chemistry, physics, and computer science.",
+      "topic_outline": "1. Connectivity, Eulerian graphs, Hamiltonian graphs 2. Algorithms for shortest paths, Chinese postman problem, and travelling salesman problem 3. Trees and their properties, counting trees, tree algorithms: minimum weight spanning tree, chemical molecule enumeration, and Kirchhoff's laws for elctrical networks 4. Planar graphs 5. Euler's formula for polyhedra, graphs on surfaces 6. Dual graphs 7. Vertex colorings, Brooks' Theorem, coloring maps, edge colorings, chromatic polynomials 8. Digraphs, graph matchings, and transversal theory; network flows",
+      "source_url": "https://bulletin.uga.edu/Course/Details/1126"
+    },
+    {
+      "course_name": "Computer Architecture and Organization",
+      "course_number": "CSCI 4720",
+      "credit_hours": "4 hours",
+      "prerequisite": "(CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E) and CSCI 1730",
+      "course_objective": "The overall goal of the course is to enable students to analyze and design the structure and function of various components of modern computing systems. By the end of the semester, all students will be able to do the following: 1. Design a combinational logic circuit using logic gates and programmable logic arrays (PLAs) given a functional description. 2. Design a functional analysis of common combinational logic circuits, such as adders, decoders, encoders, multiplexors, demultiplexers, and switches/routers. 3. Design a sequential logic circuit using flip flops and combinational logic given a functional description of a finite state automaton. 4. Design and perform functional analysis of common sequential logic circuits, such as sequence detectors and counters. 5. Design memory elements, such as registers and RAM using flip flops. 6. Design hierarchical memory using register files, caches, and RAM modules. 7. Analyze the performance of computer systems in terms of commonly used metrics, such as CPU execution time, MIPS, MFLOPS, power consumption and reliability, and the speedup resulting from system optimization using Amdahl’s law. 8. Analyze the tradeoffs in Instruction Set Architecture design using the MIPS assembly language as an example. 9. Design and analyze algorithms for fixed-point and floating-point binary arithmetic. 10. Design and analyze the single cycle and pipelined datapath and CPU control for a subset of the MIPS assembly language. 11. Discuss multicore computing architectures such as Graphical Processing Unit (GPU) and their applications.",
+      "topic_outline": "Combinational Logic Design Sequential Logic Design Hierarchical Memory Design Performance Analysis of Computer Systems Binary Computer Arithmetic Instruction Set Architecture Design MIPS Assembly Language Programming Using SPIM/XSPIM CPU Datapath Design CPU Controller Design Emerging Trends in Computer Systems Design",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4922"
+    },
+    {
+      "course_name": "Operating Systems",
+      "course_number": "CSCI 4730/6730",
+      "credit_hours": "4 hours",
+      "prerequisite": "(CSCI 4720 or CSCI 4720E or CSEE 4280) and CSCI 2720",
+      "course_objective": "At the completion of this course, students should be able to do the following: 1. Describe and explain the processes, threads, and concepts of inter-process communication and synchronization. 2. Describe the context switch and components of process scheduling: process control blocks, the interrupts, the ready queue, and CPU scheduling algorithms. 3. Design, implement and analyze concurrent programs using semaphores or monitors, with the awareness of race conditions, deadlock, and starvation. 4. Describe and apply memory management concepts: virtual and physical address spaces, paging, segmentation, page sharing and protection, page replacement algorithms, and translation lookaside buffer. 5. Define, restate, discuss, and explain mass storage, disk scheduling, and file systems.",
+      "topic_outline": "Operating System Structure (5 hours) Processes (6 hours) Threads (4 hours) Scheduling (5 hours) Synchronization (6 hours) Deadlock (4 hours) Memory (6 hours) File System (6 hours) Advanced Concepts, such as Protection and Security, Concurrency, I/O Subsystem, Mass Storage, Time Management in Distributed Systems (6 hours)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4253"
+    },
+    {
+      "course_name": "Real-Time Scheduling for the Internet of Things",
+      "course_number": "CSCI 4740/6740",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720",
+      "course_objective": "This course will introduce students to real-time systems. At the end of this course, each student should know (i) what makes a system “real-time,” (ii) applications that require real-time systems, (iii) common models used to describe real-time systems, (iv) common techniques used to ensure a wide variety of real- time systems satisfy their real-time requirements. Most of our time will be spent on the final point (analysis techniques for real-time systems).",
+      "topic_outline": "I. Introduction – What is “Real-Time”? II. Uniprocessor Scheduling a. Offline Scheduling / Cyclic Executives b. Online Fixed-Priority Scheduling with Preemption c. Online Dynamic-Priority Scheduling with Preemption d. Non-Preemptive Scheduling e. Scheduling Complexities f. Resource Sharing and Precedence Constraints III. Multiprocessor Scheduling a. Complexities Arising from Using Multiprocessors b. Multiprocessor Resource Sharing c. Distributed End-to-End Scheduling IV. Mixing Real-Time and Non-Real-Time a. Server Scheduling for Non-Real-Time Jobs V. pFair Scheduling",
+      "source_url": "https://bulletin.uga.edu/Course/Details/19862"
+    },
+    {
+      "course_name": "Computer Networks",
+      "course_number": "CSCI 4760/6760",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 and (CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E)",
+      "course_objective": "1. Design and implement a simple network protocol. 2. Measure network connectivity properties by using software tools such as ping and traceroute. 3. Develop client programs that can communicate with real Internet servers. 4. Explain the connection setup and termination process of the transport layer. 5. Parse a network trace dump. 6. Assign IP addresses to hosts and networks. 7. Give examples of access control mechanisms used by link layer protocols. 8. Understand the basics of network security and explain the need for secure network communication. 9. Describe the key aspect of protocols including HTTP, SMTP, DNS, TCP, UDP, and IP. 10. Understand the concept of reliable Data Transfer and how TCP implements them.",
+      "topic_outline": "Concept of Network Protocol (2 hours) Layering and Protocol Stack (3 hours) Addressing (3 hours) Socket Programming (3 hours) History of the Internet (1 hour) Measurement of the Internet (3 hours) HTTP Protocol (2 hours) The Performance Model of HTTP (3 hours) Content Delivery Network (2 hours) Domain Name System (3 hours) Reliable Transmission (2 hours) TCP Protocol (2 hours) UDP Protocol (1 hour) Congestion Control (3 hours) TCP Flow Control (2 hours) Internet Routing (2 hours) Traffic Analysis (3 hours) Multiple Access Control (3 hours) Address Translation (2 hours) Fundamentals of Network Security (3 hours) Recent Development in Computer Networking (2 hours)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4759"
+    },
+    {
+      "course_name": "Ubiquitous Computing",
+      "course_number": "CSCI 4770/6770",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720",
+      "course_objective": "The promise of ubiquitous computing is the seamless integration of computing technology into our everyday lifes. Advances in hardware and software technologies are offering us a glimpse into this connected future. Mobile devices (laptops, PDAs, navigation systems, web appliances), wireline (LANs, broadband home access) and wireless (2.5G/3G cellular) networks offer stepping stones to build ubiquitous and pervasive computing applications. The web is emerging as the primary data dissemination and e-commerce mechanism. The ability for ubiquitous information access is driving the popularity of the Web. The demands and opportunities of mobile information access present exciting challenges for research in wide-area distributed systems. A primary goal of this class is to introduce students to research issues in mobile access to resources. This class will survey current research in this area, including work in communication protocols, naming, replicated services, security, adaptation and battery power management. We will read and evaluate research papers selected from the literature. The students will also work on a significant course project.",
+      "topic_outline": "Ubiquitous Comuting Vision Distributed System Architectures + Naming and Location management + Replication Services: - Sychronization and consistency - Caching, Prefetching and Hoarding Security and Privacy Client side issues: + Communication protocols + Battery power management + Adaptive content distribution + OS Support for small devices Next generation applications: + MEMS/Microsensors + \"Convergence\" (computers, telephones, multimedia, home entertainment)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/13596"
+    },
+    {
+      "course_name": "Distributed Computing Systems",
+      "course_number": "CSCI 4780/6780",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "Students will thoroughly understand the fundamental concepts in distributed computing systems. Students will learn practical techniques for the design of distributed systems and will gain experience in developing distributed systems and applications.",
+      "topic_outline": "Models of distributed computing; communication mechanisms, naming and lookup; synchronization; consistency and replication; fault tolerance; security",
+      "source_url": "https://bulletin.uga.edu/Course/Details/19863"
+    },
+    {
+      "course_name": "Cloud Computing",
+      "course_number": "CSCI 4795/6795",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720",
+      "course_objective": "The objective of this course is to introduce students to cloud computing. This class is designed to provide comprehensive knowledge of cloud computing and its ecosystems, as well as hands-on experience in the design, implementation, and testing of cloud applications. More specifically, this class will investigate: Basics of virtualization and data centers Different cloud service models and platforms Architectures of major cloud-based systems, such as Facebook Various big data processing frameworks, such as Hadoop and Spark Cloud-based large-scale machine learning and AI Programming assignments are designed based on real-world cloud applications and will provide hands-on experience in cloud application development, such as autoscaling, microservices, serverless, and MapReduce/Hadoop. Students will be able to: 1) apply the underlying technologies/foundations of modern cloud computing, 2) use firsthand experience using major cloud platforms from both public and private clouds (e.g., Amazon Web Services, in- house private clouds), 3) obtain hands-on experience by designing, implementing, and testing cloud-native applications (e.g., auto scaling, containers, serverless) and big data frameworks (e.g., Hadoop and Spark).",
+      "topic_outline": "Definition of Cloud Computing and a brief review of its history Virtualization and Data Centers Cloud Service Models (e.g., IaaS vs. PaaS vs. SaaS) Public vs. Private vs. Hybrid Clouds Cloud Resource and Infrastructure Management (e.g., Auto scaling, Yarn, and Mesos) Container and Microservice (e.g., Docker, Amazon ECS, and Kubernetes) Cloud Function and Serverless Computing (e.g., AWS Lambda and OpenWhisk) Cloud Storage NoSQL and Distributed Key/Value Store Big Data Processing Frameworks (e.g., Hadoop, Spark, and Storm) Mobile Cloud and IoT Machine Learning, AI, and Voice Assistant (e.g., TensorFlow, Amazon Alexa, and other Cloud AI applications)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/38252"
+    },
+    {
+      "course_name": "Human-Computer Interaction",
+      "course_number": "CSCI 4800/6800",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "Students will apply concepts in human factors and usability to the design, implementation, and evaluation of user interfaces. A major project will demonstrate proficiency in these areas.",
+      "topic_outline": "Introduction History of HCI Java - Language and Platform Java GUI Programming Design: Process, Factors, Guidelines Principles of User-Centered Design Methods for User-Centered Design Requirements Analysis Task Analysis Structured HCI Design Designing the Display/Guidelines Interaction: Menus, Forms, Dialogs Direct Manipulation Interfaces Expert Reviews Printed Manuals, Online Help, and Tutorials Usability Evaluation Experiments and Benchmarking Special Topics in HCI",
+      "source_url": "https://bulletin.uga.edu/Course/Details/11193"
+    },
+    {
+      "course_name": "Computer Graphics",
+      "course_number": "CSCI 4810/6810",
+      "credit_hours": "4 hours",
+      "prerequisite": "",
+      "course_objective": "Modern graphics hardware and software. The course is intended to address the problems of designing and building a graphics package (as opposed to how to use one.) Emphasis is given to standard graphics algorithms (both 2D and 3D) and their implementations.",
+      "topic_outline": "The following topics will be covered: Display devices (Raster-scan, Random-scan, DVST, ...), input and output devices, line-drawing algorithms (DDA, Bresenham's, ...), antialiasing lines, circle-generating algorithms (Bresenham's, ellipses, curves, ...), different styles of lines, color and intensity (color lookup tables, gray scale), area filling algorithms (Scan-line, Flood-fill, ...), two-dimensional transformations, windowing and clipping algorithms, window-to-viewport transformation, segments, introduction to image processing and other applications, image data structures (quadtree, octrees, runlength, ...), high-performance computing for graphics, three-dimensional graphics, 3D geometric transformations, perspective projection, parallel projection and other visualization techniques, hidden-line/surface removals, advance shading models, ...",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4956"
+    },
+    {
+      "course_name": "Virtual Reality",
+      "course_number": "CSCI(ENGR) 4830/6830",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or CSCI 2720E",
+      "course_objective": "Students will be familiar with most VR hardware devices, Java3D and VRML.\nStudents will be able to write 3D immersive programs.\nStudents will be able to design navigation and interaction techniques.",
+      "topic_outline": "Applications of Virtual Environments (VE)\nVE displays\nTracking in space\nEye-tracking\nReal-time 3D graphics for VEs\n3D input devices\n3D interaction and navigation\nCollaborative VEs\nDistributed VEs",
+      "source_url": "https://bulletin.uga.edu/Course/Details/18135"
+    },
+    {
+      "course_name": "Introduction to Computational Biology",
+      "course_number": "CBIO(CSCI) 4835/6835",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will be expected to master fundamental programming concepts, understand their uses within the scientific context, and be able to demonstrate that knowledge by implementing Python programs to solve biological problems. Specifically, students will: •Learn the basic tenets of high-level programming languages (variables, expressions, data structures, control flow, conditionals, input/output, loops, objects). •Learn how to use existing packages and their documentation in the Python ecosystem to avoid reinventing the wheel and to create new packages to further extend the ecosystem. •Implement and apply analytical techniques to myriad real-world biological problems, including, but not limited to, genomic sequence alignment, high-throughput bioimage analysis, modeling disease spread, analyzing protein structure, and data visualization. •Introduction to other special topics as time allows (machine learning and data mining, more specialized scientific languages such as Julia, etc.). •Appreciate the role automation and computation can play in scientific discovery. •[Graduate students only] Propose, design, execute, and report the results of a novel experiment using computational tools.",
+      "topic_outline": "1st half of semester: basics of programming in Python •Introduction to Python: “Hello, world!” •Variables and data types •Functions •Conditionals and control flow •Data structures (lists, dictionaries, arrays, sets) •Object-oriented programming •Packages •Advanced topics (array slicing, networking, multiprocessing) 2nd half of semester: biological applications •Dynamic programming •Sequence alignment •Hidden Markov Models (forward/backward/Viterbi algorithms) •Protein structure alignment (RMSD) •Analyzing molecular dynamics simulations •Image analysis (segmentation, principal component analysis) •Clustering gene expression •Modeling disease outbreaks",
+      "source_url": "https://bulletin.uga.edu/Course/Details/31322"
+    },
+    {
+      "course_name": "Signal Processing",
+      "course_number": "CSCI 4840/6840",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or permission of department",
+      "course_objective": "This course aims to teach basic concepts and algorithms for multidimensional signal processing and their applications in various domains. The course will cover signal formation, signal representation, signal transform, signal filtering, and signal analysis. 1-D, 2-D, 3-D, and 4-D signal processing and analysis methods will be discussed in the contexts of audio, image, video, and biomedical imaging application domains.",
+      "topic_outline": "1. Signal formation 1.1 Basic concepts in signal formation 1.2 Multidimensional signal formation and reconstruction 2. Signal representation 2.1 1D signal representation 2.2 2D signal representation 2.3 3D signal representation 2.4 4D signal representation 3. Signal transform 3.1 Signal transform concepts 3.2 Basic signal transform methods 3.3 Frequency domain analysis 3.4 Higher dimensional signal transforms 4. Signal filtering 4.1 Basic concepts in signal filtering 4.2 Filter design and implementation 4.3 Convolution and its applications in deep learning 4.4 Higher dimensional filtering 5. Signal analysis 5.1 Basic concepts in signal analysis 5.2 Model-driven signal analysis 5.3 Data-driven signal analysis 5.4 Higher dimensional signal analysis",
+      "source_url": "https://bulletin.uga.edu/Course/Details/39348"
+    },
+    {
+      "course_name": "Biomedical Image Analysis",
+      "course_number": "CSCI 4850/6850",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or CSCI 2725 or permission of department",
+      "course_objective": "Students will have a clear understanding of basic biomedical image analysis problems and approaches, as well as their applications. Although this course is aimed at graduate/undergraduate students in computer science, graduate/undergraduate students in psychology, neuroscience, cell biology, bioinformatics, and engineering could benefit from this course, and are welcome to attend.",
+      "topic_outline": "1. Overview of the course. 2. Basics of biomedical imaging 3. Basic applications of biomedical imaging. 4. Overview of state-of-the-art biomedical image analysis. 5. Basic image analysis techniques for biomedical image analysis. 6. Basics of pre-processing. 7. Basic medical object detection and segmentation 8. Basic medical image registration. 9. Basic shape analysis. 10. Longitudinal measurement. 11. Basics of diffusion tensor imaging and computing. 12. Basic algorithms for biological object segmentation, tracking and pattern classification. 13. Biomedical imaging informatics. 14. Software systems for biomedical image analysis. 15. Trends in biomedical image analysis.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/22798"
+    },
+    {
+      "course_name": "Computational Neuroscience",
+      "course_number": "CSCI 4860/6860",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2720 or CSCI 2725 or permission of department",
+      "course_objective": "This course aims to teach basic concepts and algorithms for computational neuroscience models. The course will cover neural signal processing and neural network modeling. Multidimensional neural signal processing and neural network modeling methods will be discussed in the contexts of neurobiology, brain imaging, cognitive neuroscience, and clinical neuroscience.",
+      "topic_outline": "1. Introduction to brain science 1.1 Introduction to neurons 1.2 Introduction to axons and their wiring 1.3 Introduction to communication mechanisms among neurons and their networks 1.4 Introduction to basic brain science principles 2. Neural signal processing 2.1 Basic concepts in neural signal formation 2.2 Multidimensional neural signal formation and reconstruction 3. Neural signal representation 3.1 1D signal representation such as EEG and MEG 3.2 2D signal representation such as neurobiological images 3.3 3D signal representation such as neuroimaging data 3.4 4D signal representation such as fMRI data 4. Neural signal transform, modeling, and analysis 4.1 Neural signal transform and filtering 4.2 Model-driven neural signal modeling and analysis 4.3 Data-driven neural signal modeling and analysis 4.4 Hybrid neural signal modeling and analysis 5. Neural network models 5.1 Classical neural network models in neurophysiology 5.2 Structural neural network models 5.3 Functional neural network models 5.4 Multidimensional and multimodal neural network models 5.5 Interface between artificial neural networks and biological neural networks 5.6 Interface between deep learning and neural network models 5.7 Abstraction of common graph models in both artificial and biological neural networks",
+      "source_url": "https://bulletin.uga.edu/Course/Details/45617"
+    },
+    {
+      "course_name": "Special Topics in Computer Science",
+      "course_number": "CSCI 4900/6900",
+      "credit_hours": "1-4 hours. Repeatable for maximum 14 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "To master selected topics which are not covered by other undergraduate Computer Science courses. At times this may provide an experimental offering of a course which is later proposed for formal addition to the curriculum.",
+      "topic_outline": "The topics will vary. The choice of topics will depend on student interest, faculty expertise, and possibly on the need for curriculum development.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4687"
+    },
+    {
+      "course_name": "Capstone Design I",
+      "course_number": "CSCI 4910",
+      "credit_hours": "2 hours",
+      "prerequisite": "CSCI 4050/6050 or CSCI 4050E/6050E or CSCI 4370/6370",
+      "course_objective": "To provide students with a meaningful computer science design experience while: 1) enhancing their critical thinking skills; 2) reinforcing the logical steps of design; 3) enhancing their understanding of computer science design philosophies and procedures; 4) allowing them to synthesize knowledge gained in math, physics, computer science, chemistry, engineering, humanities, and social sciences; 5) reinforcing their communication skills through group project activities; midterm and final presentations, including oral and written reports and a poster presentation to classmates, faculty, and stakeholders; and 6) developing their teamwork capabilities.",
+      "topic_outline": "This course is designed to provide students with a true computer science design experience. The activities in this course will include problem definition, concept development, detail design, and fabrication.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/46687"
+    },
+    {
+      "course_name": "Capstone Design II",
+      "course_number": "CSCI 4911",
+      "credit_hours": "2 hours",
+      "prerequisite": "CSCI 4910",
+      "course_objective": "To provide students with a meaningful computer science design experience while 1) enhancing their critical thinking skills; 2) reinforcing the logical steps of design; 3) enhancing their understanding of computer science design philosophies and procedures; 4) allowing them to synthesize knowledge gained in math, physics, computer science, chemistry, engineering, humanities, and social sciences; 5) reinforcing their communication skills through group project activities; mid-term and final presentations, including oral and written reports and a poster presentation to classmates, faculty, and stakeholders; and 6) developing their teamwork capabilities.",
+      "topic_outline": "This course is designed to provide students with a true computer science design experience. The activities in this course will include problem definition, concept development, detail design, and fabrication.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/46688"
+    },
+    {
+      "course_name": "Computer Systems Engineering Design Project",
+      "course_number": "ENGR(CSCI) 4922",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "To provide students with a meaningful computer systems engineering design experience while 1) enhancing their critical thinking skills, 2) reinforcing the logical steps of design, 3) enhancing their understanding of engineering philosophies and procedures, 4) allowing them to synthesize knowledge gained in math, physics, computer science, chemistry, engineering, humanities and social sciences, 5) reinforcing their communication skills, and 6) developing their teamwork capabilities.",
+      "topic_outline": "This course is designed to provide students with a realistic engineering design experience. The activities in this course will include problem definition, concept development, detail design and fabrication, and design evaluation.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/13043"
+    },
+    {
+      "course_name": "Directed Study in Computer Science",
+      "course_number": "CSCI 4950/6950",
+      "credit_hours": "1-4 hours. Repeatable for maximum 8 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "To master selected topics of special interest to the student and the instructor.",
+      "topic_outline": "The topics will vary according to student interest and faculty expertise.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4683"
+    },
+    {
+      "course_name": "Faculty Mentored Research in Computer Science",
+      "course_number": "CSCI 4960",
+      "credit_hours": "1-4 hours",
+      "prerequisite": "Permission of department",
+      "course_objective": "An individual student or team of students will define the research question, the research methods, or in some cases both aspects of a project. The student understands and can explain how his/her part of the project contributes to a larger initiative. This may be accomplished through a thorough literature review of the research area. At the end of the semester, the student will reflect on their experience, interpret both processes and outcomes of research, and be able to articulate what he/she has learned and can identify how failures or successes may shape further research questions or goals. Students are required to submit a paper or a report on their findings, they will also acquire experience in scientific writing. To fulfill the requirements of the course, students will also be required to present their findings to a panel of faculty members or to present their research in the form of a poster at our annual CS Research Day.",
+      "topic_outline": "Experiential Learning Justification: Under the guidance of Computer Science faculty, students will be engaged in a semester-long research project. They will work either individually or with other undergraduate students, graduate students, and postdocs. Faculty will evaluate students in the course and mentor them throughout the semester. With the mentorship of a faculty supervisor, the student applies an understanding of the discipline to identify gaps or unanswered questions and applies skills, methods, techniques learned in the classroom to his/her research project.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37410"
+    },
+    {
+      "course_name": "Faculty-Mentored Undergraduate Research I",
+      "course_number": "CSCI 4960R",
+      "credit_hours": "1-6 hours. Repeatable for maximum 16 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "The expected learning outcomes for a student in a directed research course are: 1. The student will pose and test questions, hypotheses, or problems drawn from concepts in their discipline. 2. The student will utilize foundational principles in planning and executing a research project. 3. The student will carry out basic research techniques and methods. 4. The student will conduct research according to the highest ethical standards. 5. The student will demonstrate how a research program is organized and carried out. 6. The student will engage in professional communication through written and verbal participation in laboratory, academic, or professional meetings or conferences.",
+      "topic_outline": "Students must apply through a sponsoring faculty member to conduct research. Each research experience is an independent collaboration between the faculty member and the student. As such, there is no set topical outline. Instead, faculty mentor and student should develop their own work plan and determine course requirements and grading procedures (individualized syllabus). A minimum requirement is that the student present results in writing and through presentations in meetings with peers and faculty and that they will receive feedback from their papers or presentations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/40861"
+    },
+    {
+      "course_name": "Faculty-Mentored Undergraduate Research II",
+      "course_number": "CSCI 4970R",
+      "credit_hours": "1-6 hours. Repeatable for maximum 8 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "The expected learning outcomes for a student in a directed research course are: 1. The student will pose and test questions, hypotheses, or problems drawn from concepts in their discipline. 2. The student will utilize foundational principles in planning and executing a research project. 3. The student will carry out basic research techniques and methods. 4. The student will conduct research according to the highest ethical standards. 5. The student will demonstrate how a research program is organized and carried out. 6. The student will engage in professional communication through written and verbal participation in laboratory, academic, or professional meetings or conferences.",
+      "topic_outline": "Students must apply through a sponsoring faculty member to conduct research. Each research experience is an independent collaboration between the faculty member and the student. As such, there is no set topical outline. Instead, faculty mentor and student should develop their own work plan and determine course requirements and grading procedures (individualized syllabus). A minimum requirement is that the student present results in writing and through presentations in meetings with peers and faculty and that they will receive feedback from their papers or presentations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/40862"
+    },
+    {
+      "course_name": "Faculty-Mentored Undergraduate Research III",
+      "course_number": "CSCI 4980R",
+      "credit_hours": "1-6 hours. Repeatable for maximum 8 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "The expected learning outcomes for a student in a directed research course are: 1. The student will pose and test questions, hypotheses, or problems drawn from concepts in their discipline. 2. The student will utilize foundational principles in planning and executing a research project. 3. The student will carry out basic research techniques and methods. 4. The student will conduct research according to the highest ethical standards. 5. The student will demonstrate how a research program is organized and carried out. 6. The student will engage in professional communication through written and verbal participation in laboratory, academic, or professional meetings or conferences.",
+      "topic_outline": "Students must apply through a sponsoring faculty member to conduct research. Each research experience is an independent collaboration between the faculty member and the student. As such, there is no set topical outline. Instead, faculty mentor and student should develop their own work plan and determine course requirements and grading procedures (individualized syllabus). A minimum requirement is that the student present results in writing and through presentations in meetings with peers and faculty and that they will receive feedback from their papers or presentations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/40863"
+    },
+    {
+      "course_name": "Undergraduate Research Thesis (or Final Project)",
+      "course_number": "CSCI 4990R",
+      "credit_hours": "1-6 hours. Repeatable for maximum 8 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "The expected learning outcomes for a student in a directed research course are: 1. The student will pose and test questions, hypotheses, or problems drawn from concepts in their discipline. 2. The student will utilize foundational principles in planning and executing a research project. 3. The student will carry out basic research techniques and methods. 4. The student will conduct research according to the highest ethical standards. 5. The student will demonstrate how a research program is organized and carried out. 6. The student will engage in professional communication through written and verbal participation in laboratory, academic, or professional meetings or conferences.",
+      "topic_outline": "Students must apply through a sponsoring faculty member to conduct research. Each research experience is an independent collaboration between the faculty member and the student. As such, there is no set topical outline. Instead, faculty mentor and student should develop their own work plan and determine course requirements and grading procedures (individualized syllabus). A minimum requirement is that the student present results in writing and through presentations in meetings with peers and faculty and that they will receive feedback from their papers or presentations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/40864"
+    },
+    {
+      "course_name": "Data Science Capstone Course",
+      "course_number": "STAT(CSCI) 4990",
+      "credit_hours": "3 hours",
+      "prerequisite": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)",
+      "course_objective": "Students graduating with Data Science major are expected to have experience beyond the text book – that is managing parts or even complete data life cycles in real-world settings. Data life cycle includes data acquisition, data management, data analysis, data mining and security and privacy protection of data. Data life cycles in organizations often involve many complex issues – data comes from multiple distinct sources, data sets are heterogeneous along multiple dimensions, including data size, data quality, data type/structure, data velocities, etc., and organizations have very different data analytics needs. Furthermore, the tradeoffs among these issues tend to be very intricate. Traditional textbook-based courses rarely expose students to these important issues and the tradeoffs among them. A data scientist should be able to interact with various stakeholders in an organization to understand their problems and requirements. This skill can truly only be acquired through experience. This capstone course will provide students with the opportunity to learn about advanced data science methods and techniques and apply them in a real-world setting. This course will (a) round out their education; (b) prepare them for data scientist positions in the real world; and (c) make them more attractive to prospective employers.",
+      "topic_outline": "A wide variety of topics can be covered in this capstone course based on the preference of the instructors and the students. Since all students will have gone through courses in which they learned the basic methods of data analysis, the instructors can concentrate on other techniques, according to their preferences, the preferences of the class, and the particular projects the students will be working on. Possibilities include: data acquisition and ingestion, data integration, data analytics, streaming data management, big data systems, data security, and data privacy. The idea is not to go into any one of these topics in-depth and exclusively; rather, we propose covering many different topics over the course of the semester, spending three to four lectures on each. In addition, the course will include units on effective communication (written and oral) and how to make a poster presentation. The rest of the class periods will be used for student presentations of their projects.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37278"
+    },
+    {
+      "course_name": "Internship in Computer Science Business/Industry",
+      "course_number": "CSCI 5007/7007",
+      "credit_hours": "3 hours. Repeatable for maximum 12 hours credit.",
+      "prerequisite": "",
+      "course_objective": "To obtain professional computing experience with the aid of faculty guidance.",
+      "topic_outline": "The topics will vary according to the application requirements of the student's particular business or industrial setting. They may include, but are not limited to, database development and administration, software development, network development and administration, and system integration.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/11138"
+    },
+    {
+      "course_name": "Entrepreneurship Practicum in Computing",
+      "course_number": "CSCI 5110",
+      "credit_hours": "3 hours",
+      "prerequisite": "Permission of department",
+      "course_objective": "Students will develop an awareness and understanding of the range, scope, and complexity of issues involved in starting a business in the computing industry.\nStudents will gain insight into how entrepreneurs conceive, adapt, and execute strategies to create new, successful businesses.",
+      "topic_outline": "This course is about entrepreneurship and specifically about starting, growing, managing, leading, and ultimately exiting a new venture in the computing industry.\nA large, term project will involve a pitch, product prototype/demo, and a business plan that students develop with their team.\nStudents will meet with the course instructor weekly to discuss their plan and receive written feedback on their progress.\nThe course may incorporate occasional guest lectures from entrepreneurs in computing or related disciplines.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/53666"
+    },
+    {
+      "course_name": "Web Composing and Scripting",
+      "course_number": "CSCI 5310/7310",
+      "credit_hours": "3 hours. 2 hours lecture and 2 hours lab per week.",
+      "prerequisite": "",
+      "course_objective": "After completing this course, the student should be able to design and implement a database-enabled Web application using open-source tools and standards. Additionally, the student should be able to create Web pages with attractive styling and client-side visual effects, all conformant with accepted Web standards.",
+      "topic_outline": "1. Overview of applicable Internet and Web protocols: TCP-IP and HTTP 2. XML, HTML, and XHTML, the key Web languages; parsing and validation 3. Creating styles with Cascading Style Sheets 4. Advanced styling: positioning and display properties 5. JavaScript: core language, Document Object Model, standards and browser quirks 6. JavaScript: event models and event handling 7. Client-side design using graphical interface building software 8. Server-side scripting with Perl, Ruby, and PHP 9. Asynchronous JavaScript with XML (AJAX); Web toolkits 10. Database fundamentals; database-enabled Web applications 11. Security issues",
+      "source_url": "https://bulletin.uga.edu/Course/Details/19864"
+    },
+    {
+      "course_name": "Foundations of Data Science",
+      "course_number": "CSCI(STAT) 6375",
+      "credit_hours": "4 hours",
+      "prerequisite": "Permission of department",
+      "course_objective": "The goal of this course is for students to learn in-depth knowledge of data science with the R and Python languages. Students will learn about the life cycle of data, starting from data collection to inference. In the process students will learn about data management, storing, privacy, and security, as well as data visualization techniques and the theoretical justifications for statistical techniques in linear models, classification, clustering, and dimensionality reduction, learn how to implement them within the R and Python framework, and apply them to extracting knowledge from scientific datasets. Upon completion of this course, students will gain a basic understanding of the broad class of statistical models. They will be able to analyze data by designing an algorithmic pipeline, leverage existing Python packages and R libraries and incorporate their own to implement the pipeline, and visualize the results of their computations, for drawing valid conclusions from data.",
+      "topic_outline": "Introduction to data science, data collection, data cleaning, data management, data storing, data privacy and security, data ethics, data querying and provenance, data handling in R, scientific programming with Python, handling missing data, basic linear regression, hypothesis testing, model building, traditional and modern variable selection techniques, model diagnostics, dimensionality reduction, logistic regression, supervised classification, unsupervised clustering, convex optimization, data visualization, introduction to \"big data.\"",
+      "source_url": "https://bulletin.uga.edu/Course/Details/43679"
+    },
+    {
+      "course_name": "Approximation Algorithms",
+      "course_number": "CSCI 6480",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2670 or permission of department",
+      "course_objective": "This course focuses on finding approximate solutions to NP-complete problems. At the end of the semester, all students should be able to do the following: 1. Define NP, weakly NP-complete and strongly NP-complete. 2. Understand the importance of the class of NP-complete problems and why there is a need for approximation algorithms for these problems. 3. Use reductions to prove a problem is NP-complete. 4. Argue whether the reduction proves the problem is NP- complete in the weak sense or in the strong sense. 5. Define polynomial time approximation scheme (PTAS) and fully polynomial time approximation scheme (FPTAS). 6. Develop and prove the correctness of a number of different approximation algorithms for combinatorial and LP-based algorithms.",
+      "topic_outline": "o Introduction to the class NP (~1.5 weeks) o Definition of P vs. NP, NP optimization problems and NP-completeness o Proving problems are (weakly/strongly) NP-complete through reductions from known NP-complete problems o Introduction to approximation algorithms via the vertex cover problem (~1-2 days) o Approximations for combinatorial algorithms (~6.5 weeks, 1-3 days per algorithm) o Set cover, Steiner tree and TSP, Multiway cut and k-cut, k-center, Feedback vertex set, Shortest superstring (time permitting), Knapsack, Bin packing, Minimum makespan scheduling and Eucilidean TSP (time permitting) o Approximations for LP-based algorithms (~6.5 weeks, 2-4 days per algorithm) o Introduction to LP-duality, Set cover via dual fitting, Rounding applied to set cover, Set cover via primal-dual schema, Maximum satisfiability, Scheduling on unrelated and parallel machines, Other selected topics as time permits",
+      "source_url": "https://bulletin.uga.edu/Course/Details/26272"
+    },
+    {
+      "course_name": "Automata and Formal Languages",
+      "course_number": "CSCI 6610",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 2670",
+      "course_objective": "To master the fundamental methods and results of the theory of computing pertaining to decidability, time complexity, space complexity, and intractability.",
+      "topic_outline": "decidable languages the halting problem undecidable problems in language theory the Post correspondence problem mapping reducibility Turing reducibility time complexity and the classes P and NP NP-completeness and NP-complete problems space complexity and the class PSPACE PSPACE-completeness and PSPACE-complete problems log space complexity and the classes L and NL NL-completeness and NL-complete problems NL = co-NL space and time hierarchy theorems exponential space completeness relativized complexity classes circuit complexity",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4905"
+    },
+    {
+      "course_name": "Computer Systems Architecture",
+      "course_number": "CSCI 6720",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4720",
+      "course_objective": "Students will apply techniques in logic and systems design to produce a design of an example computer system illustrating the principles and performance considerations discussed in the course.",
+      "topic_outline": "Introduction, overview History of computing systems Gates, signals, number representation Clock, register, bus, sequential systems Quantified performance measurement Instruction set architecture Datapath and controller Pipeline methods I/O and memory subsystems Parallel systems and interconnection networks Modern systems, trends, summary",
+      "source_url": "https://bulletin.uga.edu/Course/Details/12216"
+    },
+    {
+      "course_name": "Computer Systems Engineering Design Project",
+      "course_number": "CSEE(CSCI) 6922",
+      "credit_hours": "3 hours. 1 hours lecture and 6 hours lab per week.",
+      "prerequisite": "Permission of department",
+      "course_objective": "To provide students with a meaningful computer systems engineering design experience while 1) enhancing their critical thinking skills, 2) reinforcing the logical steps of design, 3) enhancing their understanding of engineering philosophies and procedures, 4) allowing them to synthesize knowledge gained in math, physics, computer science, chemistry, engineering, humanities and social sciences, 5) reinforcing their communication skills, and 6) developing their teamwork capabilities.",
+      "topic_outline": "Design specifications and planning, quality function deployment, functional decomposition, concept generation and evaluation, product generation and evaluation, selection and completion of a project.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/13045"
+    },
+    {
+      "course_name": "Master's Research",
+      "course_number": "CSCI 7000",
+      "credit_hours": "1-6 hours. Repeatable for maximum 30 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "Pursue individual research under faculty guidance.",
+      "topic_outline": "Topics are individual, and are chosen by the student with faculty approval.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/5500"
+    },
+    {
+      "course_name": "Graduate Student Seminar",
+      "course_number": "CSCI 7005",
+      "credit_hours": "3 hours. Repeatable for maximum 45 hours credit.",
+      "prerequisite": "",
+      "course_objective": "Varies with instructor.",
+      "topic_outline": "Varies with instructor.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/15671"
+    },
+    {
+      "course_name": "Computer Programming",
+      "course_number": "CSCI 7010",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 1113",
+      "course_objective": "Students will understand the basic concepts, notations, and uses of various programming paradigms: procedural, object-oriented, functional, concurrent, and logic programming. They will have some understanding of how programming languages are defined --in terms of syntax and semantics. They will have some ability to choose which paradigm to use for a given problem, and they will have some facility in writing and testing programs in at least three languages that use different paradigms.",
+      "topic_outline": "- Introduction to computers (hardware/software, terms): CPU, RAM, secondary memory, I/O, binary numbers, 2's complement, machine language, high-level language, compiler, editor; - Algorithm (development, pseudo-code, ...); - Program variables; - Logical, relational, arithmetic operators; - Data types (integer, floating-point, character, ...); - Constants; - Operator precedence and assignment operator; - Design of simple programs; - Program structure; - Control flows; - Documentation and program comments; - Standard library functions and parameters; - Modular programming and top-down design; - User-written functions and parameters; - Simple I/O, standard streams, formatting output; - Testing for End of File and End of Line; - Conditional statements; - Looping statements; - Pointers, memory cells; - Debugging (setting break points, displaying data, stepping); - Selection statement; - Duality of characters and integers; - One-dimensional arrays and more on pointers; - Simple sorting algorithms; - User defined types; - Multi-dimensional arrays and records; - Pointers revisited; - Introduction to linked lists and recursion.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4888"
+    },
+    {
+      "course_name": "Technical Report",
+      "course_number": "CSCI 7100",
+      "credit_hours": "1-6 hours. Repeatable for maximum 18 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "Preparation of MAMS technical report under faculty supervision.",
+      "topic_outline": "The technical report topic is chosen by the student with faculty approval.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/5551"
+    },
+    {
+      "course_name": "Master's Project",
+      "course_number": "CSCI 7200",
+      "credit_hours": "2-6 hours. Repeatable for maximum 12 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "Pursue individual research project under faculty guidance.",
+      "topic_outline": "Topics are individual and are chosen by the student with faculty approval.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37173"
+    },
+    {
+      "course_name": "Master's Thesis",
+      "course_number": "CSCI 7300",
+      "credit_hours": "1-6 hours. Repeatable for maximum 18 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "Preparation of MS thesis under faculty supervision.",
+      "topic_outline": "The thesis topic is chosen by the student with faculty approval.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4298"
+    },
+    {
+      "course_name": "Advanced Special Topics in Computer Science",
+      "course_number": "CSCI 8000",
+      "credit_hours": "4 hours. Repeatable for maximum 12 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "To master selected advanced and current topics in Computer Science. This course is intended for master's and Ph.D. students in computer science and covers topics that are not covered by regular computer science courses.",
+      "topic_outline": "The topics will vary. The choice of topics will depend on student interest and faculty expertise.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/38185"
+    },
+    {
+      "course_name": "Knowledge-Based Systems",
+      "course_number": "CSCI 8050",
+      "credit_hours": "4 hours",
+      "prerequisite": "[CSCI(ARTI) 4540/6540 and CSCI(PHIL) 4550/6550] or permission of department",
+      "course_objective": "1.Student will demonstrate understanding of inference engines by hand- computing their operations. 2.Student will demonstrate understanding of standard methods for knowledge representation by constructing knowledge bases for appropriate tasks. 3.Student will write critiques of classic expert systems and other examples provided for analysis. 4.Student will complete a major project in small expert system development. a. Student will identify a domain, a problem, and at least one available expert. b. Student will interview expert(s) and organize data. c. Student will provide a study showing the feasibility of the project, including a conceptual analysis of the problem and the method of solution. d. Student will develop an expert system using an appropriate programing language or expert system shell. e. Student will write complete documentation for the system. f. Student will critique his/her own project, providing benchmarks, discussion of features present or absent, and a justification for the choice of techniques.",
+      "topic_outline": "I. Inference Engines (Rule Production Systems, Logic Programming, EMYCIN, Non-monotonic systems) II. Knowledge Representation (Clauses and Rules, Frames and Scripts, Defaults) III. Classic Systems (MYCIN, DENDRAL, PROSPECTOR, etc.) IV. Expert System Shells (Personal Consultant, ESP Advisor, APES, etc.) V. Knowledge Acquisition VI. Problem Analysis VII. User Interfaces.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4820"
+    },
+    {
+      "course_name": "Advanced Software Engineering",
+      "course_number": "CSCI 8060",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4050/6050 and CSCI 4370/6370",
+      "course_objective": "Students will study the latest advances in engineering modern software systems. The partial list of investigated problem areas include formal specification methods, software patterns with emphasis on distributed systems, securing software systems, implementing fault tolerant systems, and coordinating distributed activities.",
+      "topic_outline": "The course in intended for advanced graduate students and includes a mixture of lectures and presentations on advanced software methods and techniques. The partial list of topics include: * advances in interprocess communication * formal specification methods, emphasizing communication protocols * software patterns, emphasizing distributed systems * security * global snapshots * fault tolerance * coordination and agreement * distributed transactions",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4208"
+    },
+    {
+      "course_name": "Parallel Processing and Computational Science",
+      "course_number": "CSCI 8140",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4140/6140 and CSCI 6720",
+      "course_objective": "Students will learn methods for solving scientific problems On distributed systems. They will design and implement algorithms for solving real problems on distributed systems. Students will learn how to check the efficiency of their algorithms.",
+      "topic_outline": "Overview of Computer Architectures, Interconnection Networks, Basic concepts in Parallel Computing, Parallel Algorithms Matrix Multiplication, Solving Systems of Equations, Parallel Direct and Iterative Methods, Programming on different Parallel Architectures, Applications.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4822"
+    },
+    {
+      "course_name": "Advanced Numerical Methods and Scientific Computing",
+      "course_number": "CSCI 8150",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4140/6140 or CSCI 4150/6150",
+      "course_objective": "This is a computationally oriented course for solving scientific problems that arise in science and engineering. Students will learn different numerical techniques for solving differential equations. They will learn how to design and implement efficient sequential and parallel algorithms for solving important problems in their field of study. In addition, students will learn how to use visualization tools to study and evaluate the numerical results.",
+      "topic_outline": "This course is computationally oriented. Topics to be covered are: 1. Numerical methods for solving ordinary and partial differential equations: finite difference, iterative, finite element, pseudo spectral, method of lines and multigrid methods; 2. Introduction to high performance computing and parallel algorithms; 3. Grid computing; 4. Visualization tools.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/16741"
+    },
+    {
+      "course_name": "Parallel and Distributed Simulation Systems",
+      "course_number": "CSCI 8220",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4730/6730 or CSCI 4210/6210",
+      "course_objective": "At the conclusion of the course the students will have an understanding of theoretical and practical aspects of parallel and distributed simulation. This course could follow Simulation and Modeling or Operating Systems. It is focused on model execution, i.e., running simulation models more efficiently and/or more effectively as opposed to the modeling aspects focused on in Simulation and Modeling. It uses concepts from operating systems such as synchronization and data distribution but applies them to simulation applications. Also, but to a small extent, the course covers networking concepts but in the context of simulation applications.",
+      "topic_outline": "1. Introduction and fundamentals 2. Optimistic Simulation 3. Conservative Simulation 4. Distributed Virtual Environments 5. High Level Architecture (HLA) 6. Time Parallel Simulation 7. Paper Discussion/Reviews",
+      "source_url": "https://bulletin.uga.edu/Course/Details/16740"
+    },
+    {
+      "course_name": "Software Security and Cyber Forensics",
+      "course_number": "CSCI 8240",
+      "credit_hours": "4 hours",
+      "prerequisite": "CSCI 4730/6730 or CSCI 4250/6250 or permission of department",
+      "course_objective": "The goal of this course is to teach the current software security and cyber forensics techniques used in both research and practice. At the end of the course, the students are expected to deeply understand the principles and get familiar with cyber attack defense and investigation techniques. Furthermore, students will acquire hands-on experience in applying these skills and techniques in class projects. Students will also have the opportunity to participate in research projects with faculty.",
+      "topic_outline": "TOPICAL OUTLINE 1. Basics of Software Security 2. Software Vulnerability Analysis a. Memory Safety Violation b. Input Validation Errors c. Race Conditions d. Privilege-confusion and Escalation 3. Attack, Exploit and Defense a. Software Attack Techniques b. Defense Techniques 4. Cybercrime Investigation and Cyber Forensics a. Storage Investigation b. Memory Investigation c. Log-file Investigation d. Reverse-engineering Techniques 5. Cyber Security and Forensics in Other Platforms a. Mobile b. Cloud Computing c. Web Application",
+      "source_url": "https://bulletin.uga.edu/Course/Details/31069"
+    }
+  ]
+}
