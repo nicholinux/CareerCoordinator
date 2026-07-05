@@ -9,12 +9,13 @@ from urllib.request import Request, build_opener
 
 BASE_URL = "https://bulletin.uga.edu"
 LIST_URL = f"{BASE_URL}/Course/_ViewAllCourses"
-COURSE_PREFIX = "CSCI"
+COURSE_PREFIX = "STAT"
 START_PAGE = 1
-END_PAGE = 6
+END_PAGE = 3
 DETAIL_REQUEST_DELAY_SECONDS = 1.5
 PAGE_REQUEST_DELAY_SECONDS = 3
-OUTPUT_PATH = Path("uga_csci_courses_pages_1_to_6.json")
+ROOT_DIR = Path(__file__).resolve().parents[3]
+OUTPUT_PATH = ROOT_DIR / "data" / "raw" / "uga" / "uga_stat_courses_pages_1_to_3.json"
 
 
 class Node:
@@ -223,6 +224,7 @@ def main():
         "count": len(courses),
         "courses": courses,
     }
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Saved {len(courses)} courses to {OUTPUT_PATH}")
 

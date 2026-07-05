@@ -1,0 +1,450 @@
+{
+  "source": "https://bulletin.uga.edu/Course/_ViewAllCourses",
+  "course_prefix": "STAT",
+  "start_page": 1,
+  "end_page": 3,
+  "count": 49,
+  "courses": [
+    {
+      "course_name": "Introduction to Data Science",
+      "course_number": "STAT 1501",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "After successful completion of this course, students will be able to: - Utilize common computational tools for data science. - Explain what types of questions can and cannot be answered from a given dataset. - Employ appropriate visualization techniques to gain insight into data. - Explain what a model is and how models are fit to data. - Use models for simple prediction problems. - Assess the validity of simple models. - Describe supervised and unsupervised learning methods for making predictions. - Understand the limitations of data science methods as tools for prediction and decision making. - Understand ethical issues surrounding data science.",
+      "topic_outline": "Introduction: Sources of Data, Data Collection, and Types of Data Understanding the Dataset Importing and Exporting Data in Python Basic Insights from Datasets Data Visualization: Importance of data visualization Univariate plots Bivariate plots Using Models to Understand Data: What is a model? Conceptual overview of model fitting Using models for prediction Assessing the model What can go wrong Classification - supervised vs. unsupervised: An overview of classification Why not linear regression? Comparison of different classification methods Some classical examples of Supervised and Unsupervised learning Broader Issues: Role of data in decision making Communication of results into actionable information Accuracy versus fairness Privacy and security Legal issues surrounding data",
+      "source_url": "https://bulletin.uga.edu/Course/Details/45598"
+    },
+    {
+      "course_name": "Essentials of Quantitative Modeling",
+      "course_number": "STAT 1999",
+      "credit_hours": "1 hour",
+      "prerequisite": "",
+      "course_objective": "After taking this course, students should be able to use algebra and perform simple arithmetic in a timely manner without calculator assistance; to translate written prompts into mathematical formulas, equalities, and inequalities; to demonstrate understanding of relative ordering and to distinguish between concepts expressed in similar language or patterns in a timely manner; and to design a method of study that enables them to prepare for courses with applied quantitative emphasis.\nAfter taking this course, students should be able to translate written prompts into mathematical formulas, equalities, and inequalities.\nAfter taking this course, students should be able to demonstrate understanding of relative ordering and to distinguish between concepts expressed in similar language or patterns in a timely manner.\nAfter taking this course, students should be able to design a method of study that enables them to prepare for courses with applied quantitative emphasis.\nStudents will demonstrate competence through exercises in class, homework assignments, and examination(s).",
+      "topic_outline": "Algebra\nEquations of Lines\nArithmetic Shortcuts\nAlgebraic Expressions\nRelative Ordering\nComprehensive Reading\nStudying for STEM",
+      "source_url": "https://bulletin.uga.edu/Course/Details/48474"
+    },
+    {
+      "course_name": "Introductory Statistics",
+      "course_number": "STAT 2000",
+      "credit_hours": "4 hours. 3 hours lecture and 2 hours lab per week.",
+      "prerequisite": "",
+      "course_objective": "Students will discuss strengths and weaknesses of basic study designs and select appropriate procedures to answer a statistical question.\nStudents will use statistical software or a web-based application to calculate summary statistics and construct graphs that can be used to describe a univariate distribution or a bivariate relationship.\nStudents will use inference procedures to measure strength of evidence and estimate effects, applying appropriate statistical language to quantify uncertainty.\nStudents will connect conclusions to the method of data collection, deciding whether the results of a study can be generalized to a larger population or used to support causal conclusions.\nStudents will calculate probabilities using basic probability rules (e.g., complement rule, addition rule, multiplication rule), visual tools (e.g., tree diagrams), or probability distributions (discrete or Normal).",
+      "topic_outline": "Describing Data: organizing and displaying data, including dotplots, histograms, stem-and-leaf plots, and boxplots; numerical measures of center, spread and position; correlation and regression; contingency tables.\nCollecting Data: sampling methods, experiments, and observational studies.\nProbability: concepts and rules, discrete probability distributions and expectation, binomial and normal distributions, sampling distributions for the sample mean and sample proportion.\nEstimation and Inference: confidence intervals and hypothesis testing for population means and proportions, paired difference test, chi-square test for independence.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/2514"
+    },
+    {
+      "course_name": "Statistical Methods for Data Scientists",
+      "course_number": "STAT 2010",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will identify and apply appropriate statistical methods to analyze data.\nStudents will use software to perform traditional statistical analyses as well as simulations to explore and analyze data.\nStudents will present and interpret statistical results in a clear and accurate manner, effectively communicating their implications to both technical and non-technical audiences.\nStudents will evaluate the alignment between study design and the conclusions drawn on real-world decision-making.",
+      "topic_outline": "types of study designs\ninference for one and two sample means and proportions using parametric as well as nonparametric methods\nerror types and the power of a test\nchi square tests\nlinear regression (descriptive and inferential)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37258"
+    },
+    {
+      "course_name": "Introduction to Statistics and Computing (Honors)",
+      "course_number": "STAT 2100H",
+      "credit_hours": "4 hours",
+      "prerequisite": "Permission of Honors",
+      "course_objective": "Students will discuss strengths and weaknesses of basic study designs and select appropriate procedures to answer a statistical question.\nStudents will use statistical software (R) to calculate summary statistics and construct graphs that can be used to describe a univariate distribution or a bivariate relationship.\nStudents will use parametric and non-parametric approaches to measure strength of evidence and estimate the size/strength of an effect, applying appropriate statistical language to quantify uncertainty.\nStudents will connect conclusions to the method of data collection, deciding whether the results of a study can be generalized to a larger population or used to support causal conclusions.\nStudents will examine and critique statistical results published in peer-reviewed research articles and popular media.",
+      "topic_outline": "Introduction to the statistical problem-solving process\nIntroduction to R\nSampling and survey design to support generalizability\nExperimental design to support causal conclusions\nHypothesis tests and confidence intervals for univariate data (categorical or quantitative)\nHypothesis tests and confidence intervals for comparing two independent groups (categorical or quantitative responses) or paired data (quantitative responses)\nLinear regression (descriptive and inferential)\nType I error, Type II error, and power",
+      "source_url": "https://bulletin.uga.edu/Course/Details/2997"
+    },
+    {
+      "course_name": "Programming and Data Literacy Using R",
+      "course_number": "STAT 2360-2360L",
+      "credit_hours": "4 hours. 3 hours lecture and 2 hours lab per week.",
+      "prerequisite": "STAT 2000 or STAT 2000E or STAT 2010 or STAT 2100H or BIOS 2010 or BIOS 2010E",
+      "course_objective": "Students will write and debug R scripts to perform data operations, classify different data types (numeric, character, factor), and describe fundamental data structures (vectors, matrices, data frames) in R.\nStudents will import and clean datasets from various formats (CSV, Excel) using RStudio, and apply data manipulation techniques (e.g., filtering, sorting, summarizing) using packages like dplyr.\nStudents will analyze and interpret datasets, creating reproducible reports using R Markdown while utilizing visualization (ggplot2) and documentation tools (knitr).\nStudents will communicate statistical findings effectively by generating interpretable outputs in R, delivering clear written reports, and presenting results to technical and non-technical audiences, using instructor feedback to improve future communication.\nStudents will work collaboratively to solve problems using R, dividing tasks such as data manipulation, visualization, and analysis, ensuring effective teamwork in a collaborative environment that emphasizes the shared responsibility of completing tasks and communicating their work effectively with their peers.\nStudents will experiment with different approaches, debug scripts, and implement operations such as filtering, sorting, and summarizing data, as they synthesize complex information, develop original approaches, and communicate insights effectively, transforming raw data into meaningful analyses and well-documented reports.",
+      "topic_outline": "Data input/output in R\nData formats and types\nData management\nVectors and matrices and arrays in R\nLoop structure\nIntroduction to algorithms\nWriting functions in R\nPlotting in R",
+      "source_url": "https://bulletin.uga.edu/Course/Details/39284"
+    },
+    {
+      "course_name": "Preparing for a Career in Statistics and Data Science",
+      "course_number": "STAT 3030",
+      "credit_hours": "1 hour",
+      "prerequisite": "Third- or fourth-year student standing",
+      "course_objective": "Students will identify career possibilities in statistics, data science, and related professions.\nStudents will develop professional goals aligned with personal values and strengths.\nStudents will identify the education, training, and credentials required for various career pathways.\nStudents will build competitive resumes, cover letters, and personal statements.\nStudents will demonstrate effective interviewing and networking skills.\nStudents will explore graduate school options and career opportunities in government, academia, and industry.\nStudents will develop a personal career action plan.",
+      "topic_outline": "Introduction and course overview\nCareer opportunities in statistics and data science (academia, government, industry, consulting, tech, etc.)\nSelf-assessment of interests, skills, and values\nCareer goal setting and exploration\nDeveloping a professional resume and LinkedIn profile\nWriting cover letters and personal statements\nInterviewing skills and mock interviews\nNetworking and building professional relationships (mentoring, conferences, internships)\nGraduate school vs. entering the workforce\nData science certifications and technical credentials\nPerspectives and advice from alumni and practitioners\nDeveloping a personal career action plan",
+      "source_url": "https://bulletin.uga.edu/Course/Details/53384"
+    },
+    {
+      "course_name": "Introduction to Statistics for Life Sciences",
+      "course_number": "STAT 3110",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will use statistical software to compute appropriate summary statistics and graphs and identify important characteristics to provide practical insights about biological processes.\nStudents will assess the validity of a study regarding causation and identify sources of bias and critique an experimental study in terms of being able to fulfil its goal.\nStudents will conduct statistical inference (confidence intervals and hypothesis tests) for a variety of biological data, interpret the results as they relate to the population of interest, and recognize the shortcomings of inferential results.\nStudents will recommend an appropriate statistical model for quantitative and categorical data relevant to the life sciences, conduct this analysis on statistical software, and explain the broader implications of the results.\nStudents will describe in writing the results of statistical analysis using non-technical language suitable for non-statisticians.",
+      "topic_outline": "The course will start with descriptive statistics and the principles of sampling. The course will also cover confidence intervals and hypothesis testing involving means and proportions from one and two populations; calculation of type II errors, power, and paired comparisons; simple linear regression; introduction to categorical data.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/36116"
+    },
+    {
+      "course_name": "Introduction to Probability for Life Sciences",
+      "course_number": "STAT 3120",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H",
+      "course_objective": "Students will explain the role that randomness plays in the world around us, with special emphasis on biological processes.\nStudents will formulate a computer-based simulation to estimate the probability of a complex event, conduct the simulation and interpret the results in practical terms.\nStudents will calculate the probability of an event using the laws of probability including conditional probability for dependent events and compare related probabilities to determine how one event affects another.\nStudents will compute the expected value and standard deviation of a random variable as well as a linear combination of random variables and describe the implications of these values within the original context.\nStudents will use computational software to compute the probabilities for events that follow a specified discrete or continuous probability distribution and identify when events would be expected to follow these probability distributions.\nStudents will calculate the probability of an event based on certain known information using Bayes' theorem, use Bayes' theorem to solve problems in the health and related sciences such as the probability of obtaining a false negative or false positive result, and describe how Bayes' theorem enables scientists to update the probability of an event by combining previously known information with new evidence.",
+      "topic_outline": "This course will cover case studies of randomness in biology; identifying principles underlying random processes; translating these principles into simple simulations; recognizing when those rules imply common probability distributions; properties of common distributions, including binomial, Poisson, normal, and gamma distributions; expectation, variance, and other properties of random variables; joint and conditional probability; simulations involving multiple random variables.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/36117"
+    },
+    {
+      "course_name": "Data Analysis for Elementary and Middle School Teachers",
+      "course_number": "STAT(EMAT) 4050/6050",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 2000 or STAT 2000E or STAT 2100H",
+      "course_objective": "Students will learn statistical techniques for collecting and analyzing data with an emphasis on statistical thinking and how statistics is used in everyday situations.\nStudents will learn how to read data summaries critically, how to produce data, how to explore data descriptively (numerically and graphically), how to use sound and appropriate methods for drawing trustworthy conclusions, how to make defensible descriptions and inferences about samples and populations, how to distinguish between observational and experimental studies, and how to communicate the appropriate conclusions of statistical studies (both orally and written).\nStudents will be better prepared to develop and teach data analysis at the Pre-K-8 grade level. This includes providing a curriculum that intertwines content and pedagogy; helping teachers understand the importance of providing a data-driven curriculum in their math courses and an understanding of how to use data in all subject areas taught at the Pre-K-8 level. Toward this end, Pre-K-8 mathematics teachers will be introduced to and trained in modern technological resources for classroom instruction including statistical software and statistical calculators.",
+      "topic_outline": "summarizing and exploring data for both univariate (histograms, stem and leaf plots, boxplots, dotplots, timeplots, measures of location, measures of dispersion, z-scores, Empirical Rule) and bivariate analysis (scatterplots, correlation, regression, contingency tables, conditional proportions)\nstudy design, including sampling techniques for surveys, and the design of experimental and observational studies;\nprobability, the normal distribution\nsampling distributions\nconfidence intervals for means and proportions\nsignificance testing for means and proportions",
+      "source_url": "https://bulletin.uga.edu/Course/Details/14824"
+    },
+    {
+      "course_name": "Statistics for Secondary Teachers",
+      "course_number": "STAT(EMAT) 4070/6070",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will apply appropriate statistical techniques to collect, summarize, represent, analyze, and interpret univariate and bivariate data.\nStudents will make inferences and justify conclusions from experiments and observational studies.\nStudents will explore and use appropriate technology to analyze data.\nStudents will develop pedagogical content knowledge by analyzing students’ statistical thinking.\nStudents will examine the scope and sequence of current statistics and probability standards in school mathematics curriculum.\nStudents will plan instructional activities to support students’ statistical reasoning.",
+      "topic_outline": "Introduction to the statistical problem-solving process\nAnalyze and interpret univariate data, both graphically and numerically\nAnalyze and interpret bivariate data, both graphically and numerically\nStudy design, including sampling techniques and the design of experimental and observational studies\nProbability and probability distributions\nSampling distributions\nFormal and simulation-based inference for means and proportions, including confidence intervals and hypothesis test\nInference for categorical data, including chi-squared tests\nLinear regression, including simple and multiple linear regression and inference for regression\nNational and state standards for statistical reasoning, data analysis, and probability\nAnalyze students’ statistical thinking\nInstructional tools, including appropriate use of technology",
+      "source_url": "https://bulletin.uga.edu/Course/Details/7528"
+    },
+    {
+      "course_name": "Applied Stochastic Processes",
+      "course_number": "STAT 4100/6100",
+      "credit_hours": "3 hours",
+      "prerequisite": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)",
+      "course_objective": "This course is an introduction to stochastic processes that focuses on some of the classes of processes that are most commonly encountered in applications. Goals of the course include understanding the basic theory underlying these processes and applying them to model real-world phenomena.",
+      "topic_outline": "Probability review, basic ideas of stochastic processes, Poisson processes, Markov chains, stationary distributions of Markov chains, Markov processes, queuing processes, Brownian motion, renewal theory.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3004"
+    },
+    {
+      "course_name": "Statistical Methods",
+      "course_number": "STAT 4210",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H",
+      "course_objective": "Students will evaluate potential study designs to select one that provides adequate statistical power and supports the intended scope of the study’s conclusions.\nStudents will use statistical software to calculate summary statistics, construct graphs, and fit models that can be used to make predictions and quantify explained and unexplained variability.\nStudents will use multivariable models to describe the relationship between variables of interest while controlling for potential confounding variables and nuisance variables that increase variability.\nStudents will assess model fit and select a final model that accounts for important data features (e.g., interaction between variables, non-linear relationships).\nStudents will use the statistical problem-solving process as a framework to evaluate alignment between the research question, data collection, analysis methods, and conclusions.",
+      "topic_outline": "A survey of statistical methods that introduces experimental design and analysis of variance\nmultiple linear regression\nanalysis of categorical data, including chi-squared tests of independence and goodness-of-fit\nnon-parametric tests, including tests based on resampling\nstatistical power\nThe course emphasizes precise statistical communication and implementation using statistical software.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3011"
+    },
+    {
+      "course_name": "Statistical Methods (Honors)",
+      "course_number": "STAT 4210H",
+      "credit_hours": "3 hours",
+      "prerequisite": "(STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H or BIOS 2010 or BIOS 2010E) and permission of Honors",
+      "course_objective": "Students will evaluate potential study designs to select one that provides adequate statistical power and supports the intended scope of the study’s conclusions.\nStudents will use statistical software to calculate summary statistics, construct graphs, and fit models that can be used to make predictions and quantify explained and unexplained variability.\nStudents will use multivariable models to describe the relationship between variables of interest while controlling for potential confounding variables and nuisance variables that increase variability.\nStudents will assess model fit and select a final model that accounts for important data features (e.g., interaction between variables, non-linear relationships).\nStudents will use the statistical problem-solving process as a framework to evaluate alignment between the research question, data collection, analysis methods, and conclusions.",
+      "topic_outline": "Introduction to the statistical problem-solving process\nIntroduction to multivariable thinking\nParametric and nonparametric inference methods to compare means\nStatistical power\nSums of squares (analysis of variance) to quantify sources of variation\nOne-way and two-way ANOVA F-tests\nMultivariable models that account for interactions between predictors\nFull-factorial designs and randomized block designs\nMultiple regression models with quantitative and/or categorical predictors\nAnalysis of residuals and model building\nTransformations for modeling nonlinear associations\nChi-squared tests of independence and goodness-of-fit\nLogistic regression",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3007"
+    },
+    {
+      "course_name": "Applied Experimental Designs",
+      "course_number": "STAT 4220",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 4230/6230",
+      "course_objective": "Students will choose sound and suitable experimental designs for a given research objective. This includes evaluating the choice of response variable, identifying and deciding how to handle extraneous sources of variability, and evaluating the pros and cons of various design strategies, such as blocking.\nStudents will explore real data sets using a variety of graphical and numerical methods.\nStudents will analyze data using R and/or Python, and write reports using professional typesetting system (e.g. LaTeX).\nStudents will decompose the variability in any experimentally-generated data set into components corresponding to the factors of the design and find the parallel decompositions of the sums of squares and degrees of freedom. Conduct formal inference from experimental data by constructing the appropriate estimates and F-tests.\nStudents will design an efficient experiment, collect data (if applicable), analyze it and draw meaningful conclusions.",
+      "topic_outline": "Multiple Linear Regression\nFundamentals of Designing an Experiment\nCompletely Randomized Design\nRandomized Block Design\nMulti-way Layout\nLatin Square Design\nBalanced Incomplete Block Design\n2^k Full Factorial Experiments\nFractional Fractorial Experiments\nDesigns and Subsampling",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3028"
+    },
+    {
+      "course_name": "Applied Regression Analysis",
+      "course_number": "STAT 4230/6230",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will describe the concepts underlying linear regression analysis, including the assumptions, limitations, and interpretation of regression coefficients.\nStudents will interpret the results of regression analysis correctly, including the significance of predictor variables, the goodness of fit of the model, and the practical implications of regression coefficients.\nStudents will understand the assumptions underlying linear regression analysis and be able to check for violations of these assumptions using diagnostic tools such as residual plots, normality tests and independence tests.\nStudents will develop techniques for building regression models, including variable selection methods such as (forward selection, backward elimination, stepwise regression) and all possible subset selection methods using R-square, Adjusted R-square, Akaike Information Criteria (AIC), Bayesian Information Criteria (BIC) and Cross-validation.\nStudents will apply regularized regression techniques such as Ridge regression and Least Absolute Shrinkage Selection Operator (LASSO) to combat multicollinearity and overfitting.\nStudents will predict a binary response using logistic regression models with one or more predictors.",
+      "topic_outline": "After a brief review of techniques, concepts, and mathematical examination of the model assumptions associated with simple linear regression, the course provides an in-depth coverage of multiple linear regression. This includes model fitting, estimation and prediction, diagnostics and model adequacy checking, transformations, including Box-Cox, leverage and influence measures, including Cook’s distance, polynomial regression, indicator variables, collinearity, interaction terms, variable selection based on AIC, BIC, cross-validation and other measures, residual analysis, and model building. A brief introduction to generalized linear models, including logistic regression, is also provided. Time permitting, special topics will be chosen from ridge regression, survival methods for censored time-to-event data, linear mixed models, non-linear mixed effects models, and generalized estimating equations. All procedures will be covered in R and possibly other statistical software packages.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/4307"
+    },
+    {
+      "course_name": "Sampling and Survey Methods",
+      "course_number": "STAT 4240/6240",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 4230/6230 or permission of department",
+      "course_objective": "Students will learn different probability-based methods for sampling from a finite population.\nStudents will learn strengths and weaknesses of these methods, enabling them to assess which method is preferable for a particular problem.\nStudents will learn inference methods for population means, population totals, and population proportions, which are discussed for each of the sampling methods.\nStudents will learn about the possible use of ratio estimators, regression estimators, and difference estimators in the presence of auxiliary information.\nStudents will learn expressions for estimated variances of estimators and bounds for the error of estimation and will also learn how to use these quantities in drawing and formulating conclusions about the population parameters of interest.\nStudents will learn how to select an appropriate sample size for each objective and for every sampling method discussed.\nStudents will learn how to perform inferences based on the methods in this course by using a statistical software package.",
+      "topic_outline": "Different plans for probability sampling from a finite population\nDifferent estimation techniques\nMeasures of uncertainty for the estimators\nImplementation via statistical software\nSimple random sampling\nStratified random sampling\nRatio, regression, and difference estimation\nSystematic sampling\nCluster sampling\nTwo-stage cluster sampling\nEstimating a population size",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3029"
+    },
+    {
+      "course_name": "Applied Multivariate Analysis and Statistical Learning",
+      "course_number": "STAT 4250/6250",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will learn how to visualize multivariate data. Students will learn some basic matrix algebra for statistical use and be able to use it to understand the methods. Students will learn multivariate analogs of one and two population inference on means, and the multivariate analysis of variance. Students will learn how to determine which multivariate methods are appropriate for a given situation. Students will learn the basic logic behind each method. For each method, students will learn the underlying assumptions and conditions under which the methodology can be expected to perform well, the type of questions it addresses, the results it yields, and the proper interpretation of those results. Students will learn how to implement the methods covered in the course using appropriate statistical software.",
+      "topic_outline": "Relevant vector and matrix algebra, basic summary statistics for multivariate data, the multivariate normal distribution, inference for multivariate means, multivariate analysis of variance (MANOVA), principal components, exploratory factor analysis, discriminant analysis, canonical correlation analysis, tree-based methods, support vector machines, and cross-validation.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37275"
+    },
+    {
+      "course_name": "Statistical Quality Assurance",
+      "course_number": "STAT 4260/6260",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "The goal of this course is to introduce statistical techniques for use in applied quality control settings.\nEmphasis is on understanding, design, implementation, and interpretation of techniques used in statistical quality control.\nUse of technology is integrated into the course using statistical software and statistical calculators.",
+      "topic_outline": "Statistical methods useful in control of quality\nShewhart and cumulative sum control charts\nProcess capability analysis\nAcceptance sampling procedures by attributes and variables",
+      "source_url": "https://bulletin.uga.edu/Course/Details/6268"
+    },
+    {
+      "course_name": "Network Data Analysis and Graphical Models",
+      "course_number": "STAT 4270/6270",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "1. Students who take this course will learn to produce statistical graphics to visualize complex network structures. 2. Model networks, make inferences 3. Know key libraries and modules 4. Find and use appropriate libraries and modules 5. Efficiently manipulate data types and objects 6. Write programs to implement more complex data analysis and data manipulation 7. Know the pros and cons of each language relative to each other and other programming languages 8. Know the proper use of the output from statistical software to communicate the results of statistical analyses through oral and written means. Students will demonstrate competence through individual or group programming projects, labs, and examinations throughout the course.\nStudents who take this course will learn to model networks and make inferences.\nStudents who take this course will know key libraries and modules.\nStudents who take this course will learn to find and use appropriate libraries and modules.\nStudents who take this course will learn to efficiently manipulate data types and objects.\nStudents who take this course will learn to write programs to implement more complex data analysis and data manipulation.\nStudents who take this course will know the pros and cons of each language relative to each other and other programming languages.\nStudents who take this course will know the proper use of the output from statistical software to communicate the results of statistical analyses through oral and written means.\nStudents will demonstrate competence through individual or group programming projects, labs, and examinations throughout the course.",
+      "topic_outline": "Graph theory\nNetwork mapping and visualization\nCharacterization of network structure\nNetwork sampling\nThe modeling, inference, and prediction of networks\nNetwork processes\nDeep learning",
+      "source_url": "https://bulletin.uga.edu/Course/Details/43678"
+    },
+    {
+      "course_name": "Applied Time Series Analysis",
+      "course_number": "STAT 4280/6280",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "The primary objective of this course is to give students a rigorous training in building statistical models for, and drawing inferences from, time series data, which arise naturally in a variety of disciplines. The course will weave several threads together from statistical model building techniques to an in-depth assessment of fitted models, while giving careful consideration to practical issues of model fitting via statistical software (e.g., using SAS). The emphasis is more on analyzing data using various statistical techniques rather than deriving theoretical results. Typically, the course incorporates project assignments as a framework on which students will develop their abilities to think critically about statistical modeling of real data, to use statistical software to analyze real data, and to communicate the findings of their analyses through writing and oral presentation. Technology is integrated into the course through the use of statistical software (e.g., SAS), spreadsheet software (e.g., Excel), internet-based teaching tools (e.g., WebCT), e-mail, and word processing. The course will strive to give students a high degree of competence in analyzing time series data.",
+      "topic_outline": "Course topic includes basic tools for identifying characteristics of time series data such as stationarity, non-stationarity, trend, seasonality and variability. Topics such as Autoregressive Integrated Moving Average (ARIMA), Seasonal Autoregressive Integrated Moving Average (SARIMA) and intervention models will be introduced in detail, along with statistical estimation techniques such as maximum likelihood and ordinary least squares. Emphasis will be placed on model diagnostics and assessments.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3050"
+    },
+    {
+      "course_name": "Nonparametric Methods",
+      "course_number": "STAT 4290/6290",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "This course aims to give students a broad understanding of nonparametric statistical methods; that is, what types of statistical analysis can be carried out either when the samples are small, or when standard normality assumptions do not hold. Students will first learn about tests based on the binomial distribution, as these are likely to be most familiar from previous statistics classes. From this starting point, students will expand their knowledge base to include a number of relevant practical situations, such as the analysis of categorical data arranged in arrays. We will explore the trade-offs between nonparametric and parametric approaches in terms of statistical power, ease of computation, and other criteria. Students will also be exposed to \"modern nonparametric\" methods, such as the bootstrap. Students will learn how to use specific statistical methods and general modes of statistical thinking to make inferences from data, and to support (or refute) an argument or point of view with quantitative information. Students will learn the mathematical and probabilistic underpinnings of statistical methods, they will develop an understanding of the underlying rationale for specific statistical methods, and they will learn how to assess the relative merits and applicability of competing statistical techniques. Students will analyze data using the methods learned in lecture, with appropriate statistical software. Some amount of independent programming will be necessary as not all nonparametric procedures covered over the course of the semester are \"built in\" to existing software packages.",
+      "topic_outline": "Tests based on the binomial distribution. Contingency table analysis. Methods based on ranks. Goodness of fit statistics (Kolmogorov-Smirnov and related tests). Tests based on runs. Modern nonparametric statistics (smoothing, bootstrap).",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3052"
+    },
+    {
+      "course_name": "Applied Bayesian Statistics",
+      "course_number": "STAT 4350/6350",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 4510/6510 and STAT 4230/6230",
+      "course_objective": "The goal of this course is to provide a basic understanding of the philosophical, methodological, and computational underpinnings of the Bayesian approach to data analysis and inference. By the end of the course, students should be able to fully specify the components of a Bayesian model (likelihood, priors, hyperpriors) and carry out the requisite computations for the analysis of such a model. Students should also understand and be able to discuss the philosophical and practical differences between a Bayesian and classical data analysis and know when it is appropriate to use each. The course is aimed at students within the field of statistics as well as those in other disciplines who have interest and training in statistics, data analysis, and other quantitative methods.",
+      "topic_outline": "Historical introduction; basics of Bayesian analysis - likelihood, prior, posterior; model building and checking; sensitivity analysis; comparisons with frequentist approach (theoretical and practical); computing the posterior distribution; sampling from the posterior distribution; MCMC algorithms (Metropolis-Hasting algorithm, Gibbs sampler, modern methods).",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37932"
+    },
+    {
+      "course_name": "Advanced Statistical Programming",
+      "course_number": "STAT 4355/6355",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will differentiate between a temporary and permanent SAS data set.\nStudents will identify types of variables.\nStudents will define the uses of punctuation (semicolon, colon, period) in SAS.\nStudents will import raw data files in SAS.\nStudents will export raw data files in SAS.\nStudents will combine SAS data sets.\nStudents will create basic detailed reports using SAS procedures.\nStudents will create summary reports using SAS procedures.\nStudents will identify data errors in SAS.\nStudents will identify syntax errors in SAS.\nStudents will identify programming logic errors in SAS.\nStudents will correct data errors in SAS.\nStudents will correct syntax errors in SAS.\nStudents will correct programming logic errors in SAS.\nStudents will outline program steps before writing code.\nStudents will use advanced DATA step programming statements to solve problems.\nStudents will use advanced DATA step efficiency techniques to solve problems.\nStudents will write SAS SQL code.\nStudents will manipulate data using SQL.\nStudents will query relational databases using SQL.\nStudents will join tables using SQL.\nStudents will interpret SAS SQL code.\nStudents will create SAS macro variables.\nStudents will use SAS macro variables.\nStudents will create with the SAS macro facility.\nStudents will use the SAS macro facility.\nStudents will communicate the results of statistical analyses through oral and written means.",
+      "topic_outline": "accessing data using the DATA step\nmanaging and manipulating data via DATA step processing\ngenerating numerical and graphical reports\nhandling errors\nmacro programming and processing\naccessing data using SQL and Hadoop\nadvanced programming techniques\nprogramming efficiency",
+      "source_url": "https://bulletin.uga.edu/Course/Details/39286"
+    },
+    {
+      "course_name": "Statistical Software Programming",
+      "course_number": "STAT 4360/6360",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "This course will introduce students to important modern statistical software packages, including SAS and R, and train them in how to use these packages to manipulate and statistically analyze data. Students who take this course will learn how to get data into and out of statistical software packages. They will learn the various data types, formats and modes used in statistical software and will learn how to manipulate data structures such as SAS datasets and R data frames ,including sorting, merging, transposing, assigning, and generating data. They will learn statistical programming techniques in modern software, including flow control, conditional execution, R functions, and SAS macros. Students will be introduced to basic statistical graphics and methods of exploratory data analysis and how to implement them. Students will learn software tools such as SAS procedures and R functions to implement basic methods of statistical inference and modeling. More broadly, students will learn the appropriate role of statistical software in conducting statistical analyses and the proper use of output from statistical software to communicate the results of statistical analyses through oral and written means.",
+      "topic_outline": "Course topics include data input/output; data formats and types; data management; flow control, conditional execution and program design; statistical graphics and exploratory data analysis; basic procedures and functions for statistical modeling and inference; communicating the results of statistical analyses using statistical software and its output. Software-specific topics may include SAS data frames; SAS functions and commands; select SAS procedures for data management and statistical analysis; the SAS macros language; the SAS output delivery system; R objects such as data frames, matrices, vectors, their modes and how to manipulate them; R functions and how to write them; R packages; using R for statistical graphics and data analysis. At the instructor’s discretion, statistical software packages other than SAS and R may also be considered.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3053"
+    },
+    {
+      "course_name": "Modern Statistical Programming",
+      "course_number": "STAT 4365/6365",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will read in data, clean it, and format it for analysis in R and Python.\nStudents will implement complex data visualizations in R and Python.\nStudents will manipulate data sets to extract the information needed for a desired analysis in R and Python.\nStudents will use standard programming techniques such as loops, conditional execution, and functions in complex data analysis in R and Python.\nStudents will create user-friendly graphical interfaces to programs conducting complex data analysis and visualization.\nStudents will identify and correct problems in their computer programs.\nStudents will access a data base, run queries, and write simple programs using SQL.",
+      "topic_outline": "Data input/output\nData formats and types\nData management\nBasic procedures, functions for statistical modeling, inference, and statistical graphics\nIntroduction to algorithms, flow control, conditional execution, and program design\nAccessing data using SQL\nWriting programs for more complex data manipulation and analysis",
+      "source_url": "https://bulletin.uga.edu/Course/Details/39287"
+    },
+    {
+      "course_name": "Survival Analysis",
+      "course_number": "BIOS(STAT) 4380/6380",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Upon completion of the course, students will be able to recognize survival data and the various types of censoring and truncation that affect them. They will understand the basic tools of survival analysis and they will be able to implement standard nonparametric and parametric statistical methods for the analysis of failure time data, including Kaplan-Meier estimation and log-rank testing of survival functions and regression analysis of failure time data via proportional hazards models, logistic models and accelerated lifetime models. Students will be able to accomplish analyses of real data with these methods via statistical software and interpret the results of those analyses.",
+      "topic_outline": "Concepts and methods for the analysis of time-to-event data: basic tools for description of such data, concepts of censoring and truncation, and methods of analysis including univariate parametric and nonparametric procedures, regression models, diagnostics, group comparisons, and use of relevant statistical computing packages.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3055"
+    },
+    {
+      "course_name": "Design and Analysis of Complex Computer Models",
+      "course_number": "STAT 4440/6440",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "The course is meant to provide the mathematical foundations and computational skills for the design and analysis of computer experiments, on topics at the interface between machine learning, spatial statistics, meta-modeling (i.e., emulations), design of experiments, optimization, and active learning. Students will demonstrate competence through individual or group programming projects, labs, and examinations throughout the course. Additional topics will be covered at the discretion of the instructor. After taking this course, the students should be able to design and analyze data from simulators, synthesize under uncertainty, visualize, design new experiments, and make informed decisions.",
+      "topic_outline": "Gaussian process (GP) regression for flexible nonparametric and nonlinear modeling, applications to uncertainty quantifications, sensitivity analysis, calibration of computer models, and optimization under uncertainty. Space-filling designs, sequential designs, and active learning. Advanced topics will include treed partitioning, local GP approximation, modeling of simulation experiments, and response surface methodology. Implementation in R will be required. Computing and writing clean codes will be emphasized. Other modern areas of computer experiments may be covered at the discretion of the instructor.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/47285"
+    },
+    {
+      "course_name": "Mathematical Statistics I",
+      "course_number": "STAT 4510",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2270 or MATH 2270H or MATH 2500 or MATH 2500E",
+      "course_objective": "Students will define and explain fundamental concepts of probability, including sample spaces, events, conditional probability, and independence.\nStudents will apply probability rules, including Bayes’ theorem, to solve problems involving conditional probabilities in real-world contexts.\nStudents will analyze discrete and continuous probability distributions, including their expectations, variances, and moment-generating functions, to model different types of data.\nStudents will compute and interpret probabilities and expectations for well-known distributions such as Binomial, Poisson, Normal, and Gamma, and justify their use in different scenarios.\nStudents will evaluate and compare multivariate probability distributions, including marginal and conditional distributions, independence, and covariance between random variables.\nStudents will derive and use probability distributions of functions of random variables using the method of transformations and Jacobians.\nStudents will interpret and apply Tchebyscheff’s theorem to assess the dispersion of probability distributions and its implications in statistical inference.",
+      "topic_outline": "Introduction • Introduction to probability and statistical inference\nProbability • Review of set notations • Sample space, events, and probability of an event • Conditional probability and Independence • Bayes’ rule and applications\nDiscrete Random Variable and Their Probability Distributions • Expectation and Variance • Well-known discrete distributions (e.g., Binomial, Geometric, Negative Binomial, Poisson, Hypergeometric) and their applications • Moment generating functions\nContinuous Random Variables and Their Probability Distributions • Expectation and Variance • Well-known continuous distributions (e.g., Uniform, Normal, Gamma, Beta) and their applications • Moment generating functions • Tchebyscheff’s Theorem\nMultivariate Probability Distributions • Bivariate and multivariate probability distributions • Marginal and conditional probability distributions • Independent random variables • Expected value of a function of random variables • Covariance of two random variables\nFunctions of Random Variables • Probability distribution of a function random variables • Method of transformations using Jacobians",
+      "source_url": "https://bulletin.uga.edu/Course/Details/52387"
+    },
+    {
+      "course_name": "Mathematical Statistics II",
+      "course_number": "STAT 4520",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 4510",
+      "course_objective": "Students will explain the principles of sampling distributions and the Central Limit Theorem and their implications for statistical inference.\nStudents will compute and evaluate point estimators, assessing their bias, mean squared error, and efficiency.\nStudents will apply the method of moments and maximum likelihood estimation to derive estimators for population parameters.\nStudents will construct and interpret confidence intervals for small- and large-sample scenarios.\nStudents will formulate and test statistical hypotheses using Neyman-Pearson theory, likelihood ratio tests, and uniformly most powerful tests.\nStudents will analyze and justify the properties of least squares estimators in linear regression models.\nStudents will develop and assess regression models, making predictions and drawing statistical inferences from estimated parameters.",
+      "topic_outline": "Review of Functions of Random Variables • Review of multivariable transformations using Jacobians\nSampling Distributions and Central Limit Theorems • Sampling distributions related to the normal distribution • The Central Limit Theorem • Normal Approximation to the Binomial distribution\nPoint Estimation • The bias and mean squared error of point estimators • Unbiased estimators and evaluation of estimators • Small- and Large-sample confidence intervals for population parameters\nProperties of Point Estimators and Methods of Estimation • Consistency and Relative Efficiency • Principle of sufficiency and minimum variance unbiased estimation • Methods of moments and maximum likelihood estimation\nHypothesis Testing • Elements of hypothesis testing • Neyman-Pearson tests and calculation of Type II error and power of tests • Uniformly most powerful tests, likelihood ratio tests, and large sample tests • Testing in one-sample and two-sample problems • Relationship between hypothesis testing and interval estimation\nLinear Models and Estimation by Least Squares • Method of Least Squares for simple linear regression • Properties of least squares estimators • Point and interval estimation of regression parameters • Prediction intervals • Statistical inference of regression parameters • Extensions to multiple regression",
+      "source_url": "https://bulletin.uga.edu/Course/Details/52388"
+    },
+    {
+      "course_name": "Statistical Inference for Data Scientists",
+      "course_number": "STAT 4530/6530",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "This course is targeted at students in data science and will teach them principles of statistical estimation and inference in the two major inferential paradigms of maximum likelihood and Bayesian inference. After taking this course, students will be able to - mathematically derive sampling distributions of sample statistics - simulate the sampling distribution of sample statistics - define likelihood - calculate likelihoods for iid samples - maximize likelihoods mathematically - derive maximum likelihood estimators for parameters of important probability distributions - use computational methods for maximizing likelihoods, including grid search, and Newton-Raphson methods. - use likelihood ratios as a flexible tool for hypothesis testing - develop simulations of power for hypothesis testing - develop simulations of error rates for hypothesis testing - contrast the philosophy of Bayesian inference versus frequentist inference - compute posterior distributions in Bayesian inference. - choose an appropriate prior distribution - describe MCMC algorithms, including Metropolis-Hastings and Gibbs samplers - implement MCMC algorithms, including Metropolis-Hastings and Gibbs samplers",
+      "topic_outline": "Sampling distributions, maximum likelihood, computational methods for maximum likelihood, likelihood ratio tests, introduction to Bayesian inference, philosophy of Bayesian inference, calculating the posterior distribution, choosing the prior, computational methods for sampling from the posterior.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37312"
+    },
+    {
+      "course_name": "Applied Categorical Data Analysis",
+      "course_number": "STAT 4620/6620",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will learn the categorical and discrete data types and why and how the analysis of these types of data differ from the analysis of continuous data. They will learn what contingency tables are and how to use them to summarize categorical data. They will learn the descriptive and inferential techniques to analyze contingency table data and how to apply them. They will learn the structure of regression models for categorical and discrete data, including logistic regression; Poisson and negative binomial log-linear regression for counts; and various multinomial response regression models. They will learn how to specify these models correctly, how to fit them, and how to interpret results of fitted models properly to draw meaningful conclusions about real data. Students will learn the assumptions underlying the statistical models and methods taught in the course and how to assess their validity. More generally, they will learn the domains of application of the methods to be covered and how to choose an appropriate statistical methodology to describe and draw inferences from categorical data. Statistical software will be integrated into the course and students will learn how to use software to implement analyses and to produce results that are suitable for communicating statistical information clearly in a non-technical manner. Students will develop their abilities to communicate statistical information in both written and oral format.",
+      "topic_outline": "The first part of the course will introduce types and scales of categorical and discrete data; contingency tables; measures of association and summary statistics for contingency table data, probability distributions for contingency table datai including the binomial, multinomial, Poisson, and hypergeometric distributions; and inferential methods for contingency tables, including both large-sample methods and exact methods. Next, generalized linear models will be introduced with an emphasis on the structure of this model class and its scope, including an overview of the important special cases that fall within it. Special cases of the generalized linear model will then be introduced and discussed, each in turn. These special cases will include the logistic regression model, loglinear regression models for unbounded counts, and multinomial regression models. The proper handling of overdispersion relative to these standard model classes will be discussed. Statistical methods and models for categorical data from matched pairs and longitudinal data will be introduced toward the end of the course. Topics will be motivated and illustrated with real data examples throughout the course, and the practical implementation of methodology will be emphasized.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37256"
+    },
+    {
+      "course_name": "Introduction to Quantitative Biology",
+      "course_number": "STAT 4660",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 2010 or STAT 2100H or STAT 2360-2360L",
+      "course_objective": "Students will learn about key application areas of mathematical and statistical reasoning in biology, with a strong emphasis on learning the thought process required to translate a biological problem into a mathematical/statistical problem. Students will conduct mini-projects in each area in which they will write computer programs to conduct analyses using real data.",
+      "topic_outline": "This course will delve into various areas of biology in which mathematical and statistical techniques play a central role. Topics will vary between offerings, but may include analysis of DNA sequence data, statistical genetics, inference of evolutionary trees, epidemiological modeling, brain imaging data, and other topics.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/32732"
+    },
+    {
+      "course_name": "Introduction to Probability Theory I",
+      "course_number": "STAT 4710/6710",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2500 or MATH 2270",
+      "course_objective": "This course is an introduction to probability theory at the advanced undergraduate or beginning graduate level. The course does not assume nor does it cover measure theory. The main course objectives are to give students an understanding of the fundamental ideas and theory of probability and to prepare them for further study in probability, statistics, and stochastic processes.",
+      "topic_outline": "Probability spaces, combinatorial analysis, discrete and continuous random variables, joint distributions, expectations, conditional distributions and conditional expectations, independence, moment generating and characteristic functions, the Central Limit Theorem, and laws of large numbers.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3067"
+    },
+    {
+      "course_name": "Introduction to Probability Theory II",
+      "course_number": "STAT 4720/6720",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 4710/6710",
+      "course_objective": "This course continues the non-measure-theoretic introduction to probability offered by STAT 4/6710 and proceeds into the area of stochastic processes. Students are introduced to the basic ideas of stochastic processes and study the most commonly used classes of processes in applications. Students will learn the theory of stochastic processes and will gain an understanding of their usefulness both as direct models of real-world phenomena and as components of statistical modeling and theory.",
+      "topic_outline": "Central limit theorems, random walks, Markov chains and processes, Brownian motion, branching and renewal processes, diffusion processes, queuing processes, and applications.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3071"
+    },
+    {
+      "course_name": "Tools for Statistical Theory",
+      "course_number": "STAT 4800/6800",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "The course is meant to provide the mathematical foundations for graduate study in statistics with an emphasis on linear algebra. Students will review linear algebra, gain proficiency with matrix and vector operations, and understand the basic theory of vector spaces. Additional topics will be covered at the discretion of the instructor.",
+      "topic_outline": "Vectors, matrices, vector spaces and other topics in linear algebra necessary for a theoretical understanding of linear models and other statistical methods. At the discretion of the instructor topics in advance calculus, real analysis, elementary probability theory, and other areas of mathematics applicable to statistics may be covered.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/10690"
+    },
+    {
+      "course_name": "Undergraduate Directed Study in Statistics",
+      "course_number": "STAT 4950",
+      "credit_hours": "1-3 hours. Repeatable for maximum 6 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "Students will engage in directed study of one or more topics in statistics which will provide them the opportunity to learn material that is not necessarily offered in existing courses. Students will learn about the chosen topic, develop independent learning skills, learn to gather and synthesize information from multiple sources, and learn to critique and compare methodologies. Students will report their progress verbally and in written form and thus will also develop effective communication skills. Assessment will typically involve written and oral reports, computational or data analytic projects, problem sets, and/or exams.",
+      "topic_outline": "Topics will vary by student and instructor.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/29839"
+    },
+    {
+      "course_name": "Faculty-Mentored Undergraduate Research I",
+      "course_number": "STAT 4960R",
+      "credit_hours": "1-6 hours. Repeatable for maximum 16 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "The expected learning outcomes for a student in a directed research course are: 1. The student will pose and test questions, hypotheses, or problems drawn from concepts in their discipline. 2. The student will utilize foundational principles in planning and executing a research project. 3. The student will carry out basic research techniques and methods. 4. The student will conduct research according to the highest ethical standards. 5. The student will demonstrate how a research program is organized and carried out. 6. The student will engage in professional communication through written and verbal participation in laboratory, academic, or professional meetings or conferences.",
+      "topic_outline": "Students must apply through a sponsoring faculty member to conduct research. Each research experience is an independent collaboration between the faculty member and the student. As such, there is no set topical outline. Instead, faculty mentor and student should develop their own work plan and determine course requirements and grading procedures (individualized syllabus). A minimum requirement is that the student present results in writing and through presentations in meetings with peers and faculty and that they will receive feedback from their papers or presentations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/40957"
+    },
+    {
+      "course_name": "Faculty-Mentored Undergraduate Research II",
+      "course_number": "STAT 4970R",
+      "credit_hours": "1-6 hours. Repeatable for maximum 8 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "The expected learning outcomes for a student in a directed research course are: 1. The student will pose and test questions, hypotheses, or problems drawn from concepts in their discipline. 2. The student will utilize foundational principles in planning and executing a research project. 3. The student will carry out basic research techniques and methods. 4. The student will conduct research according to the highest ethical standards. 5. The student will demonstrate how a research program is organized and carried out. 6. The student will engage in professional communication through written and verbal participation in laboratory, academic, or professional meetings or conferences.",
+      "topic_outline": "Students must apply through a sponsoring faculty member to conduct research. Each research experience is an independent collaboration between the faculty member and the student. As such, there is no set topical outline. Instead, faculty mentor and student should develop their own work plan and determine course requirements and grading procedures (individualized syllabus). A minimum requirement is that the student present results in writing and through presentations in meetings with peers and faculty and that they will receive feedback from their papers or presentations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/40958"
+    },
+    {
+      "course_name": "Faculty-Mentored Undergraduate Research III",
+      "course_number": "STAT 4980R",
+      "credit_hours": "1-6 hours. Repeatable for maximum 8 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "The expected learning outcomes for a student in a directed research course are: 1. The student will pose and test questions, hypotheses, or problems drawn from concepts in their discipline. 2. The student will utilize foundational principles in planning and executing a research project. 3. The student will carry out basic research techniques and methods. 4. The student will conduct research according to the highest ethical standards. 5. The student will demonstrate how a research program is organized and carried out. 6. The student will engage in professional communication through written and verbal participation in laboratory, academic, or professional meetings or conferences.",
+      "topic_outline": "Students must apply through a sponsoring faculty member to conduct research. Each research experience is an independent collaboration between the faculty member and the student. As such, there is no set topical outline. Instead, faculty mentor and student should develop their own work plan and determine course requirements and grading procedures (individualized syllabus). A minimum requirement is that the student present results in writing and through presentations in meetings with peers and faculty and that they will receive feedback from their papers or presentations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/40959"
+    },
+    {
+      "course_name": "Undergraduate Research Thesis (or Final Project)",
+      "course_number": "STAT 4990R",
+      "credit_hours": "1-6 hours. Repeatable for maximum 8 hours credit.",
+      "prerequisite": "Permission of department",
+      "course_objective": "The expected learning outcomes for a student in a directed research course are: 1. The student will pose and test questions, hypotheses, or problems drawn from concepts in their discipline. 2. The student will utilize foundational principles in planning and executing a research project. 3. The student will carry out basic research techniques and methods. 4. The student will conduct research according to the highest ethical standards. 5. The student will demonstrate how a research program is organized and carried out. 6. The student will engage in professional communication through written and verbal participation in laboratory, academic, or professional meetings or conferences.",
+      "topic_outline": "Students must apply through a sponsoring faculty member to conduct research. Each research experience is an independent collaboration between the faculty member and the student. As such, there is no set topical outline. Instead, faculty mentor and student should develop their own work plan and determine course requirements and grading procedures (individualized syllabus). A minimum requirement is that the student present results in writing and through presentations in meetings with peers and faculty and that they will receive feedback from their papers or presentations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/40960"
+    },
+    {
+      "course_name": "Data Science Capstone Course",
+      "course_number": "STAT(CSCI) 4990",
+      "credit_hours": "3 hours",
+      "prerequisite": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)",
+      "course_objective": "Students graduating with Data Science major are expected to have experience beyond the text book – that is managing parts or even complete data life cycles in real-world settings. Data life cycle includes data acquisition, data management, data analysis, data mining and security and privacy protection of data. Data life cycles in organizations often involve many complex issues – data comes from multiple distinct sources, data sets are heterogeneous along multiple dimensions, including data size, data quality, data type/structure, data velocities, etc., and organizations have very different data analytics needs. Furthermore, the tradeoffs among these issues tend to be very intricate. Traditional textbook-based courses rarely expose students to these important issues and the tradeoffs among them. A data scientist should be able to interact with various stakeholders in an organization to understand their problems and requirements. This skill can truly only be acquired through experience. This capstone course will provide students with the opportunity to learn about advanced data science methods and techniques and apply them in a real-world setting. This course will (a) round out their education; (b) prepare them for data scientist positions in the real world; and (c) make them more attractive to prospective employers.",
+      "topic_outline": "A wide variety of topics can be covered in this capstone course based on the preference of the instructors and the students. Since all students will have gone through courses in which they learned the basic methods of data analysis, the instructors can concentrate on other techniques, according to their preferences, the preferences of the class, and the particular projects the students will be working on. Possibilities include: data acquisition and ingestion, data integration, data analytics, streaming data management, big data systems, data security, and data privacy. The idea is not to go into any one of these topics in-depth and exclusively; rather, we propose covering many different topics over the course of the semester, spending three to four lectures on each. In addition, the course will include units on effective communication (written and oral) and how to make a poster presentation. The rest of the class periods will be used for student presentations of their projects.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/37278"
+    },
+    {
+      "course_name": "Statistical Capstone Course I",
+      "course_number": "STAT 5010",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+      "course_objective": "Students will be able to understand advanced statistical methods which will round out their education.\nStudents will be able to understand advanced statistical methods which will help them see that there is more out there than t-tests, ANOVA, and regression.\nStudents will be able to understand advanced statistical methods which will give them more confidence in their own data analysis skills.\nStudents will be able to understand advanced statistical methods which will make them more attractive to prospective employers.\nStudents will understand how to write about statistical methods and results effectively.\nStudents will have completed several writing assignments during the Statistical Capstone courses sequence, culminating in a final report of their data analysis project.",
+      "topic_outline": "A wide variety of topics can be covered in this capstone course. Since all students will have gone through courses in which they learned the basic methods of regression and ANOVA, instructors can concentrate on other techniques according to their preferences, the preferences of the class, and the particular projects the students will be working on. Possibilities include time series analysis, data mining, factor analysis, classification and regression trees, smoothing, bootstrap, and categorical data analysis (contingency tables, loglinear models). The idea is not to go into any one of these topics in-depth and exclusively; rather, we propose covering many different topics over the course of the year, spending at most two or three lectures on each. In addition, the course will include units on effective communication (written and oral) and how to make a poster presentation. The rest of the class periods will be used for student presentations of their data sets and analyses.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/18829"
+    },
+    {
+      "course_name": "Statistical Capstone Course I",
+      "course_number": "STAT 5010W",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+      "course_objective": "Students will be able to understand advanced statistical methods which will round out their education.\nStudents will be able to understand advanced statistical methods which will help them see that there is more out there than t-tests, ANOVA, and regression.\nStudents will be able to understand advanced statistical methods which will give them more confidence in their own data analysis skills.\nStudents will be able to understand advanced statistical methods which will make them more attractive to prospective employers.\nStudents will understand how to write about statistical methods and results effectively.\nStudents will have completed several writing assignments during the Statistical Capstone courses sequence, culminating in a final report of their data analysis project.",
+      "topic_outline": "A wide variety of topics can be covered in this capstone course. Since all students will have gone through courses in which they learned the basic methods of regression and ANOVA, instructors can concentrate on other techniques according to their preferences, the preferences of the class, and the particular projects the students will be working on. Possibilities include time series analysis, data mining, factor analysis, classification and regression trees, smoothing, bootstrap, and categorical data analysis (contingency tables, loglinear models). The idea is not to go into any one of these topics in-depth and exclusively; rather, we propose covering many different topics over the course of the year, spending at most two or three lectures on each. In addition, the course will include units on effective communication (written and oral) and how to make a poster presentation. The rest of the class periods will be used for student presentations of their data sets and analyses.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/24740"
+    },
+    {
+      "course_name": "Statistical Capstone Course II",
+      "course_number": "STAT 5020",
+      "credit_hours": "3 hours",
+      "prerequisite": "(STAT 5010 or STAT 5010W) and (MATH 3000 or MATH 3300)",
+      "course_objective": "Students will use advanced statistical methods that they have not encountered previously in their major coursework.\nStudents will adapt statistical methods when underlying assumptions of traditional methods (such as t-tests, ANOVA, and regression) are not met.\nStudents will recognize and employ ethical standards in statistical practice.\nStudents will collaborate with a client in order to answer the client’s questions using the client’s data.\nStudents will work effectively in a group setting toward the common goal of answering the client’s questions.\nStudents will communicate with the client to explain the statistical tools and results in a way that the client can understand.",
+      "topic_outline": "A wide variety of topics can be covered in this capstone course. Since all students will have gone through courses in which they learned the basic methods of regression and ANOVA, instructors can concentrate on other techniques, according to their preferences, the preferences of the class, and the particular projects the students will be working on. Possibilities include: time series analysis, data mining, factor analysis, classification and regression trees, smoothing, bootstrap, and categorical data analysis (contingency tables, loglinear models). The idea is not to go into any one of these topics in- depth and exclusively; rather, we propose covering many different topics over the course of the year, spending at most two or three lectures on each. In addition, the course will include units on effective communication (written and oral) and how to make a poster presentation. The rest of the class periods will be used for student presentations of their data sets and analyses.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/18833"
+    },
+    {
+      "course_name": "Writing Intensive Statistical Capstone Course II",
+      "course_number": "STAT 5020S",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will use advanced statistical methods that they have not encountered previously in their major coursework.\nStudents will adapt statistical methods when underlying assumptions of traditional methods (such as t-tests, ANOVA, and regression) are not met.\nStudents will recognize and employ ethical standards in statistical practice.\nStudents will collaborate with a client in order to answer the client’s questions using the client’s data.\nStudents will work effectively in a group setting toward the common goal of answering the client’s questions.\nStudents will communicate with the client to explain the statistical tools and results in a way that the client can understand.\nStudents will present the problem, the statistical methods, and the results in a formal oral presentation, poster presentation, and written consulting-style report.",
+      "topic_outline": "A wide variety of topics can be covered in this capstone course. Since all students will have gone through courses in which they learned the basic methods of regression and ANOVA, instructors can concentrate on other techniques, according to their preferences, the preferences of the class, and the particular projects the students will be working on. Possibilities include: time series analysis, data mining, factor analysis, classification and regression trees, smoothing, bootstrap, and categorical data analysis (contingency tables, loglinear models). The idea is not to go into any one of these topics in- depth and exclusively; rather, we propose covering many different topics over the course of the year, spending at most two or three lectures on each. In addition, the course will include units on effective communication (written and oral) and how to make a poster presentation. The rest of the class periods will be used for student presentations of their data sets and analyses.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/32091"
+    },
+    {
+      "course_name": "Statistical Capstone Course II",
+      "course_number": "STAT 5020W",
+      "credit_hours": "3 hours",
+      "prerequisite": "STAT 5010 or STAT 5010W and (MATH 3000 or MATH 3300)",
+      "course_objective": "Students will use advanced statistical methods that they have not encountered previously in their major coursework.\nStudents will adapt statistical methods when underlying assumptions of traditional methods (such as t-tests, ANOVA, and regression) are not met.\nStudents will recognize and employ ethical standards in statistical practice.\nStudents will collaborate with a client in order to answer the client’s questions using the client’s data.\nStudents will work effectively in a group setting toward the common goal of answering the client’s questions.\nStudents will communicate with the client to explain the statistical tools and results in a way that the client can understand.\nStudents will present the problem, the statistical methods, and the results in a formal oral presentation, poster presentation, and written consulting-style report.",
+      "topic_outline": "This course is a continuation of STAT 5010W. A wide variety of topics can be covered in this capstone course. Since all students will have gone through courses in which they learned the basic methods of regression and ANOVA, instructors can concentrate on other techniques, according to their preferences, the preferences of the class, and the particular projects the students will be working on. Possibilities include: time series analysis, data mining, factor analysis, classification and regression trees, smoothing, bootstrap, and categorical data analysis (contingency tables, loglinear models). The idea is not to go into any one of these topics in- depth and exclusively; rather, we propose covering many different topics over the course of the year, spending at most two or three lectures on each. In addition, the course will include units on effective communication (written and oral) and how to make a poster presentation. The rest of the class periods will be used for student presentations of their data sets and analyses.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/24741"
+    },
+    {
+      "course_name": "Internship in Statistics",
+      "course_number": "STAT 5700/7700",
+      "credit_hours": "3-15 hours. Repeatable for maximum 15 hours credit.",
+      "prerequisite": "",
+      "course_objective": "Students learn how to elicit information from other members of a project team, formulate a statistical analysis of the problem implement statistical methods, use statistical software packages effectively, write reports, and make oral presentations. The course gives undergraduate students an opportunity to gain an appreciation of real world applications of statistics and to learn about professional opportunities for statisticians.",
+      "topic_outline": "Specific topics will vary by the employer, but students can expect to learn how to formulate statistical approaches to solving real world problems, implement statistical methods via computer software, form practical interpretations of statistical results, and report methods and conclusions using both written and oral presentation media. The students will also learn how to work collaboratively in a structured environment and will gain a better appreciation of the professional opportunities and expectations for practicing statisticians.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/10350"
+    },
+    {
+      "course_name": "Introduction to Statistical Methods I",
+      "course_number": "STAT 6210",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will be able to compute, visualize, and interpret basic descriptive statistics for quantitative and categorical variables.\nStudents will understand basic probability and how to use the normal and binomial distributions.\nStudents will be able to make inferences about proportions and means for one and two sample data via hypothesis tests and confidence intervals, and they will learn how to compute and interpret chi-square tests for two-way tables.\nStudents will be able to estimate and interpret correlation coefficients and simple linear regression models.",
+      "topic_outline": "This course will cover principles of sampling, descriptive statistics, basic probability, binomial and normal distributions, sampling distributions, confidence intervals, and hypothesis testing about means and proportions for one and two samples, chi-square tests, correlation, and simple linear regression.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/3073"
+    }
+  ]
+}
