@@ -1,0 +1,414 @@
+{
+  "source": "https://bulletin.uga.edu/Course/_ViewAllCourses",
+  "course_prefix": "MATH",
+  "start_page": 1,
+  "end_page": 3,
+  "count": 45,
+  "courses": [
+    {
+      "course_name": "Mathematics of Decision Making",
+      "course_number": "MATH 1060",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students should gain a working knowledge of the applications of modern discrete mathematics. They should be able to use network theory to model elementary optimization problems, and they should be able to analyze voting methods and legislative apportionment mathematically. They should know how to use game theory to plan strategies in situations of conflict. They should be able to describe and analyze mathematical models verbally.",
+      "topic_outline": "1. Management Science and Graph Theory: Graphs, finding Euler circuits, Hamiltonian circuits, sorted-edges algorithm, Kruskal's algorithm and minimum-cost spanning trees. Applications to routing long-distance telephone calls. Critical path analysis. Planning and Scheduling: List-processing algorithm, critical-path scheduling, decreasing-time-list algorithm. Graph coloring and applications to scheduling exams. 2. Voting and Social Choice: Majority rule and Condorcet's method, voting systems with more than two candidates, sequential pairwise voting, Hare system. Arrow's impossibility theorem, approval voting. The Manipulability of Voting Systems. Weighted Voting Systems: Shapley-Shubik and Banzhaf power indices, permutations and combinatorial reasoning. Comparing voting systems, winning coalitions. 3. Fairness and Apportionment. Fair Division: Adjusted winner allocation, Knaster inheritance procedure, taking turns, divide- and-choose. Cake division procedures: proportionality and envy. Apportionment methods, quotas. Congressional apportionment: Hamilton's method, Jefferson's method, divisor methods, Webster's method, Hill-Huntington method. What's fairest? Extra topics to be chosen from the following: 4. Linear Programming: Feasible region, optimal production policy, simplex method, tableaux. 5. Game Theory: The Mathematics of Competition: Winning strategies, maximum and minimum strategies. Zero-sum and variable-sum games. Prisoners' Dilemma, chicken. Winning games. 6. Identification Numbers and Information Science: Check digits, bank ID and ISBN numbers, UPC bar codes. Binary codes, parity-check sums, data compression. Cryptography, public-key cryptography and modular arithmetic, RSA encryption.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/824"
+    },
+    {
+      "course_name": "History of African American Mathematicians",
+      "course_number": "MATH 1070",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Upon successful completion of this course, students will be able to: - Identify the major contributions of African American mathematicians who have discovered and developed major areas of contemporary mathematics. - Complete computations and derive results as they were done by those who originally discovered them. - Integrate the historical personalities and contexts into an explanation of mathematical topics. - Connect mathematical developments with their historical timeframe and related developments.",
+      "topic_outline": "Unit One: Pioneers of African American Mathematics - Benjamin Banneker (1731-1806) - Charles Reason (1814-1893) - Elbert Frank Cox (1895-1969) - Dudley Weldon Woodard (1881-1965) Unit Two: African American Women in Mathematics - Euphemia Haynes - Evelyn Boyd Granville - Marjorie Lee Browne - Katherine Johnson - Shirley McBay Unit Three: Current African American Mathematicians - John Urschel - Valerie Thomas - Edray Goins - William Massey",
+      "source_url": "https://bulletin.uga.edu/Course/Details/45824"
+    },
+    {
+      "course_name": "Introduction to Mathematical Modeling",
+      "course_number": "MATH 1101",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "This course is an introduction to mathematical modeling based on the use of elementary functions to describe and explore real world data and phenomena. Linear, polynomial, exponential, and logistic models are examined and in course projects are applied to real world data. Throughout the course spreadsheet and calculator technology is used to implement, examine, and validate these models. Students are expected to create and interpret data and phenomena. This is an important aspect of modern living.",
+      "topic_outline": "1. Modeling with Linear Functions, Tables, Graphs, and Formulas. Definition of function, domain and range, functions defined by tables, graphs and formulas, average rate of change, increasing and decreasing functions. Constant rate of change and linear growth, equations of lines, linear functions, piecewise-linear functions. Fitting linear models to data. 2. Modeling Natural Growth. Percentage increase and decrease, simple interest, exponential functions and their graphs. Natural growth and decline, fitting exponential growth models to data, Newton's law of cooling. 3. Modeling Growth with Quadratic, Exponential, and Logarithmic Functions. Compound interest, credit card interest. Continuous compound interest. Quadratic functions, graphs, maxima and minima and applications. Fitting quadratic models to data. Using Excel to fit population data using linear, quadratic, and exponential models. 4. Polynomial Models and Linear Systems. Polynomial functions and graphs, solving polynomial equations. Setting up a system of equations, solving pairs of linear equations by substitution, elimination, determinants, and matrices.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/818"
+    },
+    {
+      "course_name": "Precalculus",
+      "course_number": "MATH 1113",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students should learn the background material necessary for them to successfully continue with a scientific calculus course. Students should learn algebraic, exponential, logarithmic, and trigonometric functions and their graphs. Students should also be able to solve simple maximum and minimum problems.",
+      "topic_outline": "1. Review of coordinates, distance formula, similar triangles. Equations of lines, quadratic equations, word problems using linear and quadratic equations. 2. Functions. Definition, graph, techniques in graphing. Composition and inverse functions. Linear and quadratic functions. Completing the square, setting up and solving maximum/minimum problems involving quadratic functions. 3. Exponential and logarithmic functions. Properties of exponentials and logarithms. Equations and inequalities involving exponentials and logarithms. Compound interest, exponential growth and decay. 4. Trigonometric functions. Acute angles and right triangle trigonometry; applications. Trigonometric functions of angles and identities. Radian measure, trigonometric functions of real numbers. Graphs of the basic trigonometric functions, amplitude and phase shifts. 5. Addition formulas, double-angle formulas, trigonometric equations, inverse trigonometric functions. Law of sines, law of cosines, and applications.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/859"
+    },
+    {
+      "course_name": "A Panorama of Ancient Mathematics",
+      "course_number": "MATH 1123",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "Students will analyze how mathematical ideas evolved in response to cultural, social, and practical needs across civilizations. Students will critically assess ancient problem-solving techniques and compare them to modern methods.\nStudents will interpret and deconstruct ancient algorithms and methods, identifying patterns and underlying principles. Students will draw comparisons between mathematical developments in Mesopotamia, Egypt, Greece, India, and China, identifying shared influences and unique contributions. Students will engage in hands-on problem-solving exercises from historical contexts helps refine analytical reasoning skills.\nStudents will develop well-structured essays, improving their ability to articulate complex ideas about mathematical history and its cultural relevance. Group discussions will foster clarity and precision in verbal communication, as students present and defend their interpretations of historical texts and mathematical concepts.\nStudents will explore how mathematical advancements were driven by the needs of ancient societies (e.g., trade, agriculture, governance, and astronomy). By studying mathematical traditions from diverse civilizations, students will appreciate the global nature of mathematical development and recognize the interconnectedness of cultures. Discussions on the broader impact of mathematics—both in ancient times and its implications today—will encourage students to reflect on the social responsibilities of mathematicians and scholars.",
+      "topic_outline": "1. Mathematics, Culture, and Language ○ The relationship between mathematics and human culture ○ The role of language and symbolism in the development of mathematical concepts ○ Early number systems and their cultural significance\n2. Prehistory: The Origins of Mathematics ○ Early counting systems and numerical artifacts (e.g., tally sticks, the Ishango bone) ○ Geometry in prehistoric art and architecture ○ Practical mathematics in early human societies\n3. Mathematics in Mesopotamia ○ Introduction to Mesopotamian cuneiform texts and paleography ○ Base-60 number system and arithmetic techniques ○ Problem-solving in Babylonian algebra and geometry ○ Applications in administration, astronomy, and land measurement\n4. Mathematics in Ancient Egypt ○ Introduction to Egyptian hieratic texts and paleography ○ Arithmetic operations using unit fractions ○ Geometry and practical mathematics in construction and surveying ○ Problem-solving in the Rhind and Moscow papyri\n5. Mathematics in Ancient Greece ○ The Greek ‘miracle’ ○ Early number theory ○ Euclid’s Elements and axiomatic geometry ○ Archimedes and advancements in calculus-like methods\n6. Mathematics in Ancient India ○ Development of decimal place value and early use of zero ○ Solutions to quadratic equations and trigonometry ○ Influence on later Islamic and European mathematics\n7. Mathematics in Ancient China ○ Counting rods and the Chinese remainder theorem ○ Methods for solving linear equations (Nine Chapters on the Mathematical Art) ○ Influence on East Asian mathematical traditions\nEach topic will include a combination of historical context, exploration of key mathematical texts and methods, and problem-solving exercises. Students will also engage in discussions and write essays to deepen their understanding of the material.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/51436"
+    },
+    {
+      "course_name": "Geometry for Elementary School Teachers",
+      "course_number": "MATH(EMAT) 2001",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "To strengthen and deepen knowledge and understanding of measurement and basic geometry and how they are used to solve a wide variety of problems. In particular, to strengthen the understanding of and the ability to explain why various procedures and formulas in mathematics work. To strengthen the ability to communicate clearly about mathematics, both orally and in writing. To promote the exploration and explanation of mathematical phenomena. To show that many problems can be solved in a variety of ways.",
+      "topic_outline": "CHAPTER REFERENCES ARE TO Mathematics for Elementary Teachers, 3rd edition, by Sybilla Beckmann, Pearson. 1. Visualization of the earth, moon and sun in space: Explaining why there are time zones. Explaining the phases of the moon. (Section 10.1) 2. Basic geometric concepts and objects in 2 dimensions: angles, the sum of the angles in any triangle is 180 degrees (Sections 10.2, 10.3), circles (and spheres) (Section 10.4), triangles, quadrilaterals, and other polygons (Section 10.5), constructions with straightedge and compass (Section 10.6). 3. Basic concepts of measurement: measurable attributes of objects, units and the meaning of measurements, the distinction among length, area, and volume. (Sections 11.1, 11.2) 4. Area of 2-dimensional shapes: area of rectangles (whole number side lengths only), the moving and additivity principles for areas (Sections 12.1, 12.2), areas of triangles (Section 12.3), areas of parallelograms, other polygons, and circles (Sections 12.4, 12.6), approximating areas and Cavalieri's principle (Sections 12.7, 12.5), area versus perimeter (Section 12.8), the Pythagorean theorem and applications (Section 12.9). 5. Solid shapes and their volume and surface area: polyhedra, prisms, cylinders, pyramids, and cones, the 5 Platonic solids (Sections 13.1, 13.2), volume and the moving and additivity principles, understanding volume formulas for prisms, cylinders, pyramids, and cones( Sections 13.3, 13.4). 6. Geometry of motion and change: reflections, translations, rotations, and different kinds of symmetry (Sections 14.1, 14.2); congruence of triangles (Section 14.3), similarity, the behavior of area and volume under scaling (Sections 14.4, 14.5).",
+      "source_url": "https://bulletin.uga.edu/Course/Details/24456"
+    },
+    {
+      "course_name": "Numbers, Algebra, and Statistics for Elementary School Teachers",
+      "course_number": "MATH(EMAT) 2002",
+      "credit_hours": "3 hours",
+      "prerequisite": "",
+      "course_objective": "To strengthen and deepen knowledge and understanding of numbers and the decimal system, fractions, decimals, and percents, elementary number theory and algebra, and elementary data analysis, and how they are used to solve a wide variety of problems. In particular, to strengthen the understanding of and the ability to explain why various procedures and formulas in mathematics work. To strengthen the ability to communicate clearly about mathematics, both orally and in writing. To promote the exploration and explanation of mathematical phenomena. To show that many problems can be solved in a variety of ways. To learn to pose and modify mathematical problems.",
+      "topic_outline": "ALL CHAPTER REFERENCES ARE TO THE TEXTBOOK, Mathematics for Elementary Teachers, 3rd edition, by Sybilla Beckmann, Pearson. 1. Numbers and the decimal system: counting numbers, decimal system, and place value, negative numbers. (Chapter 1) 2. Fractions: parts of the whole, numbers on the number line, improper fractions, comparing fractions, solving fraction problems with the aid of pictures, percents as fractions, solving percentage problems. (Chapter 2) 3. Number Theory: greatest common factor and least common multiple and concrete applications, prime numbers, factoring counting numbers into products of prime numbers, divisibility tests. (Chapter 8) 4. Algebra: formulating expressions and equations, solving an equation (various models, including algebra), sequences, arithmetic and geometric sequences, functions and their graphs, interpreting arithmetic sequences as linear functions. (Chapter 9) 5. Basic descriptive statistics: formulating questions, designing investigations, and gathering data, displaying data and interpreting and misinterpreting data displays, mean, median, and mode of a numerical set of data, percentile. (Chapter 15)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/24457"
+    },
+    {
+      "course_name": "Arithmetic for Elementary School Teachers",
+      "course_number": "MATH(EMAT) 2003",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2002",
+      "course_objective": "To strengthen and deepen knowledge and understanding of arithmetic, how it is used to solve a wide variety of problems, and how it leads to algebra. In particular, to strengthen the understanding of and the ability to explain why various procedures from arithmetic work. To strengthen the ability to communicate clearly about mathematics, both orally and in writing. To promote the exploration and explanation of mathematical phenomena. To show that many problems can be solved in a variety of ways. To pose and modify problems.",
+      "topic_outline": "CHAPTERS REFER TO THE TEXTBOOK Mathematics for Elementary Teachers, 3rd edition, by Sybilla Beckmann, Pearson. 1. Addition and subtraction: the meaning of addition and subtraction, properties of addition, algorithms, adding and subtracting fractions, the importance of the whole, recognizing and writing story problems for fraction addition and subtraction, mixed numbers and negative numbers. (Chapter 3) 2. Multiplication: the meaning of multiplication and types of problems solved by multiplication, ways of interpreting multiplication, understanding commutative, associative, and distributive properties, the connection between mental arithmetic and algebra. (Chapter 4) 3. Multiplication of fractions, decimals, and negative numbers. Understanding multiplication of fractions and decimals, story problems. (Chapter 5) 4. Division: the two interpretations (\"how many groups?\" and \"how many in each group?\"), division with remainder, the scaffold method of division, decimal representations of fractions, division of fractions and decimals, story problems for fraction division. (Chapter 6) 5. Ratio and proportion: meanings of ratio, rate, and proportion, solving ratio and rate problems using only multiplication, division, and logical thinking with the aid of strip diagrams and ratio tables. (Chapter 7)",
+      "source_url": "https://bulletin.uga.edu/Course/Details/24458"
+    },
+    {
+      "course_name": "Calculus for Economics",
+      "course_number": "MATH 2110",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2200 or MATH 2250 or MATH 2250E",
+      "course_objective": "Students will learn the definite integral, functions of several variables, and matrices.\nStudents will solve maximum and minimum problems using partial derivatives and the method of Lagrange multipliers.",
+      "topic_outline": "1. Brief review of differentiation, antiderivatives.\n2. Separable differential equations, integration techniques.\n3. The definite integral, Fundamental Theorem of Calculus, calculation of areas, Consumer’s and Producer’s Surplus.\n4. Partial differentiation and applications to optimization problems, Lagrange multipliers.\n5. Matrix algebra and applications.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/1185"
+    },
+    {
+      "course_name": "Analytic Geometry and Calculus",
+      "course_number": "MATH 2200",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 1113 or MATH 1113E",
+      "course_objective": "Students should understand the concept of limit and the meaning and import of continuity.\nStudents should understand the concept of the derivative, and be able to calculate the derivatives of algebraic, exponential, logarithmic, and trigonometric functions.\nStudents are expected to set up and solve maximum and minimum problems using the methods of calculus.\nStudents should be able to use calculus to make approximations and sketch graphs.\nStudents should also be able to calculate antiderivatives and solve some elementary differential equations.\nStudents should, in addition, understand the meaning and application of the derivative in the context of economics.",
+      "topic_outline": "Overview of course. Limits and continuity.\nTangent lines, velocity, rules for differentiation; differentiation of trigonometric, exponential, and logarithmic functions. Implicit differentiation.\nRates of change and related rates applications.\nIncreasing/decreasing functions, concavity, limits involving infinity, extrema of functions, curve sketching.\nOptimization applications.\nDerivatives and linear approximations.\nBusiness applications.\nAntiderivatives, separable differential equations, and applications.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/861"
+    },
+    {
+      "course_name": "Calculus I for Science and Engineering",
+      "course_number": "MATH 2250",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 1113 or permission of department",
+      "course_objective": "At the end of the semester, a successful student will be able to: 1. Calculate and interpret basic trends, rate, and accumulation using the limit, the derivative, and the integral, respectively. 2. Use a function’s graph to: a. Identify increasing/decreasing behavior and critical numbers of the first or second derivative of the function b. Identify extrema c. Determine limits d. Identify points of continuity/discontinuity e. Identify asymptotes f. Identify points where the function is/is not differentiable 3. Use information (a formula or table and/or first or second derivative, etc.) about a function to predict: a. Behavior of the function and/or its first or second derivative b. Extrema c. Limits d. Points of continuity/discontinuity e. Asymptotes f. Points where function is/is not differentiable g. Area under the curve, net area under the curve, or area/net area between two curves 4. Apply calculus to solve an application problem by selecting an appropriate model, identifying an appropriate calculus technique, using the calculus technique on the model to solve the problem, and interpreting the solution in context. 5. Effectively communicate mathematics, in writing and orally, with their peers and with the course instructor.",
+      "topic_outline": "1. Rates of Change and Tangents to Curves 2. Limit of a Function/Limit Laws 3. One-Sided Limits 4. Continuity 5. Limits Involving Infinity/Asymptotes 6. Tangents and the Derivative at a Point 7. The Derivative as a Function 8. Differentiation Rules 9. Derivative as Rate of Change 10. Derivatives of Trig Functions 11. The Chain Rule 12. Implicit Differentiation 13. Derivatives of Inverse Functions, Logs 14. Derivatives of Inverse Trig Functions 15. Related Rates 16. Linearization and Differentials 17. Extreme Values 18. Mean Value Theorem 19. Monotonic Functions and the First Derivative Test 20. Concavity and Curve Sketching 21. Indeterminate Forms and L'Hopital's Rule 22. Curve Sketching 23. Applied Optimization 24. Antiderivatives 25. Areas/Finite Sum Estimates, Sigma Notation, Limits of Finite Sums 26. The Definite Integral 27. The Fundamental Theorem of Calculus 28. Indefinite Integrals and Substitution 29. Substitution and Areas Between Curves",
+      "source_url": "https://bulletin.uga.edu/Course/Details/17372"
+    },
+    {
+      "course_name": "Selected Topics in Integral Calculus",
+      "course_number": "MATH 2255",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 2250 or MATH 2250E",
+      "course_objective": "Students will develop algebra and trigonometry skills that support integration techniques and differential equations.\nStudents will review geometric ideas relevant to finding volumes of revolution.\nStudents will develop skills in working with inequalities in order to make comparisons, analyze convergence, and estimate errors.\nStudents will develop strategies for selecting from among possible approaches to integration and series convergence problems.\nStudents will develop strategies for identifying and solving individual components of multi-step problems.",
+      "topic_outline": "Review of best practices for selecting which derivative rule to use, and presentation of functions for integration.\nReview of horizontal and vertical measurements in the plane relative to graphed functions.\nReview of algebra/precalculus for trigonometric substitutions and elementary differential equations.\nPractice discernment of appropriate integration techniques and implementation in elementary cases. Similarly for infinite series.\nWork with a general formula to approximate definite integrals and estimate resulting errors using derivatives.\nReview of how to address infinite limits in the context of improper integration and sequence/series tests.\nDevelopment of algebra skills to use inequalities correctly in series tests and convergence intervals.\nDevelopment of algebra skills for Ratio Test and endpoint analysis of convergence intervals.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/47308"
+    },
+    {
+      "course_name": "Calculus II for Science and Engineering",
+      "course_number": "MATH 2260",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 2250 or MATH 2300H",
+      "course_objective": "The student will learn how to solve a variety of applied problems using the integral, including modeling problems by differential equations. The student will learn how to test numerical series for convergence and then apply this to power series and Taylor series approximations. The student will, lastly, acquire familiarity with vector algebra and geometry and apply this to lines and planes in three-dimensional space.",
+      "topic_outline": "1. Review of the definition of the integral, Fundamental Theorem of Calculus, area, and integration by substitution. 2. Volumes: cross-sections, cylindrical shells. Arclength and surface area. Work. 3. Separable differential equations. 4. Methods of integration: integration by parts, trigonometric substitutions, partial fractions. Improper integrals. 5. Sequences, series, convergence tests. Power series, Taylor series and applications. 6. Vectors in three dimensions. Dot product, cross product, lines and planes.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/17373"
+    },
+    {
+      "course_name": "Calculus II for Science and Engineering (Honors)",
+      "course_number": "MATH 2260H",
+      "credit_hours": "4 hours",
+      "prerequisite": "(MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
+      "course_objective": "The student will learn how to solve a variety of applied problems using the integral, including modeling problems by differential equations. The student will learn how to test numerical series for convergence and then apply this to power series and Taylor series approximations. The student will, lastly, acquire familiarity with vector algebra and geometry and apply this to lines and planes in three-dimensional space. This honors course will feature somewhat more challenging problems than the non-honors equivalent.",
+      "topic_outline": "1. Review of the definition of the integral, Fundamental Theorem of Calculus, area, and integration by substitution 2. Volumes: cross-sections, cylindrical shells, Arclength and surface area, Work 3. Separable differential equations 4. Methods of integration: integration by parts, trigonometric substitutions, and partial fractions, Improper integrals 5. Sequences, series, convergence tests, Power series, Taylor series, and applications 6. Vectors in three dimensions, Dot product, cross product, lines, and planes",
+      "source_url": "https://bulletin.uga.edu/Course/Details/47310"
+    },
+    {
+      "course_name": "Calculus III for Science and Mathematics",
+      "course_number": "MATH 2270",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
+      "course_objective": "Students will be able to calculate partial derivatives, directional derivatives, and gradients.\nStudents will be able to solve maximum and minimum problems using Lagrange multipliers.\nStudents will learn to calculate area, volume, center of mass, and moment of inertia using multiple integrals.\nStudents will understand integrals along curves and surfaces, culminating in various generalizations of the Fundamental Theorem of Calculus.\nStudents will apply the tools learned in this course to areas such as planetary motion, gravitation, data fitting, Gauss's Law, and fluid dynamics.",
+      "topic_outline": "1. Review of vector algebra.\n2. Parametric curves; Kepler's laws.\n3. Partial differentiation: directional derivatives, gradients, tangent planes, chain rule, maximum/minimum problems, and Lagrange multipliers.\n4. Multiple integration: double and triple integrals, change of order of integration, applications to computations of areas, volumes, center of mass and moments of inertia. Polar, cylindrical, and spherical coordinates.\n5. Line integrals, work, path-independence, and Green's Theorem.\n6. Surface integrals and flux. Curl, divergence, Stokes's and Divergence Theorems and their applications.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/26520"
+    },
+    {
+      "course_name": "Calculus III for Science and Mathematics (Honors)",
+      "course_number": "MATH 2270H",
+      "credit_hours": "4 hours",
+      "prerequisite": "(MATH 2260 or MATH 2260E or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+      "course_objective": "Students will be able to calculate partial derivatives, directional derivatives, and gradients.\nStudents will be able to solve maximum and minimum problems using Lagrange multipliers.\nStudents will learn to calculate area, volume, center of mass, and moment of inertia using multiple integrals.\nStudents will understand integrals along curves and surfaces, culminating in various generalizations of the Fundamental Theorem of Calculus.\nStudents will apply the tools learned in this course to areas such as planetary motion, gravitation, data fitting, Gauss's Law, and fluid dynamics.",
+      "topic_outline": "1. Review of vector algebra.\n2. Parametric curves; Kepler's laws.\n3. Partial differentiation: directional derivatives, gradients, tangent planes, chain rule, maximum/minimum problems, and Lagrange multipliers.\n4. Multiple integration: double and triple integrals, change of order of integration, applications to computations of areas, volumes, center of mass and moments of inertia. Polar, cylindrical, and spherical coordinates.\n5. Line integrals, work, path-independence, and Green's Theorem.\n6. Surface integrals and flux. Curl, divergence, Stokes's and Divergence Theorems and their applications.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/42727"
+    },
+    {
+      "course_name": "Differential Calculus (Honors)",
+      "course_number": "MATH 2300H",
+      "credit_hours": "4 hours",
+      "prerequisite": "(MATH 1113 or MATH 1113E) and permission of Honors",
+      "course_objective": "The student will be expected to gain computational skill with calculus concepts and do a significant amount of problem solving.\nThe clear and careful exposition of word problems will be quite important.\nThe honors student in this class will be expected to tackle and solve somewhat more challenging problems than appear in the non-honors equivalent.",
+      "topic_outline": "Overview of calculus\nThe limit concept, properties, and continuity\nThe derivative: the derivative, rules, derivatives of trigonometric, logarithmic, and exponential functions\nApplications of the derivative: maximum/minimum problems, related rates, and the derivative as best linear approximation\nMean Value Theorem and applications, interpretation of first and second derivatives, curve sketching, L'Hôpital's Rule\nThe integral, area under curves, Fundamental Theorem of Calculus, and applications",
+      "source_url": "https://bulletin.uga.edu/Course/Details/885"
+    },
+    {
+      "course_name": "Integral Calculus (Honors)",
+      "course_number": "MATH 2310H",
+      "credit_hours": "4 hours",
+      "prerequisite": "(MATH 2250 or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
+      "course_objective": "In this course the student will be expected to gain computational skill with calculus concepts and do a significant amount of problem solving. The clear and careful exposition of word problems will be quite important. The honors student in this class will be expected to tackle and solve somewhat more challenging problems than appear in the non-honors equivalent, MATH 2210.",
+      "topic_outline": "1. Review of the definition of the integral, Fundamental Theorem of Calculus. Techniques of integration: substitution, parts, partial fractions. 2. Applications to differential equations, volumes, work, center of mass. 3. Improper integrals, Taylor polynomials, sequences and series, convergence, Taylor series and applications. 4. Introduction to vectors, parametric equations, velocity and acceleration, dot and cross products. Kepler's laws.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/892"
+    },
+    {
+      "course_name": "Differential Calculus with Theory",
+      "course_number": "MATH 2400",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 1113",
+      "course_objective": "In addition to learning the customary computational skills in calculus, the student will be exposed to mathematics as mathematicians view it. Students will learn to write proofs and think more rigorously about mathematics, and will come to grips with challenging concepts and problems. In that regard, this course is an excellent preparation for students considering a career in law, medicine, or the sciences.",
+      "topic_outline": "1. Numbers, inequalities, rigorous review of algebra, and proofs by induction. 2. Functions and their graphs. 3. Limits, including delta-epsilon definition and many concrete examples. 4. Continuity and the three hard theorems. 5. Differentiation: the rules and applications to related rates problems and maximum/minimum problems. 6. The theory of differentiation: local and global behavior, Mean Value Theorem, Cauchy Mean Value Theorem and L'Hopital's Rule; the second derivative and convexity; curve sketching. 7. Inverse functions; review of inverse trigonometric functions. 8. Brief introduction to antidifferentiation.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/19353"
+    },
+    {
+      "course_name": "Differential Calculus with Theory (Honors)",
+      "course_number": "MATH 2400H",
+      "credit_hours": "4 hours",
+      "prerequisite": "Permission of Honors",
+      "course_objective": "In addition to learning the customary computational skills in calculus, the student will be exposed to mathematics as mathematicians view it. Students will learn to write proofs and think more rigorously about mathematics, and will come to grips with challenging concepts and problems. In that regard, this course is an excellent preparation for students considering a career in law, medicine, or the sciences.",
+      "topic_outline": "1. Numbers, inequalities, rigorous review of algebra, and proofs by induction. 2. Functions and their graphs. 3. Limits, including delta-epsilon definition and many concrete examples. 4. Continuity and the three hard theorems. 5. Differentiation: the rules and applications to related rates problems and maximum/minimum problems. 6. The theory of differentiation: local and global behavior, Mean Value Theorem, Cauchy Mean Value Theorem and L'Hopital's Rule; the second derivative and convexity; curve sketching. 7. Inverse functions; review of inverse trigonometric functions. 8. Brief introduction to antidifferentiation.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/896"
+    },
+    {
+      "course_name": "Integral Calculus with Theory",
+      "course_number": "MATH 2410",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 2400",
+      "course_objective": "In addition to learning the customary computational skills in calculus, the student will be exposed to mathematics as mathematicians view it. Students will learn to write proofs and think more rigorously about mathematics, and will come to grips with challenging concepts and problems. In that regard, this course is an excellent preparation for students considering a career in law, medicine, or the sciences.",
+      "topic_outline": "1. Upper and lower sums, the definition of the integral, the convenient criterion for integrability; examples and counterexamples. 2. Properties of the integral. 3. The Fundamental Theorem of Calculus. 4. Applications: areas under curves, volumes, arclength, work. 5. The logarithm and exponential functions. 6. Methods of integration: integration by substitution, by parts, by partial fractions (including sketch of proof), by trigonometric substitution. Improper integrals. 7. Taylor polynomials; in-depth treatment of the algebra and calculus of Taylor polynomials. Taylor's Theorem with remainder, with applications to indeterminate forms and approximate integration. 8. Sequences and series. Bolzano-Weierstrass Theorem, Cauchy sequences. Comparison and limit comparison tests, ratio test, integral test. Conditional convergence and rearrangement. 9. Sequences and series of functions. Pointwise and uniform convergence. Applications to power series and computation of explicit numerical series. 10. Complex numbers and power series. Explanation of singularities on the circle of convergence.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/19354"
+    },
+    {
+      "course_name": "Integral Calculus with Theory (Honors)",
+      "course_number": "MATH 2410H",
+      "credit_hours": "4 hours",
+      "prerequisite": "(MATH 2400 or MATH 2400H) and permission of Honors",
+      "course_objective": "n addition to learning the customary computational skills in calculus, the student will be exposed to mathematics as mathematicians view it. Students will learn to write proofs and think more rigorously about mathematics, and will come to grips with challenging concepts and problems. In that regard, this course is an excellent preparation for students considering a career in law, medicine, or the sciences.",
+      "topic_outline": "1. Upper and lower sums, the definition of the integral, the convenient criterion for integrability; examples and counterexamples. 2. Properties of the integral. 3. The Fundamental Theorem of Calculus. 4. Applications: areas under curves, volumes, arclength, work. 5. The logarithm and exponential functions. 6. Methods of integration: integration by substitution, by parts, by partial fractions (including sketch of proof), by trigonometric substitution. Improper integrals. 7. Taylor polynomials; in-depth treatment of the algebra and calculus of Taylor polynomials. Taylor's Theorem with remainder, with applications to indeterminate forms and approximate integration. 8. Sequences and series. Bolzano-Weierstrass Theorem, Cauchy sequences. Comparison and limit comparison tests, ratio test, integral test. Conditional convergence and rearrangement. 9. Sequences and series of functions. Pointwise and uniform convergence. Applications to power series and computation of explicit numerical series. 10. Complex numbers and power series. Explanation of singularities on the circle of convergence.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/897"
+    },
+    {
+      "course_name": "Accelerated Calculus III for Engineering Students",
+      "course_number": "MATH 2500",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+      "course_objective": "Students will learn to visualize and work in 3D space. They will sketch curves, surfaces, and regions in three dimensions, and choose the most effective coordinate system (polar, cylindrical, spherical) to set up and solve problems involving area and volume.\nStudents will solve optimization problems, finding maximum and minimum values of functions with multiple variables, including solving constrained optimization problems using Lagrange multipliers, with applications in science, engineering, and economics.\nStudents will learn to analyze changing systems, by calculating how quantities change along paths in space, determining work done by forces, and measuring the flow of fluids and electromagnetic fields through curves and surfaces.\nNear the end of the course, students will learn to connect concepts from throughout the semester by applying the major Green's Theorem, Stokes' Theorem, and the Divergence Theorem to relate different types of integrals and simplify complex calculations in physics and engineering contexts.\nStudents will learn to translate between different kinds of representations of mathematical ideas, moving between geometric descriptions, algebraic equations, and computational solutions when modeling phenomena involving multiple variables.",
+      "topic_outline": "This course takes the calculus students already know and applies it to problems involving two or three variables at once. Students learn to work with curves and surfaces in 3D space, measure how things change in different directions using partial derivatives and the gradient, and find maximum and minimum values for real-world problems with multiple factors using techniques like Lagrange multipliers. Students calculate areas and volumes of irregular shapes by integrating in polar, cylindrical, and spherical coordinates. The course ends with vector calculus—learning to measure flow along curves and across surfaces—and brings everything together with Green's, Stokes', and Divergence Theorems, which are the big ideas used in physics and engineering.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/898"
+    },
+    {
+      "course_name": "Accelerated Calculus III for Engineering Students (Honors)",
+      "course_number": "MATH 2500H",
+      "credit_hours": "3 hours",
+      "prerequisite": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+      "course_objective": "Students will learn to visualize and work in 3D space. They will sketch curves, surfaces, and regions in three dimensions, and choose the most effective coordinate system (polar, cylindrical, spherical) to set up and solve problems involving area and volume.\nStudents will solve optimization problems, finding maximum and minimum values of functions with multiple variables, including solving constrained optimization problems using Lagrange multipliers, with applications in science, engineering, and economics.\nStudents will learn to analyze changing systems, by calculating how quantities change along paths in space, determining work done by forces, and measuring the flow of fluids and electromagnetic fields through curves and surfaces.\nNear the end of the course, students will learn to connect concepts from throughout the semester by applying the major Green's Theorem, Stokes' Theorem, and the Divergence Theorem to relate different types of integrals and simplify complex calculations in physics and engineering contexts.\nStudents will learn to translate between different kinds of representations of mathematical ideas, moving between geometric descriptions, algebraic equations, and computational solutions when modeling phenomena involving multiple variables.",
+      "topic_outline": "This course takes the calculus students already know and applies it to problems involving two or three variables at once. Students learn to work with curves and surfaces in 3D space, measure how things change in different directions using partial derivatives and the gradient, and find maximum and minimum values for real-world problems with multiple factors using techniques like Lagrange multipliers. Students calculate areas and volumes of irregular shapes by integrating in polar, cylindrical, and spherical coordinates. The course ends with vector calculus—learning to measure flow along curves and across surfaces—and brings everything together with Green's, Stokes', and Divergence Theorems, which are the big ideas used in physics and engineering.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/53590"
+    },
+    {
+      "course_name": "Elementary Differential Equations",
+      "course_number": "MATH 2700",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+      "course_objective": "Students will understand the fundamental ideas of differential equations and systems of differential equations.\nStudents will learn how to model physical and biological processes with differential equations.\nStudents will learn how to find general solutions explicitly or implicitly to simple classes of differential equations and to interpret these solutions in reference to the processes they model.\nStudents will learn how to get qualitative (graphical) information and approximate solutions for important classes of differential equations whose general solutions cannot be found explicitly.",
+      "topic_outline": "1. Introduction to Differential Equations: Definitions and Terminology, Initial-Value Problems, Differential Equations as Mathematical Models.\n2. First-Order Differential Equations: Solution Curves Without a Solution - Direction Fields, Autonomous First-Order DEs, Separable Equations, Linear Equations, Exact Equations, Solutions by Substitutions, Numerical Method.\n3. Modeling with First-Order Differential Equations: Linear Models, Nonlinear Models, Modeling with Systems of First-order DEs.\n4. Higher-Order Differential Equations: Preliminary Theory—Linear Equations, Initial-Value and Boundary-Value Problems, Homogeneous Equations, Nonhomogeneous Equations, Reduction of Order, Homogeneous Linear Equations with Constant Coefficients, Undetermined Coefficients—Annihilator Approach, Variation of Parameters, Cauchy-Euler Equations, Solving Systems of Linear DEs by Elimination, Nonlinear Differential Equations.\n5. Modeling with Higher-Order Differential Equations: Linear Models: Initial-Value Problems, Spring/Mass Systems; Nonlinear Models.\n6. Systems of Linear First-Order Differential Equations: Preliminary Theory—Linear Systems, Homogeneous Linear Systems, Distinct Real Eigenvalues, Repeated Eigenvalues, Complex Eigenvalues.\n7. The Laplace Transform: Definition of the Laplace Transform, Inverse Transforms and Transforms of Derivatives, Operational Properties. The Dirac Delta Function and Convolutions, Systems of Linear Differential Equations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/902"
+    },
+    {
+      "course_name": "Elementary Differential Equations (Honors)",
+      "course_number": "MATH 2700H",
+      "credit_hours": "3 hours",
+      "prerequisite": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+      "course_objective": "Students will understand the fundamental ideas of differential equations and systems of differential equations.\nStudents will learn how to model physical and biological processes with differential equations.\nStudents will learn how to find general solutions explicitly or implicitly to simple classes of differential equations and to interpret these solutions in reference to the processes they model.\nStudents will learn how to get qualitative (graphical) information and approximate solutions for important classes of differential equations whose general solutions cannot be found explicitly.",
+      "topic_outline": "1. Introduction to Differential Equations: Definitions and Terminology, Initial-Value Problems, Differential Equations as Mathematical Models.\n2. First-Order Differential Equations: Solution Curves Without a Solution - Direction Fields, Autonomous First-Order DEs, Separable Equations, Linear Equations, Exact Equations, Solutions by Substitutions, Numerical Method.\n3. Modeling with First-Order Differential Equations: Linear Models, Nonlinear Models, Modeling with Systems of First-order DEs.\n4. Higher-Order Differential Equations: Preliminary Theory—Linear Equations, Initial-Value and Boundary-Value Problems, Homogeneous Equations, Nonhomogeneous Equations, Reduction of Order, Homogeneous Linear Equations with Constant Coefficients, Undetermined Coefficients—Annihilator Approach, Variation of Parameters, Cauchy-Euler Equations, Solving Systems of Linear DEs by Elimination, Nonlinear Differential Equations.\n5. Modeling with Higher-Order Differential Equations: Linear Models: Initial-Value Problems, Spring/Mass Systems; Nonlinear Models.\n6. Systems of Linear First-Order Differential Equations: Preliminary Theory—Linear Systems, Homogeneous Linear Systems, Distinct Real Eigenvalues, Repeated Eigenvalues, Complex Eigenvalues.\n7. The Laplace Transform: Definition of the Laplace Transform, Inverse Transforms and Transforms of Derivatives, Operational Properties. The Dirac Delta Function and Convolutions, Systems of Linear Differential Equations.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/53591"
+    },
+    {
+      "course_name": "Introduction to Linear Algebra",
+      "course_number": "MATH 3000",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E",
+      "course_objective": "Students will be able to solve systems of linear equations by means of Gaussian elimination.\nStudents will be able to calculate the inverse of a matrix.\nStudents will be able to determine the projection operator onto a subspace.\nStudents will be able to determine the null space and range space of a linear transformation.\nStudents will be able to find eigenvalues and eigenvectors of a linear transformation, and determine if that linear transformation is diagonalizable.\nStudents will be able to prove elementary facts about vector spaces and linear transformations.",
+      "topic_outline": "Vector algebra and geometry. Dot products.\nMatrices, echelon forms, and solution of systems of linear equations. Applications.\nMatrix algebra: product, inverse, and transpose.\nSubspaces: nullspace, rowspace, column space of a matrix.\nLinear independence, basis, and dimension, orthogonal complement.\nLinear transformations, projections and the least-squares solution. Gram-Schmidt process. Change of basis formula.\nDeterminants: signed area and volume, relation to invertibility.\nEigenvalues and eigenvectors, diagonalizability, applications to Markov processes and differential equations. Spectral theorem.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/972"
+    },
+    {
+      "course_name": "Introduction to Mathematical Analysis",
+      "course_number": "MATH 3100",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+      "course_objective": "Students will learn general standards and strategies of mathematical proof and apply these to statements about sequences and the real numbers.\nStudents will learn and be able to explain elements of the theory that provides the foundation of calculus, including precise definitions relating to limits and continuity, and fundamental results such as the intermediate and mean value theorems.\nStudents will prove rigorously that various kinds of sequences converge, and relate convergence ideas to the behavior of continuous functions.\nStudents will develop skills in proving and analyzing inequalities, culminating in the error bounds provided by Taylor’s theorem.",
+      "topic_outline": "Basics on order, and on inequalities including the triangle inequality\nSuprema, infima, and the completeness axiom for the real numbers\nDefinitions, examples, and theorems related to the convergence of sequences\nSubsequences and Cauchy sequences\nSeries and tests for their convergence\nFunctional limits and continuity\nProofs of the maximum and intermediate value theorems\nDifferentiation and the mean value theorem\nTaylor polynomials and bounds on the Taylor remainder",
+      "source_url": "https://bulletin.uga.edu/Course/Details/973"
+    },
+    {
+      "course_name": "Introduction to Mathematical Analysis (Honors)",
+      "course_number": "MATH 3100H",
+      "credit_hours": "3 hours",
+      "prerequisite": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H) and permission of Honors",
+      "course_objective": "Students will learn general standards and strategies of mathematical proof and apply these to statements about sequences and the real numbers.\nStudents will learn and be able to explain elements of the theory that provides the foundation of calculus, including precise definitions relating to limits and continuity, and fundamental results such as the intermediate and mean value theorems.\nStudents will prove rigorously that various kinds of sequences converge, and relate convergence ideas to the behavior of continuous functions.\nStudents will develop skills in proving and analyzing inequalities, culminating in the error bounds provided by Taylor’s theorem.",
+      "topic_outline": "Basics on order, on mathematical induction, and on inequalities including the triangle inequality\nSuprema, infima, and the completeness axiom for the real numbers\nDefinitions, examples, and theorems related to the convergence of sequences\nSubsequences and Cauchy sequences\nSeries and tests for their convergence\nFunctional limits and continuity\nProofs of the maximum and intermediate value theorems\nDifferentiation and the mean value theorem\nTaylor polynomials and bounds on the Taylor remainder",
+      "source_url": "https://bulletin.uga.edu/Course/Details/30091"
+    },
+    {
+      "course_name": "Introduction to Mathematical Analysis",
+      "course_number": "MATH 3100W",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+      "course_objective": "Students will learn general standards and strategies of mathematical proof and apply these to statements about sequences and the real numbers.\nStudents will learn and be able to explain elements of the theory that provides the foundation of calculus, including precise definitions relating to limits and continuity, and fundamental results such as the intermediate and mean value theorems.\nStudents will prove rigorously that various kinds of sequences converge, and relate convergence ideas to the behavior of continuous functions.\nStudents will develop skills in proving and analyzing inequalities, culminating in the error bounds provided by Taylor’s theorem.",
+      "topic_outline": "Basics on order, and on inequalities including the triangle inequality\nSuprema, infima, and the completeness axiom for the real numbers\nDefinitions, examples, and theorems related to the convergence of sequences\nSubsequences and Cauchy sequences\nSeries and tests for their convergence\nFunctional limits and continuity\nProofs of the maximum and intermediate value theorems\nDifferentiation and the mean value theorem\nTaylor polynomials and bounds on the Taylor remainder",
+      "source_url": "https://bulletin.uga.edu/Course/Details/47322"
+    },
+    {
+      "course_name": "Introduction to Higher Mathematics",
+      "course_number": "MATH 3200",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+      "course_objective": "Students will be able to define and correctly use basic vocabulary associated with the following topics: a. Logic b. The real numbers, especially the integers c. Induction d. Set theory e. Relations, especially equivalence relations f. Functions\nStudents will be able to generate examples and non-examples of mathematical objects associated with the topics above.\nStudents will use correct mathematical notation associated with the topics above.\nStudents will formulate logically sound arguments using style conventions common in mathematical practice.\nStudents will identify appropriate proof techniques for assigned proofs.\nStudents will write mathematically valid proofs using the following techniques: a. Direct proof b. Biconditional proof c. Proof by cases d. Proof by contrapositive e. Proof by contradiction f. Induction\nStudents will write mathematically valid proofs in the following subject areas: a. The real numbers, especially the integers b. Sets c. Relations, especially equivalence relations d. Functions",
+      "topic_outline": "Basic mathematical language and logical rules\nSets and their properties\nProof techniques, including case arguments, proof by contrapositive, proof by contradiction, and induction\nFunctions, including injectivity, surjectivity, images, and preimages\nRelations, especially equivalence relations\nThe integers and other number systems",
+      "source_url": "https://bulletin.uga.edu/Course/Details/974"
+    },
+    {
+      "course_name": "Introduction to Higher Mathematics",
+      "course_number": "MATH 3200W",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+      "course_objective": "Students will be able to define and correctly use basic vocabulary associated with the following topics: a. Logic b. The real numbers, especially the integers c. Induction d. Set theory e. Relations, especially equivalence relations f. Functions\nStudents will be able to generate examples and non-examples of mathematical objects associated with the topics above.\nStudents will use correct mathematical notation associated with the topics above.\nStudents will formulate logically sound arguments using style conventions common in mathematical practice.\nStudents will identify appropriate proof techniques for assigned proofs.\nStudents will write mathematically valid proofs using the following techniques: a. Direct proof b. Biconditional proof c. Proof by cases d. Proof by contrapositive e. Proof by contradiction f. Induction\nStudents will write mathematically valid proofs in the following subject areas: a. The real numbers, especially the integers b. Sets c. Relations, especially equivalence relations d. Functions",
+      "topic_outline": "Basic mathematical language and logical rules\nSets and their properties\nProof techniques, including case arguments, proof by contrapositive, proof by contradiction, and induction\nFunctions, including injectivity, surjectivity, images, and preimages\nRelations, especially equivalence relations\nThe integers and other number systems",
+      "source_url": "https://bulletin.uga.edu/Course/Details/47323"
+    },
+    {
+      "course_name": "Advanced Problem Solving",
+      "course_number": "MATH 3220",
+      "credit_hours": "1 hour. Repeatable for maximum 4 hours credit.",
+      "prerequisite": "",
+      "course_objective": "The student will learn to apply problem solving strategies to challenging mathematics problems. This will have the ancillary effect of greater success in other mathematics courses and in the annual national Putnam examination competition.",
+      "topic_outline": "Strategies to be discussed include: searching for patterns, reformulation, modification, generalization, adjusting notation, exploitation of symmetry, and consideration of extreme cases. Each of these will be illustrated through various examples chosen from a broad spectrum of undergraduate mathematics. Reference text: Loren C. Larson, Problem Solving through Problems, Springer-Verlag, 1983.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/15256"
+    },
+    {
+      "course_name": "Applied Linear Algebra",
+      "course_number": "MATH 3300",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+      "course_objective": "Students will be able to solve systems of linear equations by means of Gaussian elimination.\nStudents will be able to calculate the inverse of a matrix.\nStudents be able to determine the projection operator onto a subspace.\nStudents will be able to determine the null space and range space of a linear transformation.\nStudents will be able to calculate the eigenvalues and eigenvectors of a matrix.\nStudents will be able to calculate the singular value decomposition of a matrix.\nStudents will gain experience in applying linear algebra to problems of science and engineering.",
+      "topic_outline": "1. Vector algebra. Dot products. Matrices.\n2. Solving linear equations using elimination.\n3. Matrix algebra: product, inverse, and transpose.\n4. Subspaces: null space, row space, column space of a matrix.\n5. Linear independence, basis, and dimension, orthogonal complement.\n6. Orthogonality. Projections and least-squares approximation. Gram-Schmidt process. Change of basic formula.\n7. Determinants. Cramer's rule.\n8. Eigenvalues and eigenvectors, diagonalizability. Singular value decomposition.\n9. Applications to science and engineering, including topics such as networks, Markov processes, linear programming, statistics, computer graphics.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/28109"
+    },
+    {
+      "course_name": "Applied Linear Algebra (Honors)",
+      "course_number": "MATH 3300H",
+      "credit_hours": "3 hours",
+      "prerequisite": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+      "course_objective": "Students will be able to solve systems of linear equations by means of Gaussian elimination.\nStudents will be able to calculate the inverse of a matrix.\nStudents be able to determine the projection operator onto a subspace.\nStudents will be able to determine the null space and range space of a linear transformation.\nStudents will be able to calculate the eigenvalues and eigenvectors of a matrix.\nStudents will be able to calculate the singular value decomposition of a matrix.\nStudents will gain experience in applying linear algebra to problems of science and engineering.",
+      "topic_outline": "1. Vector algebra. Dot products. Matrices.\n2. Solving linear equations using elimination.\n3. Matrix algebra: product, inverse, and transpose.\n4. Subspaces: null space, row space, column space of a matrix.\n5. Linear independence, basis, and dimension, orthogonal complement.\n6. Orthogonality. Projections and least-squares approximation. Gram-Schmidt process. Change of basic formula.\n7. Determinants. Cramer's rule.\n8. Eigenvalues and eigenvectors, diagonalizability. Singular value decomposition.\n9. Applications to science and engineering, including topics such as networks, Markov processes, linear programming, statistics, computer graphics.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/53592"
+    },
+    {
+      "course_name": "Multivariable Mathematics I",
+      "course_number": "MATH 3500",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
+      "course_objective": "In addition to learning the customary computational skills in calculus and linear algebra, the student will be exposed to mathematics as mathematicians view it. Students will learn to write proofs and think more rigorously about mathematics, and will come to grips with challenging concepts and problems. In that regard, this course is an excellent preparation for students considering a career in law, medicine, or the sciences.",
+      "topic_outline": "1. Vectors, dot product, subspaces, linear transformations and matrices; introduction to determinants and cross product. 2. Scalar- and vector-valued functions, topology of euclidean space, limits and continuity. 3. Differentiation: directional derivatives, differentiability, differentiation rules, the gradient, curves, and higher-order partial derivatives. 4. Implicit and explicit solutions of linear systems: Gaussian elimination, elementary matrices and inverses, linear independence, basis, and dimension, the four fundamental subspaces associated to a matrix. 5. Extremum problems: compactness and the maximum value theorem, maximum/minimum problems, the second derivative test, Lagrange multipliers (with an introduction to eigenvalues), projections and least- squares solution of inconsistent systems.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/975"
+    },
+    {
+      "course_name": "Multivariable Mathematics I (Honors)",
+      "course_number": "MATH 3500H",
+      "credit_hours": "4 hours",
+      "prerequisite": "(MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+      "course_objective": "In addition to learning the customary computational skills in calculus and linear algebra, the student will be exposed to mathematics as mathematicians view it. Students will learn to write proofs and think more rigorously about mathematics, and will come to grips with challenging concepts and problems. In that regard, this course is an excellent preparation for students considering a career in law, medicine, or the sciences.",
+      "topic_outline": "1. Vectors, dot product, subspaces, linear transformations and matrices; introduction to determinants and cross product. 2. Scalar- and vector-valued functions, topology of euclidean space, limits and continuity. 3. Differentiation: directional derivatives, differentiability, differentiation rules, the gradient, curves, and higher-order partial derivatives. 4. Implicit and explicit solutions of linear systems: Gaussian elimination, elementary matrices and inverses, linear independence, basis, and dimension, the four fundamental subspaces associated to a matrix. 5. Extremum problems: compactness and the maximum value theorem, maximum/minimum problems, the second derivative test, Lagrange multipliers (with an introduction to eigenvalues), projections and least-squares solution of inconsistent systems.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/19003"
+    },
+    {
+      "course_name": "Multivariable Mathematics II",
+      "course_number": "MATH 3510",
+      "credit_hours": "4 hours",
+      "prerequisite": "MATH 3500 or MATH 3500H",
+      "course_objective": "In addition to learning the customary computational skills in calculus and linear algebra, the student will be exposed to mathematics as mathematicians view it. Students will learn to write proofs and think more rigorously about mathematics, and will come to grips with challenging concepts and problems. In that regard, this course is an excellent preparation for students considering a career in law, medicine, or the sciences.",
+      "topic_outline": "1. Solving nonlinear problems: contraction mapping principle, the inverse and implicit function theorems, manifolds. 2. Integration: multiple and iterated integrals and Fubini's Theorem; polar, cylindrical, and spherical coordinates; physical applications. 3. Determinants, n-dimensional volume, and the Change of Variables Theorem. 4. Differential forms and integration on manifolds: differential forms, line integrals, Green's Theorem, surface integrals and flux, Stokes' Theorem, applications to physics and topology. 5. Eigenvalues, eigenvectors, and applications: change of basis formula, diagonalizability, difference equations, differential equations, and the spectral theorem for symmetric matrices.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/976"
+    },
+    {
+      "course_name": "Multivariable Mathematics II (Honors)",
+      "course_number": "MATH 3510H",
+      "credit_hours": "4 hours",
+      "prerequisite": "(MATH 3500 or MATH 3500H) and permission of Honors",
+      "course_objective": "In addition to learning the customary computational skills in calculus and linear algebra, the student will be exposed to mathematics as mathematicians view it. Students will learn to write proofs and think more rigorously about mathematics, and will come to grips with challenging concepts and problems. In that regard, this course is an excellent preparation for students considering a career in law, medicine, or the sciences.",
+      "topic_outline": "1. Solving nonlinear problems: contraction mapping principle, the inverse and implicit function theorems, manifolds. 2. Integration: multiple and iterated integrals and Fubini's Theorem; polar, cylindrical, and spherical coordinates; physical applications. 3. Determinants, n-dimensional volume, and the Change of Variables Theorem. 4. Differential forms and integration on manifolds: differential forms, line integrals, Green's Theorem, surface integrals and flux, Stokes' Theorem, applications to physics and topology. 5. Eigenvalues, eigenvectors, and applications: change of basis formula, diagonalizability, difference equations, differential equations, and the spectral theorem for symmetric matrices.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/19004"
+    },
+    {
+      "course_name": "Modern Algebra I",
+      "course_number": "MATH 4000/6000",
+      "credit_hours": "3 hours",
+      "prerequisite": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3300H or MATH 3500 or MATH 3500H) and (MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E)",
+      "course_objective": "Students will acquire computational skills with modular arithmetic and polynomials, as well as with concrete examples of rings and groups.\nStudents will master basic definitions related to abstract algebraic structures such as rings, fields, groups, ideals, and quotients.\nStudents will develop their abstract reasoning and proof-writing skills, enabling them to write rigorous proofs about rings and groups in both general and concrete settings.",
+      "topic_outline": "Arithmetic in Z (the integers)\nCongruence in Z and modular arithmetic\nRings\nCongruence in F[x] and congruence-class arithmetic\nIdeals and quotient rings\nGroups\nNormal subgroups and quotient groups",
+      "source_url": "https://bulletin.uga.edu/Course/Details/977"
+    },
+    {
+      "course_name": "Modern Algebra II",
+      "course_number": "MATH 4010/6010",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 4000/6000",
+      "course_objective": "Students will be able to classify finite abelian groups, and study general groups of small order.\nStudents will be able to state and apply the Sylow theorems concerning subgroups of certain orders in a given finite group.\nStudents will relate groups to polynomial rings through Galois theory, and use this to explain why there cannot be an algebraic formula for the roots of a general polynomial of degree 5 and higher.\nStudents will perform calculations in and prove results about specific integral domains such as rings of quadratic integers, as well as general integral domains of various types such as PIDs.",
+      "topic_outline": "Topics in Group Theory, including finite abelian groups and the Sylow theorems\nField extensions\nGalois theory\nGeometric constructions\nArithmetic in integral domains (including PIDs, quadratic integers)\nAdditional topics such as public key cryptography or algebraic coding theory, as time permits",
+      "source_url": "https://bulletin.uga.edu/Course/Details/978"
+    },
+    {
+      "course_name": "Advanced Linear Algebra",
+      "course_number": "MATH 4050/6050",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 3000 or (MATH 3300 and MATH 3200)",
+      "course_objective": "This is an advanced linear algebra course. Students are expected to understand and compute the Jordan and rational canonical forms of a matrix. Students should understand the unitary and orthogonal groups of matrices and be able to determine the polar ecomposition of such matrices. Students are expected to be able to determine the spectral decomposition of a self adjoint matrix.",
+      "topic_outline": "Fields and Vector Spaces. Linear Dependence and Combinations. Subspaces and Calculus of Subspaces. Dual Spaces and Dual Bases. Reflexivity and Annihilators. Direct Sums and Quotient Spaces. Bilinear Forms, Tensor products, Multilinear Forms, and Alternating Forms. Linear Transformations. Projections. Adjoints. Change of Basis and Similarity. Range and Null-Space, Rank, and Nullity. Determinants. Proper Values. Triangular Form and Jordan Form. Inner Products. Schwarz's Inequality. Projections. Spectral Theorem. Polar Decomposition. Convergence. Self-Adjoint Transformations. Ergodic Theom. Note: This topical outline roughly follows Halmos, \"Finite Dimensional Vector Spaces.\" Other approaches to the core topics are possible.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/979"
+    },
+    {
+      "course_name": "Advanced Algebra",
+      "course_number": "MATH 4080/6080",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 4010/6010 or permission of department",
+      "course_objective": "",
+      "topic_outline": "",
+      "source_url": "https://bulletin.uga.edu/Course/Details/980"
+    },
+    {
+      "course_name": "Real Analysis",
+      "course_number": "MATH 4100/6100",
+      "credit_hours": "3 hours",
+      "prerequisite": "(MATH 3100 or MATH 3100H) and (MATH 3200 or CSCI 2610 or CSCI 2610E)",
+      "course_objective": "Students should understand the notions of continuity and differentiability of functions in one and several real variables and be able to prove the basic results about such functions. Students will also learn how the concepts of uniform and absolute convergence apply to the study of continuous and differentiable functions defined by sequences. Students will also get an introduction to the topology of metric spaces.",
+      "topic_outline": "Real and Complex Number Systems Basic Topology Numerical Sequences and Series Continuity Differentiation Riemann and Riemann-Stieltjes Integrals Sequences and Series of Functions",
+      "source_url": "https://bulletin.uga.edu/Course/Details/981"
+    },
+    {
+      "course_name": "The Lebesgue Integral and Applications",
+      "course_number": "MATH 4110/6110",
+      "credit_hours": "3 hours",
+      "prerequisite": "MATH 4100/6100 or MATH 4200/6200 or permission of department",
+      "course_objective": "Students will understand the Lebesgue integral. Students will see why the Lebesgue integral was necessary to solve classical problems of integration theory. They will see how the Lebesgue integral encompasses the Riemann integral. The will also see special applications of the Lebesgue integral to discontinuous functions that arise in probability and Fourier series.",
+      "topic_outline": "Contact the instructor for topical outline for this course.",
+      "source_url": "https://bulletin.uga.edu/Course/Details/1180"
+    }
+  ]
+}
