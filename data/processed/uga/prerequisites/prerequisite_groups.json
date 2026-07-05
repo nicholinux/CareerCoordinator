@@ -1,0 +1,596 @@
+[
+  {
+    "requirement_group": "CSCI_1301_group_1",
+    "course_id": "CSCI_1301",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 1113 or MATH 1113E or MATH 2250 or MATH 2250E or MATH 2200",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_1302_group_1",
+    "course_id": "CSCI_1302",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1301-1301L or CSCI 1301E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_1302H_group_1",
+    "course_id": "CSCI_1302H",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 1301-1301L or CSCI 1301E) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_1360_group_1",
+    "course_id": "CSCI_1360",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 1113 or MATH 1113E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_1730_group_1",
+    "course_id": "CSCI_1730",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_1900_group_1",
+    "course_id": "CSCI_1900",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1301-1301L",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_2610_group_1",
+    "course_id": "CSCI_2610",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_2611_group_1",
+    "course_id": "CSCI_2611",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_2670_group_1",
+    "course_id": "CSCI_2670",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 2610 or CSCI 2611",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_2720_group_1",
+    "course_id": "CSCI_2720",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "CSCI 1302 and (CSCI 2610 or CSCI 2610E or CSCI 2611)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_2720_group_2",
+    "course_id": "CSCI_2720",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "CSCI 1302 and (CSCI 2610 or CSCI 2610E or CSCI 2611)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_2725_group_1",
+    "course_id": "CSCI_2725",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_3030_group_1",
+    "course_id": "CSCI_3030",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "ENGL 1050H or ENGL 1102 or ENGL 1102E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_3030H_group_1",
+    "course_id": "CSCI_3030H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(ENGL 1050H or ENGL 1102 or ENGL 1102E) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_3360_group_1",
+    "course_id": "CSCI_3360",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 1301-1301L or CSCI 1301E or CSCI 1360 or CSCI 1360E or CSCI 1300-1300L or ENGR 1140 or ENGR 1140E or ENGR 1140H or ELEE 2045 or INFO 2000 or INFO 2000E) and (MATH 2250 or MATH 2250E or CSCI 2150-2150L)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_3360_group_2",
+    "course_id": "CSCI_3360",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 1301-1301L or CSCI 1301E or CSCI 1360 or CSCI 1360E or CSCI 1300-1300L or ENGR 1140 or ENGR 1140E or ENGR 1140H or ELEE 2045 or INFO 2000 or INFO 2000E) and (MATH 2250 or MATH 2250E or CSCI 2150-2150L)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4050_group_1",
+    "course_id": "CSCI_4050",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4060_group_1",
+    "course_id": "CSCI_4060",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4070_group_1",
+    "course_id": "CSCI_4070",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1730",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4080_group_1",
+    "course_id": "CSCI_4080",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 4070/6070",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4140_group_1",
+    "course_id": "CSCI_4140",
+    "group_operator": "AND",
+    "parent_operator": null,
+    "raw_text": "CSCI 1730 and MATH 2250 and CSCI 2150-2150L",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4150_group_1",
+    "course_id": "CSCI_4150",
+    "group_operator": "AND",
+    "parent_operator": "OR",
+    "raw_text": "(MATH 2250 and CSCI 1301-1301L) or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4210_group_1",
+    "course_id": "CSCI_4210",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4250_group_1",
+    "course_id": "CSCI_4250",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 4730/6730 or CSCI 4760/6760",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4260_group_1",
+    "course_id": "CSCI_4260",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4300_group_1",
+    "course_id": "CSCI_4300",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4360_group_1",
+    "course_id": "CSCI_4360",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 3360 or CSCI 3360E or INFO 3000 or INFO 3000E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4370_group_1",
+    "course_id": "CSCI_4370",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4470_group_1",
+    "course_id": "CSCI_4470",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 2720 or CSCI 2725) and (CSCI 2670 or CSCI 2670E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4470_group_2",
+    "course_id": "CSCI_4470",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 2720 or CSCI 2725) and (CSCI 2670 or CSCI 2670E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4490_group_1",
+    "course_id": "CSCI_4490",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 4470/6470 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4500_group_1",
+    "course_id": "CSCI_4500",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4520_group_1",
+    "course_id": "CSCI_4520",
+    "group_operator": "AND",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 and CSCI(MATH) 2610",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4540_group_1",
+    "course_id": "CSCI_4540",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 1302 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4550_group_1",
+    "course_id": "CSCI_4550",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI(MATH) 2610 or PHIL 2500",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4560_group_1",
+    "course_id": "CSCI_4560",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4580_group_1",
+    "course_id": "CSCI_4580",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or CSCI 2720E or CSCI 2725",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4600_group_1",
+    "course_id": "CSCI_4600",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI(PHIL) 4550/6550",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4670_group_1",
+    "course_id": "MATH_4670",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3500 or MATH 3500H) and (CSCI 2610 or CSCI 2610E or MATH 3200 or MATH 3200W)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4670_group_2",
+    "course_id": "MATH_4670",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3500 or MATH 3500H) and (CSCI 2610 or CSCI 2610E or MATH 3200 or MATH 3200W)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4720_group_1",
+    "course_id": "CSCI_4720",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E) and CSCI 1730",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4720_group_2",
+    "course_id": "CSCI_4720",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E) and CSCI 1730",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4730_group_1",
+    "course_id": "CSCI_4730",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 4720 or CSCI 4720E or CSEE 4280) and CSCI 2720",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4730_group_2",
+    "course_id": "CSCI_4730",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "(CSCI 4720 or CSCI 4720E or CSEE 4280) and CSCI 2720",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4740_group_1",
+    "course_id": "CSCI_4740",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4760_group_1",
+    "course_id": "CSCI_4760",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "CSCI 2720 and (CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4760_group_2",
+    "course_id": "CSCI_4760",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "CSCI 2720 and (CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4770_group_1",
+    "course_id": "CSCI_4770",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4795_group_1",
+    "course_id": "CSCI_4795",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4830_group_1",
+    "course_id": "CSCI_4830",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or CSCI 2720E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4840_group_1",
+    "course_id": "CSCI_4840",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4850_group_1",
+    "course_id": "CSCI_4850",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or CSCI 2725 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4860_group_1",
+    "course_id": "CSCI_4860",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 2720 or CSCI 2725 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4910_group_1",
+    "course_id": "CSCI_4910",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 4050/6050 or CSCI 4050E/6050E or CSCI 4370/6370",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_4911_group_1",
+    "course_id": "CSCI_4911",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 4910",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4990_group_1",
+    "course_id": "STAT_4990",
+    "group_operator": "AND",
+    "parent_operator": "OR",
+    "raw_text": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4990_group_2",
+    "course_id": "STAT_4990",
+    "group_operator": "AND",
+    "parent_operator": "OR",
+    "raw_text": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_6480_group_1",
+    "course_id": "CSCI_6480",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 2670 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_6610_group_1",
+    "course_id": "CSCI_6610",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 2670",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_6720_group_1",
+    "course_id": "CSCI_6720",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "CSCI 4720",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_7010_group_1",
+    "course_id": "CSCI_7010",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_8060_group_1",
+    "course_id": "CSCI_8060",
+    "group_operator": "AND",
+    "parent_operator": null,
+    "raw_text": "CSCI 4050/6050 and CSCI 4370/6370",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_8140_group_1",
+    "course_id": "CSCI_8140",
+    "group_operator": "AND",
+    "parent_operator": null,
+    "raw_text": "CSCI 4140/6140 and CSCI 6720",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_8150_group_1",
+    "course_id": "CSCI_8150",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 4140/6140 or CSCI 4150/6150",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_8220_group_1",
+    "course_id": "CSCI_8220",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 4730/6730 or CSCI 4210/6210",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "CSCI_8240_group_1",
+    "course_id": "CSCI_8240",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "CSCI 4730/6730 or CSCI 4250/6250 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  }
+]

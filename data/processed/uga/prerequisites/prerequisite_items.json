@@ -1,0 +1,1102 @@
+[
+  {
+    "requirement_group": "CSCI_1301_group_1",
+    "course_id": "CSCI_1301",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_1301_group_1",
+    "course_id": "CSCI_1301",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_1301_group_1",
+    "course_id": "CSCI_1301",
+    "prerequisite_course_id": "MATH_2200",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2200",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_1302_group_1",
+    "course_id": "CSCI_1302",
+    "prerequisite_course_id": "CSCI_1301",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1301-1301L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_1302H_group_1",
+    "course_id": "CSCI_1302H",
+    "prerequisite_course_id": "CSCI_1301",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1301-1301L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_1360_group_1",
+    "course_id": "CSCI_1360",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_1730_group_1",
+    "course_id": "CSCI_1730",
+    "prerequisite_course_id": "CSCI_1302",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_1900_group_1",
+    "course_id": "CSCI_1900",
+    "prerequisite_course_id": "CSCI_1301",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1301-1301L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_2610_group_1",
+    "course_id": "CSCI_2610",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_2611_group_1",
+    "course_id": "CSCI_2611",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_2670_group_1",
+    "course_id": "CSCI_2670",
+    "prerequisite_course_id": "CSCI_2610",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2610",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_2670_group_1",
+    "course_id": "CSCI_2670",
+    "prerequisite_course_id": "CSCI_2611",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2611",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_2720_group_1",
+    "course_id": "CSCI_2720",
+    "prerequisite_course_id": "CSCI_2610",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2610",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_2720_group_1",
+    "course_id": "CSCI_2720",
+    "prerequisite_course_id": "CSCI_2611",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2611",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_2720_group_2",
+    "course_id": "CSCI_2720",
+    "prerequisite_course_id": "CSCI_1302",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_2725_group_1",
+    "course_id": "CSCI_2725",
+    "prerequisite_course_id": "CSCI_1302",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_3030_group_1",
+    "course_id": "CSCI_3030",
+    "prerequisite_course_id": "ENGL_1050H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "ENGL 1050H",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3030_group_1",
+    "course_id": "CSCI_3030",
+    "prerequisite_course_id": "ENGL_1102",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "ENGL 1102",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3030H_group_1",
+    "course_id": "CSCI_3030H",
+    "prerequisite_course_id": "ENGL_1050H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "ENGL 1050H",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3030H_group_1",
+    "course_id": "CSCI_3030H",
+    "prerequisite_course_id": "ENGL_1102",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "ENGL 1102",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3360_group_1",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "CSCI_1301",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1301-1301L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_3360_group_1",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "CSCI_1360",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1360",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_3360_group_1",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "CSCI_1300",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1300-1300L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_3360_group_1",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "ENGR_1140",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "ENGR 1140",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3360_group_1",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "ENGR_1140H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "ENGR 1140H",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3360_group_1",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "ELEE_2045",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "ELEE 2045",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3360_group_1",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "INFO_2000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "INFO 2000",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3360_group_2",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_3360_group_2",
+    "course_id": "CSCI_3360",
+    "prerequisite_course_id": "CSCI_2150",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2150-2150L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4050_group_1",
+    "course_id": "CSCI_4050",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4050_group_1",
+    "course_id": "CSCI_4050",
+    "prerequisite_course_id": "CSCI_2725",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2725",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4060_group_1",
+    "course_id": "CSCI_4060",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4070_group_1",
+    "course_id": "CSCI_4070",
+    "prerequisite_course_id": "CSCI_1730",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1730",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4080_group_1",
+    "course_id": "CSCI_4080",
+    "prerequisite_course_id": "CSCI_4070",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4070/6070",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4140_group_1",
+    "course_id": "CSCI_4140",
+    "prerequisite_course_id": "CSCI_1730",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1730",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4140_group_1",
+    "course_id": "CSCI_4140",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_4140_group_1",
+    "course_id": "CSCI_4140",
+    "prerequisite_course_id": "CSCI_2150",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2150-2150L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4150_group_1",
+    "course_id": "CSCI_4150",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_4150_group_1",
+    "course_id": "CSCI_4150",
+    "prerequisite_course_id": "CSCI_1301",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1301-1301L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4210_group_1",
+    "course_id": "CSCI_4210",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4210_group_1",
+    "course_id": "CSCI_4210",
+    "prerequisite_course_id": "CSCI_2725",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2725",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4250_group_1",
+    "course_id": "CSCI_4250",
+    "prerequisite_course_id": "CSCI_4730",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4730/6730",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4250_group_1",
+    "course_id": "CSCI_4250",
+    "prerequisite_course_id": "CSCI_4760",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4760/6760",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4260_group_1",
+    "course_id": "CSCI_4260",
+    "prerequisite_course_id": "CSCI_1302",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4300_group_1",
+    "course_id": "CSCI_4300",
+    "prerequisite_course_id": "CSCI_1302",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4360_group_1",
+    "course_id": "CSCI_4360",
+    "prerequisite_course_id": "CSCI_3360",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 3360",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4360_group_1",
+    "course_id": "CSCI_4360",
+    "prerequisite_course_id": "INFO_3000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "INFO 3000",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_4370_group_1",
+    "course_id": "CSCI_4370",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4370_group_1",
+    "course_id": "CSCI_4370",
+    "prerequisite_course_id": "CSCI_2725",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2725",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4470_group_1",
+    "course_id": "CSCI_4470",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4470_group_1",
+    "course_id": "CSCI_4470",
+    "prerequisite_course_id": "CSCI_2725",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2725",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4470_group_2",
+    "course_id": "CSCI_4470",
+    "prerequisite_course_id": "CSCI_2670",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2670",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4490_group_1",
+    "course_id": "CSCI_4490",
+    "prerequisite_course_id": "CSCI_4470",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4470/6470",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4500_group_1",
+    "course_id": "CSCI_4500",
+    "prerequisite_course_id": "CSCI_1302",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4520_group_1",
+    "course_id": "CSCI_4520",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4520_group_1",
+    "course_id": "CSCI_4520",
+    "prerequisite_course_id": "CSCI_2610",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI(MATH) 2610",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4540_group_1",
+    "course_id": "CSCI_4540",
+    "prerequisite_course_id": "CSCI_1302",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4550_group_1",
+    "course_id": "CSCI_4550",
+    "prerequisite_course_id": "CSCI_2610",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI(MATH) 2610",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4550_group_1",
+    "course_id": "CSCI_4550",
+    "prerequisite_course_id": "PHIL_2500",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "PHIL 2500",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_4560_group_1",
+    "course_id": "CSCI_4560",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4560_group_1",
+    "course_id": "CSCI_4560",
+    "prerequisite_course_id": "CSCI_2725",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2725",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4580_group_1",
+    "course_id": "CSCI_4580",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4580_group_1",
+    "course_id": "CSCI_4580",
+    "prerequisite_course_id": "CSCI_2725",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2725",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4600_group_1",
+    "course_id": "CSCI_4600",
+    "prerequisite_course_id": "CSCI_4550",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI(PHIL) 4550/6550",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4670_group_1",
+    "course_id": "MATH_4670",
+    "prerequisite_course_id": "MATH_3000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3000",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "MATH_4670_group_1",
+    "course_id": "MATH_4670",
+    "prerequisite_course_id": "MATH_3300",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3300",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "MATH_4670_group_1",
+    "course_id": "MATH_4670",
+    "prerequisite_course_id": "MATH_3500",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3500",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "MATH_4670_group_1",
+    "course_id": "MATH_4670",
+    "prerequisite_course_id": "MATH_3500H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3500H",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "MATH_4670_group_2",
+    "course_id": "MATH_4670",
+    "prerequisite_course_id": "CSCI_2610",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2610",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4670_group_2",
+    "course_id": "MATH_4670",
+    "prerequisite_course_id": "MATH_3200",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3200",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "MATH_4670_group_2",
+    "course_id": "MATH_4670",
+    "prerequisite_course_id": "MATH_3200W",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3200W",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_4720_group_1",
+    "course_id": "CSCI_4720",
+    "prerequisite_course_id": "CSCI_2670",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2670",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4720_group_1",
+    "course_id": "CSCI_4720",
+    "prerequisite_course_id": "CSEE_2220",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSEE 2220",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_4720_group_2",
+    "course_id": "CSCI_4720",
+    "prerequisite_course_id": "CSCI_1730",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 1730",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4730_group_1",
+    "course_id": "CSCI_4730",
+    "prerequisite_course_id": "CSCI_4720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4730_group_1",
+    "course_id": "CSCI_4730",
+    "prerequisite_course_id": "CSEE_4280",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSEE 4280",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_4730_group_2",
+    "course_id": "CSCI_4730",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4740_group_1",
+    "course_id": "CSCI_4740",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4760_group_1",
+    "course_id": "CSCI_4760",
+    "prerequisite_course_id": "CSCI_2670",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2670",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4760_group_1",
+    "course_id": "CSCI_4760",
+    "prerequisite_course_id": "CSEE_2220",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSEE 2220",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_4760_group_2",
+    "course_id": "CSCI_4760",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4770_group_1",
+    "course_id": "CSCI_4770",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4795_group_1",
+    "course_id": "CSCI_4795",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4830_group_1",
+    "course_id": "CSCI_4830",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4840_group_1",
+    "course_id": "CSCI_4840",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4850_group_1",
+    "course_id": "CSCI_4850",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4850_group_1",
+    "course_id": "CSCI_4850",
+    "prerequisite_course_id": "CSCI_2725",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2725",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4860_group_1",
+    "course_id": "CSCI_4860",
+    "prerequisite_course_id": "CSCI_2720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4860_group_1",
+    "course_id": "CSCI_4860",
+    "prerequisite_course_id": "CSCI_2725",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2725",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4910_group_1",
+    "course_id": "CSCI_4910",
+    "prerequisite_course_id": "CSCI_4050",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4050/6050",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4910_group_1",
+    "course_id": "CSCI_4910",
+    "prerequisite_course_id": "CSCI_4370",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4370/6370",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_4911_group_1",
+    "course_id": "CSCI_4911",
+    "prerequisite_course_id": "CSCI_4910",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4910",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4990_group_1",
+    "course_id": "STAT_4990",
+    "prerequisite_course_id": "CSCI_4360",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4360/6360",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4990_group_1",
+    "course_id": "STAT_4990",
+    "prerequisite_course_id": "CSCI_4370",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4370/6370",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4990_group_2",
+    "course_id": "STAT_4990",
+    "prerequisite_course_id": "STAT_4220",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4220",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_4990_group_2",
+    "course_id": "STAT_4990",
+    "prerequisite_course_id": "STAT_4230",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_6480_group_1",
+    "course_id": "CSCI_6480",
+    "prerequisite_course_id": "CSCI_2670",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2670",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_6610_group_1",
+    "course_id": "CSCI_6610",
+    "prerequisite_course_id": "CSCI_2670",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2670",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_6720_group_1",
+    "course_id": "CSCI_6720",
+    "prerequisite_course_id": "CSCI_4720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_7010_group_1",
+    "course_id": "CSCI_7010",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "CSCI_8060_group_1",
+    "course_id": "CSCI_8060",
+    "prerequisite_course_id": "CSCI_4050",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4050/6050",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8060_group_1",
+    "course_id": "CSCI_8060",
+    "prerequisite_course_id": "CSCI_4370",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4370/6370",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8140_group_1",
+    "course_id": "CSCI_8140",
+    "prerequisite_course_id": "CSCI_4140",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4140/6140",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8140_group_1",
+    "course_id": "CSCI_8140",
+    "prerequisite_course_id": "CSCI_6720",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 6720",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8150_group_1",
+    "course_id": "CSCI_8150",
+    "prerequisite_course_id": "CSCI_4140",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4140/6140",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8150_group_1",
+    "course_id": "CSCI_8150",
+    "prerequisite_course_id": "CSCI_4150",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4150/6150",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8220_group_1",
+    "course_id": "CSCI_8220",
+    "prerequisite_course_id": "CSCI_4730",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4730/6730",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8220_group_1",
+    "course_id": "CSCI_8220",
+    "prerequisite_course_id": "CSCI_4210",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4210/6210",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8240_group_1",
+    "course_id": "CSCI_8240",
+    "prerequisite_course_id": "CSCI_4730",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4730/6730",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "CSCI_8240_group_1",
+    "course_id": "CSCI_8240",
+    "prerequisite_course_id": "CSCI_4250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 4250/6250",
+    "parse_status": "parsed",
+    "is_resolved": true
+  }
+]

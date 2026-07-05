@@ -1,0 +1,972 @@
+[
+  {
+    "course_id": "CSCI_1100",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_1210",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_1300",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_1301",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 1113 or MATH 1113E or MATH 2250 or MATH 2250E or MATH 2200",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_1302",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1301-1301L or CSCI 1301E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_1302H",
+    "has_prerequisite_text": true,
+    "raw_text": "(CSCI 1301-1301L or CSCI 1301E) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_1360",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 1113 or MATH 1113E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_1730",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_1900",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1301-1301L",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_2150",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_2610",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_2611",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_2670",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2610 or CSCI 2611",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_2720",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1302 and (CSCI 2610 or CSCI 2610E or CSCI 2611)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 3,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_2725",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_3030",
+    "has_prerequisite_text": true,
+    "raw_text": "ENGL 1050H or ENGL 1102 or ENGL 1102E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_3030H",
+    "has_prerequisite_text": true,
+    "raw_text": "(ENGL 1050H or ENGL 1102 or ENGL 1102E) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_3360",
+    "has_prerequisite_text": true,
+    "raw_text": "(CSCI 1301-1301L or CSCI 1301E or CSCI 1360 or CSCI 1360E or CSCI 1300-1300L or ENGR 1140 or ENGR 1140E or ENGR 1140H or ELEE 2045 or INFO 2000 or INFO 2000E) and (MATH 2250 or MATH 2250E or CSCI 2150-2150L)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 9,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4050",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4060",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4070",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1730",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4080",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4070/6070",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4130",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4140",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1730 and MATH 2250 and CSCI 2150-2150L",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4150",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2250 and CSCI 1301-1301L) or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4170",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4210",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4250",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4730/6730 or CSCI 4760/6760",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4260",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4270",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4280",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4300",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4330",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4350",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4360",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 3360 or CSCI 3360E or INFO 3000 or INFO 3000E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4370",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4380",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4470",
+    "has_prerequisite_text": true,
+    "raw_text": "(CSCI 2720 or CSCI 2725) and (CSCI 2670 or CSCI 2670E)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 3,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4490",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4470/6470 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4500",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4520",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 and CSCI(MATH) 2610",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4530",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4540",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 1302 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4550",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI(MATH) 2610 or PHIL 2500",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4560",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4570",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4580",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or CSCI 2720E or CSCI 2725",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4600",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI(PHIL) 4550/6550",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4612",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_4670",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3500 or MATH 3500H) and (CSCI 2610 or CSCI 2610E or MATH 3200 or MATH 3200W)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 7,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_4690",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4720",
+    "has_prerequisite_text": true,
+    "raw_text": "(CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E) and CSCI 1730",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 3,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4730",
+    "has_prerequisite_text": true,
+    "raw_text": "(CSCI 4720 or CSCI 4720E or CSEE 4280) and CSCI 2720",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 3,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4740",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4760",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 and (CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 3,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4770",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4780",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4795",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4800",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4810",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4830",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or CSCI 2720E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CBIO_4835",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4840",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4850",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or CSCI 2725 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4860",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2720 or CSCI 2725 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4900",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4910",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4050/6050 or CSCI 4050E/6050E or CSCI 4370/6370",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4911",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4910",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "ENGR_4922",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4950",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4960",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4960R",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4970R",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4980R",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_4990R",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4990",
+    "has_prerequisite_text": true,
+    "raw_text": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 4,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_5007",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_5110",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_5310",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_6375",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_6480",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2670 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_6610",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 2670",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_6720",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4720",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSEE_6922",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_7000",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_7005",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_7010",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_7100",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_7200",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_7300",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_8000",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_8050",
+    "has_prerequisite_text": true,
+    "raw_text": "[CSCI(ARTI) 4540/6540 and CSCI(PHIL) 4550/6550] or permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Mixed AND/OR prerequisite without explicit grouping in remainder.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_8060",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4050/6050 and CSCI 4370/6370",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_8140",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4140/6140 and CSCI 6720",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_8150",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4140/6140 or CSCI 4150/6150",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_8220",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4730/6730 or CSCI 4210/6210",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "CSCI_8240",
+    "has_prerequisite_text": true,
+    "raw_text": "CSCI 4730/6730 or CSCI 4250/6250 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  }
+]
