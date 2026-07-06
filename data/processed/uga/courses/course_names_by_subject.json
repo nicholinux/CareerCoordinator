@@ -1,0 +1,772 @@
+{
+  "CSCI": [
+    {
+      "course_number": "CSCI 1100-1100L",
+      "course_name": "Topics in Computing"
+    },
+    {
+      "course_number": "CSCI 1210",
+      "course_name": "Computer Modeling and Science"
+    },
+    {
+      "course_number": "CSCI 1300-1300L",
+      "course_name": "Introduction to Programming with Python"
+    },
+    {
+      "course_number": "CSCI 1301-1301L",
+      "course_name": "Introduction to Computing and Programming"
+    },
+    {
+      "course_number": "CSCI 1302",
+      "course_name": "Software Development"
+    },
+    {
+      "course_number": "CSCI 1302H",
+      "course_name": "Software Development Honors"
+    },
+    {
+      "course_number": "CSCI 1360",
+      "course_name": "Foundations for Informatics and Data Analytics"
+    },
+    {
+      "course_number": "CSCI 1730",
+      "course_name": "Systems Programming"
+    },
+    {
+      "course_number": "CSCI 1900",
+      "course_name": "Computer Science Special Topic"
+    },
+    {
+      "course_number": "CSCI 2150-2150L",
+      "course_name": "Introduction to Computational Science"
+    },
+    {
+      "course_number": "CSCI 2610",
+      "course_name": "Discrete Mathematics for Computer Science"
+    },
+    {
+      "course_number": "CSCI 2611",
+      "course_name": "Discrete Mathematics for Engineers"
+    },
+    {
+      "course_number": "CSCI 2670",
+      "course_name": "Introduction to Theory of Computing"
+    },
+    {
+      "course_number": "CSCI 2720",
+      "course_name": "Data Structures"
+    },
+    {
+      "course_number": "CSCI 2725",
+      "course_name": "Data Structures for Data Science"
+    },
+    {
+      "course_number": "CSCI 3030",
+      "course_name": "Computing, Ethics, and Society"
+    },
+    {
+      "course_number": "CSCI 3030H",
+      "course_name": "Computing, Ethics, and Society (Honors)"
+    },
+    {
+      "course_number": "CSCI 3360",
+      "course_name": "Data Science and Applied Machine Learning I"
+    },
+    {
+      "course_number": "CSCI 4050/6050",
+      "course_name": "Software Engineering"
+    },
+    {
+      "course_number": "CSCI 4060/6060",
+      "course_name": "Mobile Software Development"
+    },
+    {
+      "course_number": "CSCI 4070/6070",
+      "course_name": "Introduction to Game Programming"
+    },
+    {
+      "course_number": "CSCI 4080/6080",
+      "course_name": "Intermediate Game Programming"
+    },
+    {
+      "course_number": "CSCI 4130/6130",
+      "course_name": "CUDA C Programming on GPUs for High Performance Computing"
+    },
+    {
+      "course_number": "CSCI 4140/6140",
+      "course_name": "Numerical Methods and Computing"
+    },
+    {
+      "course_number": "CSCI 4150/6150",
+      "course_name": "Numerical Simulations in Science and Engineering"
+    },
+    {
+      "course_number": "CSCI 4170/6170",
+      "course_name": "Introduction to Computational Investing"
+    },
+    {
+      "course_number": "CSCI 4210/6210",
+      "course_name": "Simulation and Modeling"
+    },
+    {
+      "course_number": "CSCI 4250/6250",
+      "course_name": "Cyber Security"
+    },
+    {
+      "course_number": "CSCI 4260/6260",
+      "course_name": "Data Security and Privacy"
+    },
+    {
+      "course_number": "CSCI 4270/6270",
+      "course_name": "Introduction to Computer Forensics"
+    },
+    {
+      "course_number": "CSCI 4280/6280",
+      "course_name": "Introduction to Cryptography"
+    },
+    {
+      "course_number": "CSCI 4300",
+      "course_name": "Web Programming"
+    },
+    {
+      "course_number": "CSCI 4330/6330",
+      "course_name": "Artificial Intelligence and the Web"
+    },
+    {
+      "course_number": "CSCI 4350/6350",
+      "course_name": "Global Information Systems"
+    },
+    {
+      "course_number": "CSCI 4360/6360",
+      "course_name": "Data Science and Applied Machine Learning II"
+    },
+    {
+      "course_number": "CSCI 4370/6370",
+      "course_name": "Database Management"
+    },
+    {
+      "course_number": "CSCI 4380/6380",
+      "course_name": "Data Mining"
+    },
+    {
+      "course_number": "CSCI 4470/6470",
+      "course_name": "Algorithms"
+    },
+    {
+      "course_number": "CSCI 4490/6490",
+      "course_name": "Algorithms for Computational Biology"
+    },
+    {
+      "course_number": "CSCI 4500/6500",
+      "course_name": "Programming Languages"
+    },
+    {
+      "course_number": "CSCI 4520/6520",
+      "course_name": "Functional Programming"
+    },
+    {
+      "course_number": "CSCI(ARTI) 4530/6530",
+      "course_name": "Introduction to Robotics"
+    },
+    {
+      "course_number": "CSCI(ARTI) 4540/6540",
+      "course_name": "Symbolic Programming"
+    },
+    {
+      "course_number": "CSCI(PHIL) 4550/6550",
+      "course_name": "Artificial Intelligence"
+    },
+    {
+      "course_number": "CSCI 4560/6560",
+      "course_name": "Evolutionary Computation and Its Applications"
+    },
+    {
+      "course_number": "CSCI 4570/6570",
+      "course_name": "Compilers"
+    },
+    {
+      "course_number": "CSCI 4580/6580",
+      "course_name": "Foundations of Deep Learning and Generative AI"
+    },
+    {
+      "course_number": "CSCI(ARTI) 4600/6600",
+      "course_name": "Reinforcement Learning"
+    },
+    {
+      "course_number": "CSCI(MATH)(PHYS) 4612/6612",
+      "course_name": "Introduction to Quantum Computation"
+    },
+    {
+      "course_number": "MATH(CSCI) 4670/6670",
+      "course_name": "Combinatorics"
+    },
+    {
+      "course_number": "MATH(CSCI) 4690/6690",
+      "course_name": "Graph Theory"
+    },
+    {
+      "course_number": "CSCI 4720",
+      "course_name": "Computer Architecture and Organization"
+    },
+    {
+      "course_number": "CSCI 4730/6730",
+      "course_name": "Operating Systems"
+    },
+    {
+      "course_number": "CSCI 4740/6740",
+      "course_name": "Real-Time Scheduling for the Internet of Things"
+    },
+    {
+      "course_number": "CSCI 4760/6760",
+      "course_name": "Computer Networks"
+    },
+    {
+      "course_number": "CSCI 4770/6770",
+      "course_name": "Ubiquitous Computing"
+    },
+    {
+      "course_number": "CSCI 4780/6780",
+      "course_name": "Distributed Computing Systems"
+    },
+    {
+      "course_number": "CSCI 4795/6795",
+      "course_name": "Cloud Computing"
+    },
+    {
+      "course_number": "CSCI 4800/6800",
+      "course_name": "Human-Computer Interaction"
+    },
+    {
+      "course_number": "CSCI 4810/6810",
+      "course_name": "Computer Graphics"
+    },
+    {
+      "course_number": "CSCI(ENGR) 4830/6830",
+      "course_name": "Virtual Reality"
+    },
+    {
+      "course_number": "CBIO(CSCI) 4835/6835",
+      "course_name": "Introduction to Computational Biology"
+    },
+    {
+      "course_number": "CSCI 4840/6840",
+      "course_name": "Signal Processing"
+    },
+    {
+      "course_number": "CSCI 4850/6850",
+      "course_name": "Biomedical Image Analysis"
+    },
+    {
+      "course_number": "CSCI 4860/6860",
+      "course_name": "Computational Neuroscience"
+    },
+    {
+      "course_number": "CSCI 4900/6900",
+      "course_name": "Special Topics in Computer Science"
+    },
+    {
+      "course_number": "CSCI 4910",
+      "course_name": "Capstone Design I"
+    },
+    {
+      "course_number": "CSCI 4911",
+      "course_name": "Capstone Design II"
+    },
+    {
+      "course_number": "ENGR(CSCI) 4922",
+      "course_name": "Computer Systems Engineering Design Project"
+    },
+    {
+      "course_number": "CSCI 4950/6950",
+      "course_name": "Directed Study in Computer Science"
+    },
+    {
+      "course_number": "CSCI 4960",
+      "course_name": "Faculty Mentored Research in Computer Science"
+    },
+    {
+      "course_number": "CSCI 4960R",
+      "course_name": "Faculty-Mentored Undergraduate Research I"
+    },
+    {
+      "course_number": "CSCI 4970R",
+      "course_name": "Faculty-Mentored Undergraduate Research II"
+    },
+    {
+      "course_number": "CSCI 4980R",
+      "course_name": "Faculty-Mentored Undergraduate Research III"
+    },
+    {
+      "course_number": "CSCI 4990R",
+      "course_name": "Undergraduate Research Thesis (or Final Project)"
+    },
+    {
+      "course_number": "STAT(CSCI) 4990",
+      "course_name": "Data Science Capstone Course"
+    },
+    {
+      "course_number": "CSCI 5007/7007",
+      "course_name": "Internship in Computer Science Business/Industry"
+    },
+    {
+      "course_number": "CSCI 5110",
+      "course_name": "Entrepreneurship Practicum in Computing"
+    },
+    {
+      "course_number": "CSCI 5310/7310",
+      "course_name": "Web Composing and Scripting"
+    },
+    {
+      "course_number": "CSCI(STAT) 6375",
+      "course_name": "Foundations of Data Science"
+    },
+    {
+      "course_number": "CSCI 6480",
+      "course_name": "Approximation Algorithms"
+    },
+    {
+      "course_number": "CSCI 6610",
+      "course_name": "Automata and Formal Languages"
+    },
+    {
+      "course_number": "CSCI 6720",
+      "course_name": "Computer Systems Architecture"
+    },
+    {
+      "course_number": "CSEE(CSCI) 6922",
+      "course_name": "Computer Systems Engineering Design Project"
+    },
+    {
+      "course_number": "CSCI 7000",
+      "course_name": "Master's Research"
+    },
+    {
+      "course_number": "CSCI 7005",
+      "course_name": "Graduate Student Seminar"
+    },
+    {
+      "course_number": "CSCI 7010",
+      "course_name": "Computer Programming"
+    },
+    {
+      "course_number": "CSCI 7100",
+      "course_name": "Technical Report"
+    },
+    {
+      "course_number": "CSCI 7200",
+      "course_name": "Master's Project"
+    },
+    {
+      "course_number": "CSCI 7300",
+      "course_name": "Master's Thesis"
+    },
+    {
+      "course_number": "CSCI 8000",
+      "course_name": "Advanced Special Topics in Computer Science"
+    },
+    {
+      "course_number": "CSCI 8050",
+      "course_name": "Knowledge-Based Systems"
+    },
+    {
+      "course_number": "CSCI 8060",
+      "course_name": "Advanced Software Engineering"
+    },
+    {
+      "course_number": "CSCI 8140",
+      "course_name": "Parallel Processing and Computational Science"
+    },
+    {
+      "course_number": "CSCI 8150",
+      "course_name": "Advanced Numerical Methods and Scientific Computing"
+    },
+    {
+      "course_number": "CSCI 8220",
+      "course_name": "Parallel and Distributed Simulation Systems"
+    },
+    {
+      "course_number": "CSCI 8240",
+      "course_name": "Software Security and Cyber Forensics"
+    }
+  ],
+  "MATH": [
+    {
+      "course_number": "MATH 1060",
+      "course_name": "Mathematics of Decision Making"
+    },
+    {
+      "course_number": "MATH 1070",
+      "course_name": "History of African American Mathematicians"
+    },
+    {
+      "course_number": "MATH 1101",
+      "course_name": "Introduction to Mathematical Modeling"
+    },
+    {
+      "course_number": "MATH 1113",
+      "course_name": "Precalculus"
+    },
+    {
+      "course_number": "MATH 1123",
+      "course_name": "A Panorama of Ancient Mathematics"
+    },
+    {
+      "course_number": "MATH(EMAT) 2001",
+      "course_name": "Geometry for Elementary School Teachers"
+    },
+    {
+      "course_number": "MATH(EMAT) 2002",
+      "course_name": "Numbers, Algebra, and Statistics for Elementary School Teachers"
+    },
+    {
+      "course_number": "MATH(EMAT) 2003",
+      "course_name": "Arithmetic for Elementary School Teachers"
+    },
+    {
+      "course_number": "MATH 2110",
+      "course_name": "Calculus for Economics"
+    },
+    {
+      "course_number": "MATH 2200",
+      "course_name": "Analytic Geometry and Calculus"
+    },
+    {
+      "course_number": "MATH 2250",
+      "course_name": "Calculus I for Science and Engineering"
+    },
+    {
+      "course_number": "MATH 2255",
+      "course_name": "Selected Topics in Integral Calculus"
+    },
+    {
+      "course_number": "MATH 2260",
+      "course_name": "Calculus II for Science and Engineering"
+    },
+    {
+      "course_number": "MATH 2260H",
+      "course_name": "Calculus II for Science and Engineering (Honors)"
+    },
+    {
+      "course_number": "MATH 2270",
+      "course_name": "Calculus III for Science and Mathematics"
+    },
+    {
+      "course_number": "MATH 2270H",
+      "course_name": "Calculus III for Science and Mathematics (Honors)"
+    },
+    {
+      "course_number": "MATH 2300H",
+      "course_name": "Differential Calculus (Honors)"
+    },
+    {
+      "course_number": "MATH 2310H",
+      "course_name": "Integral Calculus (Honors)"
+    },
+    {
+      "course_number": "MATH 2400",
+      "course_name": "Differential Calculus with Theory"
+    },
+    {
+      "course_number": "MATH 2400H",
+      "course_name": "Differential Calculus with Theory (Honors)"
+    },
+    {
+      "course_number": "MATH 2410",
+      "course_name": "Integral Calculus with Theory"
+    },
+    {
+      "course_number": "MATH 2410H",
+      "course_name": "Integral Calculus with Theory (Honors)"
+    },
+    {
+      "course_number": "MATH 2500",
+      "course_name": "Accelerated Calculus III for Engineering Students"
+    },
+    {
+      "course_number": "MATH 2500H",
+      "course_name": "Accelerated Calculus III for Engineering Students (Honors)"
+    },
+    {
+      "course_number": "MATH 2700",
+      "course_name": "Elementary Differential Equations"
+    },
+    {
+      "course_number": "MATH 2700H",
+      "course_name": "Elementary Differential Equations (Honors)"
+    },
+    {
+      "course_number": "MATH 3000",
+      "course_name": "Introduction to Linear Algebra"
+    },
+    {
+      "course_number": "MATH 3100",
+      "course_name": "Introduction to Mathematical Analysis"
+    },
+    {
+      "course_number": "MATH 3100H",
+      "course_name": "Introduction to Mathematical Analysis (Honors)"
+    },
+    {
+      "course_number": "MATH 3100W",
+      "course_name": "Introduction to Mathematical Analysis"
+    },
+    {
+      "course_number": "MATH 3200",
+      "course_name": "Introduction to Higher Mathematics"
+    },
+    {
+      "course_number": "MATH 3200W",
+      "course_name": "Introduction to Higher Mathematics"
+    },
+    {
+      "course_number": "MATH 3220",
+      "course_name": "Advanced Problem Solving"
+    },
+    {
+      "course_number": "MATH 3300",
+      "course_name": "Applied Linear Algebra"
+    },
+    {
+      "course_number": "MATH 3300H",
+      "course_name": "Applied Linear Algebra (Honors)"
+    },
+    {
+      "course_number": "MATH 3500",
+      "course_name": "Multivariable Mathematics I"
+    },
+    {
+      "course_number": "MATH 3500H",
+      "course_name": "Multivariable Mathematics I (Honors)"
+    },
+    {
+      "course_number": "MATH 3510",
+      "course_name": "Multivariable Mathematics II"
+    },
+    {
+      "course_number": "MATH 3510H",
+      "course_name": "Multivariable Mathematics II (Honors)"
+    },
+    {
+      "course_number": "MATH 4000/6000",
+      "course_name": "Modern Algebra I"
+    },
+    {
+      "course_number": "MATH 4010/6010",
+      "course_name": "Modern Algebra II"
+    },
+    {
+      "course_number": "MATH 4050/6050",
+      "course_name": "Advanced Linear Algebra"
+    },
+    {
+      "course_number": "MATH 4080/6080",
+      "course_name": "Advanced Algebra"
+    },
+    {
+      "course_number": "MATH 4100/6100",
+      "course_name": "Real Analysis"
+    },
+    {
+      "course_number": "MATH 4110/6110",
+      "course_name": "The Lebesgue Integral and Applications"
+    }
+  ],
+  "STAT": [
+    {
+      "course_number": "STAT 1501",
+      "course_name": "Introduction to Data Science"
+    },
+    {
+      "course_number": "STAT 1999",
+      "course_name": "Essentials of Quantitative Modeling"
+    },
+    {
+      "course_number": "STAT 2000",
+      "course_name": "Introductory Statistics"
+    },
+    {
+      "course_number": "STAT 2010",
+      "course_name": "Statistical Methods for Data Scientists"
+    },
+    {
+      "course_number": "STAT 2100H",
+      "course_name": "Introduction to Statistics and Computing (Honors)"
+    },
+    {
+      "course_number": "STAT 2360-2360L",
+      "course_name": "Programming and Data Literacy Using R"
+    },
+    {
+      "course_number": "STAT 3030",
+      "course_name": "Preparing for a Career in Statistics and Data Science"
+    },
+    {
+      "course_number": "STAT 3110",
+      "course_name": "Introduction to Statistics for Life Sciences"
+    },
+    {
+      "course_number": "STAT 3120",
+      "course_name": "Introduction to Probability for Life Sciences"
+    },
+    {
+      "course_number": "STAT(EMAT) 4050/6050",
+      "course_name": "Data Analysis for Elementary and Middle School Teachers"
+    },
+    {
+      "course_number": "STAT(EMAT) 4070/6070",
+      "course_name": "Statistics for Secondary Teachers"
+    },
+    {
+      "course_number": "STAT 4100/6100",
+      "course_name": "Applied Stochastic Processes"
+    },
+    {
+      "course_number": "STAT 4210",
+      "course_name": "Statistical Methods"
+    },
+    {
+      "course_number": "STAT 4210H",
+      "course_name": "Statistical Methods (Honors)"
+    },
+    {
+      "course_number": "STAT 4220",
+      "course_name": "Applied Experimental Designs"
+    },
+    {
+      "course_number": "STAT 4230/6230",
+      "course_name": "Applied Regression Analysis"
+    },
+    {
+      "course_number": "STAT 4240/6240",
+      "course_name": "Sampling and Survey Methods"
+    },
+    {
+      "course_number": "STAT 4250/6250",
+      "course_name": "Applied Multivariate Analysis and Statistical Learning"
+    },
+    {
+      "course_number": "STAT 4260/6260",
+      "course_name": "Statistical Quality Assurance"
+    },
+    {
+      "course_number": "STAT 4270/6270",
+      "course_name": "Network Data Analysis and Graphical Models"
+    },
+    {
+      "course_number": "STAT 4280/6280",
+      "course_name": "Applied Time Series Analysis"
+    },
+    {
+      "course_number": "STAT 4290/6290",
+      "course_name": "Nonparametric Methods"
+    },
+    {
+      "course_number": "STAT 4350/6350",
+      "course_name": "Applied Bayesian Statistics"
+    },
+    {
+      "course_number": "STAT 4355/6355",
+      "course_name": "Advanced Statistical Programming"
+    },
+    {
+      "course_number": "STAT 4360/6360",
+      "course_name": "Statistical Software Programming"
+    },
+    {
+      "course_number": "STAT 4365/6365",
+      "course_name": "Modern Statistical Programming"
+    },
+    {
+      "course_number": "BIOS(STAT) 4380/6380",
+      "course_name": "Survival Analysis"
+    },
+    {
+      "course_number": "STAT 4440/6440",
+      "course_name": "Design and Analysis of Complex Computer Models"
+    },
+    {
+      "course_number": "STAT 4510",
+      "course_name": "Mathematical Statistics I"
+    },
+    {
+      "course_number": "STAT 4520",
+      "course_name": "Mathematical Statistics II"
+    },
+    {
+      "course_number": "STAT 4530/6530",
+      "course_name": "Statistical Inference for Data Scientists"
+    },
+    {
+      "course_number": "STAT 4620/6620",
+      "course_name": "Applied Categorical Data Analysis"
+    },
+    {
+      "course_number": "STAT 4660",
+      "course_name": "Introduction to Quantitative Biology"
+    },
+    {
+      "course_number": "STAT 4710/6710",
+      "course_name": "Introduction to Probability Theory I"
+    },
+    {
+      "course_number": "STAT 4720/6720",
+      "course_name": "Introduction to Probability Theory II"
+    },
+    {
+      "course_number": "STAT 4800/6800",
+      "course_name": "Tools for Statistical Theory"
+    },
+    {
+      "course_number": "STAT 4950",
+      "course_name": "Undergraduate Directed Study in Statistics"
+    },
+    {
+      "course_number": "STAT 4960R",
+      "course_name": "Faculty-Mentored Undergraduate Research I"
+    },
+    {
+      "course_number": "STAT 4970R",
+      "course_name": "Faculty-Mentored Undergraduate Research II"
+    },
+    {
+      "course_number": "STAT 4980R",
+      "course_name": "Faculty-Mentored Undergraduate Research III"
+    },
+    {
+      "course_number": "STAT 4990R",
+      "course_name": "Undergraduate Research Thesis (or Final Project)"
+    },
+    {
+      "course_number": "STAT(CSCI) 4990",
+      "course_name": "Data Science Capstone Course"
+    },
+    {
+      "course_number": "STAT 5010",
+      "course_name": "Statistical Capstone Course I"
+    },
+    {
+      "course_number": "STAT 5010W",
+      "course_name": "Statistical Capstone Course I"
+    },
+    {
+      "course_number": "STAT 5020",
+      "course_name": "Statistical Capstone Course II"
+    },
+    {
+      "course_number": "STAT 5020S",
+      "course_name": "Writing Intensive Statistical Capstone Course II"
+    },
+    {
+      "course_number": "STAT 5020W",
+      "course_name": "Statistical Capstone Course II"
+    },
+    {
+      "course_number": "STAT 5700/7700",
+      "course_name": "Internship in Statistics"
+    },
+    {
+      "course_number": "STAT 6210",
+      "course_name": "Introduction to Statistical Methods I"
+    }
+  ]
+}

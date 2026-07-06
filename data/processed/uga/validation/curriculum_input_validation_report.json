@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "summary": {
+    "course_count": 190,
+    "requirement_group_count": 9,
+    "explicit_requirement_course_count": 34,
+    "prerequisite_reference_count": 0,
+    "missing_requirement_course_count": 0,
+    "missing_prerequisite_course_count": 0,
+    "invalid_requirement_group_count": 0,
+    "duplicate_course_count": 0
+  },
+  "missing_requirement_courses": [],
+  "missing_prerequisite_courses": [],
+  "duplicate_courses": [],
+  "invalid_course_records": [],
+  "invalid_requirement_groups": [],
+  "empty_course_filters": [],
+  "warnings": [],
+  "errors": []
+}
