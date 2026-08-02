@@ -1,0 +1,4374 @@
+[
+  {
+    "course_id": "CSCI_1100",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_1210",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_1300",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_1301",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_1301_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2200",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2200"
+          }
+        ],
+        "raw_text": "MATH 1113 or MATH 1113E or MATH 2250 or MATH 2250E or MATH 2200"
+      }
+    ],
+    "raw_text": "MATH 1113 or MATH 1113E or MATH 2250 or MATH 2250E or MATH 2200",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_1302",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_1302_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1301",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1301-1301L"
+          }
+        ],
+        "raw_text": "CSCI 1301-1301L or CSCI 1301E"
+      }
+    ],
+    "raw_text": "CSCI 1301-1301L or CSCI 1301E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_1302H",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_1302H_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1301",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1301-1301L"
+          }
+        ],
+        "raw_text": "(CSCI 1301-1301L or CSCI 1301E) and permission of Honors"
+      }
+    ],
+    "raw_text": "(CSCI 1301-1301L or CSCI 1301E) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_1360",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_1360_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          }
+        ],
+        "raw_text": "MATH 1113 or MATH 1113E"
+      }
+    ],
+    "raw_text": "MATH 1113 or MATH 1113E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_1730",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_1730_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1302",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1302"
+          }
+        ],
+        "raw_text": "CSCI 1302"
+      }
+    ],
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_1900",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_1900_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1301",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1301-1301L"
+          }
+        ],
+        "raw_text": "CSCI 1301-1301L"
+      }
+    ],
+    "raw_text": "CSCI 1301-1301L",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_2150",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_2610",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_2610_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          }
+        ],
+        "raw_text": "MATH 1113"
+      }
+    ],
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_2611",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_2611_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          }
+        ],
+        "raw_text": "MATH 1113"
+      }
+    ],
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_2670",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_2670_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2610",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2610"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2611",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2611"
+          }
+        ],
+        "raw_text": "CSCI 2610 or CSCI 2611"
+      }
+    ],
+    "raw_text": "CSCI 2610 or CSCI 2611",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_2720",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_2720_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2610",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2610"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2611",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2611"
+          }
+        ],
+        "raw_text": "CSCI 1302 and (CSCI 2610 or CSCI 2610E or CSCI 2611)"
+      },
+      {
+        "group_id": "CSCI_2720_group_2",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1302",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1302"
+          }
+        ],
+        "raw_text": "CSCI 1302 and (CSCI 2610 or CSCI 2610E or CSCI 2611)"
+      }
+    ],
+    "raw_text": "CSCI 1302 and (CSCI 2610 or CSCI 2610E or CSCI 2611)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_2725",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_2725_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1302",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1302"
+          }
+        ],
+        "raw_text": "CSCI 1302"
+      }
+    ],
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_3030",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_3030_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "ENGL_1050H",
+            "minimum_grade": null,
+            "raw_condition_text": "ENGL 1050H"
+          },
+          {
+            "type": "course",
+            "course_id": "ENGL_1102",
+            "minimum_grade": null,
+            "raw_condition_text": "ENGL 1102"
+          }
+        ],
+        "raw_text": "ENGL 1050H or ENGL 1102 or ENGL 1102E"
+      }
+    ],
+    "raw_text": "ENGL 1050H or ENGL 1102 or ENGL 1102E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_3030H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_3030H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "ENGL_1050H",
+            "minimum_grade": null,
+            "raw_condition_text": "ENGL 1050H"
+          },
+          {
+            "type": "course",
+            "course_id": "ENGL_1102",
+            "minimum_grade": null,
+            "raw_condition_text": "ENGL 1102"
+          }
+        ],
+        "raw_text": "(ENGL 1050H or ENGL 1102 or ENGL 1102E) and permission of Honors"
+      }
+    ],
+    "raw_text": "(ENGL 1050H or ENGL 1102 or ENGL 1102E) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_3360",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_3360_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1301",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1301-1301L"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_1360",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1360"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_1300",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1300-1300L"
+          },
+          {
+            "type": "course",
+            "course_id": "ENGR_1140",
+            "minimum_grade": null,
+            "raw_condition_text": "ENGR 1140"
+          },
+          {
+            "type": "course",
+            "course_id": "ENGR_1140H",
+            "minimum_grade": null,
+            "raw_condition_text": "ENGR 1140H"
+          },
+          {
+            "type": "course",
+            "course_id": "ELEE_2045",
+            "minimum_grade": null,
+            "raw_condition_text": "ELEE 2045"
+          },
+          {
+            "type": "course",
+            "course_id": "INFO_2000",
+            "minimum_grade": null,
+            "raw_condition_text": "INFO 2000"
+          }
+        ],
+        "raw_text": "(CSCI 1301-1301L or CSCI 1301E or CSCI 1360 or CSCI 1360E or CSCI 1300-1300L or ENGR 1140 or ENGR 1140E or ENGR 1140H or ELEE 2045 or INFO 2000 or INFO 2000E) and (MATH 2250 or MATH 2250E or CSCI 2150-2150L)"
+      },
+      {
+        "group_id": "CSCI_3360_group_2",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2150",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2150-2150L"
+          }
+        ],
+        "raw_text": "(CSCI 1301-1301L or CSCI 1301E or CSCI 1360 or CSCI 1360E or CSCI 1300-1300L or ENGR 1140 or ENGR 1140E or ENGR 1140H or ELEE 2045 or INFO 2000 or INFO 2000E) and (MATH 2250 or MATH 2250E or CSCI 2150-2150L)"
+      }
+    ],
+    "raw_text": "(CSCI 1301-1301L or CSCI 1301E or CSCI 1360 or CSCI 1360E or CSCI 1300-1300L or ENGR 1140 or ENGR 1140E or ENGR 1140H or ELEE 2045 or INFO 2000 or INFO 2000E) and (MATH 2250 or MATH 2250E or CSCI 2150-2150L)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4050",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4050_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2725",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2725"
+          }
+        ],
+        "raw_text": "CSCI 2720 or CSCI 2725"
+      }
+    ],
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4060",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4060_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          }
+        ],
+        "raw_text": "CSCI 2720"
+      }
+    ],
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4070",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4070_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1730",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1730"
+          }
+        ],
+        "raw_text": "CSCI 1730"
+      }
+    ],
+    "raw_text": "CSCI 1730",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4080",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4080_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4070",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4070/6070"
+          }
+        ],
+        "raw_text": "CSCI 4070/6070"
+      }
+    ],
+    "raw_text": "CSCI 4070/6070",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4130",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4140",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4140_group_1",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1730",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1730"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2150",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2150-2150L"
+          }
+        ],
+        "raw_text": "CSCI 1730 and MATH 2250 and CSCI 2150-2150L"
+      }
+    ],
+    "raw_text": "CSCI 1730 and MATH 2250 and CSCI 2150-2150L",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4150",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4150_group_1",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_1301",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1301-1301L"
+          }
+        ],
+        "raw_text": "(MATH 2250 and CSCI 1301-1301L) or permission of department"
+      }
+    ],
+    "raw_text": "(MATH 2250 and CSCI 1301-1301L) or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4170",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4210",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4210_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2725",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2725"
+          }
+        ],
+        "raw_text": "CSCI 2720 or CSCI 2725"
+      }
+    ],
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4250",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4250_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4730",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4730/6730"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_4760",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4760/6760"
+          }
+        ],
+        "raw_text": "CSCI 4730/6730 or CSCI 4760/6760"
+      }
+    ],
+    "raw_text": "CSCI 4730/6730 or CSCI 4760/6760",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4260",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4260_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1302",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1302"
+          }
+        ],
+        "raw_text": "CSCI 1302"
+      }
+    ],
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4270",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4280",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4300",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4300_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1302",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1302"
+          }
+        ],
+        "raw_text": "CSCI 1302"
+      }
+    ],
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4330",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4350",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4360",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4360_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_3360",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 3360"
+          },
+          {
+            "type": "course",
+            "course_id": "INFO_3000",
+            "minimum_grade": null,
+            "raw_condition_text": "INFO 3000"
+          }
+        ],
+        "raw_text": "CSCI 3360 or CSCI 3360E or INFO 3000 or INFO 3000E"
+      }
+    ],
+    "raw_text": "CSCI 3360 or CSCI 3360E or INFO 3000 or INFO 3000E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4370",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4370_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2725",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2725"
+          }
+        ],
+        "raw_text": "CSCI 2720 or CSCI 2725"
+      }
+    ],
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4380",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4470",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4470_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2725",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2725"
+          }
+        ],
+        "raw_text": "(CSCI 2720 or CSCI 2725) and (CSCI 2670 or CSCI 2670E)"
+      },
+      {
+        "group_id": "CSCI_4470_group_2",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2670",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2670"
+          }
+        ],
+        "raw_text": "(CSCI 2720 or CSCI 2725) and (CSCI 2670 or CSCI 2670E)"
+      }
+    ],
+    "raw_text": "(CSCI 2720 or CSCI 2725) and (CSCI 2670 or CSCI 2670E)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4490",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4490_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4470",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4470/6470"
+          }
+        ],
+        "raw_text": "CSCI 4470/6470 or permission of department"
+      }
+    ],
+    "raw_text": "CSCI 4470/6470 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4500",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4500_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1302",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1302"
+          }
+        ],
+        "raw_text": "CSCI 1302"
+      }
+    ],
+    "raw_text": "CSCI 1302",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4520",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4520_group_1",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2610",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI(MATH) 2610"
+          }
+        ],
+        "raw_text": "CSCI 2720 and CSCI(MATH) 2610"
+      }
+    ],
+    "raw_text": "CSCI 2720 and CSCI(MATH) 2610",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4530",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4540",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4540_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1302",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1302"
+          }
+        ],
+        "raw_text": "CSCI 1302 or permission of department"
+      }
+    ],
+    "raw_text": "CSCI 1302 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4550",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4550_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2610",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI(MATH) 2610"
+          },
+          {
+            "type": "course",
+            "course_id": "PHIL_2500",
+            "minimum_grade": null,
+            "raw_condition_text": "PHIL 2500"
+          }
+        ],
+        "raw_text": "CSCI(MATH) 2610 or PHIL 2500"
+      }
+    ],
+    "raw_text": "CSCI(MATH) 2610 or PHIL 2500",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4560",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4560_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2725",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2725"
+          }
+        ],
+        "raw_text": "CSCI 2720 or CSCI 2725"
+      }
+    ],
+    "raw_text": "CSCI 2720 or CSCI 2725",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4570",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4580",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4580_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2725",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2725"
+          }
+        ],
+        "raw_text": "CSCI 2720 or CSCI 2720E or CSCI 2725"
+      }
+    ],
+    "raw_text": "CSCI 2720 or CSCI 2720E or CSCI 2725",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4600",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4600_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4550",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI(PHIL) 4550/6550"
+          }
+        ],
+        "raw_text": "CSCI(PHIL) 4550/6550"
+      }
+    ],
+    "raw_text": "CSCI(PHIL) 4550/6550",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4612",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_4670",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_4670_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3000",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3000"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3300",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3300"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3500",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3500"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3500H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3500H"
+          }
+        ],
+        "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3500 or MATH 3500H) and (CSCI 2610 or CSCI 2610E or MATH 3200 or MATH 3200W)"
+      },
+      {
+        "group_id": "MATH_4670_group_2",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2610",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2610"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3200",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3200"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3200W",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3200W"
+          }
+        ],
+        "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3500 or MATH 3500H) and (CSCI 2610 or CSCI 2610E or MATH 3200 or MATH 3200W)"
+      }
+    ],
+    "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3500 or MATH 3500H) and (CSCI 2610 or CSCI 2610E or MATH 3200 or MATH 3200W)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_4690",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4720",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4720_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2670",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2670"
+          },
+          {
+            "type": "course",
+            "course_id": "CSEE_2220",
+            "minimum_grade": null,
+            "raw_condition_text": "CSEE 2220"
+          }
+        ],
+        "raw_text": "(CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E) and CSCI 1730"
+      },
+      {
+        "group_id": "CSCI_4720_group_2",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_1730",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 1730"
+          }
+        ],
+        "raw_text": "(CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E) and CSCI 1730"
+      }
+    ],
+    "raw_text": "(CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E) and CSCI 1730",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4730",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4730_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSEE_4280",
+            "minimum_grade": null,
+            "raw_condition_text": "CSEE 4280"
+          }
+        ],
+        "raw_text": "(CSCI 4720 or CSCI 4720E or CSEE 4280) and CSCI 2720"
+      },
+      {
+        "group_id": "CSCI_4730_group_2",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          }
+        ],
+        "raw_text": "(CSCI 4720 or CSCI 4720E or CSEE 4280) and CSCI 2720"
+      }
+    ],
+    "raw_text": "(CSCI 4720 or CSCI 4720E or CSEE 4280) and CSCI 2720",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4740",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4740_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          }
+        ],
+        "raw_text": "CSCI 2720"
+      }
+    ],
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4760",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4760_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2670",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2670"
+          },
+          {
+            "type": "course",
+            "course_id": "CSEE_2220",
+            "minimum_grade": null,
+            "raw_condition_text": "CSEE 2220"
+          }
+        ],
+        "raw_text": "CSCI 2720 and (CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E)"
+      },
+      {
+        "group_id": "CSCI_4760_group_2",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          }
+        ],
+        "raw_text": "CSCI 2720 and (CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E)"
+      }
+    ],
+    "raw_text": "CSCI 2720 and (CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4770",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4770_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          }
+        ],
+        "raw_text": "CSCI 2720"
+      }
+    ],
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4780",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4795",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4795_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          }
+        ],
+        "raw_text": "CSCI 2720"
+      }
+    ],
+    "raw_text": "CSCI 2720",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4800",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4810",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4830",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4830_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          }
+        ],
+        "raw_text": "CSCI 2720 or CSCI 2720E"
+      }
+    ],
+    "raw_text": "CSCI 2720 or CSCI 2720E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CBIO_4835",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4840",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4840_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          }
+        ],
+        "raw_text": "CSCI 2720 or permission of department"
+      }
+    ],
+    "raw_text": "CSCI 2720 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4850",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4850_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2725",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2725"
+          }
+        ],
+        "raw_text": "CSCI 2720 or CSCI 2725 or permission of department"
+      }
+    ],
+    "raw_text": "CSCI 2720 or CSCI 2725 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4860",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4860_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2720"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2725",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2725"
+          }
+        ],
+        "raw_text": "CSCI 2720 or CSCI 2725 or permission of department"
+      }
+    ],
+    "raw_text": "CSCI 2720 or CSCI 2725 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4900",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4910",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4910_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4050",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4050/6050"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_4370",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4370/6370"
+          }
+        ],
+        "raw_text": "CSCI 4050/6050 or CSCI 4050E/6050E or CSCI 4370/6370"
+      }
+    ],
+    "raw_text": "CSCI 4050/6050 or CSCI 4050E/6050E or CSCI 4370/6370",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4911",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_4911_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4910",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4910"
+          }
+        ],
+        "raw_text": "CSCI 4910"
+      }
+    ],
+    "raw_text": "CSCI 4910",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "ENGR_4922",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4950",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4960",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4960R",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4970R",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4980R",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_4990R",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4990",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4990_group_1",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4360",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4360/6360"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_4370",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4370/6370"
+          }
+        ],
+        "raw_text": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)"
+      },
+      {
+        "group_id": "STAT_4990_group_2",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4220",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4220"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_4230",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4230/6230"
+          }
+        ],
+        "raw_text": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)"
+      }
+    ],
+    "raw_text": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_5007",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_5110",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_5310",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_6375",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_6480",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_6480_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2670",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2670"
+          }
+        ],
+        "raw_text": "CSCI 2670 or permission of department"
+      }
+    ],
+    "raw_text": "CSCI 2670 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_6610",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_6610_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_2670",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2670"
+          }
+        ],
+        "raw_text": "CSCI 2670"
+      }
+    ],
+    "raw_text": "CSCI 2670",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_6720",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_6720_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4720"
+          }
+        ],
+        "raw_text": "CSCI 4720"
+      }
+    ],
+    "raw_text": "CSCI 4720",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSEE_6922",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_7000",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_7005",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_7010",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_7010_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          }
+        ],
+        "raw_text": "MATH 1113"
+      }
+    ],
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_7100",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_7200",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_7300",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_8000",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_8050",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "[CSCI(ARTI) 4540/6540 and CSCI(PHIL) 4550/6550] or permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_8060",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_8060_group_1",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4050",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4050/6050"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_4370",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4370/6370"
+          }
+        ],
+        "raw_text": "CSCI 4050/6050 and CSCI 4370/6370"
+      }
+    ],
+    "raw_text": "CSCI 4050/6050 and CSCI 4370/6370",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_8140",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_8140_group_1",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4140",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4140/6140"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_6720",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 6720"
+          }
+        ],
+        "raw_text": "CSCI 4140/6140 and CSCI 6720"
+      }
+    ],
+    "raw_text": "CSCI 4140/6140 and CSCI 6720",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_8150",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_8150_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4140",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4140/6140"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_4150",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4150/6150"
+          }
+        ],
+        "raw_text": "CSCI 4140/6140 or CSCI 4150/6150"
+      }
+    ],
+    "raw_text": "CSCI 4140/6140 or CSCI 4150/6150",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_8220",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_8220_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4730",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4730/6730"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_4210",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4210/6210"
+          }
+        ],
+        "raw_text": "CSCI 4730/6730 or CSCI 4210/6210"
+      }
+    ],
+    "raw_text": "CSCI 4730/6730 or CSCI 4210/6210",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "CSCI_8240",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "CSCI_8240_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "CSCI_4730",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4730/6730"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_4250",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 4250/6250"
+          }
+        ],
+        "raw_text": "CSCI 4730/6730 or CSCI 4250/6250 or permission of department"
+      }
+    ],
+    "raw_text": "CSCI 4730/6730 or CSCI 4250/6250 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_1060",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_1070",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_1101",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_1113",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_1123",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2001",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2002",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2003",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2003_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2002",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2002"
+          }
+        ],
+        "raw_text": "MATH 2002"
+      }
+    ],
+    "raw_text": "MATH 2002",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2110",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2110_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2200",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2200"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          }
+        ],
+        "raw_text": "MATH 2200 or MATH 2250 or MATH 2250E"
+      }
+    ],
+    "raw_text": "MATH 2200 or MATH 2250 or MATH 2250E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2200",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2200_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          }
+        ],
+        "raw_text": "MATH 1113 or MATH 1113E"
+      }
+    ],
+    "raw_text": "MATH 1113 or MATH 1113E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2250",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2250_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          }
+        ],
+        "raw_text": "MATH 1113 or permission of department"
+      }
+    ],
+    "raw_text": "MATH 1113 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2255",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2255_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          }
+        ],
+        "raw_text": "MATH 2250 or MATH 2250E"
+      }
+    ],
+    "raw_text": "MATH 2250 or MATH 2250E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2260",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2260_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2300H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2300H"
+          }
+        ],
+        "raw_text": "MATH 2250 or MATH 2300H"
+      }
+    ],
+    "raw_text": "MATH 2250 or MATH 2300H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2260H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2260H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2300H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2300H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2400",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2400H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400H"
+          }
+        ],
+        "raw_text": "(MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2270",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2270_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H"
+      }
+    ],
+    "raw_text": "MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2270H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2270H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "(MATH 2260 or MATH 2260E or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2300H",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2300H_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          }
+        ],
+        "raw_text": "(MATH 1113 or MATH 1113E) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 1113 or MATH 1113E) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2310H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2310H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2300H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2300H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2400",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2400H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400H"
+          }
+        ],
+        "raw_text": "(MATH 2250 or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2250 or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2400",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2400_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_1113",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 1113"
+          }
+        ],
+        "raw_text": "MATH 1113"
+      }
+    ],
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2400H",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of Honors",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2410",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2410_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2400",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400"
+          }
+        ],
+        "raw_text": "MATH 2400"
+      }
+    ],
+    "raw_text": "MATH 2400",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2410H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2410H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2400",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2400H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400H"
+          }
+        ],
+        "raw_text": "(MATH 2400 or MATH 2400H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2500",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2500_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H"
+      }
+    ],
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2500H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2500H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2700",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2700_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H"
+      }
+    ],
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_2700H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_2700H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3000",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3000_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3200",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3200"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3200W",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3200W"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2610",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2610"
+          }
+        ],
+        "raw_text": "MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E"
+      }
+    ],
+    "raw_text": "MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3100",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3100_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          }
+        ],
+        "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H"
+      }
+    ],
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3100H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3100H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          }
+        ],
+        "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3100W",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3100W_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          }
+        ],
+        "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H"
+      }
+    ],
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3200",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3200_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          }
+        ],
+        "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H"
+      }
+    ],
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3200W",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3200W_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          }
+        ],
+        "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H"
+      }
+    ],
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3220",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3300",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3300_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H"
+      }
+    ],
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3300H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3300H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3500",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3500_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2210",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2210"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H"
+      }
+    ],
+    "raw_text": "MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3500H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3500H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2210",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2210"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2260",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2260"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2310H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2310H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2410H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2410H"
+          }
+        ],
+        "raw_text": "(MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3510",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3510_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3500",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3500"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3500H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3500H"
+          }
+        ],
+        "raw_text": "MATH 3500 or MATH 3500H"
+      }
+    ],
+    "raw_text": "MATH 3500 or MATH 3500H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_3510H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_3510H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3500",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3500"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3500H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3500H"
+          }
+        ],
+        "raw_text": "(MATH 3500 or MATH 3500H) and permission of Honors"
+      }
+    ],
+    "raw_text": "(MATH 3500 or MATH 3500H) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_4000",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_4000_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3000",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3000"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3300",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3300"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3300H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3300H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3500",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3500"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3500H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3500H"
+          }
+        ],
+        "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3300H or MATH 3500 or MATH 3500H) and (MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E)"
+      },
+      {
+        "group_id": "MATH_4000_group_2",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3200",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3200"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3200W",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3200W"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2610",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2610"
+          }
+        ],
+        "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3300H or MATH 3500 or MATH 3500H) and (MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E)"
+      }
+    ],
+    "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3300H or MATH 3500 or MATH 3500H) and (MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_4010",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_4010_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_4000",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 4000/6000"
+          }
+        ],
+        "raw_text": "MATH 4000/6000"
+      }
+    ],
+    "raw_text": "MATH 4000/6000",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_4050",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_4050_group_1",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3300",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3300"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3200",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3200"
+          }
+        ],
+        "raw_text": "MATH 3000 or (MATH 3300 and MATH 3200)"
+      },
+      {
+        "group_id": "MATH_4050_group_2",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3000",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3000"
+          }
+        ],
+        "raw_text": "MATH 3000 or (MATH 3300 and MATH 3200)"
+      }
+    ],
+    "raw_text": "MATH 3000 or (MATH 3300 and MATH 3200)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_4080",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_4080_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_4010",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 4010/6010"
+          }
+        ],
+        "raw_text": "MATH 4010/6010 or permission of department"
+      }
+    ],
+    "raw_text": "MATH 4010/6010 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_4100",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_4100_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3100",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3100"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3100H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3100H"
+          }
+        ],
+        "raw_text": "(MATH 3100 or MATH 3100H) and (MATH 3200 or CSCI 2610 or CSCI 2610E)"
+      },
+      {
+        "group_id": "MATH_4100_group_2",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3200",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3200"
+          },
+          {
+            "type": "course",
+            "course_id": "CSCI_2610",
+            "minimum_grade": null,
+            "raw_condition_text": "CSCI 2610"
+          }
+        ],
+        "raw_text": "(MATH 3100 or MATH 3100H) and (MATH 3200 or CSCI 2610 or CSCI 2610E)"
+      }
+    ],
+    "raw_text": "(MATH 3100 or MATH 3100H) and (MATH 3200 or CSCI 2610 or CSCI 2610E)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "MATH_4110",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "MATH_4110_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_4100",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 4100/6100"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_4200",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 4200/6200"
+          }
+        ],
+        "raw_text": "MATH 4100/6100 or MATH 4200/6200 or permission of department"
+      }
+    ],
+    "raw_text": "MATH 4100/6100 or MATH 4200/6200 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_1501",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_1999",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_2000",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_2010",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_2100H",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of Honors",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_2360",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_2360_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_2000",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2000"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_2010",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2010"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_2100H",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2100H"
+          },
+          {
+            "type": "course",
+            "course_id": "BIOS_2010",
+            "minimum_grade": null,
+            "raw_condition_text": "BIOS 2010"
+          }
+        ],
+        "raw_text": "STAT 2000 or STAT 2000E or STAT 2010 or STAT 2100H or BIOS 2010 or BIOS 2010E"
+      }
+    ],
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2010 or STAT 2100H or BIOS 2010 or BIOS 2010E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_3030",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Third- or fourth-year student standing",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_3110",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_3120",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_3120_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2250",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2250"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2300H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2300H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2400",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2400H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2400H"
+          }
+        ],
+        "raw_text": "MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H"
+      }
+    ],
+    "raw_text": "MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4050",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4050_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_2000",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2000"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_2100H",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2100H"
+          }
+        ],
+        "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H"
+      }
+    ],
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4070",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4100",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4100_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2270",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2270"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2500",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2500"
+          }
+        ],
+        "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)"
+      },
+      {
+        "group_id": "STAT_4100_group_2",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3300",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3300"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3000",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3000"
+          }
+        ],
+        "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)"
+      },
+      {
+        "group_id": "STAT_4100_group_3",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4510",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4510/6510"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_4600",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 4600/6600"
+          }
+        ],
+        "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)"
+      }
+    ],
+    "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4210",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4210_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_2000",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2000"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_2100H",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2100H"
+          },
+          {
+            "type": "course",
+            "course_id": "BUSN_3000",
+            "minimum_grade": null,
+            "raw_condition_text": "BUSN 3000"
+          },
+          {
+            "type": "course",
+            "course_id": "BUSN_3000H",
+            "minimum_grade": null,
+            "raw_condition_text": "BUSN 3000H"
+          }
+        ],
+        "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H"
+      }
+    ],
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4210H",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4210H_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_2000",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2000"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_2100H",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2100H"
+          },
+          {
+            "type": "course",
+            "course_id": "BUSN_3000",
+            "minimum_grade": null,
+            "raw_condition_text": "BUSN 3000"
+          },
+          {
+            "type": "course",
+            "course_id": "BUSN_3000H",
+            "minimum_grade": null,
+            "raw_condition_text": "BUSN 3000H"
+          },
+          {
+            "type": "course",
+            "course_id": "BIOS_2010",
+            "minimum_grade": null,
+            "raw_condition_text": "BIOS 2010"
+          }
+        ],
+        "raw_text": "(STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H or BIOS 2010 or BIOS 2010E) and permission of Honors"
+      }
+    ],
+    "raw_text": "(STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H or BIOS 2010 or BIOS 2010E) and permission of Honors",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4220",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4220_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4230",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4230/6230"
+          }
+        ],
+        "raw_text": "STAT 4230/6230"
+      }
+    ],
+    "raw_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4230",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4240",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4240_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4230",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4230/6230"
+          }
+        ],
+        "raw_text": "STAT 4230/6230 or permission of department"
+      }
+    ],
+    "raw_text": "STAT 4230/6230 or permission of department",
+    "parse_status": "partial",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4250",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4260",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4270",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4280",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4290",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4350",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4350_group_1",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4510",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4510/6510"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_4230",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4230/6230"
+          }
+        ],
+        "raw_text": "STAT 4510/6510 and STAT 4230/6230"
+      }
+    ],
+    "raw_text": "STAT 4510/6510 and STAT 4230/6230",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4355",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4360",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4365",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "BIOS_4380",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4440",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4510",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4510_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2270",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2270"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2270H",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2270H"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2500",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2500"
+          }
+        ],
+        "raw_text": "MATH 2270 or MATH 2270H or MATH 2500 or MATH 2500E"
+      }
+    ],
+    "raw_text": "MATH 2270 or MATH 2270H or MATH 2500 or MATH 2500E",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4520",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4520_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4510",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4510"
+          }
+        ],
+        "raw_text": "STAT 4510"
+      }
+    ],
+    "raw_text": "STAT 4510",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4530",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4620",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4660",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4660_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_2010",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2010"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_2100H",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2100H"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_2360",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 2360-2360L"
+          }
+        ],
+        "raw_text": "STAT 2010 or STAT 2100H or STAT 2360-2360L"
+      }
+    ],
+    "raw_text": "STAT 2010 or STAT 2100H or STAT 2360-2360L",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4710",
+    "rule_type": "one_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4710_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_2500",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2500"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_2270",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 2270"
+          }
+        ],
+        "raw_text": "MATH 2500 or MATH 2270"
+      }
+    ],
+    "raw_text": "MATH 2500 or MATH 2270",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4720",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_4720_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4710",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4710/6710"
+          }
+        ],
+        "raw_text": "STAT 4710/6710"
+      }
+    ],
+    "raw_text": "STAT 4710/6710",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4800",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4950",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4960R",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4970R",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4980R",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_4990R",
+    "rule_type": "non_course_requirement",
+    "groups": [],
+    "raw_text": "Permission of department",
+    "parse_status": "non_course_requirement",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_5010",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_5010_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4365",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4365/6365"
+          }
+        ],
+        "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)"
+      },
+      {
+        "group_id": "STAT_5010_group_2",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4220",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4220"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_4230",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4230/6230"
+          }
+        ],
+        "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)"
+      }
+    ],
+    "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_5010W",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_5010W_group_1",
+        "rule_type": "all_of",
+        "operator": "SINGLE",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4365",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4365/6365"
+          }
+        ],
+        "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)"
+      },
+      {
+        "group_id": "STAT_5010W_group_2",
+        "rule_type": "all_of",
+        "operator": "AND",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_4220",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4220"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_4230",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 4230/6230"
+          }
+        ],
+        "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)"
+      }
+    ],
+    "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_5020",
+    "rule_type": "all_of",
+    "operator": null,
+    "groups": [
+      {
+        "group_id": "STAT_5020_group_1",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "STAT_5010",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 5010"
+          },
+          {
+            "type": "course",
+            "course_id": "STAT_5010W",
+            "minimum_grade": null,
+            "raw_condition_text": "STAT 5010W"
+          }
+        ],
+        "raw_text": "(STAT 5010 or STAT 5010W) and (MATH 3000 or MATH 3300)"
+      },
+      {
+        "group_id": "STAT_5020_group_2",
+        "rule_type": "one_of",
+        "operator": "OR",
+        "requirements": [
+          {
+            "type": "course",
+            "course_id": "MATH_3000",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3000"
+          },
+          {
+            "type": "course",
+            "course_id": "MATH_3300",
+            "minimum_grade": null,
+            "raw_condition_text": "MATH 3300"
+          }
+        ],
+        "raw_text": "(STAT 5010 or STAT 5010W) and (MATH 3000 or MATH 3300)"
+      }
+    ],
+    "raw_text": "(STAT 5010 or STAT 5010W) and (MATH 3000 or MATH 3300)",
+    "parse_status": "parsed",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_5020S",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_5020W",
+    "rule_type": "manual_review",
+    "groups": [],
+    "raw_text": "STAT 5010 or STAT 5010W and (MATH 3000 or MATH 3300)",
+    "parse_status": "manual_review",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_5700",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  },
+  {
+    "course_id": "STAT_6210",
+    "rule_type": "none",
+    "groups": [],
+    "raw_text": "",
+    "parse_status": "no_prerequisite",
+    "notes": []
+  }
+]
