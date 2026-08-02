@@ -7,7 +7,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 1113",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_1301_group_1",
@@ -17,7 +17,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 2250",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_1301_group_1",
@@ -27,7 +27,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 2200",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_1302_group_1",
@@ -57,7 +57,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 1113",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_1730_group_1",
@@ -87,7 +87,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 1113",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_2611_group_1",
@@ -97,7 +97,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 1113",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_2670_group_1",
@@ -277,7 +277,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 2250",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_3360_group_2",
@@ -357,7 +357,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 2250",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_4140_group_1",
@@ -377,7 +377,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 2250",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_4150_group_1",
@@ -647,7 +647,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 3000",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "MATH_4670_group_1",
@@ -657,7 +657,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 3300",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "MATH_4670_group_1",
@@ -667,7 +667,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 3500",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "MATH_4670_group_1",
@@ -677,7 +677,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 3500H",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "MATH_4670_group_2",
@@ -697,7 +697,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 3200",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "MATH_4670_group_2",
@@ -707,7 +707,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 3200W",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_4720_group_1",
@@ -947,7 +947,7 @@
     "minimum_grade": null,
     "raw_condition_text": "STAT 4220",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "STAT_4990_group_2",
@@ -957,7 +957,7 @@
     "minimum_grade": null,
     "raw_condition_text": "STAT 4230/6230",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_6480_group_1",
@@ -997,7 +997,7 @@
     "minimum_grade": null,
     "raw_condition_text": "MATH 1113",
     "parse_status": "parsed",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "requirement_group": "CSCI_8060_group_1",
@@ -1096,6 +1096,1596 @@
     "condition_type": "course",
     "minimum_grade": null,
     "raw_condition_text": "CSCI 4250/6250",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2003_group_1",
+    "course_id": "MATH_2003",
+    "prerequisite_course_id": "MATH_2002",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2002",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2110_group_1",
+    "course_id": "MATH_2110",
+    "prerequisite_course_id": "MATH_2200",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2200",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2110_group_1",
+    "course_id": "MATH_2110",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2200_group_1",
+    "course_id": "MATH_2200",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2250_group_1",
+    "course_id": "MATH_2250",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2255_group_1",
+    "course_id": "MATH_2255",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2260_group_1",
+    "course_id": "MATH_2260",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2260_group_1",
+    "course_id": "MATH_2260",
+    "prerequisite_course_id": "MATH_2300H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2300H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2260H_group_1",
+    "course_id": "MATH_2260H",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2260H_group_1",
+    "course_id": "MATH_2260H",
+    "prerequisite_course_id": "MATH_2300H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2300H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2260H_group_1",
+    "course_id": "MATH_2260H",
+    "prerequisite_course_id": "MATH_2400",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2260H_group_1",
+    "course_id": "MATH_2260H",
+    "prerequisite_course_id": "MATH_2400H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2270_group_1",
+    "course_id": "MATH_2270",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2270_group_1",
+    "course_id": "MATH_2270",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2270_group_1",
+    "course_id": "MATH_2270",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2270_group_1",
+    "course_id": "MATH_2270",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2270H_group_1",
+    "course_id": "MATH_2270H",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2270H_group_1",
+    "course_id": "MATH_2270H",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2270H_group_1",
+    "course_id": "MATH_2270H",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2270H_group_1",
+    "course_id": "MATH_2270H",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2300H_group_1",
+    "course_id": "MATH_2300H",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2310H_group_1",
+    "course_id": "MATH_2310H",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2310H_group_1",
+    "course_id": "MATH_2310H",
+    "prerequisite_course_id": "MATH_2300H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2300H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2310H_group_1",
+    "course_id": "MATH_2310H",
+    "prerequisite_course_id": "MATH_2400",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2310H_group_1",
+    "course_id": "MATH_2310H",
+    "prerequisite_course_id": "MATH_2400H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2400_group_1",
+    "course_id": "MATH_2400",
+    "prerequisite_course_id": "MATH_1113",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 1113",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2410_group_1",
+    "course_id": "MATH_2410",
+    "prerequisite_course_id": "MATH_2400",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2410H_group_1",
+    "course_id": "MATH_2410H",
+    "prerequisite_course_id": "MATH_2400",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2410H_group_1",
+    "course_id": "MATH_2410H",
+    "prerequisite_course_id": "MATH_2400H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500_group_1",
+    "course_id": "MATH_2500",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500_group_1",
+    "course_id": "MATH_2500",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500_group_1",
+    "course_id": "MATH_2500",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500_group_1",
+    "course_id": "MATH_2500",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500_group_1",
+    "course_id": "MATH_2500",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500H_group_1",
+    "course_id": "MATH_2500H",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500H_group_1",
+    "course_id": "MATH_2500H",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500H_group_1",
+    "course_id": "MATH_2500H",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500H_group_1",
+    "course_id": "MATH_2500H",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2500H_group_1",
+    "course_id": "MATH_2500H",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700_group_1",
+    "course_id": "MATH_2700",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700_group_1",
+    "course_id": "MATH_2700",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700_group_1",
+    "course_id": "MATH_2700",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700_group_1",
+    "course_id": "MATH_2700",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700_group_1",
+    "course_id": "MATH_2700",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700H_group_1",
+    "course_id": "MATH_2700H",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700H_group_1",
+    "course_id": "MATH_2700H",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700H_group_1",
+    "course_id": "MATH_2700H",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700H_group_1",
+    "course_id": "MATH_2700H",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_2700H_group_1",
+    "course_id": "MATH_2700H",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3000_group_1",
+    "course_id": "MATH_3000",
+    "prerequisite_course_id": "MATH_3200",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3200",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3000_group_1",
+    "course_id": "MATH_3000",
+    "prerequisite_course_id": "MATH_3200W",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3200W",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3000_group_1",
+    "course_id": "MATH_3000",
+    "prerequisite_course_id": "CSCI_2610",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2610",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100_group_1",
+    "course_id": "MATH_3100",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100_group_1",
+    "course_id": "MATH_3100",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100_group_1",
+    "course_id": "MATH_3100",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100H_group_1",
+    "course_id": "MATH_3100H",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100H_group_1",
+    "course_id": "MATH_3100H",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100H_group_1",
+    "course_id": "MATH_3100H",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100W_group_1",
+    "course_id": "MATH_3100W",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100W_group_1",
+    "course_id": "MATH_3100W",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3100W_group_1",
+    "course_id": "MATH_3100W",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3200_group_1",
+    "course_id": "MATH_3200",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3200_group_1",
+    "course_id": "MATH_3200",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3200_group_1",
+    "course_id": "MATH_3200",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3200W_group_1",
+    "course_id": "MATH_3200W",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3200W_group_1",
+    "course_id": "MATH_3200W",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3200W_group_1",
+    "course_id": "MATH_3200W",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300_group_1",
+    "course_id": "MATH_3300",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300_group_1",
+    "course_id": "MATH_3300",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300_group_1",
+    "course_id": "MATH_3300",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300_group_1",
+    "course_id": "MATH_3300",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300_group_1",
+    "course_id": "MATH_3300",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300H_group_1",
+    "course_id": "MATH_3300H",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300H_group_1",
+    "course_id": "MATH_3300H",
+    "prerequisite_course_id": "MATH_2260H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300H_group_1",
+    "course_id": "MATH_3300H",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300H_group_1",
+    "course_id": "MATH_3300H",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3300H_group_1",
+    "course_id": "MATH_3300H",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3500_group_1",
+    "course_id": "MATH_3500",
+    "prerequisite_course_id": "MATH_2210",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2210",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "MATH_3500_group_1",
+    "course_id": "MATH_3500",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3500_group_1",
+    "course_id": "MATH_3500",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3500_group_1",
+    "course_id": "MATH_3500",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3500_group_1",
+    "course_id": "MATH_3500",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3500H_group_1",
+    "course_id": "MATH_3500H",
+    "prerequisite_course_id": "MATH_2210",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2210",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "MATH_3500H_group_1",
+    "course_id": "MATH_3500H",
+    "prerequisite_course_id": "MATH_2260",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2260",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3500H_group_1",
+    "course_id": "MATH_3500H",
+    "prerequisite_course_id": "MATH_2310H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2310H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3500H_group_1",
+    "course_id": "MATH_3500H",
+    "prerequisite_course_id": "MATH_2410",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3500H_group_1",
+    "course_id": "MATH_3500H",
+    "prerequisite_course_id": "MATH_2410H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2410H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3510_group_1",
+    "course_id": "MATH_3510",
+    "prerequisite_course_id": "MATH_3500",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3500",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3510_group_1",
+    "course_id": "MATH_3510",
+    "prerequisite_course_id": "MATH_3500H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3500H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3510H_group_1",
+    "course_id": "MATH_3510H",
+    "prerequisite_course_id": "MATH_3500",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3500",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_3510H_group_1",
+    "course_id": "MATH_3510H",
+    "prerequisite_course_id": "MATH_3500H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3500H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4000_group_1",
+    "course_id": "MATH_4000",
+    "prerequisite_course_id": "MATH_3000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4000_group_1",
+    "course_id": "MATH_4000",
+    "prerequisite_course_id": "MATH_3300",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3300",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4000_group_1",
+    "course_id": "MATH_4000",
+    "prerequisite_course_id": "MATH_3300H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3300H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4000_group_1",
+    "course_id": "MATH_4000",
+    "prerequisite_course_id": "MATH_3500",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3500",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4000_group_1",
+    "course_id": "MATH_4000",
+    "prerequisite_course_id": "MATH_3500H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3500H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4000_group_2",
+    "course_id": "MATH_4000",
+    "prerequisite_course_id": "MATH_3200",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3200",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4000_group_2",
+    "course_id": "MATH_4000",
+    "prerequisite_course_id": "MATH_3200W",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3200W",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4000_group_2",
+    "course_id": "MATH_4000",
+    "prerequisite_course_id": "CSCI_2610",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2610",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4010_group_1",
+    "course_id": "MATH_4010",
+    "prerequisite_course_id": "MATH_4000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 4000/6000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4050_group_1",
+    "course_id": "MATH_4050",
+    "prerequisite_course_id": "MATH_3300",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3300",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4050_group_1",
+    "course_id": "MATH_4050",
+    "prerequisite_course_id": "MATH_3200",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3200",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4050_group_2",
+    "course_id": "MATH_4050",
+    "prerequisite_course_id": "MATH_3000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4080_group_1",
+    "course_id": "MATH_4080",
+    "prerequisite_course_id": "MATH_4010",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 4010/6010",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4100_group_1",
+    "course_id": "MATH_4100",
+    "prerequisite_course_id": "MATH_3100",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3100",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4100_group_1",
+    "course_id": "MATH_4100",
+    "prerequisite_course_id": "MATH_3100H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3100H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4100_group_2",
+    "course_id": "MATH_4100",
+    "prerequisite_course_id": "MATH_3200",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3200",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4100_group_2",
+    "course_id": "MATH_4100",
+    "prerequisite_course_id": "CSCI_2610",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "CSCI 2610",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4110_group_1",
+    "course_id": "MATH_4110",
+    "prerequisite_course_id": "MATH_4100",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 4100/6100",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "MATH_4110_group_1",
+    "course_id": "MATH_4110",
+    "prerequisite_course_id": "MATH_4200",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 4200/6200",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_2360_group_1",
+    "course_id": "STAT_2360",
+    "prerequisite_course_id": "STAT_2000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_2360_group_1",
+    "course_id": "STAT_2360",
+    "prerequisite_course_id": "STAT_2010",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2010",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_2360_group_1",
+    "course_id": "STAT_2360",
+    "prerequisite_course_id": "STAT_2100H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2100H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_2360_group_1",
+    "course_id": "STAT_2360",
+    "prerequisite_course_id": "BIOS_2010",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "BIOS 2010",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_3120_group_1",
+    "course_id": "STAT_3120",
+    "prerequisite_course_id": "MATH_2250",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2250",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_3120_group_1",
+    "course_id": "STAT_3120",
+    "prerequisite_course_id": "MATH_2300H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2300H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_3120_group_1",
+    "course_id": "STAT_3120",
+    "prerequisite_course_id": "MATH_2400",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_3120_group_1",
+    "course_id": "STAT_3120",
+    "prerequisite_course_id": "MATH_2400H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2400H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4050_group_1",
+    "course_id": "STAT_4050",
+    "prerequisite_course_id": "STAT_2000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4050_group_1",
+    "course_id": "STAT_4050",
+    "prerequisite_course_id": "STAT_2100H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2100H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4100_group_1",
+    "course_id": "STAT_4100",
+    "prerequisite_course_id": "MATH_2270",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2270",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4100_group_1",
+    "course_id": "STAT_4100",
+    "prerequisite_course_id": "MATH_2500",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2500",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4100_group_2",
+    "course_id": "STAT_4100",
+    "prerequisite_course_id": "MATH_3300",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3300",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4100_group_2",
+    "course_id": "STAT_4100",
+    "prerequisite_course_id": "MATH_3000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4100_group_3",
+    "course_id": "STAT_4100",
+    "prerequisite_course_id": "STAT_4510",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4510/6510",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4100_group_3",
+    "course_id": "STAT_4100",
+    "prerequisite_course_id": "MATH_4600",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 4600/6600",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_4210_group_1",
+    "course_id": "STAT_4210",
+    "prerequisite_course_id": "STAT_2000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4210_group_1",
+    "course_id": "STAT_4210",
+    "prerequisite_course_id": "STAT_2100H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2100H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4210_group_1",
+    "course_id": "STAT_4210",
+    "prerequisite_course_id": "BUSN_3000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "BUSN 3000",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_4210_group_1",
+    "course_id": "STAT_4210",
+    "prerequisite_course_id": "BUSN_3000H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "BUSN 3000H",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_4210H_group_1",
+    "course_id": "STAT_4210H",
+    "prerequisite_course_id": "STAT_2000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4210H_group_1",
+    "course_id": "STAT_4210H",
+    "prerequisite_course_id": "STAT_2100H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2100H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4210H_group_1",
+    "course_id": "STAT_4210H",
+    "prerequisite_course_id": "BUSN_3000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "BUSN 3000",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_4210H_group_1",
+    "course_id": "STAT_4210H",
+    "prerequisite_course_id": "BUSN_3000H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "BUSN 3000H",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_4210H_group_1",
+    "course_id": "STAT_4210H",
+    "prerequisite_course_id": "BIOS_2010",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "BIOS 2010",
+    "parse_status": "parsed",
+    "is_resolved": false
+  },
+  {
+    "requirement_group": "STAT_4220_group_1",
+    "course_id": "STAT_4220",
+    "prerequisite_course_id": "STAT_4230",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4240_group_1",
+    "course_id": "STAT_4240",
+    "prerequisite_course_id": "STAT_4230",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4350_group_1",
+    "course_id": "STAT_4350",
+    "prerequisite_course_id": "STAT_4510",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4510/6510",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4350_group_1",
+    "course_id": "STAT_4350",
+    "prerequisite_course_id": "STAT_4230",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4510_group_1",
+    "course_id": "STAT_4510",
+    "prerequisite_course_id": "MATH_2270",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2270",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4510_group_1",
+    "course_id": "STAT_4510",
+    "prerequisite_course_id": "MATH_2270H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2270H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4510_group_1",
+    "course_id": "STAT_4510",
+    "prerequisite_course_id": "MATH_2500",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2500",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4520_group_1",
+    "course_id": "STAT_4520",
+    "prerequisite_course_id": "STAT_4510",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4510",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4660_group_1",
+    "course_id": "STAT_4660",
+    "prerequisite_course_id": "STAT_2010",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2010",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4660_group_1",
+    "course_id": "STAT_4660",
+    "prerequisite_course_id": "STAT_2100H",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2100H",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4660_group_1",
+    "course_id": "STAT_4660",
+    "prerequisite_course_id": "STAT_2360",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 2360-2360L",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4710_group_1",
+    "course_id": "STAT_4710",
+    "prerequisite_course_id": "MATH_2500",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2500",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4710_group_1",
+    "course_id": "STAT_4710",
+    "prerequisite_course_id": "MATH_2270",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 2270",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_4720_group_1",
+    "course_id": "STAT_4720",
+    "prerequisite_course_id": "STAT_4710",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4710/6710",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5010_group_1",
+    "course_id": "STAT_5010",
+    "prerequisite_course_id": "STAT_4365",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4365/6365",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5010_group_2",
+    "course_id": "STAT_5010",
+    "prerequisite_course_id": "STAT_4220",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4220",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5010_group_2",
+    "course_id": "STAT_5010",
+    "prerequisite_course_id": "STAT_4230",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5010W_group_1",
+    "course_id": "STAT_5010W",
+    "prerequisite_course_id": "STAT_4365",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4365/6365",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5010W_group_2",
+    "course_id": "STAT_5010W",
+    "prerequisite_course_id": "STAT_4220",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4220",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5010W_group_2",
+    "course_id": "STAT_5010W",
+    "prerequisite_course_id": "STAT_4230",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5020_group_1",
+    "course_id": "STAT_5020",
+    "prerequisite_course_id": "STAT_5010",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 5010",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5020_group_1",
+    "course_id": "STAT_5020",
+    "prerequisite_course_id": "STAT_5010W",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "STAT 5010W",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5020_group_2",
+    "course_id": "STAT_5020",
+    "prerequisite_course_id": "MATH_3000",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3000",
+    "parse_status": "parsed",
+    "is_resolved": true
+  },
+  {
+    "requirement_group": "STAT_5020_group_2",
+    "course_id": "STAT_5020",
+    "prerequisite_course_id": "MATH_3300",
+    "condition_type": "course",
+    "minimum_grade": null,
+    "raw_condition_text": "MATH 3300",
     "parse_status": "parsed",
     "is_resolved": true
   }

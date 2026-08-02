@@ -4,18 +4,193 @@
     "course_count": 190,
     "requirement_group_count": 9,
     "explicit_requirement_course_count": 34,
-    "prerequisite_reference_count": 0,
+    "prerequisite_reference_count": 329,
     "missing_requirement_course_count": 0,
-    "missing_prerequisite_course_count": 0,
+    "missing_prerequisite_course_count": 38,
     "invalid_requirement_group_count": 0,
     "duplicate_course_count": 0
   },
   "missing_requirement_courses": [],
-  "missing_prerequisite_courses": [],
+  "missing_prerequisite_courses": [
+    "BIOS 2010",
+    "BIOS 2010E",
+    "BUSN 3000",
+    "BUSN 3000E",
+    "BUSN 3000H",
+    "CSCI 1301E",
+    "CSCI 1360E",
+    "CSCI 2610E",
+    "CSCI 2670E",
+    "CSCI 2720E",
+    "CSCI 3360E",
+    "CSCI 4050E",
+    "CSCI 4720E",
+    "CSEE 2220",
+    "CSEE 2220E",
+    "CSEE 4280",
+    "ELEE 2045",
+    "ENGL 1050H",
+    "ENGL 1102",
+    "ENGL 1102E",
+    "ENGR 1140",
+    "ENGR 1140E",
+    "ENGR 1140H",
+    "INFO 2000",
+    "INFO 2000E",
+    "INFO 3000",
+    "INFO 3000E",
+    "MATH 1113E",
+    "MATH 2210",
+    "MATH 2250E",
+    "MATH 2260E",
+    "MATH 2500E",
+    "MATH 3300E",
+    "MATH 4200",
+    "MATH 4600",
+    "PHIL 2500",
+    "STAT 2000E",
+    "STAT 4365E"
+  ],
   "duplicate_courses": [],
-  "invalid_course_records": [],
+  "invalid_course_records": [
+    {
+      "index": 41,
+      "course_code": "CSCI(ARTI) 4530/6530",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CSCI 4530/6530."
+      ]
+    },
+    {
+      "index": 42,
+      "course_code": "CSCI(ARTI) 4540/6540",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CSCI 4540/6540."
+      ]
+    },
+    {
+      "index": 43,
+      "course_code": "CSCI(PHIL) 4550/6550",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CSCI 4550/6550."
+      ]
+    },
+    {
+      "index": 47,
+      "course_code": "CSCI(ARTI) 4600/6600",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CSCI 4600/6600."
+      ]
+    },
+    {
+      "index": 48,
+      "course_code": "CSCI(MATH)(PHYS) 4612/6612",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CSCI 4612/6612."
+      ]
+    },
+    {
+      "index": 49,
+      "course_code": "MATH(CSCI) 4670/6670",
+      "reasons": [
+        "course_code does not match subject + course_number: expected MATH 4670/6670."
+      ]
+    },
+    {
+      "index": 50,
+      "course_code": "MATH(CSCI) 4690/6690",
+      "reasons": [
+        "course_code does not match subject + course_number: expected MATH 4690/6690."
+      ]
+    },
+    {
+      "index": 60,
+      "course_code": "CSCI(ENGR) 4830/6830",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CSCI 4830/6830."
+      ]
+    },
+    {
+      "index": 61,
+      "course_code": "CBIO(CSCI) 4835/6835",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CBIO 4835/6835."
+      ]
+    },
+    {
+      "index": 68,
+      "course_code": "ENGR(CSCI) 4922",
+      "reasons": [
+        "course_code does not match subject + course_number: expected ENGR 4922."
+      ]
+    },
+    {
+      "index": 75,
+      "course_code": "STAT(CSCI) 4990",
+      "reasons": [
+        "course_code does not match subject + course_number: expected STAT 4990."
+      ]
+    },
+    {
+      "index": 79,
+      "course_code": "CSCI(STAT) 6375",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CSCI 6375."
+      ]
+    },
+    {
+      "index": 83,
+      "course_code": "CSEE(CSCI) 6922",
+      "reasons": [
+        "course_code does not match subject + course_number: expected CSEE 6922."
+      ]
+    },
+    {
+      "index": 102,
+      "course_code": "MATH(EMAT) 2001",
+      "reasons": [
+        "course_code does not match subject + course_number: expected MATH 2001."
+      ]
+    },
+    {
+      "index": 103,
+      "course_code": "MATH(EMAT) 2002",
+      "reasons": [
+        "course_code does not match subject + course_number: expected MATH 2002."
+      ]
+    },
+    {
+      "index": 104,
+      "course_code": "MATH(EMAT) 2003",
+      "reasons": [
+        "course_code does not match subject + course_number: expected MATH 2003."
+      ]
+    },
+    {
+      "index": 151,
+      "course_code": "STAT(EMAT) 4050/6050",
+      "reasons": [
+        "course_code does not match subject + course_number: expected STAT 4050/6050."
+      ]
+    },
+    {
+      "index": 152,
+      "course_code": "STAT(EMAT) 4070/6070",
+      "reasons": [
+        "course_code does not match subject + course_number: expected STAT 4070/6070."
+      ]
+    },
+    {
+      "index": 168,
+      "course_code": "BIOS(STAT) 4380/6380",
+      "reasons": [
+        "course_code does not match subject + course_number: expected BIOS 4380/6380."
+      ]
+    }
+  ],
   "invalid_requirement_groups": [],
   "empty_course_filters": [],
-  "warnings": [],
+  "warnings": [
+    "Some prerequisite courses are not present in the normalized course list."
+  ],
   "errors": []
 }

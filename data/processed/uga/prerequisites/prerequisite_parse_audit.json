@@ -968,5 +968,935 @@
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
     "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_1060",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_1070",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_1101",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_1113",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_1123",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2001",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2002",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2003",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2002",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2110",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2200 or MATH 2250 or MATH 2250E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2200",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 1113 or MATH 1113E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2250",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 1113 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2255",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2250 or MATH 2250E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2260",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2250 or MATH 2300H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2260H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 4,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2270",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 4,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2270H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 4,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2300H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 1113 or MATH 1113E) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2310H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2250 or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 4,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2400",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2400H",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of Honors",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2410",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2400",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2410H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2500",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2500H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2700",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_2700H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3000",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3100",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3100H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3100W",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3200",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3200W",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3220",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3300",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3300H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3500",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3500H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3510",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 3500 or MATH 3500H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_3510H",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 3500 or MATH 3500H) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_4000",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3300H or MATH 3500 or MATH 3500H) and (MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 8,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_4010",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 4000/6000",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_4050",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 3000 or (MATH 3300 and MATH 3200)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 3,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_4080",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 4010/6010 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_4100",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 3100 or MATH 3100H) and (MATH 3200 or CSCI 2610 or CSCI 2610E)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 4,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "MATH_4110",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 4100/6100 or MATH 4200/6200 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_1501",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_1999",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_2000",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_2010",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_2100H",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of Honors",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_2360",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2010 or STAT 2100H or BIOS 2010 or BIOS 2010E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 4,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_3030",
+    "has_prerequisite_text": true,
+    "raw_text": "Third- or fourth-year student standing",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_3110",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_3120",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 4,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4050",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4070",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4100",
+    "has_prerequisite_text": true,
+    "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)",
+    "parse_status": "parsed",
+    "groups_created": 3,
+    "items_created": 6,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4210",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 4,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4210H",
+    "has_prerequisite_text": true,
+    "raw_text": "(STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H or BIOS 2010 or BIOS 2010E) and permission of Honors",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 5,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4220",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4230",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4240",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 4230/6230 or permission of department",
+    "parse_status": "partial",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4250",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4260",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4270",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4280",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4290",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4350",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 4510/6510 and STAT 4230/6230",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4355",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4360",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4365",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "BIOS_4380",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4440",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4510",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2270 or MATH 2270H or MATH 2500 or MATH 2500E",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4520",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 4510",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4530",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4620",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4660",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 2010 or STAT 2100H or STAT 2360-2360L",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 3,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4710",
+    "has_prerequisite_text": true,
+    "raw_text": "MATH 2500 or MATH 2270",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 2,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4720",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 4710/6710",
+    "parse_status": "parsed",
+    "groups_created": 1,
+    "items_created": 1,
+    "reason": "Parsed prerequisite course references.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4800",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4950",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4960R",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4970R",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4980R",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_4990R",
+    "has_prerequisite_text": true,
+    "raw_text": "Permission of department",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Prerequisite text contains no supported course requirement.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_5010",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 3,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_5010W",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 3,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_5020",
+    "has_prerequisite_text": true,
+    "raw_text": "(STAT 5010 or STAT 5010W) and (MATH 3000 or MATH 3300)",
+    "parse_status": "parsed",
+    "groups_created": 2,
+    "items_created": 4,
+    "reason": "Parsed explicit prerequisite groups.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_5020S",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_5020W",
+    "has_prerequisite_text": true,
+    "raw_text": "STAT 5010 or STAT 5010W and (MATH 3000 or MATH 3300)",
+    "parse_status": "needs_review",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "Mixed AND/OR prerequisite without explicit grouping in remainder.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_5700",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "course_id": "STAT_6210",
+    "has_prerequisite_text": false,
+    "raw_text": null,
+    "parse_status": "no_prerequisite",
+    "groups_created": 0,
+    "items_created": 0,
+    "reason": "No prerequisite text found.",
+    "parser_version": "prereq_parser_v1"
   }
 ]

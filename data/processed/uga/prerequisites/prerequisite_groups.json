@@ -592,5 +592,554 @@
     "raw_text": "CSCI 4730/6730 or CSCI 4250/6250 or permission of department",
     "parse_status": "partial",
     "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2003_group_1",
+    "course_id": "MATH_2003",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 2002",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2110_group_1",
+    "course_id": "MATH_2110",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2200 or MATH 2250 or MATH 2250E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2200_group_1",
+    "course_id": "MATH_2200",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 1113 or MATH 1113E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2250_group_1",
+    "course_id": "MATH_2250",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 1113 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2255_group_1",
+    "course_id": "MATH_2255",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 2250 or MATH 2250E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2260_group_1",
+    "course_id": "MATH_2260",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2250 or MATH 2300H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2260H_group_1",
+    "course_id": "MATH_2260H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2270_group_1",
+    "course_id": "MATH_2270",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2270H_group_1",
+    "course_id": "MATH_2270H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2300H_group_1",
+    "course_id": "MATH_2300H",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 1113 or MATH 1113E) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2310H_group_1",
+    "course_id": "MATH_2310H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2250 or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2400_group_1",
+    "course_id": "MATH_2400",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 1113",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2410_group_1",
+    "course_id": "MATH_2410",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 2400",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2410H_group_1",
+    "course_id": "MATH_2410H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2400 or MATH 2400H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2500_group_1",
+    "course_id": "MATH_2500",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2500H_group_1",
+    "course_id": "MATH_2500H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2700_group_1",
+    "course_id": "MATH_2700",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_2700H_group_1",
+    "course_id": "MATH_2700H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3000_group_1",
+    "course_id": "MATH_3000",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3100_group_1",
+    "course_id": "MATH_3100",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3100H_group_1",
+    "course_id": "MATH_3100H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3100W_group_1",
+    "course_id": "MATH_3100W",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3200_group_1",
+    "course_id": "MATH_3200",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3200W_group_1",
+    "course_id": "MATH_3200W",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3300_group_1",
+    "course_id": "MATH_3300",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3300H_group_1",
+    "course_id": "MATH_3300H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3500_group_1",
+    "course_id": "MATH_3500",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3500H_group_1",
+    "course_id": "MATH_3500H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3510_group_1",
+    "course_id": "MATH_3510",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 3500 or MATH 3500H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_3510H_group_1",
+    "course_id": "MATH_3510H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 3500 or MATH 3500H) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4000_group_1",
+    "course_id": "MATH_4000",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3300H or MATH 3500 or MATH 3500H) and (MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4000_group_2",
+    "course_id": "MATH_4000",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3300H or MATH 3500 or MATH 3500H) and (MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4010_group_1",
+    "course_id": "MATH_4010",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 4000/6000",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4050_group_1",
+    "course_id": "MATH_4050",
+    "group_operator": "AND",
+    "parent_operator": "OR",
+    "raw_text": "MATH 3000 or (MATH 3300 and MATH 3200)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4050_group_2",
+    "course_id": "MATH_4050",
+    "group_operator": "SINGLE",
+    "parent_operator": "OR",
+    "raw_text": "MATH 3000 or (MATH 3300 and MATH 3200)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4080_group_1",
+    "course_id": "MATH_4080",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "MATH 4010/6010 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4100_group_1",
+    "course_id": "MATH_4100",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 3100 or MATH 3100H) and (MATH 3200 or CSCI 2610 or CSCI 2610E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4100_group_2",
+    "course_id": "MATH_4100",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 3100 or MATH 3100H) and (MATH 3200 or CSCI 2610 or CSCI 2610E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "MATH_4110_group_1",
+    "course_id": "MATH_4110",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 4100/6100 or MATH 4200/6200 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_2360_group_1",
+    "course_id": "STAT_2360",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2010 or STAT 2100H or BIOS 2010 or BIOS 2010E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_3120_group_1",
+    "course_id": "STAT_3120",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4050_group_1",
+    "course_id": "STAT_4050",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4100_group_1",
+    "course_id": "STAT_4100",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4100_group_2",
+    "course_id": "STAT_4100",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4100_group_3",
+    "course_id": "STAT_4100",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4210_group_1",
+    "course_id": "STAT_4210",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4210H_group_1",
+    "course_id": "STAT_4210H",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H or BIOS 2010 or BIOS 2010E) and permission of Honors",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4220_group_1",
+    "course_id": "STAT_4220",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "STAT 4230/6230",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4240_group_1",
+    "course_id": "STAT_4240",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "STAT 4230/6230 or permission of department",
+    "parse_status": "partial",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4350_group_1",
+    "course_id": "STAT_4350",
+    "group_operator": "AND",
+    "parent_operator": null,
+    "raw_text": "STAT 4510/6510 and STAT 4230/6230",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4510_group_1",
+    "course_id": "STAT_4510",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2270 or MATH 2270H or MATH 2500 or MATH 2500E",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4520_group_1",
+    "course_id": "STAT_4520",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "STAT 4510",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4660_group_1",
+    "course_id": "STAT_4660",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "STAT 2010 or STAT 2100H or STAT 2360-2360L",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4710_group_1",
+    "course_id": "STAT_4710",
+    "group_operator": "OR",
+    "parent_operator": null,
+    "raw_text": "MATH 2500 or MATH 2270",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_4720_group_1",
+    "course_id": "STAT_4720",
+    "group_operator": "SINGLE",
+    "parent_operator": null,
+    "raw_text": "STAT 4710/6710",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_5010_group_1",
+    "course_id": "STAT_5010",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_5010_group_2",
+    "course_id": "STAT_5010",
+    "group_operator": "AND",
+    "parent_operator": "AND",
+    "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_5010W_group_1",
+    "course_id": "STAT_5010W",
+    "group_operator": "SINGLE",
+    "parent_operator": "AND",
+    "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_5010W_group_2",
+    "course_id": "STAT_5010W",
+    "group_operator": "AND",
+    "parent_operator": "AND",
+    "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_5020_group_1",
+    "course_id": "STAT_5020",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(STAT 5010 or STAT 5010W) and (MATH 3000 or MATH 3300)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
+  },
+  {
+    "requirement_group": "STAT_5020_group_2",
+    "course_id": "STAT_5020",
+    "group_operator": "OR",
+    "parent_operator": "AND",
+    "raw_text": "(STAT 5010 or STAT 5010W) and (MATH 3000 or MATH 3300)",
+    "parse_status": "parsed",
+    "parser_version": "prereq_parser_v1"
   }
 ]

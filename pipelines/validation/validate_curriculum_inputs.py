@@ -52,7 +52,7 @@ def load_first_json_from_directory(path: Path, preferred_filename: str):
 
 def load_courses_input(path: Path):
     if path.is_dir():
-        return load_first_json_from_directory(path, "course_names_by_subject.json")
+        return load_first_json_from_directory(path, "courses_normalized.json")
     return load_json(path)
 
 
