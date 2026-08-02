@@ -7,6 +7,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -17,6 +18,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -27,6 +29,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -37,6 +40,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -47,6 +51,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -57,6 +62,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -67,6 +73,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -77,6 +84,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -87,6 +95,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -97,6 +106,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -107,6 +117,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -117,6 +128,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -127,6 +139,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -137,6 +150,7 @@
     "groups_created": 2,
     "items_created": 3,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -147,6 +161,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -157,6 +172,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -167,6 +183,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -177,6 +194,7 @@
     "groups_created": 2,
     "items_created": 9,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -187,6 +205,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -197,6 +216,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -207,6 +227,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -217,6 +238,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -227,6 +249,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -237,6 +260,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -247,6 +271,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -257,6 +282,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -267,6 +293,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -277,6 +304,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -287,6 +315,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -297,6 +326,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -307,6 +337,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -317,6 +348,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -327,6 +359,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -337,6 +370,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -347,6 +381,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -357,6 +392,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -367,6 +403,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -377,6 +414,7 @@
     "groups_created": 2,
     "items_created": 3,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -387,6 +425,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -397,6 +436,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -407,6 +447,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -417,6 +458,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -427,6 +469,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -437,6 +480,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -447,6 +491,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -457,6 +502,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -467,6 +513,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -477,6 +524,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -487,6 +535,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -497,6 +546,7 @@
     "groups_created": 2,
     "items_created": 7,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -507,6 +557,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -517,6 +568,7 @@
     "groups_created": 2,
     "items_created": 3,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -527,6 +579,7 @@
     "groups_created": 2,
     "items_created": 3,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -537,6 +590,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -547,6 +601,7 @@
     "groups_created": 2,
     "items_created": 3,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -557,6 +612,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -567,6 +623,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -577,6 +634,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -587,6 +645,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -597,6 +656,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -607,6 +667,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -617,6 +678,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -627,6 +689,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -637,6 +700,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -647,6 +711,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -657,6 +722,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -667,6 +733,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -677,6 +744,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -687,6 +755,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -697,6 +766,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -707,6 +777,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -717,6 +788,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -727,6 +799,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -737,6 +810,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -747,6 +821,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -757,6 +832,7 @@
     "groups_created": 2,
     "items_created": 4,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -767,6 +843,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -777,6 +854,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -787,6 +865,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -797,6 +876,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -807,6 +887,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -817,6 +898,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -827,6 +909,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -837,6 +920,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -847,6 +931,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -857,6 +942,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -867,6 +953,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -877,6 +964,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -887,6 +975,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -897,6 +986,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -907,6 +997,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -917,6 +1008,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Mixed AND/OR prerequisite without explicit grouping in remainder.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -927,6 +1019,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -937,6 +1030,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -947,6 +1041,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -957,6 +1052,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -967,6 +1063,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -977,6 +1074,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -987,6 +1085,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -997,6 +1096,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1007,6 +1107,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1017,6 +1118,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1027,6 +1129,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1037,6 +1140,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1047,6 +1151,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1057,6 +1162,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1067,6 +1173,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1077,6 +1184,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1087,6 +1195,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1097,6 +1206,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1107,6 +1217,7 @@
     "groups_created": 1,
     "items_created": 4,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1117,6 +1228,7 @@
     "groups_created": 1,
     "items_created": 4,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1127,6 +1239,7 @@
     "groups_created": 1,
     "items_created": 4,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1137,6 +1250,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1147,6 +1261,7 @@
     "groups_created": 1,
     "items_created": 4,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1157,6 +1272,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1167,6 +1283,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1177,6 +1294,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1187,6 +1305,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1197,6 +1316,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1207,6 +1327,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1217,6 +1338,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1227,6 +1349,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1237,6 +1360,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1247,6 +1371,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1257,6 +1382,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1267,6 +1393,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1277,6 +1404,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1287,6 +1415,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1297,6 +1426,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1307,6 +1437,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1317,6 +1448,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1327,6 +1459,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1337,6 +1470,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1347,6 +1481,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1357,6 +1492,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1367,6 +1503,7 @@
     "groups_created": 2,
     "items_created": 8,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1377,6 +1514,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1387,6 +1525,7 @@
     "groups_created": 2,
     "items_created": 3,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1397,6 +1536,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1407,6 +1547,7 @@
     "groups_created": 2,
     "items_created": 4,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1417,6 +1558,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1427,6 +1569,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1437,6 +1580,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1447,6 +1591,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1457,6 +1602,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1467,6 +1613,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1477,6 +1624,7 @@
     "groups_created": 1,
     "items_created": 4,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1487,6 +1635,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1497,6 +1646,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1507,6 +1657,7 @@
     "groups_created": 1,
     "items_created": 4,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1517,6 +1668,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1527,6 +1679,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1537,6 +1690,7 @@
     "groups_created": 3,
     "items_created": 6,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1547,6 +1701,7 @@
     "groups_created": 1,
     "items_created": 4,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1557,6 +1712,7 @@
     "groups_created": 1,
     "items_created": 5,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1567,6 +1723,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1577,6 +1734,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1587,6 +1745,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed course prerequisites; unsupported non-course requirement ignored.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1597,6 +1756,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1607,6 +1767,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1617,6 +1778,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1627,6 +1789,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1637,6 +1800,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1647,6 +1811,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1657,6 +1822,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1667,6 +1833,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1677,6 +1844,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1687,6 +1855,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1697,6 +1866,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1707,6 +1877,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1717,6 +1888,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1727,6 +1899,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1737,6 +1910,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1747,6 +1921,7 @@
     "groups_created": 1,
     "items_created": 3,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1757,6 +1932,7 @@
     "groups_created": 1,
     "items_created": 2,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1767,6 +1943,7 @@
     "groups_created": 1,
     "items_created": 1,
     "reason": "Parsed prerequisite course references.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1777,6 +1954,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1787,6 +1965,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1797,6 +1976,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1807,6 +1987,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1817,6 +1998,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1827,6 +2009,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Prerequisite text contains no supported course requirement.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1837,6 +2020,7 @@
     "groups_created": 2,
     "items_created": 3,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1847,6 +2031,7 @@
     "groups_created": 2,
     "items_created": 3,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1857,6 +2042,7 @@
     "groups_created": 2,
     "items_created": 4,
     "reason": "Parsed explicit prerequisite groups.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1867,6 +2053,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1877,6 +2064,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "Mixed AND/OR prerequisite without explicit grouping in remainder.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1887,6 +2075,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   },
   {
@@ -1897,6 +2086,7 @@
     "groups_created": 0,
     "items_created": 0,
     "reason": "No prerequisite text found.",
+    "notes": [],
     "parser_version": "prereq_parser_v1"
   }
 ]

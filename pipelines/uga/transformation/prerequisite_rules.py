@@ -57,6 +57,11 @@ def is_non_course_requirement(raw_text: str, notes: list[str]) -> bool:
     return any(marker in searchable for marker in NON_COURSE_MARKERS)
 
 
+def co_requisite_notes(notes: list[str]) -> list[str]:
+    prefix = "co_requisite_note: "
+    return [note.removeprefix(prefix) for note in notes if note.startswith(prefix)]
+
+
 def build_requirement(item: dict[str, Any]) -> dict[str, Any]:
     return {
         "type": "course",
@@ -98,6 +103,7 @@ def build_rules() -> list[dict[str, Any]]:
         course_id = audit["course_id"]
         raw_text = audit.get("raw_text") or ""
         notes = list(audit.get("notes") or [])
+        co_requisites = co_requisite_notes(notes)
         course_groups = groups_by_course.get(course_id, [])
         parse_status = normalize_parse_status(audit["parse_status"])
 
@@ -109,6 +115,7 @@ def build_rules() -> list[dict[str, Any]]:
                     "groups": [],
                     "raw_text": raw_text,
                     "parse_status": "no_prerequisite",
+                    "co_requisite_notes": co_requisites,
                     "notes": notes,
                 }
             )
@@ -127,6 +134,7 @@ def build_rules() -> list[dict[str, Any]]:
                     "groups": [],
                     "raw_text": raw_text,
                     "parse_status": rule_type,
+                    "co_requisite_notes": co_requisites,
                     "notes": notes,
                 }
             )
@@ -151,6 +159,7 @@ def build_rules() -> list[dict[str, Any]]:
                 "groups": [build_group(group, items_by_group) for group in course_groups],
                 "raw_text": raw_text,
                 "parse_status": parse_status,
+                "co_requisite_notes": co_requisites,
                 "notes": notes,
             }
         )

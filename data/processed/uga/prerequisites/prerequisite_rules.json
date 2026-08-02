@@ -5,6 +5,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -13,6 +14,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -21,6 +23,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -57,6 +60,7 @@
     ],
     "raw_text": "MATH 1113 or MATH 1113E or MATH 2250 or MATH 2250E or MATH 2200",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -81,6 +85,7 @@
     ],
     "raw_text": "CSCI 1301-1301L or CSCI 1301E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -105,6 +110,7 @@
     ],
     "raw_text": "(CSCI 1301-1301L or CSCI 1301E) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -129,6 +135,7 @@
     ],
     "raw_text": "MATH 1113 or MATH 1113E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -153,6 +160,7 @@
     ],
     "raw_text": "CSCI 1302",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -177,6 +185,7 @@
     ],
     "raw_text": "CSCI 1301-1301L",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -185,6 +194,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -209,6 +219,7 @@
     ],
     "raw_text": "MATH 1113",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -233,6 +244,7 @@
     ],
     "raw_text": "MATH 1113",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -263,6 +275,7 @@
     ],
     "raw_text": "CSCI 2610 or CSCI 2611",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -307,6 +320,7 @@
     ],
     "raw_text": "CSCI 1302 and (CSCI 2610 or CSCI 2610E or CSCI 2611)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -331,6 +345,7 @@
     ],
     "raw_text": "CSCI 1302",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -361,6 +376,7 @@
     ],
     "raw_text": "ENGL 1050H or ENGL 1102 or ENGL 1102E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -391,6 +407,7 @@
     ],
     "raw_text": "(ENGL 1050H or ENGL 1102 or ENGL 1102E) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -471,6 +488,7 @@
     ],
     "raw_text": "(CSCI 1301-1301L or CSCI 1301E or CSCI 1360 or CSCI 1360E or CSCI 1300-1300L or ENGR 1140 or ENGR 1140E or ENGR 1140H or ELEE 2045 or INFO 2000 or INFO 2000E) and (MATH 2250 or MATH 2250E or CSCI 2150-2150L)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -501,6 +519,7 @@
     ],
     "raw_text": "CSCI 2720 or CSCI 2725",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -525,6 +544,7 @@
     ],
     "raw_text": "CSCI 2720",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -549,6 +569,7 @@
     ],
     "raw_text": "CSCI 1730",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -573,6 +594,7 @@
     ],
     "raw_text": "CSCI 4070/6070",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -581,6 +603,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -617,6 +640,7 @@
     ],
     "raw_text": "CSCI 1730 and MATH 2250 and CSCI 2150-2150L",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -647,6 +671,7 @@
     ],
     "raw_text": "(MATH 2250 and CSCI 1301-1301L) or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -655,6 +680,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -685,6 +711,7 @@
     ],
     "raw_text": "CSCI 2720 or CSCI 2725",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -715,6 +742,7 @@
     ],
     "raw_text": "CSCI 4730/6730 or CSCI 4760/6760",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -739,6 +767,7 @@
     ],
     "raw_text": "CSCI 1302",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -747,6 +776,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -755,6 +785,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -779,6 +810,7 @@
     ],
     "raw_text": "CSCI 1302",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -787,6 +819,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -795,6 +828,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -825,6 +859,7 @@
     ],
     "raw_text": "CSCI 3360 or CSCI 3360E or INFO 3000 or INFO 3000E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -855,6 +890,7 @@
     ],
     "raw_text": "CSCI 2720 or CSCI 2725",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -863,6 +899,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -907,6 +944,7 @@
     ],
     "raw_text": "(CSCI 2720 or CSCI 2725) and (CSCI 2670 or CSCI 2670E)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -931,6 +969,7 @@
     ],
     "raw_text": "CSCI 4470/6470 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -955,6 +994,7 @@
     ],
     "raw_text": "CSCI 1302",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -985,6 +1025,7 @@
     ],
     "raw_text": "CSCI 2720 and CSCI(MATH) 2610",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -993,6 +1034,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1017,6 +1059,7 @@
     ],
     "raw_text": "CSCI 1302 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1047,6 +1090,7 @@
     ],
     "raw_text": "CSCI(MATH) 2610 or PHIL 2500",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1077,6 +1121,7 @@
     ],
     "raw_text": "CSCI 2720 or CSCI 2725",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1085,6 +1130,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1115,6 +1161,7 @@
     ],
     "raw_text": "CSCI 2720 or CSCI 2720E or CSCI 2725",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1139,6 +1186,7 @@
     ],
     "raw_text": "CSCI(PHIL) 4550/6550",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1147,6 +1195,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1215,6 +1264,7 @@
     ],
     "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3500 or MATH 3500H) and (CSCI 2610 or CSCI 2610E or MATH 3200 or MATH 3200W)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1223,6 +1273,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1267,6 +1318,7 @@
     ],
     "raw_text": "(CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E) and CSCI 1730",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1311,6 +1363,7 @@
     ],
     "raw_text": "(CSCI 4720 or CSCI 4720E or CSEE 4280) and CSCI 2720",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1335,6 +1388,7 @@
     ],
     "raw_text": "CSCI 2720",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1379,6 +1433,7 @@
     ],
     "raw_text": "CSCI 2720 and (CSCI 2670 or CSCI 2670E or CSEE 2220 or CSEE 2220E)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1403,6 +1458,7 @@
     ],
     "raw_text": "CSCI 2720",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1411,6 +1467,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1435,6 +1492,7 @@
     ],
     "raw_text": "CSCI 2720",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1443,6 +1501,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1451,6 +1510,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1475,6 +1535,7 @@
     ],
     "raw_text": "CSCI 2720 or CSCI 2720E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1483,6 +1544,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1507,6 +1569,7 @@
     ],
     "raw_text": "CSCI 2720 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1537,6 +1600,7 @@
     ],
     "raw_text": "CSCI 2720 or CSCI 2725 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1567,6 +1631,7 @@
     ],
     "raw_text": "CSCI 2720 or CSCI 2725 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1575,6 +1640,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1605,6 +1671,7 @@
     ],
     "raw_text": "CSCI 4050/6050 or CSCI 4050E/6050E or CSCI 4370/6370",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1629,6 +1696,7 @@
     ],
     "raw_text": "CSCI 4910",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1637,6 +1705,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1645,6 +1714,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1653,6 +1723,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1661,6 +1732,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1669,6 +1741,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1677,6 +1750,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1685,6 +1759,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1735,6 +1810,7 @@
     ],
     "raw_text": "(CSCI 4360/6360 and CSCI 4370/6370) or (STAT 4220 and STAT 4230/6230)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1743,6 +1819,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1751,6 +1828,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1759,6 +1837,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1767,6 +1846,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1791,6 +1871,7 @@
     ],
     "raw_text": "CSCI 2670 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1815,6 +1896,7 @@
     ],
     "raw_text": "CSCI 2670",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1839,6 +1921,7 @@
     ],
     "raw_text": "CSCI 4720",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1847,6 +1930,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1855,6 +1939,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1863,6 +1948,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1887,6 +1973,7 @@
     ],
     "raw_text": "MATH 1113",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1895,6 +1982,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1903,6 +1991,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1911,6 +2000,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1919,6 +2009,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1927,6 +2018,7 @@
     "groups": [],
     "raw_text": "[CSCI(ARTI) 4540/6540 and CSCI(PHIL) 4550/6550] or permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1957,6 +2049,7 @@
     ],
     "raw_text": "CSCI 4050/6050 and CSCI 4370/6370",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -1987,6 +2080,7 @@
     ],
     "raw_text": "CSCI 4140/6140 and CSCI 6720",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2017,6 +2111,7 @@
     ],
     "raw_text": "CSCI 4140/6140 or CSCI 4150/6150",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2047,6 +2142,7 @@
     ],
     "raw_text": "CSCI 4730/6730 or CSCI 4210/6210",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2077,6 +2173,7 @@
     ],
     "raw_text": "CSCI 4730/6730 or CSCI 4250/6250 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2085,6 +2182,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2093,6 +2191,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2101,6 +2200,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2109,6 +2209,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2117,6 +2218,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2125,6 +2227,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2133,6 +2236,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2157,6 +2261,7 @@
     ],
     "raw_text": "MATH 2002",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2187,6 +2292,7 @@
     ],
     "raw_text": "MATH 2200 or MATH 2250 or MATH 2250E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2211,6 +2317,7 @@
     ],
     "raw_text": "MATH 1113 or MATH 1113E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2235,6 +2342,7 @@
     ],
     "raw_text": "MATH 1113 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2259,6 +2367,7 @@
     ],
     "raw_text": "MATH 2250 or MATH 2250E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2289,6 +2398,7 @@
     ],
     "raw_text": "MATH 2250 or MATH 2300H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2331,6 +2441,7 @@
     ],
     "raw_text": "(MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2373,6 +2484,7 @@
     ],
     "raw_text": "MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2415,6 +2527,7 @@
     ],
     "raw_text": "(MATH 2260 or MATH 2260E or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2439,6 +2552,7 @@
     ],
     "raw_text": "(MATH 1113 or MATH 1113E) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2481,6 +2595,7 @@
     ],
     "raw_text": "(MATH 2250 or MATH 2300H or MATH 2400 or MATH 2400H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2505,6 +2620,7 @@
     ],
     "raw_text": "MATH 1113",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2513,6 +2629,7 @@
     "groups": [],
     "raw_text": "Permission of Honors",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2537,6 +2654,7 @@
     ],
     "raw_text": "MATH 2400",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2567,6 +2685,7 @@
     ],
     "raw_text": "(MATH 2400 or MATH 2400H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2615,6 +2734,7 @@
     ],
     "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2663,6 +2783,7 @@
     ],
     "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2711,6 +2832,7 @@
     ],
     "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2759,6 +2881,7 @@
     ],
     "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2795,6 +2918,7 @@
     ],
     "raw_text": "MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2831,6 +2955,7 @@
     ],
     "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2867,6 +2992,7 @@
     ],
     "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2903,6 +3029,7 @@
     ],
     "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2939,6 +3066,7 @@
     ],
     "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2975,6 +3103,7 @@
     ],
     "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -2983,6 +3112,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3031,6 +3161,7 @@
     ],
     "raw_text": "MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3079,6 +3210,7 @@
     ],
     "raw_text": "(MATH 2260 or MATH 2260E or MATH 2260H or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3127,6 +3259,7 @@
     ],
     "raw_text": "MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3175,6 +3308,7 @@
     ],
     "raw_text": "(MATH 2210 or MATH 2260 or MATH 2310H or MATH 2410 or MATH 2410H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3205,6 +3339,7 @@
     ],
     "raw_text": "MATH 3500 or MATH 3500H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3235,6 +3370,7 @@
     ],
     "raw_text": "(MATH 3500 or MATH 3500H) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3309,6 +3445,7 @@
     ],
     "raw_text": "(MATH 3000 or MATH 3300 or MATH 3300E or MATH 3300H or MATH 3500 or MATH 3500H) and (MATH 3200 or MATH 3200W or CSCI 2610 or CSCI 2610E)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3333,6 +3470,7 @@
     ],
     "raw_text": "MATH 4000/6000",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3377,6 +3515,7 @@
     ],
     "raw_text": "MATH 3000 or (MATH 3300 and MATH 3200)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3401,6 +3540,7 @@
     ],
     "raw_text": "MATH 4010/6010 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3451,6 +3591,7 @@
     ],
     "raw_text": "(MATH 3100 or MATH 3100H) and (MATH 3200 or CSCI 2610 or CSCI 2610E)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3481,6 +3622,7 @@
     ],
     "raw_text": "MATH 4100/6100 or MATH 4200/6200 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3489,6 +3631,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3497,6 +3640,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3505,6 +3649,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3513,6 +3658,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3521,6 +3667,7 @@
     "groups": [],
     "raw_text": "Permission of Honors",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3563,6 +3710,7 @@
     ],
     "raw_text": "STAT 2000 or STAT 2000E or STAT 2010 or STAT 2100H or BIOS 2010 or BIOS 2010E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3571,6 +3719,7 @@
     "groups": [],
     "raw_text": "Third- or fourth-year student standing",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3579,6 +3728,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3621,6 +3771,7 @@
     ],
     "raw_text": "MATH 2250 or MATH 2250E or MATH 2300H or MATH 2400 or MATH 2400H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3651,6 +3802,7 @@
     ],
     "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3659,6 +3811,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3729,6 +3882,7 @@
     ],
     "raw_text": "(MATH 2270 or MATH 2500) and (MATH 3300 or MATH 3000) and (STAT 4510/6510 or MATH 4600/6600)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3771,6 +3925,7 @@
     ],
     "raw_text": "STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3819,6 +3974,7 @@
     ],
     "raw_text": "(STAT 2000 or STAT 2000E or STAT 2100H or BUSN 3000 or BUSN 3000E or BUSN 3000H or BIOS 2010 or BIOS 2010E) and permission of Honors",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3843,6 +3999,7 @@
     ],
     "raw_text": "STAT 4230/6230",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3851,6 +4008,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3875,6 +4033,7 @@
     ],
     "raw_text": "STAT 4230/6230 or permission of department",
     "parse_status": "partial",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3883,6 +4042,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3891,6 +4051,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3899,6 +4060,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3907,6 +4069,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3915,6 +4078,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3945,6 +4109,7 @@
     ],
     "raw_text": "STAT 4510/6510 and STAT 4230/6230",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3953,6 +4118,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3961,6 +4127,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3969,6 +4136,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3977,6 +4145,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -3985,6 +4154,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4021,6 +4191,7 @@
     ],
     "raw_text": "MATH 2270 or MATH 2270H or MATH 2500 or MATH 2500E",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4045,6 +4216,7 @@
     ],
     "raw_text": "STAT 4510",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4053,6 +4225,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4061,6 +4234,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4097,6 +4271,7 @@
     ],
     "raw_text": "STAT 2010 or STAT 2100H or STAT 2360-2360L",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4127,6 +4302,7 @@
     ],
     "raw_text": "MATH 2500 or MATH 2270",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4151,6 +4327,7 @@
     ],
     "raw_text": "STAT 4710/6710",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4159,6 +4336,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4167,6 +4345,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4175,6 +4354,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4183,6 +4363,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4191,6 +4372,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4199,6 +4381,7 @@
     "groups": [],
     "raw_text": "Permission of department",
     "parse_status": "non_course_requirement",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4243,6 +4426,7 @@
     ],
     "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4287,6 +4471,7 @@
     ],
     "raw_text": "STAT 4220 and STAT 4230/6230 and (STAT 4365/6365 or STAT 4365E/6365E)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4337,6 +4522,7 @@
     ],
     "raw_text": "(STAT 5010 or STAT 5010W) and (MATH 3000 or MATH 3300)",
     "parse_status": "parsed",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4345,6 +4531,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4353,6 +4540,7 @@
     "groups": [],
     "raw_text": "STAT 5010 or STAT 5010W and (MATH 3000 or MATH 3300)",
     "parse_status": "manual_review",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4361,6 +4549,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   },
   {
@@ -4369,6 +4558,7 @@
     "groups": [],
     "raw_text": "",
     "parse_status": "no_prerequisite",
+    "co_requisite_notes": [],
     "notes": []
   }
 ]

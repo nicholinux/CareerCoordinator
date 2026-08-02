@@ -1,3 +1,4 @@
+import json
 import re
 
 
@@ -14,6 +15,7 @@ UNSUPPORTED_RE = re.compile(
     r"\b(permission|honors|department|standing|placement|test score|consent)\b",
     re.IGNORECASE,
 )
+CO_REQUISITE_RE = re.compile(r"\b(co-?requisite|corequisite|co requisite)s?\b", re.IGNORECASE)
 
 
 def normalize_course_id(course_code: str) -> str:
@@ -53,6 +55,65 @@ def extract_course_ref_matches(text: str) -> list[dict]:
 def detect_minimum_grade(text: str) -> str | None:
     match = GRADE_RE.search(text or "")
     return match.group(1).upper() if match else None
+
+
+def detect_co_requisite_note(text: str) -> str | None:
+    if CO_REQUISITE_RE.search(text or ""):
+        return text
+    return None
+
+
+def _course_id_to_code(value: str) -> str:
+    if re.fullmatch(r"[A-Z]{2,5}_\d{4}[A-Z]?", value or ""):
+        subject, number = value.split("_", 1)
+        return f"{subject} {number}"
+    return value
+
+
+def _stringify_prerequisite_value(value) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, list):
+        parts = [_stringify_prerequisite_value(item) for item in value]
+        return " and ".join(part for part in parts if part)
+    if isinstance(value, dict):
+        for key in ("raw_text", "text", "prerequisite", "prerequisites", "description"):
+            if key in value:
+                return _stringify_prerequisite_value(value[key])
+
+        for key in ("all_of", "all", "and"):
+            if key in value:
+                children = value[key] if isinstance(value[key], list) else [value[key]]
+                parts = [_stringify_prerequisite_value(item) for item in children]
+                return " and ".join(part for part in parts if part)
+
+        for key in ("one_of", "any_of", "or"):
+            if key in value:
+                children = value[key] if isinstance(value[key], list) else [value[key]]
+                parts = [_stringify_prerequisite_value(item) for item in children]
+                return " or ".join(part for part in parts if part)
+
+        course_value = value.get("course_id") or value.get("course_code")
+        if course_value:
+            return _course_id_to_code(str(course_value).strip().upper())
+
+        return json.dumps(value, sort_keys=True)
+    return str(value).strip()
+
+
+def _input_shape_notes(value, raw_text: str) -> list[str]:
+    notes = []
+    if isinstance(value, list):
+        notes.append("array_prerequisites_input_normalized_as_and")
+    elif isinstance(value, dict):
+        notes.append("structured_prerequisites_input_normalized")
+
+    co_requisite_note = detect_co_requisite_note(raw_text)
+    if co_requisite_note:
+        notes.append(f"co_requisite_note: {co_requisite_note}")
+    return notes
 
 
 def has_and(text: str) -> bool:
@@ -138,7 +199,7 @@ def _build_items(course_id: str, requirement_group: str, group_text: str, status
     ]
 
 
-def _empty_result(course_id: str, raw_text, status: str, reason: str):
+def _empty_result(course_id: str, raw_text, status: str, reason: str, notes: list[str] | None = None):
     return {
         "groups": [],
         "items": [],
@@ -150,14 +211,16 @@ def _empty_result(course_id: str, raw_text, status: str, reason: str):
             "groups_created": 0,
             "items_created": 0,
             "reason": reason,
+            "notes": notes or [],
             "parser_version": PARSER_VERSION,
         },
     }
 
 
-def _parse_explicit_groups(course_id: str, raw_text: str):
+def _parse_explicit_groups(course_id: str, raw_text: str, notes: list[str] | None = None):
     groups = []
     items = []
+    notes = notes or []
     parent = _parent_operator(raw_text)
     unsupported = _has_unsupported_requirement(raw_text)
     status = "partial" if unsupported else "parsed"
@@ -176,6 +239,7 @@ def _parse_explicit_groups(course_id: str, raw_text: str):
                 raw_text,
                 "needs_review",
                 "Mixed AND/OR prerequisite inside explicit group.",
+                notes,
             )
         if not extract_course_refs(group_text):
             continue
@@ -198,6 +262,7 @@ def _parse_explicit_groups(course_id: str, raw_text: str):
                 raw_text,
                 "needs_review",
                 "Mixed AND/OR prerequisite without explicit grouping in remainder.",
+                notes,
             )
         group = _build_group(course_id, raw_text, remainder, len(groups) + 1, parent, status)
         groups.append(group)
@@ -209,12 +274,21 @@ def _parse_explicit_groups(course_id: str, raw_text: str):
             raw_text,
             "needs_review",
             "Prerequisite text contains no supported course requirement.",
+            notes,
         )
 
-    return _result(course_id, raw_text, groups, items, status, reason)
+    return _result(course_id, raw_text, groups, items, status, reason, notes)
 
 
-def _result(course_id: str, raw_text: str, groups: list[dict], items: list[dict], status: str, reason: str):
+def _result(
+    course_id: str,
+    raw_text: str,
+    groups: list[dict],
+    items: list[dict],
+    status: str,
+    reason: str,
+    notes: list[str] | None = None,
+):
     return {
         "groups": groups,
         "items": items,
@@ -226,6 +300,7 @@ def _result(course_id: str, raw_text: str, groups: list[dict], items: list[dict]
             "groups_created": len(groups),
             "items_created": len(items),
             "reason": reason,
+            "notes": notes or [],
             "parser_version": PARSER_VERSION,
         },
     }
@@ -233,10 +308,12 @@ def _result(course_id: str, raw_text: str, groups: list[dict], items: list[dict]
 
 def parse_prerequisites(course_record: dict) -> dict:
     course_id = normalize_course_id(course_record.get("course_number", ""))
-    raw_text = course_record.get("prerequisite") or ""
+    raw_prerequisite = course_record.get("prerequisite")
+    raw_text = _stringify_prerequisite_value(raw_prerequisite)
+    notes = _input_shape_notes(raw_prerequisite, raw_text)
 
     if not raw_text:
-        return _empty_result(course_id, None, "no_prerequisite", "No prerequisite text found.")
+        return _empty_result(course_id, None, "no_prerequisite", "No prerequisite text found.", notes)
 
     if not extract_course_refs(raw_text):
         return _empty_result(
@@ -244,6 +321,7 @@ def parse_prerequisites(course_record: dict) -> dict:
             raw_text,
             "needs_review",
             "Prerequisite text contains no supported course requirement.",
+            notes,
         )
 
     if has_mixed_logic(raw_text) and not has_explicit_grouping(raw_text):
@@ -252,10 +330,11 @@ def parse_prerequisites(course_record: dict) -> dict:
             raw_text,
             "needs_review",
             "Mixed AND/OR prerequisite without explicit grouping.",
+            notes,
         )
 
     if has_mixed_logic(raw_text) and has_explicit_grouping(raw_text):
-        return _parse_explicit_groups(course_id, raw_text)
+        return _parse_explicit_groups(course_id, raw_text, notes)
 
     unsupported = _has_unsupported_requirement(raw_text)
     status = "partial" if unsupported else "parsed"
@@ -265,4 +344,4 @@ def parse_prerequisites(course_record: dict) -> dict:
 
     group = _build_group(course_id, raw_text, raw_text, 1, None, status)
     items = _build_items(course_id, group["requirement_group"], raw_text, "parsed")
-    return _result(course_id, raw_text, [group], items, status, reason)
+    return _result(course_id, raw_text, [group], items, status, reason, notes)
