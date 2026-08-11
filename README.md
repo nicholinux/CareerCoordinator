@@ -125,7 +125,21 @@ Output:
 data/processed/uga/degree_requirements/degree_requirements_normalized.json
 ```
 
-### 7. Validate Curriculum Inputs
+### 7. Expand Degree Requirements
+
+Resolve course filters into concrete CSCI, MATH, and STAT course lists while preserving exclusions, overlap rules, and notes.
+
+```powershell
+python pipelines\uga\transformation\expand_requirement_groups.py
+```
+
+Output:
+
+```text
+data/processed/uga/degree_requirements/degree_requirements_expanded.json
+```
+
+### 8. Validate Curriculum Inputs
 
 Validate normalized courses and degree requirements together.
 
@@ -160,7 +174,7 @@ Current build order:
 - [x] Validate curriculum inputs.
 - [x] Normalize prerequisites.
 - [x] Build prerequisite edges.
-- [ ] Expand degree requirements.
+- [x] Expand degree requirements.
 - [ ] Build curriculum graph.
 - [ ] Generate basic course order.
 - [ ] Resolve degree requirements.

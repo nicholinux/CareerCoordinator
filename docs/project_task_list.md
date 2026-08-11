@@ -106,17 +106,17 @@ Create:
 
 Tasks:
 
-- [ ] Load `degree_requirements_normalized.json`.
-- [ ] Load `courses_normalized.json`.
-- [ ] Preserve `all_of`, `one_of`, `minimum_credits`, and `note` groups.
-- [ ] Resolve `course_filter` objects into concrete course-code lists.
-- [ ] Apply subject filters.
-- [ ] Apply minimum and maximum course-level filters.
-- [ ] Preserve exclusions.
-- [ ] Preserve `overlap_allowed`.
-- [ ] Preserve notes.
-- [ ] Report empty filters.
-- [ ] Write output to `data/processed/curriculum/degree_requirements_expanded.json`.
+- [x] Load `degree_requirements_normalized.json`.
+- [x] Load `courses_normalized.json`.
+- [x] Preserve `all_of`, `one_of`, `minimum_credits`, and `note` groups.
+- [x] Resolve `course_filter` objects into concrete course-code lists.
+- [x] Apply subject filters.
+- [x] Apply minimum and maximum course-level filters.
+- [x] Preserve exclusions.
+- [x] Preserve `overlap_allowed`.
+- [x] Preserve notes.
+- [x] Report empty filters.
+- [x] Write output to `data/processed/uga/degree_requirements/degree_requirements_expanded.json`.
 
 ### 5. Build Curriculum Graph
 

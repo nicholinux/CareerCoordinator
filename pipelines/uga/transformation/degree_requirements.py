@@ -121,6 +121,7 @@ def build_degree_requirements(raw_dir: Path = DEFAULT_RAW_DIR) -> dict:
                 "maximum_level": 4999,
             },
             "exclusions": {
+                "exclude_courses": ["CSCI 4150", "CSCI 6150"],
                 "exclude_courses_used_by_requirement_ids": [
                     "computing_and_society",
                     "computer_architecture",
@@ -130,7 +131,8 @@ def build_degree_requirements(raw_dir: Path = DEFAULT_RAW_DIR) -> dict:
                 ]
             },
             "notes": [
-                "CSCI 4000-level courses already taken to fulfill another CSCI requirement should not be counted toward major electives."
+                "CSCI 4000-level courses already taken to fulfill another CSCI requirement should not be counted toward major electives.",
+                "CSCI 4150/6150 may not be counted as a Major Elective.",
             ],
         },
         {

@@ -1,0 +1,1078 @@
+{
+  "program": {
+    "institution": "University of Georgia",
+    "degree": "BS",
+    "major": "Computer Science"
+  },
+  "metadata": {
+    "courses_loaded": 190,
+    "requirements_loaded": 9,
+    "requirements_expanded": 9,
+    "empty_filter_count": 0,
+    "unresolved_course_count": 0,
+    "in_scope_subjects": [
+      "CSCI",
+      "MATH",
+      "STAT"
+    ],
+    "source_courses_path": "C:\\Users\\Nick Hubbard\\Documents\\CareerCoordinator\\data\\processed\\uga\\courses\\courses_normalized.json",
+    "source_requirements_path": "C:\\Users\\Nick Hubbard\\Documents\\CareerCoordinator\\data\\processed\\uga\\degree_requirements\\degree_requirements_normalized.json"
+  },
+  "requirements": [
+    {
+      "id": "area_vi_requirements",
+      "name": "Area VI Requirements for Computer Science",
+      "type": "all_of",
+      "courses": [
+        "CSCI 1302",
+        "CSCI 2670",
+        "CSCI 2720",
+        "MATH 2250"
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 1302",
+          "course_id": "CSCI_1302",
+          "matched_alias": "CSCI 1302",
+          "subject": "CSCI",
+          "course_number": "1302",
+          "title": "Software Development",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 2670",
+          "course_id": "CSCI_2670",
+          "matched_alias": "CSCI 2670",
+          "subject": "CSCI",
+          "course_number": "2670",
+          "title": "Introduction to Theory of Computing",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 2720",
+          "course_id": "CSCI_2720",
+          "matched_alias": "CSCI 2720",
+          "subject": "CSCI",
+          "course_number": "2720",
+          "title": "Data Structures",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 2250",
+          "course_id": "MATH_2250",
+          "matched_alias": "MATH 2250",
+          "subject": "MATH",
+          "course_number": "2250",
+          "title": "Calculus I for Science and Engineering",
+          "credits": 4
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 1302",
+        "CSCI 2670",
+        "CSCI 2720",
+        "MATH 2250"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    },
+    {
+      "id": "computing_and_society",
+      "name": "Computing & Society",
+      "type": "all_of",
+      "courses": [
+        "CSCI 3030"
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 3030",
+          "course_id": "CSCI_3030",
+          "matched_alias": "CSCI 3030",
+          "subject": "CSCI",
+          "course_number": "3030",
+          "title": "Computing, Ethics, and Society",
+          "credits": 3
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 3030"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    },
+    {
+      "id": "computer_architecture",
+      "name": "Computer Architecture",
+      "type": "all_of",
+      "courses": [
+        "CSCI 4720"
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 4720",
+          "course_id": "CSCI_4720",
+          "matched_alias": "CSCI 4720",
+          "subject": "CSCI",
+          "course_number": "4720",
+          "title": "Computer Architecture and Organization",
+          "credits": 4
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 4720"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms",
+      "type": "all_of",
+      "courses": [
+        "CSCI 4470"
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 4470/6470",
+          "course_id": "CSCI_4470",
+          "matched_alias": "CSCI 4470",
+          "subject": "CSCI",
+          "course_number": "4470/6470",
+          "title": "Algorithms",
+          "credits": 4
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 4470/6470"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    },
+    {
+      "id": "application_design",
+      "name": "Application Design",
+      "type": "one_of",
+      "courses": [
+        "CSCI 4050",
+        "CSCI 4370"
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 4050/6050",
+          "course_id": "CSCI_4050",
+          "matched_alias": "CSCI 4050",
+          "subject": "CSCI",
+          "course_number": "4050/6050",
+          "title": "Software Engineering",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4370/6370",
+          "course_id": "CSCI_4370",
+          "matched_alias": "CSCI 4370",
+          "subject": "CSCI",
+          "course_number": "4370/6370",
+          "title": "Database Management",
+          "credits": 4
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 4050/6050",
+        "CSCI 4370/6370"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    },
+    {
+      "id": "systems_design",
+      "name": "Systems Design",
+      "type": "one_of",
+      "courses": [
+        "CSCI 4570",
+        "CSCI 4730",
+        "CSCI 4760"
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 4570/6570",
+          "course_id": "CSCI_4570",
+          "matched_alias": "CSCI 4570",
+          "subject": "CSCI",
+          "course_number": "4570/6570",
+          "title": "Compilers",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4730/6730",
+          "course_id": "CSCI_4730",
+          "matched_alias": "CSCI 4730",
+          "subject": "CSCI",
+          "course_number": "4730/6730",
+          "title": "Operating Systems",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4760/6760",
+          "course_id": "CSCI_4760",
+          "matched_alias": "CSCI 4760",
+          "subject": "CSCI",
+          "course_number": "4760/6760",
+          "title": "Computer Networks",
+          "credits": 4
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 4570/6570",
+        "CSCI 4730/6730",
+        "CSCI 4760/6760"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    },
+    {
+      "id": "major_electives",
+      "name": "Major Electives",
+      "type": "minimum_credits",
+      "minimum_credits": 12,
+      "course_filter": {
+        "subject": "CSCI",
+        "minimum_level": 4000,
+        "maximum_level": 4999
+      },
+      "exclusions": {
+        "exclude_courses": [
+          "CSCI 4150",
+          "CSCI 6150"
+        ],
+        "exclude_courses_used_by_requirement_ids": [
+          "computing_and_society",
+          "computer_architecture",
+          "algorithms",
+          "application_design",
+          "systems_design"
+        ]
+      },
+      "notes": [
+        "CSCI 4000-level courses already taken to fulfill another CSCI requirement should not be counted toward major electives.",
+        "CSCI 4150/6150 may not be counted as a Major Elective."
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 4050/6050",
+          "course_id": "CSCI_4050",
+          "matched_alias": "CSCI 4050/6050",
+          "subject": "CSCI",
+          "course_number": "4050/6050",
+          "title": "Software Engineering",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4060/6060",
+          "course_id": "CSCI_4060",
+          "matched_alias": "CSCI 4060/6060",
+          "subject": "CSCI",
+          "course_number": "4060/6060",
+          "title": "Mobile Software Development",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4070/6070",
+          "course_id": "CSCI_4070",
+          "matched_alias": "CSCI 4070/6070",
+          "subject": "CSCI",
+          "course_number": "4070/6070",
+          "title": "Introduction to Game Programming",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4080/6080",
+          "course_id": "CSCI_4080",
+          "matched_alias": "CSCI 4080/6080",
+          "subject": "CSCI",
+          "course_number": "4080/6080",
+          "title": "Intermediate Game Programming",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4130/6130",
+          "course_id": "CSCI_4130",
+          "matched_alias": "CSCI 4130/6130",
+          "subject": "CSCI",
+          "course_number": "4130/6130",
+          "title": "CUDA C Programming on GPUs for High Performance Computing",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4140/6140",
+          "course_id": "CSCI_4140",
+          "matched_alias": "CSCI 4140/6140",
+          "subject": "CSCI",
+          "course_number": "4140/6140",
+          "title": "Numerical Methods and Computing",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4170/6170",
+          "course_id": "CSCI_4170",
+          "matched_alias": "CSCI 4170/6170",
+          "subject": "CSCI",
+          "course_number": "4170/6170",
+          "title": "Introduction to Computational Investing",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4210/6210",
+          "course_id": "CSCI_4210",
+          "matched_alias": "CSCI 4210/6210",
+          "subject": "CSCI",
+          "course_number": "4210/6210",
+          "title": "Simulation and Modeling",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4250/6250",
+          "course_id": "CSCI_4250",
+          "matched_alias": "CSCI 4250/6250",
+          "subject": "CSCI",
+          "course_number": "4250/6250",
+          "title": "Cyber Security",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4260/6260",
+          "course_id": "CSCI_4260",
+          "matched_alias": "CSCI 4260/6260",
+          "subject": "CSCI",
+          "course_number": "4260/6260",
+          "title": "Data Security and Privacy",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4270/6270",
+          "course_id": "CSCI_4270",
+          "matched_alias": "CSCI 4270/6270",
+          "subject": "CSCI",
+          "course_number": "4270/6270",
+          "title": "Introduction to Computer Forensics",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4280/6280",
+          "course_id": "CSCI_4280",
+          "matched_alias": "CSCI 4280/6280",
+          "subject": "CSCI",
+          "course_number": "4280/6280",
+          "title": "Introduction to Cryptography",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4300",
+          "course_id": "CSCI_4300",
+          "matched_alias": "CSCI 4300",
+          "subject": "CSCI",
+          "course_number": "4300",
+          "title": "Web Programming",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4330/6330",
+          "course_id": "CSCI_4330",
+          "matched_alias": "CSCI 4330/6330",
+          "subject": "CSCI",
+          "course_number": "4330/6330",
+          "title": "Artificial Intelligence and the Web",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4350/6350",
+          "course_id": "CSCI_4350",
+          "matched_alias": "CSCI 4350/6350",
+          "subject": "CSCI",
+          "course_number": "4350/6350",
+          "title": "Global Information Systems",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4360/6360",
+          "course_id": "CSCI_4360",
+          "matched_alias": "CSCI 4360/6360",
+          "subject": "CSCI",
+          "course_number": "4360/6360",
+          "title": "Data Science and Applied Machine Learning II",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4370/6370",
+          "course_id": "CSCI_4370",
+          "matched_alias": "CSCI 4370/6370",
+          "subject": "CSCI",
+          "course_number": "4370/6370",
+          "title": "Database Management",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4380/6380",
+          "course_id": "CSCI_4380",
+          "matched_alias": "CSCI 4380/6380",
+          "subject": "CSCI",
+          "course_number": "4380/6380",
+          "title": "Data Mining",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4470/6470",
+          "course_id": "CSCI_4470",
+          "matched_alias": "CSCI 4470/6470",
+          "subject": "CSCI",
+          "course_number": "4470/6470",
+          "title": "Algorithms",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4490/6490",
+          "course_id": "CSCI_4490",
+          "matched_alias": "CSCI 4490/6490",
+          "subject": "CSCI",
+          "course_number": "4490/6490",
+          "title": "Algorithms for Computational Biology",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4500/6500",
+          "course_id": "CSCI_4500",
+          "matched_alias": "CSCI 4500/6500",
+          "subject": "CSCI",
+          "course_number": "4500/6500",
+          "title": "Programming Languages",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4520/6520",
+          "course_id": "CSCI_4520",
+          "matched_alias": "CSCI 4520/6520",
+          "subject": "CSCI",
+          "course_number": "4520/6520",
+          "title": "Functional Programming",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4560/6560",
+          "course_id": "CSCI_4560",
+          "matched_alias": "CSCI 4560/6560",
+          "subject": "CSCI",
+          "course_number": "4560/6560",
+          "title": "Evolutionary Computation and Its Applications",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4570/6570",
+          "course_id": "CSCI_4570",
+          "matched_alias": "CSCI 4570/6570",
+          "subject": "CSCI",
+          "course_number": "4570/6570",
+          "title": "Compilers",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4580/6580",
+          "course_id": "CSCI_4580",
+          "matched_alias": "CSCI 4580/6580",
+          "subject": "CSCI",
+          "course_number": "4580/6580",
+          "title": "Foundations of Deep Learning and Generative AI",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4720",
+          "course_id": "CSCI_4720",
+          "matched_alias": "CSCI 4720",
+          "subject": "CSCI",
+          "course_number": "4720",
+          "title": "Computer Architecture and Organization",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4730/6730",
+          "course_id": "CSCI_4730",
+          "matched_alias": "CSCI 4730/6730",
+          "subject": "CSCI",
+          "course_number": "4730/6730",
+          "title": "Operating Systems",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4740/6740",
+          "course_id": "CSCI_4740",
+          "matched_alias": "CSCI 4740/6740",
+          "subject": "CSCI",
+          "course_number": "4740/6740",
+          "title": "Real-Time Scheduling for the Internet of Things",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4760/6760",
+          "course_id": "CSCI_4760",
+          "matched_alias": "CSCI 4760/6760",
+          "subject": "CSCI",
+          "course_number": "4760/6760",
+          "title": "Computer Networks",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4770/6770",
+          "course_id": "CSCI_4770",
+          "matched_alias": "CSCI 4770/6770",
+          "subject": "CSCI",
+          "course_number": "4770/6770",
+          "title": "Ubiquitous Computing",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4780/6780",
+          "course_id": "CSCI_4780",
+          "matched_alias": "CSCI 4780/6780",
+          "subject": "CSCI",
+          "course_number": "4780/6780",
+          "title": "Distributed Computing Systems",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4795/6795",
+          "course_id": "CSCI_4795",
+          "matched_alias": "CSCI 4795/6795",
+          "subject": "CSCI",
+          "course_number": "4795/6795",
+          "title": "Cloud Computing",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4800/6800",
+          "course_id": "CSCI_4800",
+          "matched_alias": "CSCI 4800/6800",
+          "subject": "CSCI",
+          "course_number": "4800/6800",
+          "title": "Human-Computer Interaction",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4810/6810",
+          "course_id": "CSCI_4810",
+          "matched_alias": "CSCI 4810/6810",
+          "subject": "CSCI",
+          "course_number": "4810/6810",
+          "title": "Computer Graphics",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4840/6840",
+          "course_id": "CSCI_4840",
+          "matched_alias": "CSCI 4840/6840",
+          "subject": "CSCI",
+          "course_number": "4840/6840",
+          "title": "Signal Processing",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4850/6850",
+          "course_id": "CSCI_4850",
+          "matched_alias": "CSCI 4850/6850",
+          "subject": "CSCI",
+          "course_number": "4850/6850",
+          "title": "Biomedical Image Analysis",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4860/6860",
+          "course_id": "CSCI_4860",
+          "matched_alias": "CSCI 4860/6860",
+          "subject": "CSCI",
+          "course_number": "4860/6860",
+          "title": "Computational Neuroscience",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4900/6900",
+          "course_id": "CSCI_4900",
+          "matched_alias": "CSCI 4900/6900",
+          "subject": "CSCI",
+          "course_number": "4900/6900",
+          "title": "Special Topics in Computer Science",
+          "credits": {
+            "minimum": 1,
+            "maximum": 4
+          }
+        },
+        {
+          "course_code": "CSCI 4910",
+          "course_id": "CSCI_4910",
+          "matched_alias": "CSCI 4910",
+          "subject": "CSCI",
+          "course_number": "4910",
+          "title": "Capstone Design I",
+          "credits": 2
+        },
+        {
+          "course_code": "CSCI 4911",
+          "course_id": "CSCI_4911",
+          "matched_alias": "CSCI 4911",
+          "subject": "CSCI",
+          "course_number": "4911",
+          "title": "Capstone Design II",
+          "credits": 2
+        },
+        {
+          "course_code": "CSCI 4950/6950",
+          "course_id": "CSCI_4950",
+          "matched_alias": "CSCI 4950/6950",
+          "subject": "CSCI",
+          "course_number": "4950/6950",
+          "title": "Directed Study in Computer Science",
+          "credits": {
+            "minimum": 1,
+            "maximum": 4
+          }
+        },
+        {
+          "course_code": "CSCI 4960",
+          "course_id": "CSCI_4960",
+          "matched_alias": "CSCI 4960",
+          "subject": "CSCI",
+          "course_number": "4960",
+          "title": "Faculty Mentored Research in Computer Science",
+          "credits": {
+            "minimum": 1,
+            "maximum": 4
+          }
+        },
+        {
+          "course_code": "CSCI 4960R",
+          "course_id": "CSCI_4960R",
+          "matched_alias": "CSCI 4960R",
+          "subject": "CSCI",
+          "course_number": "4960R",
+          "title": "Faculty-Mentored Undergraduate Research I",
+          "credits": {
+            "minimum": 1,
+            "maximum": 6
+          }
+        },
+        {
+          "course_code": "CSCI 4970R",
+          "course_id": "CSCI_4970R",
+          "matched_alias": "CSCI 4970R",
+          "subject": "CSCI",
+          "course_number": "4970R",
+          "title": "Faculty-Mentored Undergraduate Research II",
+          "credits": {
+            "minimum": 1,
+            "maximum": 6
+          }
+        },
+        {
+          "course_code": "CSCI 4980R",
+          "course_id": "CSCI_4980R",
+          "matched_alias": "CSCI 4980R",
+          "subject": "CSCI",
+          "course_number": "4980R",
+          "title": "Faculty-Mentored Undergraduate Research III",
+          "credits": {
+            "minimum": 1,
+            "maximum": 6
+          }
+        },
+        {
+          "course_code": "CSCI 4990R",
+          "course_id": "CSCI_4990R",
+          "matched_alias": "CSCI 4990R",
+          "subject": "CSCI",
+          "course_number": "4990R",
+          "title": "Undergraduate Research Thesis (or Final Project)",
+          "credits": {
+            "minimum": 1,
+            "maximum": 6
+          }
+        },
+        {
+          "course_code": "CSCI(ARTI) 4530/6530",
+          "course_id": "CSCI_4530",
+          "matched_alias": "CSCI(ARTI) 4530/6530",
+          "subject": "CSCI",
+          "course_number": "4530/6530",
+          "title": "Introduction to Robotics",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI(ARTI) 4540/6540",
+          "course_id": "CSCI_4540",
+          "matched_alias": "CSCI(ARTI) 4540/6540",
+          "subject": "CSCI",
+          "course_number": "4540/6540",
+          "title": "Symbolic Programming",
+          "credits": 3
+        },
+        {
+          "course_code": "CSCI(ARTI) 4600/6600",
+          "course_id": "CSCI_4600",
+          "matched_alias": "CSCI(ARTI) 4600/6600",
+          "subject": "CSCI",
+          "course_number": "4600/6600",
+          "title": "Reinforcement Learning",
+          "credits": 3
+        },
+        {
+          "course_code": "CSCI(ENGR) 4830/6830",
+          "course_id": "CSCI_4830",
+          "matched_alias": "CSCI(ENGR) 4830/6830",
+          "subject": "CSCI",
+          "course_number": "4830/6830",
+          "title": "Virtual Reality",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI(MATH)(PHYS) 4612/6612",
+          "course_id": "CSCI_4612",
+          "matched_alias": "CSCI(MATH)(PHYS) 4612/6612",
+          "subject": "CSCI",
+          "course_number": "4612/6612",
+          "title": "Introduction to Quantum Computation",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI(PHIL) 4550/6550",
+          "course_id": "CSCI_4550",
+          "matched_alias": "CSCI(PHIL) 4550/6550",
+          "subject": "CSCI",
+          "course_number": "4550/6550",
+          "title": "Artificial Intelligence",
+          "credits": 3
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 4050/6050",
+        "CSCI 4060/6060",
+        "CSCI 4070/6070",
+        "CSCI 4080/6080",
+        "CSCI 4130/6130",
+        "CSCI 4140/6140",
+        "CSCI 4170/6170",
+        "CSCI 4210/6210",
+        "CSCI 4250/6250",
+        "CSCI 4260/6260",
+        "CSCI 4270/6270",
+        "CSCI 4280/6280",
+        "CSCI 4300",
+        "CSCI 4330/6330",
+        "CSCI 4350/6350",
+        "CSCI 4360/6360",
+        "CSCI 4370/6370",
+        "CSCI 4380/6380",
+        "CSCI 4470/6470",
+        "CSCI 4490/6490",
+        "CSCI 4500/6500",
+        "CSCI 4520/6520",
+        "CSCI 4560/6560",
+        "CSCI 4570/6570",
+        "CSCI 4580/6580",
+        "CSCI 4720",
+        "CSCI 4730/6730",
+        "CSCI 4740/6740",
+        "CSCI 4760/6760",
+        "CSCI 4770/6770",
+        "CSCI 4780/6780",
+        "CSCI 4795/6795",
+        "CSCI 4800/6800",
+        "CSCI 4810/6810",
+        "CSCI 4840/6840",
+        "CSCI 4850/6850",
+        "CSCI 4860/6860",
+        "CSCI 4900/6900",
+        "CSCI 4910",
+        "CSCI 4911",
+        "CSCI 4950/6950",
+        "CSCI 4960",
+        "CSCI 4960R",
+        "CSCI 4970R",
+        "CSCI 4980R",
+        "CSCI 4990R",
+        "CSCI(ARTI) 4530/6530",
+        "CSCI(ARTI) 4540/6540",
+        "CSCI(ARTI) 4600/6600",
+        "CSCI(ENGR) 4830/6830",
+        "CSCI(MATH)(PHYS) 4612/6612",
+        "CSCI(PHIL) 4550/6550"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    },
+    {
+      "id": "major_related_electives_math",
+      "name": "Major Related Electives: Math",
+      "type": "minimum_credits",
+      "minimum_credits": 11,
+      "courses": [
+        "CSCI 2150",
+        "CSCI 2150L",
+        "CSCI 4150",
+        "CSCI 6150",
+        "MATH 2260",
+        "MATH 2270",
+        "MATH 2400",
+        "MATH 2410",
+        "MATH 2410H",
+        "MATH 2500",
+        "MATH 2700",
+        "MATH 3000",
+        "MATH 3300",
+        "MATH 3500",
+        "MATH 3500H",
+        "MATH 3510",
+        "MATH 3510H",
+        "STAT 2000",
+        "STAT 4210"
+      ],
+      "notes": [
+        "Choosing 7 hours from upper-division coursework helps satisfy the 39-hour upper-division coursework requirement.",
+        "If MATH 2260 or STAT 2000 was used to satisfy core curriculum requirements, another course must be selected for this requirement."
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 2150-2150L",
+          "course_id": "CSCI_2150",
+          "matched_alias": "CSCI 2150",
+          "subject": "CSCI",
+          "course_number": "2150-2150L",
+          "title": "Introduction to Computational Science",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4150/6150",
+          "course_id": "CSCI_4150",
+          "matched_alias": "CSCI 4150",
+          "subject": "CSCI",
+          "course_number": "4150/6150",
+          "title": "Numerical Simulations in Science and Engineering",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 2260",
+          "course_id": "MATH_2260",
+          "matched_alias": "MATH 2260",
+          "subject": "MATH",
+          "course_number": "2260",
+          "title": "Calculus II for Science and Engineering",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 2270",
+          "course_id": "MATH_2270",
+          "matched_alias": "MATH 2270",
+          "subject": "MATH",
+          "course_number": "2270",
+          "title": "Calculus III for Science and Mathematics",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 2400",
+          "course_id": "MATH_2400",
+          "matched_alias": "MATH 2400",
+          "subject": "MATH",
+          "course_number": "2400",
+          "title": "Differential Calculus with Theory",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 2410",
+          "course_id": "MATH_2410",
+          "matched_alias": "MATH 2410",
+          "subject": "MATH",
+          "course_number": "2410",
+          "title": "Integral Calculus with Theory",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 2410H",
+          "course_id": "MATH_2410H",
+          "matched_alias": "MATH 2410H",
+          "subject": "MATH",
+          "course_number": "2410H",
+          "title": "Integral Calculus with Theory (Honors)",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 2500",
+          "course_id": "MATH_2500",
+          "matched_alias": "MATH 2500",
+          "subject": "MATH",
+          "course_number": "2500",
+          "title": "Accelerated Calculus III for Engineering Students",
+          "credits": 3
+        },
+        {
+          "course_code": "MATH 2700",
+          "course_id": "MATH_2700",
+          "matched_alias": "MATH 2700",
+          "subject": "MATH",
+          "course_number": "2700",
+          "title": "Elementary Differential Equations",
+          "credits": 3
+        },
+        {
+          "course_code": "MATH 3000",
+          "course_id": "MATH_3000",
+          "matched_alias": "MATH 3000",
+          "subject": "MATH",
+          "course_number": "3000",
+          "title": "Introduction to Linear Algebra",
+          "credits": 3
+        },
+        {
+          "course_code": "MATH 3300",
+          "course_id": "MATH_3300",
+          "matched_alias": "MATH 3300",
+          "subject": "MATH",
+          "course_number": "3300",
+          "title": "Applied Linear Algebra",
+          "credits": 3
+        },
+        {
+          "course_code": "MATH 3500",
+          "course_id": "MATH_3500",
+          "matched_alias": "MATH 3500",
+          "subject": "MATH",
+          "course_number": "3500",
+          "title": "Multivariable Mathematics I",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 3500H",
+          "course_id": "MATH_3500H",
+          "matched_alias": "MATH 3500H",
+          "subject": "MATH",
+          "course_number": "3500H",
+          "title": "Multivariable Mathematics I (Honors)",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 3510",
+          "course_id": "MATH_3510",
+          "matched_alias": "MATH 3510",
+          "subject": "MATH",
+          "course_number": "3510",
+          "title": "Multivariable Mathematics II",
+          "credits": 4
+        },
+        {
+          "course_code": "MATH 3510H",
+          "course_id": "MATH_3510H",
+          "matched_alias": "MATH 3510H",
+          "subject": "MATH",
+          "course_number": "3510H",
+          "title": "Multivariable Mathematics II (Honors)",
+          "credits": 4
+        },
+        {
+          "course_code": "STAT 2000",
+          "course_id": "STAT_2000",
+          "matched_alias": "STAT 2000",
+          "subject": "STAT",
+          "course_number": "2000",
+          "title": "Introductory Statistics",
+          "credits": 4
+        },
+        {
+          "course_code": "STAT 4210",
+          "course_id": "STAT_4210",
+          "matched_alias": "STAT 4210",
+          "subject": "STAT",
+          "course_number": "4210",
+          "title": "Statistical Methods",
+          "credits": 3
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 2150-2150L",
+        "CSCI 4150/6150",
+        "MATH 2260",
+        "MATH 2270",
+        "MATH 2400",
+        "MATH 2410",
+        "MATH 2410H",
+        "MATH 2500",
+        "MATH 2700",
+        "MATH 3000",
+        "MATH 3300",
+        "MATH 3500",
+        "MATH 3500H",
+        "MATH 3510",
+        "MATH 3510H",
+        "STAT 2000",
+        "STAT 4210"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    },
+    {
+      "id": "teamwork_requirement",
+      "name": "Teamwork Requirement",
+      "type": "one_of",
+      "courses": [
+        "CSCI 4050",
+        "CSCI 4300",
+        "CSCI 4530",
+        "CSCI 4800"
+      ],
+      "overlap_allowed": true,
+      "notes": [
+        "This course may overlap with another CSCI requirement."
+      ],
+      "resolved_courses": [
+        {
+          "course_code": "CSCI 4050/6050",
+          "course_id": "CSCI_4050",
+          "matched_alias": "CSCI 4050",
+          "subject": "CSCI",
+          "course_number": "4050/6050",
+          "title": "Software Engineering",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4300",
+          "course_id": "CSCI_4300",
+          "matched_alias": "CSCI 4300",
+          "subject": "CSCI",
+          "course_number": "4300",
+          "title": "Web Programming",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI(ARTI) 4530/6530",
+          "course_id": "CSCI_4530",
+          "matched_alias": "CSCI 4530",
+          "subject": "CSCI",
+          "course_number": "4530/6530",
+          "title": "Introduction to Robotics",
+          "credits": 4
+        },
+        {
+          "course_code": "CSCI 4800/6800",
+          "course_id": "CSCI_4800",
+          "matched_alias": "CSCI 4800",
+          "subject": "CSCI",
+          "course_number": "4800/6800",
+          "title": "Human-Computer Interaction",
+          "credits": 4
+        }
+      ],
+      "expanded_course_codes": [
+        "CSCI 4050/6050",
+        "CSCI 4300",
+        "CSCI(ARTI) 4530/6530",
+        "CSCI 4800/6800"
+      ],
+      "unresolved_courses": [],
+      "empty_filter": false
+    }
+  ],
+  "empty_filters": [],
+  "unresolved_courses": []
+}
