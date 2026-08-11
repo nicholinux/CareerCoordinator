@@ -6,6 +6,8 @@ CareerCoordinator serves as a one-stop-shop for students that want to know not j
 
 The purpose of this tool is not to declare with absolution which path the student must follow, but rather, to act as a supplemental resource to provide guidance to those who have a specific career in mind.
 
+Because degree requirements must be manually ingested and validated, only the University of Georgia's Computer Science program is currently supported.
+
 ## Current Scope
 
 This project currently treats only the following UGA subjects as in scope:
