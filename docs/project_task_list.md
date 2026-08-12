@@ -126,20 +126,20 @@ Create:
 
 Tasks:
 
-- [ ] Load `courses_normalized.json`.
-- [ ] Load `prerequisite_rules.json`.
-- [ ] Load `prerequisite_edges.json`.
-- [ ] Load `degree_requirements_expanded.json`.
-- [ ] Create one node per course.
-- [ ] Attach course metadata to each node.
-- [ ] Attach requirement group IDs to course nodes.
-- [ ] Mark required courses.
-- [ ] Mark elective candidates.
-- [ ] Add prerequisite edges.
-- [ ] Add requirement group metadata.
-- [ ] Detect prerequisite cycles.
-- [ ] Detect isolated courses.
-- [ ] Write output to `data/processed/curriculum/curriculum_graph.json`.
+- [x] Load `courses_normalized.json`.
+- [x] Load `prerequisite_rules.json`.
+- [x] Load `prerequisite_edges.json`.
+- [x] Load `degree_requirements_expanded.json`.
+- [x] Create one node per course.
+- [x] Attach course metadata to each node.
+- [x] Attach requirement group IDs to course nodes.
+- [x] Mark required courses.
+- [x] Mark elective candidates.
+- [x] Add prerequisite edges.
+- [x] Add requirement group metadata.
+- [x] Detect prerequisite cycles.
+- [x] Detect isolated courses.
+- [x] Write output to `data/processed/uga/curriculum_graph/curriculum_graph.json`.
 
 ### 6. Generate Basic Course Order
 

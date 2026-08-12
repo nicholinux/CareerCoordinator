@@ -139,7 +139,21 @@ Output:
 data/processed/uga/degree_requirements/degree_requirements_expanded.json
 ```
 
-### 8. Validate Curriculum Inputs
+### 8. Build Curriculum Graph
+
+Combine normalized courses, prerequisite edges, and expanded degree requirements into one graph artifact.
+
+```powershell
+python pipelines\uga\transformation\build_curriculum_graph.py
+```
+
+Output:
+
+```text
+data/processed/uga/curriculum_graph/curriculum_graph.json
+```
+
+### 9. Validate Curriculum Inputs
 
 Validate normalized courses and degree requirements together.
 
@@ -175,7 +189,7 @@ Current build order:
 - [x] Normalize prerequisites.
 - [x] Build prerequisite edges.
 - [x] Expand degree requirements.
-- [ ] Build curriculum graph.
+- [x] Build curriculum graph.
 - [ ] Generate basic course order.
 - [ ] Resolve degree requirements.
 - [ ] Add completed-courses support.
