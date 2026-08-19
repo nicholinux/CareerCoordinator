@@ -169,7 +169,21 @@ data/processed/uga/curriculum/recommended_course_order.json
 
 Order levels are not semesters. Courses in the same level are dependency-equivalent.
 
-### 10. Validate Curriculum Inputs
+### 10. Resolve Degree Requirements
+
+Select concrete courses for required groups, alternatives, and minimum-credit requirement groups.
+
+```powershell
+python pipelines\uga\sequencing\resolve_degree_requirements.py
+```
+
+Output:
+
+```text
+data/processed/uga/curriculum/selected_degree_plan.json
+```
+
+### 11. Validate Curriculum Inputs
 
 Validate normalized courses and degree requirements together.
 
@@ -207,7 +221,7 @@ Current build order:
 - [x] Expand degree requirements.
 - [x] Build curriculum graph.
 - [x] Generate basic course order.
-- [ ] Resolve degree requirements.
+- [x] Resolve degree requirements.
 - [ ] Add completed-courses support.
 - [ ] Define skill taxonomy.
 - [ ] Extract course skills.

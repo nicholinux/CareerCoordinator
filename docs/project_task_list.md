@@ -174,18 +174,18 @@ Create:
 
 Tasks:
 
-- [ ] Load `degree_requirements_expanded.json`.
-- [ ] Load `curriculum_graph.json`.
-- [ ] Include all `all_of` courses.
-- [ ] Choose one course for each `one_of` group.
-- [ ] Choose enough courses for each `minimum_credits` group.
-- [ ] Avoid double-counting unless `overlap_allowed` is true.
-- [ ] Apply exclusions.
-- [ ] Prefer courses with fewer unmet prerequisites.
-- [ ] Prefer lower prerequisite depth.
-- [ ] Preserve unselected alternatives.
-- [ ] Explain each selected course.
-- [ ] Write output to `data/processed/curriculum/selected_degree_plan.json`.
+- [x] Load `degree_requirements_expanded.json`.
+- [x] Load `curriculum_graph.json`.
+- [x] Include all `all_of` courses.
+- [x] Choose one course for each `one_of` group.
+- [x] Choose enough courses for each `minimum_credits` group.
+- [x] Avoid double-counting unless `overlap_allowed` is true.
+- [x] Apply exclusions.
+- [x] Prefer courses with fewer unmet prerequisites.
+- [x] Prefer lower prerequisite depth.
+- [x] Preserve unselected alternatives.
+- [x] Explain each selected course.
+- [x] Write output to `data/processed/uga/curriculum/selected_degree_plan.json`.
 
 ### 8. Add Completed-Courses Support
 
