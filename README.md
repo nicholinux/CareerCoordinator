@@ -153,7 +153,23 @@ Output:
 data/processed/uga/curriculum_graph/curriculum_graph.json
 ```
 
-### 9. Validate Curriculum Inputs
+### 9. Generate Basic Course Order
+
+Generate dependency-equivalent course levels, unlocked courses, blocked courses, and missing prerequisites.
+
+```powershell
+python pipelines\uga\sequencing\generate_course_order.py
+```
+
+Output:
+
+```text
+data/processed/uga/curriculum/recommended_course_order.json
+```
+
+Order levels are not semesters. Courses in the same level are dependency-equivalent.
+
+### 10. Validate Curriculum Inputs
 
 Validate normalized courses and degree requirements together.
 
@@ -190,7 +206,7 @@ Current build order:
 - [x] Build prerequisite edges.
 - [x] Expand degree requirements.
 - [x] Build curriculum graph.
-- [ ] Generate basic course order.
+- [x] Generate basic course order.
 - [ ] Resolve degree requirements.
 - [ ] Add completed-courses support.
 - [ ] Define skill taxonomy.

@@ -149,17 +149,17 @@ Create:
 
 Tasks:
 
-- [ ] Load `curriculum_graph.json`.
-- [ ] Accept a target course set.
-- [ ] Accept optional completed courses.
-- [ ] Treat completed courses as satisfied prerequisites.
-- [ ] Perform topological sort.
-- [ ] Group courses by prerequisite depth.
-- [ ] Identify currently unlocked courses.
-- [ ] Identify blocked courses.
-- [ ] Show missing prerequisites for blocked courses.
-- [ ] Report unresolved prerequisites.
-- [ ] Write output to `data/processed/curriculum/recommended_course_order.json`.
+- [x] Load `curriculum_graph.json`.
+- [x] Accept a target course set.
+- [x] Accept optional completed courses.
+- [x] Treat completed courses as satisfied prerequisites.
+- [x] Perform topological sort.
+- [x] Group courses by prerequisite depth.
+- [x] Identify currently unlocked courses.
+- [x] Identify blocked courses.
+- [x] Show missing prerequisites for blocked courses.
+- [x] Report unresolved prerequisites.
+- [x] Write output to `data/processed/uga/curriculum/recommended_course_order.json`.
 
 Important:
 
