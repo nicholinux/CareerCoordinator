@@ -207,7 +207,19 @@ data/processed/uga/curriculum/recommended_course_order_mvp_sample.json
 data/processed/uga/curriculum/selected_degree_plan_mvp_sample.json
 ```
 
-### 12. Validate Curriculum Inputs
+### 12. Define Skill Taxonomy
+
+Define the controlled skill vocabulary used by later course-skill extraction and career-alignment steps.
+
+Output:
+
+```text
+data/processed/skills/skill_taxonomy.json
+```
+
+The taxonomy rejects unknown AI-generated skills by default. Future extraction should map evidence to defined skill IDs or mark unmatched labels for manual review.
+
+### 13. Validate Curriculum Inputs
 
 Validate normalized courses and degree requirements together.
 
@@ -247,7 +259,7 @@ Current build order:
 - [x] Generate basic course order.
 - [x] Resolve degree requirements.
 - [x] Add completed-courses support.
-- [ ] Define skill taxonomy.
+- [x] Define skill taxonomy.
 - [ ] Extract course skills.
 - [ ] Define career tracks.
 - [ ] Score career alignment.

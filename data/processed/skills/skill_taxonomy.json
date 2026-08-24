@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "taxonomy_id": "curriculumgraph_skills_v1",
+    "name": "CurriculumGraph AI Controlled Skill Taxonomy",
+    "version": "1.0.0",
+    "description": "Controlled skill vocabulary for mapping CSCI, MATH, and STAT courses to career-aligned technical competencies.",
+    "allowed_subject_scope": [
+      "CSCI",
+      "MATH",
+      "STAT"
+    ]
+  },
+  "extraction_policy": {
+    "allow_only_defined_skill_ids": true,
+    "reject_unknown_skills": true,
+    "preserve_evidence_text": true,
+    "require_confidence_score": true,
+    "low_confidence_threshold": 0.55,
+    "review_threshold": 0.7,
+    "unknown_skill_handling": "Reject labels that do not map to a defined skill_id or alias. Record rejected labels separately for manual review instead of adding them to the taxonomy automatically."
+  },
+  "categories": [
+    {
+      "category_id": "programming",
+      "label": "Programming",
+      "description": "General-purpose coding, programming language fluency, and implementation skills.",
+      "skills": [
+        {
+          "skill_id": "programming_fundamentals",
+          "label": "Programming Fundamentals",
+          "aliases": ["coding basics", "basic programming", "introductory programming", "program construction"]
+        },
+        {
+          "skill_id": "object_oriented_programming",
+          "label": "Object-Oriented Programming",
+          "aliases": ["oop", "classes and objects", "encapsulation", "inheritance", "polymorphism"]
+        },
+        {
+          "skill_id": "python_programming",
+          "label": "Python Programming",
+          "aliases": ["python", "python development", "scripting in python"]
+        },
+        {
+          "skill_id": "java_programming",
+          "label": "Java Programming",
+          "aliases": ["java", "java development", "jvm programming"]
+        },
+        {
+          "skill_id": "c_cpp_programming",
+          "label": "C/C++ Programming",
+          "aliases": ["c programming", "cpp", "c++", "systems programming in c"]
+        }
+      ]
+    },
+    {
+      "category_id": "algorithms",
+      "label": "Algorithms",
+      "description": "Algorithm design, analysis, and computational problem-solving methods.",
+      "skills": [
+        {
+          "skill_id": "algorithm_design",
+          "label": "Algorithm Design",
+          "aliases": ["algorithmic problem solving", "design of algorithms", "algorithm development"]
+        },
+        {
+          "skill_id": "algorithm_analysis",
+          "label": "Algorithm Analysis",
+          "aliases": ["complexity analysis", "big o", "runtime analysis", "asymptotic analysis"]
+        },
+        {
+          "skill_id": "data_structures",
+          "label": "Data Structures",
+          "aliases": ["arrays", "linked lists", "trees", "graphs", "hash tables", "stacks", "queues"]
+        },
+        {
+          "skill_id": "theory_of_computation",
+          "label": "Theory of Computation",
+          "aliases": ["automata", "formal languages", "computability", "complexity theory"]
+        },
+        {
+          "skill_id": "optimization",
+          "label": "Optimization",
+          "aliases": ["mathematical optimization", "linear programming", "combinatorial optimization"]
+        }
+      ]
+    },
+    {
+      "category_id": "databases",
+      "label": "Databases",
+      "description": "Database modeling, querying, design, and management.",
+      "skills": [
+        {
+          "skill_id": "database_design",
+          "label": "Database Design",
+          "aliases": ["data modeling", "schema design", "entity relationship modeling", "normalization"]
+        },
+        {
+          "skill_id": "sql",
+          "label": "SQL",
+          "aliases": ["structured query language", "relational queries", "sql queries"]
+        },
+        {
+          "skill_id": "database_management",
+          "label": "Database Management",
+          "aliases": ["dbms", "database systems", "transaction management", "indexing"]
+        }
+      ]
+    },
+    {
+      "category_id": "data_engineering",
+      "label": "Data Engineering",
+      "description": "Skills for acquiring, transforming, storing, and moving data.",
+      "skills": [
+        {
+          "skill_id": "data_processing",
+          "label": "Data Processing",
+          "aliases": ["data transformation", "data cleaning", "etl", "elt"]
+        },
+        {
+          "skill_id": "data_modeling",
+          "label": "Data Modeling",
+          "aliases": ["analytical modeling", "dimensional modeling", "data structures for analytics"]
+        },
+        {
+          "skill_id": "distributed_computing",
+          "label": "Distributed Computing",
+          "aliases": ["distributed systems", "parallel data processing", "cluster computing"]
+        }
+      ]
+    },
+    {
+      "category_id": "machine_learning",
+      "label": "Machine Learning",
+      "description": "Modeling, learning algorithms, and applied artificial intelligence methods.",
+      "skills": [
+        {
+          "skill_id": "machine_learning_fundamentals",
+          "label": "Machine Learning Fundamentals",
+          "aliases": ["ml fundamentals", "supervised learning", "unsupervised learning", "model training"]
+        },
+        {
+          "skill_id": "data_mining",
+          "label": "Data Mining",
+          "aliases": ["pattern mining", "knowledge discovery", "mining data"]
+        },
+        {
+          "skill_id": "artificial_intelligence",
+          "label": "Artificial Intelligence",
+          "aliases": ["ai", "intelligent systems", "search", "knowledge representation"]
+        },
+        {
+          "skill_id": "reinforcement_learning",
+          "label": "Reinforcement Learning",
+          "aliases": ["rl", "policy learning", "reward optimization"]
+        }
+      ]
+    },
+    {
+      "category_id": "statistics",
+      "label": "Statistics",
+      "description": "Statistical reasoning, probability, inference, and quantitative analysis.",
+      "skills": [
+        {
+          "skill_id": "probability",
+          "label": "Probability",
+          "aliases": ["probability theory", "random variables", "distributions"]
+        },
+        {
+          "skill_id": "statistical_inference",
+          "label": "Statistical Inference",
+          "aliases": ["hypothesis testing", "confidence intervals", "estimation"]
+        },
+        {
+          "skill_id": "regression_analysis",
+          "label": "Regression Analysis",
+          "aliases": ["linear regression", "statistical modeling", "predictive modeling"]
+        },
+        {
+          "skill_id": "experimental_design",
+          "label": "Experimental Design",
+          "aliases": ["design of experiments", "anova", "statistical experiments"]
+        }
+      ]
+    },
+    {
+      "category_id": "software_engineering",
+      "label": "Software Engineering",
+      "description": "Software design, development process, testing, maintenance, and project practices.",
+      "skills": [
+        {
+          "skill_id": "software_design",
+          "label": "Software Design",
+          "aliases": ["architecture", "design patterns", "system design", "modular design"]
+        },
+        {
+          "skill_id": "software_testing",
+          "label": "Software Testing",
+          "aliases": ["unit testing", "debugging", "test design", "quality assurance"]
+        },
+        {
+          "skill_id": "requirements_analysis",
+          "label": "Requirements Analysis",
+          "aliases": ["requirements engineering", "specification", "user requirements"]
+        },
+        {
+          "skill_id": "team_software_development",
+          "label": "Team Software Development",
+          "aliases": ["teamwork", "collaborative development", "software project management"]
+        }
+      ]
+    },
+    {
+      "category_id": "systems",
+      "label": "Systems",
+      "description": "Computer architecture, operating systems, compilers, and low-level computing.",
+      "skills": [
+        {
+          "skill_id": "computer_architecture",
+          "label": "Computer Architecture",
+          "aliases": ["computer organization", "hardware architecture", "processor architecture"]
+        },
+        {
+          "skill_id": "operating_systems",
+          "label": "Operating Systems",
+          "aliases": ["os", "processes", "memory management", "file systems"]
+        },
+        {
+          "skill_id": "compilers",
+          "label": "Compilers",
+          "aliases": ["compiler design", "language translation", "parsing", "code generation"]
+        },
+        {
+          "skill_id": "parallel_computing",
+          "label": "Parallel Computing",
+          "aliases": ["gpu computing", "cuda", "high performance computing", "hpc"]
+        }
+      ]
+    },
+    {
+      "category_id": "networks",
+      "label": "Networks",
+      "description": "Network protocols, distributed communication, and internet systems.",
+      "skills": [
+        {
+          "skill_id": "computer_networks",
+          "label": "Computer Networks",
+          "aliases": ["networking", "network protocols", "tcp/ip", "routing"]
+        },
+        {
+          "skill_id": "internet_systems",
+          "label": "Internet Systems",
+          "aliases": ["web protocols", "internet of things", "iot", "real-time internet systems"]
+        }
+      ]
+    },
+    {
+      "category_id": "cybersecurity",
+      "label": "Cybersecurity",
+      "description": "Security, privacy, cryptography, and forensic computing.",
+      "skills": [
+        {
+          "skill_id": "cybersecurity_fundamentals",
+          "label": "Cybersecurity Fundamentals",
+          "aliases": ["security fundamentals", "information security", "security principles"]
+        },
+        {
+          "skill_id": "cryptography",
+          "label": "Cryptography",
+          "aliases": ["encryption", "public key cryptography", "secure communication"]
+        },
+        {
+          "skill_id": "computer_forensics",
+          "label": "Computer Forensics",
+          "aliases": ["digital forensics", "forensic analysis", "incident evidence"]
+        },
+        {
+          "skill_id": "data_privacy",
+          "label": "Data Privacy",
+          "aliases": ["privacy", "data security", "privacy engineering"]
+        }
+      ]
+    },
+    {
+      "category_id": "web_development",
+      "label": "Web Development",
+      "description": "Web programming, user interfaces, and client-server application development.",
+      "skills": [
+        {
+          "skill_id": "web_programming",
+          "label": "Web Programming",
+          "aliases": ["web development", "html", "css", "javascript", "frontend development"]
+        },
+        {
+          "skill_id": "human_computer_interaction",
+          "label": "Human-Computer Interaction",
+          "aliases": ["hci", "user experience", "ux", "interface design"]
+        },
+        {
+          "skill_id": "mobile_development",
+          "label": "Mobile Development",
+          "aliases": ["mobile apps", "mobile software", "app development"]
+        }
+      ]
+    },
+    {
+      "category_id": "research",
+      "label": "Research",
+      "description": "Research methods, technical communication, ethics, and independent investigation.",
+      "skills": [
+        {
+          "skill_id": "technical_communication",
+          "label": "Technical Communication",
+          "aliases": ["technical writing", "presentation", "documentation", "communicating results"]
+        },
+        {
+          "skill_id": "research_methods",
+          "label": "Research Methods",
+          "aliases": ["independent research", "literature review", "experimental methods"]
+        },
+        {
+          "skill_id": "computing_ethics",
+          "label": "Computing Ethics",
+          "aliases": ["ethics", "professional responsibility", "societal impacts of computing"]
+        }
+      ]
+    }
+  ]
+}

@@ -220,10 +220,10 @@ Create:
 
 Tasks:
 
-- [ ] Define controlled skill categories.
-- [ ] Define skill labels.
-- [ ] Define skill aliases.
-- [ ] Prevent unlimited AI-generated skills.
+- [x] Define controlled skill categories.
+- [x] Define skill labels.
+- [x] Define skill aliases.
+- [x] Prevent unlimited AI-generated skills.
 
 Suggested categories:
 
