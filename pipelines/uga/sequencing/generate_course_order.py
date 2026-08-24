@@ -51,19 +51,26 @@ def course_id_from_code(value: Any) -> str:
     return f"{subject}_{number}"
 
 
-def parse_course_list(values: list[str] | None) -> list[str]:
+def raw_course_list(values: list[str] | None) -> list[str]:
     if not values:
         return []
-    course_ids = []
+    raw_values = []
     for value in values:
-        for part in value.split(","):
-            course_id = course_id_from_code(part)
-            if course_id:
-                course_ids.append(course_id)
+        raw_values.extend(part.strip() for part in value.split(",") if part.strip())
+    return raw_values
+
+
+def parse_course_list(values: list[str] | None) -> list[str]:
+    raw_values = raw_course_list(values)
+    course_ids = []
+    for value in raw_values:
+        course_id = course_id_from_code(value)
+        if course_id:
+            course_ids.append(course_id)
     return course_ids
 
 
-def load_course_list_file(path: Path | None, key: str) -> list[str]:
+def load_raw_course_list_file(path: Path | None, key: str) -> list[str]:
     if not path:
         return []
     payload = load_json(path)
@@ -73,7 +80,29 @@ def load_course_list_file(path: Path | None, key: str) -> list[str]:
         values = payload
     else:
         values = []
-    return parse_course_list([str(value) for value in values])
+    return raw_course_list([str(value) for value in values])
+
+
+def load_course_list_file(path: Path | None, key: str) -> list[str]:
+    return parse_course_list(load_raw_course_list_file(path, key))
+
+
+def validate_course_inputs(raw_values: list[str], nodes: dict[str, dict[str, Any]]) -> tuple[set[str], list[dict[str, str]]]:
+    valid_course_ids = set()
+    invalid_courses = []
+    for raw_value in raw_values:
+        course_id = course_id_from_code(raw_value)
+        if course_id and course_id in nodes:
+            valid_course_ids.add(course_id)
+        else:
+            invalid_courses.append(
+                {
+                    "input": raw_value,
+                    "normalized_course_id": course_id,
+                    "reason": "Course is not present in the curriculum graph.",
+                }
+            )
+    return valid_course_ids, invalid_courses
 
 
 def default_target_course_ids(nodes: dict[str, dict[str, Any]]) -> set[str]:
@@ -259,13 +288,16 @@ def generate_course_order(
     graph_path: Path = DEFAULT_GRAPH_PATH,
     target_course_ids: set[str] | None = None,
     completed_course_ids: set[str] | None = None,
+    completed_course_inputs: list[str] | None = None,
 ) -> dict[str, Any]:
     graph = load_json(graph_path)
     nodes = graph["nodes"]
     edges = graph["edges"]
     edges_by_course = build_edges_by_course(edges)
 
-    completed_course_ids = completed_course_ids or set()
+    completed_course_inputs = completed_course_inputs or []
+    validated_completed_ids, invalid_completed_courses = validate_course_inputs(completed_course_inputs, nodes)
+    completed_course_ids = (completed_course_ids or set()) | validated_completed_ids
     completed_course_ids = {course_id for course_id in completed_course_ids if course_id in nodes}
 
     if target_course_ids:
@@ -297,6 +329,7 @@ def generate_course_order(
             "target_course_count": len(target_course_ids),
             "relevant_course_count": len(relevant_course_ids),
             "completed_course_count": len(completed_course_ids),
+            "invalid_completed_course_count": len(invalid_completed_courses),
             "remaining_course_count": len(remaining_course_ids),
             "unlocked_course_count": len(unlocked_course_ids),
             "blocked_course_count": len(blocked),
@@ -307,6 +340,7 @@ def generate_course_order(
         },
         "target_courses": [course_summary(course_id, nodes) for course_id in sorted(target_course_ids)],
         "completed_courses": [course_summary(course_id, nodes) for course_id in sorted(completed_course_ids)],
+        "invalid_completed_courses": invalid_completed_courses,
         "remaining_courses": [course_summary(course_id, nodes) for course_id in sorted(remaining_course_ids)],
         "currently_unlocked_courses": [
             course_summary(course_id, nodes) for course_id in sorted(unlocked_course_ids)
@@ -330,13 +364,13 @@ def main() -> None:
     target_course_ids = set(parse_course_list(args.target_courses))
     target_course_ids.update(load_course_list_file(args.target_courses_path, "target_courses"))
 
-    completed_course_ids = set(parse_course_list(args.completed_courses))
-    completed_course_ids.update(load_course_list_file(args.completed_courses_path, "completed_courses"))
+    completed_course_inputs = raw_course_list(args.completed_courses)
+    completed_course_inputs.extend(load_raw_course_list_file(args.completed_courses_path, "completed_courses"))
 
     payload = generate_course_order(
         graph_path=args.graph_path,
         target_course_ids=target_course_ids or None,
-        completed_course_ids=completed_course_ids,
+        completed_course_inputs=completed_course_inputs,
     )
     write_json(args.output_path, payload)
 

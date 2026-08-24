@@ -4,6 +4,7 @@
     "target_course_count": 74,
     "relevant_course_count": 91,
     "completed_course_count": 0,
+    "invalid_completed_course_count": 0,
     "remaining_course_count": 91,
     "unlocked_course_count": 27,
     "blocked_course_count": 64,
@@ -859,6 +860,7 @@
     }
   ],
   "completed_courses": [],
+  "invalid_completed_courses": [],
   "remaining_courses": [
     {
       "course_id": "CSCI_1300",

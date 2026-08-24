@@ -59,19 +59,25 @@ def course_id_from_code(value: Any) -> str:
     return f"{subject}_{number}"
 
 
+def raw_course_list(values: list[str] | None) -> list[str]:
+    raw_values = []
+    for value in values or []:
+        raw_values.extend(part.strip() for part in value.split(",") if part.strip())
+    return raw_values
+
+
 def parse_course_list(values: list[str] | None) -> set[str]:
     course_ids = set()
-    for value in values or []:
-        for part in value.split(","):
-            course_id = course_id_from_code(part)
-            if course_id:
-                course_ids.add(course_id)
+    for value in raw_course_list(values):
+        course_id = course_id_from_code(value)
+        if course_id:
+            course_ids.add(course_id)
     return course_ids
 
 
-def load_completed_courses(path: Path | None) -> set[str]:
+def load_raw_completed_courses(path: Path | None) -> list[str]:
     if not path:
-        return set()
+        return []
     payload = load_json(path)
     if isinstance(payload, dict):
         values = payload.get("completed_courses") or []
@@ -79,7 +85,29 @@ def load_completed_courses(path: Path | None) -> set[str]:
         values = payload
     else:
         values = []
-    return parse_course_list([str(value) for value in values])
+    return raw_course_list([str(value) for value in values])
+
+
+def load_completed_courses(path: Path | None) -> set[str]:
+    return parse_course_list(load_raw_completed_courses(path))
+
+
+def validate_course_inputs(raw_values: list[str], graph: dict[str, Any]) -> tuple[set[str], list[dict[str, str]]]:
+    valid_course_ids = set()
+    invalid_courses = []
+    for raw_value in raw_values:
+        course_id = course_id_from_code(raw_value)
+        if course_id and course_id in graph["nodes"]:
+            valid_course_ids.add(course_id)
+        else:
+            invalid_courses.append(
+                {
+                    "input": raw_value,
+                    "normalized_course_id": course_id,
+                    "reason": "Course is not present in the curriculum graph.",
+                }
+            )
+    return valid_course_ids, invalid_courses
 
 
 def dependency_depths(graph: dict[str, Any]) -> dict[str, int]:
@@ -227,11 +255,14 @@ def resolve_degree_requirements(
     requirements_path: Path = DEFAULT_REQUIREMENTS_PATH,
     graph_path: Path = DEFAULT_GRAPH_PATH,
     completed_course_ids: set[str] | None = None,
+    completed_course_inputs: list[str] | None = None,
 ) -> dict[str, Any]:
     requirements_payload = load_json(requirements_path)
     graph = load_json(graph_path)
     requirements = requirements_payload.get("requirements") or []
-    completed_course_ids = {course_id for course_id in completed_course_ids or set() if course_id in graph["nodes"]}
+    validated_completed_ids, invalid_completed_courses = validate_course_inputs(completed_course_inputs or [], graph)
+    completed_course_ids = (completed_course_ids or set()) | validated_completed_ids
+    completed_course_ids = {course_id for course_id in completed_course_ids if course_id in graph["nodes"]}
 
     grouped_edges = edges_by_course(graph)
     depths = dependency_depths(graph)
@@ -251,9 +282,11 @@ def resolve_degree_requirements(
         )
         if not overlap_allowed:
             excluded_ids |= selected_unique_ids
+        completed_candidate_ids = {course_id for course_id in candidate_ids if course_id in completed_course_ids}
 
         available_candidate_ids = [
             course_id for course_id in candidate_ids if course_id in graph["nodes"] and course_id not in excluded_ids
+            and course_id not in completed_course_ids
         ]
         selected = []
 
@@ -271,7 +304,15 @@ def resolve_degree_requirements(
                 selected_unique_ids.add(course_id)
                 satisfied_course_ids.add(course_id)
         elif requirement_type == "one_of":
-            course_id = select_best_candidate(available_candidate_ids, graph, grouped_edges, satisfied_course_ids, depths)
+            course_id = None
+            if not completed_candidate_ids:
+                course_id = select_best_candidate(
+                    available_candidate_ids,
+                    graph,
+                    grouped_edges,
+                    satisfied_course_ids,
+                    depths,
+                )
             if course_id:
                 selected_course = select_course(
                     course_id,
@@ -286,7 +327,7 @@ def resolve_degree_requirements(
                     selected_unique_ids.add(course_id)
                 satisfied_course_ids.add(course_id)
         elif requirement_type == "minimum_credits":
-            selected_credits = 0
+            selected_credits = sum(int(course_summary(course_id, graph).get("credits") or 0) for course_id in completed_candidate_ids)
             remaining_candidates = list(available_candidate_ids)
             while selected_credits < int(requirement.get("minimum_credits") or 0) and remaining_candidates:
                 course_id = select_best_candidate(remaining_candidates, graph, grouped_edges, satisfied_course_ids, depths)
@@ -310,25 +351,37 @@ def resolve_degree_requirements(
 
         selected_by_requirement[requirement_id] = selected
         selected_ids = {course["course_id"] for course in selected}
+        completed_satisfying_courses = [
+            {
+                **course_summary(course_id, graph),
+                "requirement_id": requirement_id,
+                "requirement_name": requirement.get("name"),
+                "selection_reason": "Already completed by student.",
+            }
+            for course_id in sorted(completed_candidate_ids)
+        ]
         unselected = [
             {
                 **course_summary(course_id, graph),
                 "reason": "Not selected for this requirement.",
             }
             for course_id in candidate_ids
-            if course_id in graph["nodes"] and course_id not in selected_ids
+            if course_id in graph["nodes"] and course_id not in selected_ids and course_id not in completed_candidate_ids
         ]
         unselected_by_requirement[requirement_id] = unselected
 
+        completed_credits = sum(int(course.get("credits") or 0) for course in completed_satisfying_courses)
         selected_credits = sum(int(course.get("credits") or 0) for course in selected)
+        applied_credits = selected_credits + completed_credits
         minimum_credits = requirement.get("minimum_credits")
         is_satisfied = bool(selected)
         if requirement_type == "all_of":
-            is_satisfied = len(selected) == len(available_candidate_ids)
+            expected_ids = {course_id for course_id in candidate_ids if course_id in graph["nodes"] and course_id not in excluded_ids}
+            is_satisfied = expected_ids <= (selected_ids | completed_candidate_ids)
         elif requirement_type == "one_of":
-            is_satisfied = len(selected) == 1
+            is_satisfied = bool(selected) or bool(completed_candidate_ids)
         elif requirement_type == "minimum_credits":
-            is_satisfied = selected_credits >= int(minimum_credits or 0)
+            is_satisfied = applied_credits >= int(minimum_credits or 0)
         elif requirement_type == "note":
             is_satisfied = True
 
@@ -340,7 +393,10 @@ def resolve_degree_requirements(
                 "minimum_credits": minimum_credits,
                 "overlap_allowed": overlap_allowed,
                 "is_satisfied": is_satisfied,
+                "completed_credits": completed_credits,
                 "selected_credits": selected_credits,
+                "applied_credits": applied_credits,
+                "completed_courses": completed_satisfying_courses,
                 "selected_courses": selected,
                 "unselected_alternatives": unselected,
                 "excluded_course_ids": sorted(excluded_ids),
@@ -360,10 +416,12 @@ def resolve_degree_requirements(
             "selected_course_count": len(all_selected),
             "unique_selected_course_count": len(unique_selected_ids),
             "completed_course_count": len(completed_course_ids),
+            "invalid_completed_course_count": len(invalid_completed_courses),
             "source_requirements_path": str(requirements_path),
             "source_graph_path": str(graph_path),
         },
         "completed_courses": [course_summary(course_id, graph) for course_id in sorted(completed_course_ids)],
+        "invalid_completed_courses": invalid_completed_courses,
         "requirements": requirement_results,
         "selected_courses": [course_summary(course_id, graph) for course_id in unique_selected_ids],
         "unselected_alternatives_by_requirement": unselected_by_requirement,
@@ -379,10 +437,14 @@ def main() -> None:
     parser.add_argument("--completed-courses-path", type=Path, default=None)
     args = parser.parse_args()
 
-    completed_course_ids = parse_course_list(args.completed_courses)
-    completed_course_ids.update(load_completed_courses(args.completed_courses_path))
+    completed_course_inputs = raw_course_list(args.completed_courses)
+    completed_course_inputs.extend(load_raw_completed_courses(args.completed_courses_path))
 
-    payload = resolve_degree_requirements(args.requirements_path, args.graph_path, completed_course_ids)
+    payload = resolve_degree_requirements(
+        args.requirements_path,
+        args.graph_path,
+        completed_course_inputs=completed_course_inputs,
+    )
     write_json(args.output_path, payload)
 
     print(f"Wrote selected degree plan to {args.output_path}")

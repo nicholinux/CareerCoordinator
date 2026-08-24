@@ -11,10 +11,12 @@
     "selected_course_count": 16,
     "unique_selected_course_count": 16,
     "completed_course_count": 0,
+    "invalid_completed_course_count": 0,
     "source_requirements_path": "C:\\Users\\Nick Hubbard\\Documents\\CareerCoordinator\\data\\processed\\uga\\degree_requirements\\degree_requirements_expanded.json",
     "source_graph_path": "C:\\Users\\Nick Hubbard\\Documents\\CareerCoordinator\\data\\processed\\uga\\curriculum_graph\\curriculum_graph.json"
   },
   "completed_courses": [],
+  "invalid_completed_courses": [],
   "requirements": [
     {
       "requirement_id": "area_vi_requirements",
@@ -23,7 +25,10 @@
       "minimum_credits": null,
       "overlap_allowed": false,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 16,
+      "applied_credits": 16,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_1302",
@@ -145,7 +150,10 @@
       "minimum_credits": null,
       "overlap_allowed": false,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 3,
+      "applied_credits": 3,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_3030",
@@ -178,7 +186,10 @@
       "minimum_credits": null,
       "overlap_allowed": false,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_4720",
@@ -225,7 +236,10 @@
       "minimum_credits": null,
       "overlap_allowed": false,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_4470",
@@ -261,7 +275,10 @@
       "minimum_credits": null,
       "overlap_allowed": false,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_4050",
@@ -311,7 +328,10 @@
       "minimum_credits": null,
       "overlap_allowed": false,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_4570",
@@ -372,7 +392,10 @@
       "minimum_credits": 12,
       "overlap_allowed": false,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 12,
+      "applied_credits": 12,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_4130",
@@ -966,7 +989,10 @@
       "minimum_credits": 11,
       "overlap_allowed": false,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 11,
+      "applied_credits": 11,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_2150",
@@ -1179,7 +1205,10 @@
       "minimum_credits": null,
       "overlap_allowed": true,
       "is_satisfied": true,
+      "completed_credits": 0,
       "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
       "selected_courses": [
         {
           "course_id": "CSCI_4530",

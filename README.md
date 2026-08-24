@@ -183,7 +183,31 @@ Output:
 data/processed/uga/curriculum/selected_degree_plan.json
 ```
 
-### 11. Validate Curriculum Inputs
+### 11. Use Completed Courses
+
+Use a student completed-course profile to remove completed courses from remaining work and satisfy downstream prerequisites.
+
+Sample input:
+
+```text
+data/input/student_completed_courses.json
+```
+
+Example commands:
+
+```powershell
+python pipelines\uga\sequencing\generate_course_order.py --completed-courses-path data\input\student_completed_courses.json --output-path data\processed\uga\curriculum\recommended_course_order_mvp_sample.json
+python pipelines\uga\sequencing\resolve_degree_requirements.py --completed-courses-path data\input\student_completed_courses.json --output-path data\processed\uga\curriculum\selected_degree_plan_mvp_sample.json
+```
+
+Sample outputs:
+
+```text
+data/processed/uga/curriculum/recommended_course_order_mvp_sample.json
+data/processed/uga/curriculum/selected_degree_plan_mvp_sample.json
+```
+
+### 12. Validate Curriculum Inputs
 
 Validate normalized courses and degree requirements together.
 
@@ -222,7 +246,7 @@ Current build order:
 - [x] Build curriculum graph.
 - [x] Generate basic course order.
 - [x] Resolve degree requirements.
-- [ ] Add completed-courses support.
+- [x] Add completed-courses support.
 - [ ] Define skill taxonomy.
 - [ ] Extract course skills.
 - [ ] Define career tracks.

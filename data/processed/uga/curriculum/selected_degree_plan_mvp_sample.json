@@ -1,0 +1,2135 @@
+{
+  "program": {
+    "institution": "University of Georgia",
+    "degree": "BS",
+    "major": "Computer Science"
+  },
+  "metadata": {
+    "requirements_loaded": 9,
+    "requirements_satisfied": 9,
+    "requirements_unsatisfied": 0,
+    "selected_course_count": 14,
+    "unique_selected_course_count": 14,
+    "completed_course_count": 3,
+    "invalid_completed_course_count": 0,
+    "source_requirements_path": "C:\\Users\\Nick Hubbard\\Documents\\CareerCoordinator\\data\\processed\\uga\\degree_requirements\\degree_requirements_expanded.json",
+    "source_graph_path": "C:\\Users\\Nick Hubbard\\Documents\\CareerCoordinator\\data\\processed\\uga\\curriculum_graph\\curriculum_graph.json"
+  },
+  "completed_courses": [
+    {
+      "course_id": "CSCI_1301",
+      "course_code": "CSCI 1301-1301L",
+      "title": "Introduction to Computing and Programming",
+      "credits": 4,
+      "requirement_group_ids": []
+    },
+    {
+      "course_id": "CSCI_1302",
+      "course_code": "CSCI 1302",
+      "title": "Software Development",
+      "credits": 4,
+      "requirement_group_ids": [
+        "area_vi_requirements"
+      ]
+    },
+    {
+      "course_id": "MATH_2250",
+      "course_code": "MATH 2250",
+      "title": "Calculus I for Science and Engineering",
+      "credits": 4,
+      "requirement_group_ids": [
+        "area_vi_requirements"
+      ]
+    }
+  ],
+  "invalid_completed_courses": [],
+  "requirements": [
+    {
+      "requirement_id": "area_vi_requirements",
+      "requirement_name": "Area VI Requirements for Computer Science",
+      "requirement_type": "all_of",
+      "minimum_credits": null,
+      "overlap_allowed": false,
+      "is_satisfied": true,
+      "completed_credits": 8,
+      "selected_credits": 8,
+      "applied_credits": 16,
+      "completed_courses": [
+        {
+          "course_id": "CSCI_1302",
+          "course_code": "CSCI 1302",
+          "title": "Software Development",
+          "credits": 4,
+          "requirement_group_ids": [
+            "area_vi_requirements"
+          ],
+          "requirement_id": "area_vi_requirements",
+          "requirement_name": "Area VI Requirements for Computer Science",
+          "selection_reason": "Already completed by student."
+        },
+        {
+          "course_id": "MATH_2250",
+          "course_code": "MATH 2250",
+          "title": "Calculus I for Science and Engineering",
+          "credits": 4,
+          "requirement_group_ids": [
+            "area_vi_requirements"
+          ],
+          "requirement_id": "area_vi_requirements",
+          "requirement_name": "Area VI Requirements for Computer Science",
+          "selection_reason": "Already completed by student."
+        }
+      ],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_2670",
+          "course_code": "CSCI 2670",
+          "title": "Introduction to Theory of Computing",
+          "credits": 4,
+          "requirement_group_ids": [
+            "area_vi_requirements"
+          ],
+          "requirement_id": "area_vi_requirements",
+          "requirement_name": "Area VI Requirements for Computer Science",
+          "selection_reason": "Required by all_of requirement group.",
+          "unmet_prerequisite_count_at_selection": 2,
+          "unmet_prerequisite_groups_at_selection": [
+            {
+              "group_id": "CSCI_2670_group_1",
+              "rule_type": "one_of",
+              "operator": "OR",
+              "course_ids": [
+                "CSCI_2610",
+                "CSCI_2611"
+              ],
+              "missing_course_ids": [
+                "CSCI_2610",
+                "CSCI_2611"
+              ]
+            }
+          ]
+        },
+        {
+          "course_id": "CSCI_2720",
+          "course_code": "CSCI 2720",
+          "title": "Data Structures",
+          "credits": 4,
+          "requirement_group_ids": [
+            "area_vi_requirements"
+          ],
+          "requirement_id": "area_vi_requirements",
+          "requirement_name": "Area VI Requirements for Computer Science",
+          "selection_reason": "Required by all_of requirement group.",
+          "unmet_prerequisite_count_at_selection": 2,
+          "unmet_prerequisite_groups_at_selection": [
+            {
+              "group_id": "CSCI_2720_group_1",
+              "rule_type": "one_of",
+              "operator": "OR",
+              "course_ids": [
+                "CSCI_2610",
+                "CSCI_2611"
+              ],
+              "missing_course_ids": [
+                "CSCI_2610",
+                "CSCI_2611"
+              ]
+            }
+          ]
+        }
+      ],
+      "unselected_alternatives": [],
+      "excluded_course_ids": [],
+      "notes": []
+    },
+    {
+      "requirement_id": "computing_and_society",
+      "requirement_name": "Computing & Society",
+      "requirement_type": "all_of",
+      "minimum_credits": null,
+      "overlap_allowed": false,
+      "is_satisfied": true,
+      "completed_credits": 0,
+      "selected_credits": 3,
+      "applied_credits": 3,
+      "completed_courses": [],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_3030",
+          "course_code": "CSCI 3030",
+          "title": "Computing, Ethics, and Society",
+          "credits": 3,
+          "requirement_group_ids": [
+            "computing_and_society"
+          ],
+          "requirement_id": "computing_and_society",
+          "requirement_name": "Computing & Society",
+          "selection_reason": "Required by all_of requirement group.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        }
+      ],
+      "unselected_alternatives": [],
+      "excluded_course_ids": [
+        "CSCI_2670",
+        "CSCI_2720"
+      ],
+      "notes": []
+    },
+    {
+      "requirement_id": "computer_architecture",
+      "requirement_name": "Computer Architecture",
+      "requirement_type": "all_of",
+      "minimum_credits": null,
+      "overlap_allowed": false,
+      "is_satisfied": true,
+      "completed_credits": 0,
+      "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_4720",
+          "course_code": "CSCI 4720",
+          "title": "Computer Architecture and Organization",
+          "credits": 4,
+          "requirement_group_ids": [
+            "computer_architecture",
+            "major_electives"
+          ],
+          "requirement_id": "computer_architecture",
+          "requirement_name": "Computer Architecture",
+          "selection_reason": "Required by all_of requirement group.",
+          "unmet_prerequisite_count_at_selection": 1,
+          "unmet_prerequisite_groups_at_selection": [
+            {
+              "group_id": "CSCI_4720_group_2",
+              "rule_type": "all_of",
+              "operator": "SINGLE",
+              "course_ids": [
+                "CSCI_1730"
+              ],
+              "missing_course_ids": [
+                "CSCI_1730"
+              ]
+            }
+          ]
+        }
+      ],
+      "unselected_alternatives": [],
+      "excluded_course_ids": [
+        "CSCI_2670",
+        "CSCI_2720",
+        "CSCI_3030"
+      ],
+      "notes": []
+    },
+    {
+      "requirement_id": "algorithms",
+      "requirement_name": "Algorithms",
+      "requirement_type": "all_of",
+      "minimum_credits": null,
+      "overlap_allowed": false,
+      "is_satisfied": true,
+      "completed_credits": 0,
+      "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_4470",
+          "course_code": "CSCI 4470/6470",
+          "title": "Algorithms",
+          "credits": 4,
+          "requirement_group_ids": [
+            "algorithms",
+            "major_electives"
+          ],
+          "requirement_id": "algorithms",
+          "requirement_name": "Algorithms",
+          "selection_reason": "Required by all_of requirement group.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        }
+      ],
+      "unselected_alternatives": [],
+      "excluded_course_ids": [
+        "CSCI_2670",
+        "CSCI_2720",
+        "CSCI_3030",
+        "CSCI_4720"
+      ],
+      "notes": []
+    },
+    {
+      "requirement_id": "application_design",
+      "requirement_name": "Application Design",
+      "requirement_type": "one_of",
+      "minimum_credits": null,
+      "overlap_allowed": false,
+      "is_satisfied": true,
+      "completed_credits": 0,
+      "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_4050",
+          "course_code": "CSCI 4050/6050",
+          "title": "Software Engineering",
+          "credits": 4,
+          "requirement_group_ids": [
+            "application_design",
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "requirement_id": "application_design",
+          "requirement_name": "Application Design",
+          "selection_reason": "Selected from one_of options because it had the fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        }
+      ],
+      "unselected_alternatives": [
+        {
+          "course_id": "CSCI_4370",
+          "course_code": "CSCI 4370/6370",
+          "title": "Database Management",
+          "credits": 4,
+          "requirement_group_ids": [
+            "application_design",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        }
+      ],
+      "excluded_course_ids": [
+        "CSCI_2670",
+        "CSCI_2720",
+        "CSCI_3030",
+        "CSCI_4470",
+        "CSCI_4720"
+      ],
+      "notes": []
+    },
+    {
+      "requirement_id": "systems_design",
+      "requirement_name": "Systems Design",
+      "requirement_type": "one_of",
+      "minimum_credits": null,
+      "overlap_allowed": false,
+      "is_satisfied": true,
+      "completed_credits": 0,
+      "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_4570",
+          "course_code": "CSCI 4570/6570",
+          "title": "Compilers",
+          "credits": 4,
+          "requirement_group_ids": [
+            "systems_design",
+            "major_electives"
+          ],
+          "requirement_id": "systems_design",
+          "requirement_name": "Systems Design",
+          "selection_reason": "Selected from one_of options because it had the fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        }
+      ],
+      "unselected_alternatives": [
+        {
+          "course_id": "CSCI_4730",
+          "course_code": "CSCI 4730/6730",
+          "title": "Operating Systems",
+          "credits": 4,
+          "requirement_group_ids": [
+            "systems_design",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4760",
+          "course_code": "CSCI 4760/6760",
+          "title": "Computer Networks",
+          "credits": 4,
+          "requirement_group_ids": [
+            "systems_design",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        }
+      ],
+      "excluded_course_ids": [
+        "CSCI_2670",
+        "CSCI_2720",
+        "CSCI_3030",
+        "CSCI_4050",
+        "CSCI_4470",
+        "CSCI_4720"
+      ],
+      "notes": []
+    },
+    {
+      "requirement_id": "major_electives",
+      "requirement_name": "Major Electives",
+      "requirement_type": "minimum_credits",
+      "minimum_credits": 12,
+      "overlap_allowed": false,
+      "is_satisfied": true,
+      "completed_credits": 0,
+      "selected_credits": 12,
+      "applied_credits": 12,
+      "completed_courses": [],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_4130",
+          "course_code": "CSCI 4130/6130",
+          "title": "CUDA C Programming on GPUs for High Performance Computing",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "requirement_id": "major_electives",
+          "requirement_name": "Major Electives",
+          "selection_reason": "Selected toward minimum_credits using fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        },
+        {
+          "course_id": "CSCI_4170",
+          "course_code": "CSCI 4170/6170",
+          "title": "Introduction to Computational Investing",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "requirement_id": "major_electives",
+          "requirement_name": "Major Electives",
+          "selection_reason": "Selected toward minimum_credits using fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        },
+        {
+          "course_id": "CSCI_4270",
+          "course_code": "CSCI 4270/6270",
+          "title": "Introduction to Computer Forensics",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "requirement_id": "major_electives",
+          "requirement_name": "Major Electives",
+          "selection_reason": "Selected toward minimum_credits using fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        }
+      ],
+      "unselected_alternatives": [
+        {
+          "course_id": "CSCI_4050",
+          "course_code": "CSCI 4050/6050",
+          "title": "Software Engineering",
+          "credits": 4,
+          "requirement_group_ids": [
+            "application_design",
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4060",
+          "course_code": "CSCI 4060/6060",
+          "title": "Mobile Software Development",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4070",
+          "course_code": "CSCI 4070/6070",
+          "title": "Introduction to Game Programming",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4080",
+          "course_code": "CSCI 4080/6080",
+          "title": "Intermediate Game Programming",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4140",
+          "course_code": "CSCI 4140/6140",
+          "title": "Numerical Methods and Computing",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4210",
+          "course_code": "CSCI 4210/6210",
+          "title": "Simulation and Modeling",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4250",
+          "course_code": "CSCI 4250/6250",
+          "title": "Cyber Security",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4260",
+          "course_code": "CSCI 4260/6260",
+          "title": "Data Security and Privacy",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4280",
+          "course_code": "CSCI 4280/6280",
+          "title": "Introduction to Cryptography",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4300",
+          "course_code": "CSCI 4300",
+          "title": "Web Programming",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4330",
+          "course_code": "CSCI 4330/6330",
+          "title": "Artificial Intelligence and the Web",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4350",
+          "course_code": "CSCI 4350/6350",
+          "title": "Global Information Systems",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4360",
+          "course_code": "CSCI 4360/6360",
+          "title": "Data Science and Applied Machine Learning II",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4370",
+          "course_code": "CSCI 4370/6370",
+          "title": "Database Management",
+          "credits": 4,
+          "requirement_group_ids": [
+            "application_design",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4380",
+          "course_code": "CSCI 4380/6380",
+          "title": "Data Mining",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4470",
+          "course_code": "CSCI 4470/6470",
+          "title": "Algorithms",
+          "credits": 4,
+          "requirement_group_ids": [
+            "algorithms",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4490",
+          "course_code": "CSCI 4490/6490",
+          "title": "Algorithms for Computational Biology",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4500",
+          "course_code": "CSCI 4500/6500",
+          "title": "Programming Languages",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4520",
+          "course_code": "CSCI 4520/6520",
+          "title": "Functional Programming",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4560",
+          "course_code": "CSCI 4560/6560",
+          "title": "Evolutionary Computation and Its Applications",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4570",
+          "course_code": "CSCI 4570/6570",
+          "title": "Compilers",
+          "credits": 4,
+          "requirement_group_ids": [
+            "systems_design",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4580",
+          "course_code": "CSCI 4580/6580",
+          "title": "Foundations of Deep Learning and Generative AI",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4720",
+          "course_code": "CSCI 4720",
+          "title": "Computer Architecture and Organization",
+          "credits": 4,
+          "requirement_group_ids": [
+            "computer_architecture",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4730",
+          "course_code": "CSCI 4730/6730",
+          "title": "Operating Systems",
+          "credits": 4,
+          "requirement_group_ids": [
+            "systems_design",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4740",
+          "course_code": "CSCI 4740/6740",
+          "title": "Real-Time Scheduling for the Internet of Things",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4760",
+          "course_code": "CSCI 4760/6760",
+          "title": "Computer Networks",
+          "credits": 4,
+          "requirement_group_ids": [
+            "systems_design",
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4770",
+          "course_code": "CSCI 4770/6770",
+          "title": "Ubiquitous Computing",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4780",
+          "course_code": "CSCI 4780/6780",
+          "title": "Distributed Computing Systems",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4795",
+          "course_code": "CSCI 4795/6795",
+          "title": "Cloud Computing",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4800",
+          "course_code": "CSCI 4800/6800",
+          "title": "Human-Computer Interaction",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4810",
+          "course_code": "CSCI 4810/6810",
+          "title": "Computer Graphics",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4840",
+          "course_code": "CSCI 4840/6840",
+          "title": "Signal Processing",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4850",
+          "course_code": "CSCI 4850/6850",
+          "title": "Biomedical Image Analysis",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4860",
+          "course_code": "CSCI 4860/6860",
+          "title": "Computational Neuroscience",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4900",
+          "course_code": "CSCI 4900/6900",
+          "title": "Special Topics in Computer Science",
+          "credits": {
+            "minimum": 1,
+            "maximum": 4
+          },
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4910",
+          "course_code": "CSCI 4910",
+          "title": "Capstone Design I",
+          "credits": 2,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4911",
+          "course_code": "CSCI 4911",
+          "title": "Capstone Design II",
+          "credits": 2,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4950",
+          "course_code": "CSCI 4950/6950",
+          "title": "Directed Study in Computer Science",
+          "credits": {
+            "minimum": 1,
+            "maximum": 4
+          },
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4960",
+          "course_code": "CSCI 4960",
+          "title": "Faculty Mentored Research in Computer Science",
+          "credits": {
+            "minimum": 1,
+            "maximum": 4
+          },
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4960R",
+          "course_code": "CSCI 4960R",
+          "title": "Faculty-Mentored Undergraduate Research I",
+          "credits": {
+            "minimum": 1,
+            "maximum": 6
+          },
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4970R",
+          "course_code": "CSCI 4970R",
+          "title": "Faculty-Mentored Undergraduate Research II",
+          "credits": {
+            "minimum": 1,
+            "maximum": 6
+          },
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4980R",
+          "course_code": "CSCI 4980R",
+          "title": "Faculty-Mentored Undergraduate Research III",
+          "credits": {
+            "minimum": 1,
+            "maximum": 6
+          },
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4990R",
+          "course_code": "CSCI 4990R",
+          "title": "Undergraduate Research Thesis (or Final Project)",
+          "credits": {
+            "minimum": 1,
+            "maximum": 6
+          },
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4530",
+          "course_code": "CSCI(ARTI) 4530/6530",
+          "title": "Introduction to Robotics",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4540",
+          "course_code": "CSCI(ARTI) 4540/6540",
+          "title": "Symbolic Programming",
+          "credits": 3,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4600",
+          "course_code": "CSCI(ARTI) 4600/6600",
+          "title": "Reinforcement Learning",
+          "credits": 3,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4830",
+          "course_code": "CSCI(ENGR) 4830/6830",
+          "title": "Virtual Reality",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4612",
+          "course_code": "CSCI(MATH)(PHYS) 4612/6612",
+          "title": "Introduction to Quantum Computation",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4550",
+          "course_code": "CSCI(PHIL) 4550/6550",
+          "title": "Artificial Intelligence",
+          "credits": 3,
+          "requirement_group_ids": [
+            "major_electives"
+          ],
+          "reason": "Not selected for this requirement."
+        }
+      ],
+      "excluded_course_ids": [
+        "CSCI_2670",
+        "CSCI_2720",
+        "CSCI_3030",
+        "CSCI_4050",
+        "CSCI_4150",
+        "CSCI_4470",
+        "CSCI_4570",
+        "CSCI_4720",
+        "CSCI_6150"
+      ],
+      "notes": [
+        "CSCI 4000-level courses already taken to fulfill another CSCI requirement should not be counted toward major electives.",
+        "CSCI 4150/6150 may not be counted as a Major Elective."
+      ]
+    },
+    {
+      "requirement_id": "major_related_electives_math",
+      "requirement_name": "Major Related Electives: Math",
+      "requirement_type": "minimum_credits",
+      "minimum_credits": 11,
+      "overlap_allowed": false,
+      "is_satisfied": true,
+      "completed_credits": 0,
+      "selected_credits": 11,
+      "applied_credits": 11,
+      "completed_courses": [],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_2150",
+          "course_code": "CSCI 2150-2150L",
+          "title": "Introduction to Computational Science",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "requirement_id": "major_related_electives_math",
+          "requirement_name": "Major Related Electives: Math",
+          "selection_reason": "Selected toward minimum_credits using fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        },
+        {
+          "course_id": "STAT_2000",
+          "course_code": "STAT 2000",
+          "title": "Introductory Statistics",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "requirement_id": "major_related_electives_math",
+          "requirement_name": "Major Related Electives: Math",
+          "selection_reason": "Selected toward minimum_credits using fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        },
+        {
+          "course_id": "STAT_4210",
+          "course_code": "STAT 4210",
+          "title": "Statistical Methods",
+          "credits": 3,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "requirement_id": "major_related_electives_math",
+          "requirement_name": "Major Related Electives: Math",
+          "selection_reason": "Selected toward minimum_credits using fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        }
+      ],
+      "unselected_alternatives": [
+        {
+          "course_id": "CSCI_4150",
+          "course_code": "CSCI 4150/6150",
+          "title": "Numerical Simulations in Science and Engineering",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_2260",
+          "course_code": "MATH 2260",
+          "title": "Calculus II for Science and Engineering",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_2270",
+          "course_code": "MATH 2270",
+          "title": "Calculus III for Science and Mathematics",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_2400",
+          "course_code": "MATH 2400",
+          "title": "Differential Calculus with Theory",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_2410",
+          "course_code": "MATH 2410",
+          "title": "Integral Calculus with Theory",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_2410H",
+          "course_code": "MATH 2410H",
+          "title": "Integral Calculus with Theory (Honors)",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_2500",
+          "course_code": "MATH 2500",
+          "title": "Accelerated Calculus III for Engineering Students",
+          "credits": 3,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_2700",
+          "course_code": "MATH 2700",
+          "title": "Elementary Differential Equations",
+          "credits": 3,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_3000",
+          "course_code": "MATH 3000",
+          "title": "Introduction to Linear Algebra",
+          "credits": 3,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_3300",
+          "course_code": "MATH 3300",
+          "title": "Applied Linear Algebra",
+          "credits": 3,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_3500",
+          "course_code": "MATH 3500",
+          "title": "Multivariable Mathematics I",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_3500H",
+          "course_code": "MATH 3500H",
+          "title": "Multivariable Mathematics I (Honors)",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_3510",
+          "course_code": "MATH 3510",
+          "title": "Multivariable Mathematics II",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "MATH_3510H",
+          "course_code": "MATH 3510H",
+          "title": "Multivariable Mathematics II (Honors)",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_related_electives_math"
+          ],
+          "reason": "Not selected for this requirement."
+        }
+      ],
+      "excluded_course_ids": [
+        "CSCI_2670",
+        "CSCI_2720",
+        "CSCI_3030",
+        "CSCI_4050",
+        "CSCI_4130",
+        "CSCI_4170",
+        "CSCI_4270",
+        "CSCI_4470",
+        "CSCI_4570",
+        "CSCI_4720"
+      ],
+      "notes": [
+        "Choosing 7 hours from upper-division coursework helps satisfy the 39-hour upper-division coursework requirement.",
+        "If MATH 2260 or STAT 2000 was used to satisfy core curriculum requirements, another course must be selected for this requirement."
+      ]
+    },
+    {
+      "requirement_id": "teamwork_requirement",
+      "requirement_name": "Teamwork Requirement",
+      "requirement_type": "one_of",
+      "minimum_credits": null,
+      "overlap_allowed": true,
+      "is_satisfied": true,
+      "completed_credits": 0,
+      "selected_credits": 4,
+      "applied_credits": 4,
+      "completed_courses": [],
+      "selected_courses": [
+        {
+          "course_id": "CSCI_4530",
+          "course_code": "CSCI(ARTI) 4530/6530",
+          "title": "Introduction to Robotics",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "requirement_id": "teamwork_requirement",
+          "requirement_name": "Teamwork Requirement",
+          "selection_reason": "Selected from one_of options because it had the fewest unmet prerequisites and lowest dependency depth.",
+          "unmet_prerequisite_count_at_selection": 0,
+          "unmet_prerequisite_groups_at_selection": []
+        }
+      ],
+      "unselected_alternatives": [
+        {
+          "course_id": "CSCI_4050",
+          "course_code": "CSCI 4050/6050",
+          "title": "Software Engineering",
+          "credits": 4,
+          "requirement_group_ids": [
+            "application_design",
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4300",
+          "course_code": "CSCI 4300",
+          "title": "Web Programming",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "reason": "Not selected for this requirement."
+        },
+        {
+          "course_id": "CSCI_4800",
+          "course_code": "CSCI 4800/6800",
+          "title": "Human-Computer Interaction",
+          "credits": 4,
+          "requirement_group_ids": [
+            "major_electives",
+            "teamwork_requirement"
+          ],
+          "reason": "Not selected for this requirement."
+        }
+      ],
+      "excluded_course_ids": [],
+      "notes": [
+        "This course may overlap with another CSCI requirement."
+      ]
+    }
+  ],
+  "selected_courses": [
+    {
+      "course_id": "CSCI_2150",
+      "course_code": "CSCI 2150-2150L",
+      "title": "Introduction to Computational Science",
+      "credits": 4,
+      "requirement_group_ids": [
+        "major_related_electives_math"
+      ]
+    },
+    {
+      "course_id": "CSCI_2670",
+      "course_code": "CSCI 2670",
+      "title": "Introduction to Theory of Computing",
+      "credits": 4,
+      "requirement_group_ids": [
+        "area_vi_requirements"
+      ]
+    },
+    {
+      "course_id": "CSCI_2720",
+      "course_code": "CSCI 2720",
+      "title": "Data Structures",
+      "credits": 4,
+      "requirement_group_ids": [
+        "area_vi_requirements"
+      ]
+    },
+    {
+      "course_id": "CSCI_3030",
+      "course_code": "CSCI 3030",
+      "title": "Computing, Ethics, and Society",
+      "credits": 3,
+      "requirement_group_ids": [
+        "computing_and_society"
+      ]
+    },
+    {
+      "course_id": "CSCI_4050",
+      "course_code": "CSCI 4050/6050",
+      "title": "Software Engineering",
+      "credits": 4,
+      "requirement_group_ids": [
+        "application_design",
+        "major_electives",
+        "teamwork_requirement"
+      ]
+    },
+    {
+      "course_id": "CSCI_4130",
+      "course_code": "CSCI 4130/6130",
+      "title": "CUDA C Programming on GPUs for High Performance Computing",
+      "credits": 4,
+      "requirement_group_ids": [
+        "major_electives"
+      ]
+    },
+    {
+      "course_id": "CSCI_4170",
+      "course_code": "CSCI 4170/6170",
+      "title": "Introduction to Computational Investing",
+      "credits": 4,
+      "requirement_group_ids": [
+        "major_electives"
+      ]
+    },
+    {
+      "course_id": "CSCI_4270",
+      "course_code": "CSCI 4270/6270",
+      "title": "Introduction to Computer Forensics",
+      "credits": 4,
+      "requirement_group_ids": [
+        "major_electives"
+      ]
+    },
+    {
+      "course_id": "CSCI_4470",
+      "course_code": "CSCI 4470/6470",
+      "title": "Algorithms",
+      "credits": 4,
+      "requirement_group_ids": [
+        "algorithms",
+        "major_electives"
+      ]
+    },
+    {
+      "course_id": "CSCI_4530",
+      "course_code": "CSCI(ARTI) 4530/6530",
+      "title": "Introduction to Robotics",
+      "credits": 4,
+      "requirement_group_ids": [
+        "major_electives",
+        "teamwork_requirement"
+      ]
+    },
+    {
+      "course_id": "CSCI_4570",
+      "course_code": "CSCI 4570/6570",
+      "title": "Compilers",
+      "credits": 4,
+      "requirement_group_ids": [
+        "systems_design",
+        "major_electives"
+      ]
+    },
+    {
+      "course_id": "CSCI_4720",
+      "course_code": "CSCI 4720",
+      "title": "Computer Architecture and Organization",
+      "credits": 4,
+      "requirement_group_ids": [
+        "computer_architecture",
+        "major_electives"
+      ]
+    },
+    {
+      "course_id": "STAT_2000",
+      "course_code": "STAT 2000",
+      "title": "Introductory Statistics",
+      "credits": 4,
+      "requirement_group_ids": [
+        "major_related_electives_math"
+      ]
+    },
+    {
+      "course_id": "STAT_4210",
+      "course_code": "STAT 4210",
+      "title": "Statistical Methods",
+      "credits": 3,
+      "requirement_group_ids": [
+        "major_related_electives_math"
+      ]
+    }
+  ],
+  "unselected_alternatives_by_requirement": {
+    "area_vi_requirements": [],
+    "computing_and_society": [],
+    "computer_architecture": [],
+    "algorithms": [],
+    "application_design": [
+      {
+        "course_id": "CSCI_4370",
+        "course_code": "CSCI 4370/6370",
+        "title": "Database Management",
+        "credits": 4,
+        "requirement_group_ids": [
+          "application_design",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      }
+    ],
+    "systems_design": [
+      {
+        "course_id": "CSCI_4730",
+        "course_code": "CSCI 4730/6730",
+        "title": "Operating Systems",
+        "credits": 4,
+        "requirement_group_ids": [
+          "systems_design",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4760",
+        "course_code": "CSCI 4760/6760",
+        "title": "Computer Networks",
+        "credits": 4,
+        "requirement_group_ids": [
+          "systems_design",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      }
+    ],
+    "major_electives": [
+      {
+        "course_id": "CSCI_4050",
+        "course_code": "CSCI 4050/6050",
+        "title": "Software Engineering",
+        "credits": 4,
+        "requirement_group_ids": [
+          "application_design",
+          "major_electives",
+          "teamwork_requirement"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4060",
+        "course_code": "CSCI 4060/6060",
+        "title": "Mobile Software Development",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4070",
+        "course_code": "CSCI 4070/6070",
+        "title": "Introduction to Game Programming",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4080",
+        "course_code": "CSCI 4080/6080",
+        "title": "Intermediate Game Programming",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4140",
+        "course_code": "CSCI 4140/6140",
+        "title": "Numerical Methods and Computing",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4210",
+        "course_code": "CSCI 4210/6210",
+        "title": "Simulation and Modeling",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4250",
+        "course_code": "CSCI 4250/6250",
+        "title": "Cyber Security",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4260",
+        "course_code": "CSCI 4260/6260",
+        "title": "Data Security and Privacy",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4280",
+        "course_code": "CSCI 4280/6280",
+        "title": "Introduction to Cryptography",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4300",
+        "course_code": "CSCI 4300",
+        "title": "Web Programming",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives",
+          "teamwork_requirement"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4330",
+        "course_code": "CSCI 4330/6330",
+        "title": "Artificial Intelligence and the Web",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4350",
+        "course_code": "CSCI 4350/6350",
+        "title": "Global Information Systems",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4360",
+        "course_code": "CSCI 4360/6360",
+        "title": "Data Science and Applied Machine Learning II",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4370",
+        "course_code": "CSCI 4370/6370",
+        "title": "Database Management",
+        "credits": 4,
+        "requirement_group_ids": [
+          "application_design",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4380",
+        "course_code": "CSCI 4380/6380",
+        "title": "Data Mining",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4470",
+        "course_code": "CSCI 4470/6470",
+        "title": "Algorithms",
+        "credits": 4,
+        "requirement_group_ids": [
+          "algorithms",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4490",
+        "course_code": "CSCI 4490/6490",
+        "title": "Algorithms for Computational Biology",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4500",
+        "course_code": "CSCI 4500/6500",
+        "title": "Programming Languages",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4520",
+        "course_code": "CSCI 4520/6520",
+        "title": "Functional Programming",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4560",
+        "course_code": "CSCI 4560/6560",
+        "title": "Evolutionary Computation and Its Applications",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4570",
+        "course_code": "CSCI 4570/6570",
+        "title": "Compilers",
+        "credits": 4,
+        "requirement_group_ids": [
+          "systems_design",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4580",
+        "course_code": "CSCI 4580/6580",
+        "title": "Foundations of Deep Learning and Generative AI",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4720",
+        "course_code": "CSCI 4720",
+        "title": "Computer Architecture and Organization",
+        "credits": 4,
+        "requirement_group_ids": [
+          "computer_architecture",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4730",
+        "course_code": "CSCI 4730/6730",
+        "title": "Operating Systems",
+        "credits": 4,
+        "requirement_group_ids": [
+          "systems_design",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4740",
+        "course_code": "CSCI 4740/6740",
+        "title": "Real-Time Scheduling for the Internet of Things",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4760",
+        "course_code": "CSCI 4760/6760",
+        "title": "Computer Networks",
+        "credits": 4,
+        "requirement_group_ids": [
+          "systems_design",
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4770",
+        "course_code": "CSCI 4770/6770",
+        "title": "Ubiquitous Computing",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4780",
+        "course_code": "CSCI 4780/6780",
+        "title": "Distributed Computing Systems",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4795",
+        "course_code": "CSCI 4795/6795",
+        "title": "Cloud Computing",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4800",
+        "course_code": "CSCI 4800/6800",
+        "title": "Human-Computer Interaction",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives",
+          "teamwork_requirement"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4810",
+        "course_code": "CSCI 4810/6810",
+        "title": "Computer Graphics",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4840",
+        "course_code": "CSCI 4840/6840",
+        "title": "Signal Processing",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4850",
+        "course_code": "CSCI 4850/6850",
+        "title": "Biomedical Image Analysis",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4860",
+        "course_code": "CSCI 4860/6860",
+        "title": "Computational Neuroscience",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4900",
+        "course_code": "CSCI 4900/6900",
+        "title": "Special Topics in Computer Science",
+        "credits": {
+          "minimum": 1,
+          "maximum": 4
+        },
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4910",
+        "course_code": "CSCI 4910",
+        "title": "Capstone Design I",
+        "credits": 2,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4911",
+        "course_code": "CSCI 4911",
+        "title": "Capstone Design II",
+        "credits": 2,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4950",
+        "course_code": "CSCI 4950/6950",
+        "title": "Directed Study in Computer Science",
+        "credits": {
+          "minimum": 1,
+          "maximum": 4
+        },
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4960",
+        "course_code": "CSCI 4960",
+        "title": "Faculty Mentored Research in Computer Science",
+        "credits": {
+          "minimum": 1,
+          "maximum": 4
+        },
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4960R",
+        "course_code": "CSCI 4960R",
+        "title": "Faculty-Mentored Undergraduate Research I",
+        "credits": {
+          "minimum": 1,
+          "maximum": 6
+        },
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4970R",
+        "course_code": "CSCI 4970R",
+        "title": "Faculty-Mentored Undergraduate Research II",
+        "credits": {
+          "minimum": 1,
+          "maximum": 6
+        },
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4980R",
+        "course_code": "CSCI 4980R",
+        "title": "Faculty-Mentored Undergraduate Research III",
+        "credits": {
+          "minimum": 1,
+          "maximum": 6
+        },
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4990R",
+        "course_code": "CSCI 4990R",
+        "title": "Undergraduate Research Thesis (or Final Project)",
+        "credits": {
+          "minimum": 1,
+          "maximum": 6
+        },
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4530",
+        "course_code": "CSCI(ARTI) 4530/6530",
+        "title": "Introduction to Robotics",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives",
+          "teamwork_requirement"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4540",
+        "course_code": "CSCI(ARTI) 4540/6540",
+        "title": "Symbolic Programming",
+        "credits": 3,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4600",
+        "course_code": "CSCI(ARTI) 4600/6600",
+        "title": "Reinforcement Learning",
+        "credits": 3,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4830",
+        "course_code": "CSCI(ENGR) 4830/6830",
+        "title": "Virtual Reality",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4612",
+        "course_code": "CSCI(MATH)(PHYS) 4612/6612",
+        "title": "Introduction to Quantum Computation",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4550",
+        "course_code": "CSCI(PHIL) 4550/6550",
+        "title": "Artificial Intelligence",
+        "credits": 3,
+        "requirement_group_ids": [
+          "major_electives"
+        ],
+        "reason": "Not selected for this requirement."
+      }
+    ],
+    "major_related_electives_math": [
+      {
+        "course_id": "CSCI_4150",
+        "course_code": "CSCI 4150/6150",
+        "title": "Numerical Simulations in Science and Engineering",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_2260",
+        "course_code": "MATH 2260",
+        "title": "Calculus II for Science and Engineering",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_2270",
+        "course_code": "MATH 2270",
+        "title": "Calculus III for Science and Mathematics",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_2400",
+        "course_code": "MATH 2400",
+        "title": "Differential Calculus with Theory",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_2410",
+        "course_code": "MATH 2410",
+        "title": "Integral Calculus with Theory",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_2410H",
+        "course_code": "MATH 2410H",
+        "title": "Integral Calculus with Theory (Honors)",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_2500",
+        "course_code": "MATH 2500",
+        "title": "Accelerated Calculus III for Engineering Students",
+        "credits": 3,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_2700",
+        "course_code": "MATH 2700",
+        "title": "Elementary Differential Equations",
+        "credits": 3,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_3000",
+        "course_code": "MATH 3000",
+        "title": "Introduction to Linear Algebra",
+        "credits": 3,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_3300",
+        "course_code": "MATH 3300",
+        "title": "Applied Linear Algebra",
+        "credits": 3,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_3500",
+        "course_code": "MATH 3500",
+        "title": "Multivariable Mathematics I",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_3500H",
+        "course_code": "MATH 3500H",
+        "title": "Multivariable Mathematics I (Honors)",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_3510",
+        "course_code": "MATH 3510",
+        "title": "Multivariable Mathematics II",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "MATH_3510H",
+        "course_code": "MATH 3510H",
+        "title": "Multivariable Mathematics II (Honors)",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_related_electives_math"
+        ],
+        "reason": "Not selected for this requirement."
+      }
+    ],
+    "teamwork_requirement": [
+      {
+        "course_id": "CSCI_4050",
+        "course_code": "CSCI 4050/6050",
+        "title": "Software Engineering",
+        "credits": 4,
+        "requirement_group_ids": [
+          "application_design",
+          "major_electives",
+          "teamwork_requirement"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4300",
+        "course_code": "CSCI 4300",
+        "title": "Web Programming",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives",
+          "teamwork_requirement"
+        ],
+        "reason": "Not selected for this requirement."
+      },
+      {
+        "course_id": "CSCI_4800",
+        "course_code": "CSCI 4800/6800",
+        "title": "Human-Computer Interaction",
+        "credits": 4,
+        "requirement_group_ids": [
+          "major_electives",
+          "teamwork_requirement"
+        ],
+        "reason": "Not selected for this requirement."
+      }
+    ]
+  }
+}

@@ -195,14 +195,14 @@ Create:
 
 Tasks:
 
-- [ ] Define a `completed_courses` array.
-- [ ] Normalize completed course codes.
-- [ ] Validate completed courses.
-- [ ] Remove completed courses from remaining requirements.
-- [ ] Treat completed courses as satisfied prerequisites.
-- [ ] Return remaining courses.
-- [ ] Return unlocked courses.
-- [ ] Return blocked courses.
+- [x] Define a `completed_courses` array.
+- [x] Normalize completed course codes.
+- [x] Validate completed courses.
+- [x] Remove completed courses from remaining requirements.
+- [x] Treat completed courses as satisfied prerequisites.
+- [x] Return remaining courses.
+- [x] Return unlocked courses.
+- [x] Return blocked courses.
 
 Example input:
 
