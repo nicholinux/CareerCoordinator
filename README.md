@@ -219,7 +219,23 @@ data/processed/skills/skill_taxonomy.json
 
 The taxonomy rejects unknown AI-generated skills by default. Future extraction should map evidence to defined skill IDs or mark unmatched labels for manual review.
 
-### 13. Validate Curriculum Inputs
+### 13. Extract Course Skills
+
+Extract controlled skills from CSCI, MATH, and STAT course text using only the approved taxonomy.
+
+```powershell
+python pipelines\ml\extract_course_skills.py
+```
+
+Output:
+
+```text
+data/processed/skills/course_skills.json
+```
+
+Each matched skill includes a confidence score and supporting evidence text. Unknown skills are rejected instead of being added automatically.
+
+### 14. Validate Curriculum Inputs
 
 Validate normalized courses and degree requirements together.
 
@@ -260,7 +276,7 @@ Current build order:
 - [x] Resolve degree requirements.
 - [x] Add completed-courses support.
 - [x] Define skill taxonomy.
-- [ ] Extract course skills.
+- [x] Extract course skills.
 - [ ] Define career tracks.
 - [ ] Score career alignment.
 - [ ] Generate career-aligned plan.

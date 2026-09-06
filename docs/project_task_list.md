@@ -248,15 +248,15 @@ Create:
 
 Tasks:
 
-- [ ] Load `courses_normalized.json`.
-- [ ] Load `skill_taxonomy.json`.
-- [ ] Build course text from title, description, and prerequisites.
-- [ ] Extract skills using controlled taxonomy.
-- [ ] Include confidence scores.
-- [ ] Include evidence text.
-- [ ] Reject skills outside taxonomy.
-- [ ] Mark low-confidence results for review.
-- [ ] Write output to `data/processed/skills/course_skills.json`.
+- [x] Load `courses_normalized.json`.
+- [x] Load `skill_taxonomy.json`.
+- [x] Build course text from title, description, and prerequisites.
+- [x] Extract skills using controlled taxonomy.
+- [x] Include confidence scores.
+- [x] Include evidence text.
+- [x] Reject skills outside taxonomy.
+- [x] Mark low-confidence results for review.
+- [x] Write output to `data/processed/skills/course_skills.json`.
 
 ### 11. Define Career Tracks
 
